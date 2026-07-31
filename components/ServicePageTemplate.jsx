@@ -27,11 +27,6 @@ export default function ServicePageTemplate({ data }) {
               
               {/* Left Column: Heading & CTAs */}
               <div className="lg:col-span-7 animate-fade-up">
-                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-800/80 border border-slate-700 text-xs font-mono font-bold mb-8 shadow-sm">
-                  <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
-                  <span className="text-slate-300 uppercase tracking-wider">Enterprise Service SLA</span>
-                </div>
-
                 <h1 className="text-4xl sm:text-5xl lg:text-7xl font-extrabold text-white tracking-tight leading-[1.1] mb-6">
                   {data.title}
                 </h1>
@@ -113,9 +108,6 @@ export default function ServicePageTemplate({ data }) {
             
             {/* Section Header */}
             <div className="max-w-3xl mb-16 animate-fade-up">
-              <span className="inline-block px-4 py-1.5 rounded-full text-xs font-bold font-mono uppercase tracking-wider mb-4 border" style={{ color: data.accent, backgroundColor: `${data.accent}15`, borderColor: `${data.accent}40` }}>
-                System Architecture & Overview
-              </span>
               <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight mb-6">
                 Enterprise Engineering. Built for Scale.
               </h2>

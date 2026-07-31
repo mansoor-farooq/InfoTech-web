@@ -31,9 +31,6 @@ export default function CartivoPage() {
                     priority 
                   />
                 </div>
-                <span className="inline-block px-4 py-1.5 rounded-full text-xs font-extrabold uppercase tracking-widest text-emerald-400 bg-emerald-500/10 border border-emerald-500/20">
-                  Flagship Platform
-                </span>
               </div>
 
               <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight leading-[1.1] mb-6">

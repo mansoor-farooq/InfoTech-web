@@ -62,14 +62,7 @@ export default async function ProductDetailPage({ params }) {
                       className="object-contain p-2" 
                     />
                   </div>
-                ) : (
-                  <div 
-                    className="inline-block px-4 py-1.5 rounded-full text-sm font-bold mb-6 uppercase tracking-wider shadow-sm animate-scale-up"
-                    style={{ backgroundColor: `${product.accent}20`, color: product.accent }}
-                  >
-                    {product.title}
-                  </div>
-                )}
+                ) : null}
 
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight leading-tight mb-6">
                   {product.title}
