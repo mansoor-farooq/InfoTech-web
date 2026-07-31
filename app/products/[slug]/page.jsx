@@ -1,6 +1,7 @@
 import { PRODUCTS_FULL } from '@/lib/data';
 import ServerNavbar from '@/components/ServerNavbar';
 import Footer from '@/components/Footer';
+import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowLeft, Play, CheckCircle2, ChevronRight, Tags } from 'lucide-react';
 import { notFound } from 'next/navigation';
@@ -50,12 +51,24 @@ export default async function ProductDetailPage({ params }) {
               
               {/* Text Content */}
               <div>
-                <div 
-                  className="inline-block px-4 py-1.5 rounded-full text-sm font-bold mb-6 uppercase tracking-wider shadow-sm"
-                  style={{ backgroundColor: `${product.accent}20`, color: product.accent }}
-                >
-                  {product.title}
-                </div>
+                {product.logo ? (
+                  <div className="relative h-16 w-56 bg-white p-2 rounded-2xl shadow-md border border-slate-200 mb-6 flex items-center justify-center">
+                    <Image 
+                      src={product.logo} 
+                      alt={`${product.title} Logo`} 
+                      fill 
+                      className="object-contain p-2" 
+                    />
+                  </div>
+                ) : (
+                  <div 
+                    className="inline-block px-4 py-1.5 rounded-full text-sm font-bold mb-6 uppercase tracking-wider shadow-sm"
+                    style={{ backgroundColor: `${product.accent}20`, color: product.accent }}
+                  >
+                    {product.title}
+                  </div>
+                )}
+
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight leading-tight mb-6">
                   {product.title}
                 </h1>

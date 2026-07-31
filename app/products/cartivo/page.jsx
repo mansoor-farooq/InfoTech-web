@@ -1,5 +1,6 @@
 import ServerNavbar from '@/components/ServerNavbar';
 import Footer from '@/components/Footer';
+import Image from 'next/image';
 import { CheckCircle2, LayoutDashboard, Truck, Warehouse, Smartphone, ShieldCheck, Zap } from 'lucide-react';
 import Link from 'next/link';
 
@@ -20,12 +21,25 @@ export default function CartivoPage() {
           
           <div className="container-xl relative z-10 grid lg:grid-cols-2 gap-12 items-center">
             <div className="max-w-2xl">
-              <span className="inline-block px-4 py-1 rounded-full text-sm font-bold mb-6 text-amber-500 bg-amber-500/10 border border-amber-500/20">
-                Flagship Enterprise Product
-              </span>
+              <div className="flex items-center gap-4 mb-6">
+                <div className="relative h-16 w-56 bg-white p-2 rounded-2xl shadow-xl flex items-center justify-center border border-white/20">
+                  <Image 
+                    src="/images/cartivo-logo.png" 
+                    alt="Cartivo Official Logo" 
+                    fill 
+                    className="object-contain p-2" 
+                    priority 
+                  />
+                </div>
+                <span className="inline-block px-4 py-1.5 rounded-full text-xs font-extrabold uppercase tracking-widest text-emerald-400 bg-emerald-500/10 border border-emerald-500/20">
+                  Flagship Platform
+                </span>
+              </div>
+
               <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight leading-[1.1] mb-6">
                 Cartivo Platform
               </h1>
+
               <p className="text-xl md:text-2xl text-slate-300 font-medium mb-10 leading-relaxed">
                 A complete Enterprise Commerce Platform built for modern businesses that require scalability, automation, and seamless operations across the entire supply chain.
               </p>

@@ -271,7 +271,9 @@
     "cartivo": {
       "title": "Cartivo",
       "subtitle": "Enterprise Commerce Platform",
+      "logo": "/images/cartivo-logo.png",
       "accent": "#2563eb",
+
       "accentLight": "#eff6ff",
       "accentBorder": "#bfdbfe",
       "accentDark": "#1d4ed8",
