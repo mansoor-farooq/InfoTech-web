@@ -1,10 +1,9 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import { ArrowRight } from 'lucide-react';
-import { SERVICES_FULL, slugify } from '@/lib/data';
+import { SERVICES_FULL } from '@/lib/data';
+import { getServiceIcon } from '@/lib/icons';
 
 export default function ServicesGrid() {
-  // Fetch services from DB
   const services = Object.entries(SERVICES_FULL).map(([slug, data]) => ({ slug, ...data }));
 
   return (
@@ -26,24 +25,30 @@ export default function ServicesGrid() {
               <Link 
                 key={service.slug} 
                 href={`/services/${service.slug}`}
-                className="clean-card group flex flex-col h-full"
+                className="clean-card group flex flex-col h-full bg-white p-8 rounded-3xl border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
               >
-                {/* Image Placeholder */}
-                <div className="w-16 h-16 rounded-2xl bg-gray-100 border-2 border-dashed border-gray-300 mb-8 flex items-center justify-center overflow-hidden relative">
-                  {/* <Image src="/images/your-icon.png" alt={data.title} fill className="object-cover" /> */}
-                  <span className="text-xs text-gray-400 font-bold text-center">Add<br/>Icon</span>
+                {/* Service Icon Badge */}
+                <div 
+                  className="w-14 h-14 rounded-2xl mb-8 flex items-center justify-center transition-transform group-hover:scale-110 shadow-sm border"
+                  style={{ 
+                    backgroundColor: service.accentLight || '#eff6ff', 
+                    color: service.accent || '#2563eb',
+                    borderColor: service.accentBorder || '#bfdbfe'
+                  }}
+                >
+                  {getServiceIcon(service.slug, "w-7 h-7")}
                 </div>
                 
-                <h3 className="text-2xl font-bold text-slate-900 mb-4">
+                <h3 className="text-2xl font-bold text-slate-900 mb-4 group-hover:text-blue-600 transition-colors">
                   {service.title}
                 </h3>
                 
-                <p className="text-slate-500 font-medium leading-relaxed mb-8 flex-grow">
+                <p className="text-slate-500 font-medium leading-relaxed mb-8 flex-grow line-clamp-3">
                   {service.description}
                 </p>
                 
-                <div className="flex items-center text-sm font-bold text-blue-600 mt-auto">
-                  View Details <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                <div className="flex items-center text-sm font-bold mt-auto uppercase tracking-wider" style={{ color: service.accent || '#2563eb' }}>
+                  Explore Service <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                 </div>
               </Link>
             );

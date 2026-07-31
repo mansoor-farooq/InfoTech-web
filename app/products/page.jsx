@@ -4,6 +4,7 @@ import Footer from '@/components/Footer';
 import Link from 'next/link';
 import Image from 'next/image';
 import { ArrowRight, LayoutGrid } from 'lucide-react';
+import { getProductIcon } from '@/lib/icons';
 
 export const metadata = {
   title: 'Our Products | InfoTech Solutions',
@@ -52,8 +53,8 @@ export default function ProductsPage() {
                       </div>
                     ) : (
                       <>
-                        <div className="w-10 h-10 rounded-xl bg-white shadow-xs flex items-center justify-center mb-2 border border-slate-200" style={{ color: product.accent }}>
-                          <LayoutGrid className="w-5 h-5" />
+                        <div className="w-16 h-16 rounded-2xl bg-white shadow-md flex items-center justify-center mb-3 border border-slate-200" style={{ color: product.accent }}>
+                          {getProductIcon(product.slug, "w-8 h-8")}
                         </div>
                         <span className="text-xs font-mono font-bold text-blue-600 bg-white px-3 py-1 rounded-md border border-slate-200 shadow-xs">
                           Path: /images/product-{product.slug}.png
