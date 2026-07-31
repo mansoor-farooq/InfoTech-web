@@ -1,4 +1,4 @@
-import { SERVICES_FULL } from '@/lib/data';
+import { SERVICES_FULL, getServiceData } from '@/lib/data';
 import ServicePageTemplate from '@/components/ServicePageTemplate';
 import { notFound } from 'next/navigation';
 
@@ -8,7 +8,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
-  const data = SERVICES_FULL[resolvedParams.slug];
+  const data = getServiceData(resolvedParams.slug);
   if (!data) return { title: 'Service Not Found' };
   return {
     title: `${data.title} | InfoTech Solutions`,
@@ -18,7 +18,7 @@ export async function generateMetadata({ params }) {
 
 export default async function ServiceRoute({ params }) {
   const resolvedParams = await params;
-  const data = SERVICES_FULL[resolvedParams.slug];
+  const data = getServiceData(resolvedParams.slug);
   if (!data) return notFound();
   return <ServicePageTemplate data={data} />;
 }

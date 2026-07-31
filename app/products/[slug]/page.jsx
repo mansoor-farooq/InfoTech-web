@@ -1,4 +1,4 @@
-import { PRODUCTS_FULL } from '@/lib/data';
+import { PRODUCTS_FULL, getProductData } from '@/lib/data';
 import ServerNavbar from '@/components/ServerNavbar';
 import Footer from '@/components/Footer';
 import Image from 'next/image';
@@ -9,7 +9,7 @@ import { notFound } from 'next/navigation';
 
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
-  const product = PRODUCTS_FULL[resolvedParams.slug];
+  const product = getProductData(resolvedParams.slug);
   if (!product) return { title: 'Product Not Found' };
   
   return {
@@ -26,7 +26,7 @@ export function generateStaticParams() {
 
 export default async function ProductDetailPage({ params }) {
   const resolvedParams = await params;
-  const product = PRODUCTS_FULL[resolvedParams.slug];
+  const product = getProductData(resolvedParams.slug);
   
   if (!product) {
     notFound();
