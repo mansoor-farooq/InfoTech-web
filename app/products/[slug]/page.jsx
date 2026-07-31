@@ -46,15 +46,15 @@ export default async function ProductDetailPage({ params }) {
         </div>
 
         {/* Hero Section */}
-        <section className="section py-12 md:py-20 bg-slate-50 relative overflow-hidden border-b border-slate-200">
-          <div className="absolute inset-0 opacity-5" style={{ backgroundColor: product.accent }} />
+        <section className="section py-12 md:py-20 bg-gradient-to-b from-slate-50 to-white relative overflow-hidden border-b border-slate-200">
+          <div className="absolute inset-0 opacity-5 animate-pulse" style={{ backgroundColor: product.accent }} />
           <div className="container-xl relative z-10">
             <div className="grid lg:grid-cols-2 gap-12 lg:gap-24 items-center">
               
               {/* Text Content */}
-              <div>
+              <div className="animate-fade-up">
                 {product.logo ? (
-                  <div className="relative h-16 w-56 bg-white p-2 rounded-2xl shadow-md border border-slate-200 mb-6 flex items-center justify-center">
+                  <div className="relative h-16 w-56 bg-white p-2 rounded-2xl shadow-md border border-slate-200 mb-6 flex items-center justify-center hover-lift">
                     <Image 
                       src={product.logo} 
                       alt={`${product.title} Logo`} 
@@ -64,7 +64,7 @@ export default async function ProductDetailPage({ params }) {
                   </div>
                 ) : (
                   <div 
-                    className="inline-block px-4 py-1.5 rounded-full text-sm font-bold mb-6 uppercase tracking-wider shadow-sm"
+                    className="inline-block px-4 py-1.5 rounded-full text-sm font-bold mb-6 uppercase tracking-wider shadow-sm animate-scale-up"
                     style={{ backgroundColor: `${product.accent}20`, color: product.accent }}
                   >
                     {product.title}
@@ -79,7 +79,7 @@ export default async function ProductDetailPage({ params }) {
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <button 
-                    className="btn px-8 py-4 rounded-xl text-white font-bold shadow-lg shadow-blue-500/30 hover:-translate-y-1 transition-all"
+                    className="btn-primary px-8 py-4 rounded-xl text-white font-bold shadow-xl hover-lift"
                     style={{ backgroundColor: product.accent }}
                   >
                     Request Demo
@@ -88,11 +88,13 @@ export default async function ProductDetailPage({ params }) {
               </div>
 
               {/* Main Product Image Placeholder */}
-              <ImagePlaceholder 
-                label={`${product.title} Main Hero Image`}
-                pathHint={`/images/${resolvedParams.slug}-hero.png`}
-                aspect="aspect-video"
-              />
+              <div className="animate-scale-up hover-lift">
+                <ImagePlaceholder 
+                  label={`${product.title} Main Hero Image`}
+                  pathHint={`/images/${resolvedParams.slug}-hero.png`}
+                  aspect="aspect-video"
+                />
+              </div>
 
             </div>
           </div>
@@ -111,8 +113,8 @@ export default async function ProductDetailPage({ params }) {
                   if (section.type === 'text' || section.type === 'list-text') {
                      const isEven = index % 2 === 0;
                      return (
-                        <div key={index} className="grid md:grid-cols-2 gap-12 items-center">
-                          <div className={`order-2 ${isEven ? 'md:order-1' : 'md:order-2'}`}>
+                        <div key={index} className="grid md:grid-cols-2 gap-12 items-center animate-fade-up">
+                          <div className={`order-2 ${isEven ? 'md:order-1' : 'md:order-2'} hover-lift`}>
                             <ImagePlaceholder 
                               label={`${section.sectionTitle} Screenshot`}
                               pathHint={`/images/${resolvedParams.slug}-section-${index + 1}.png`}
@@ -126,7 +128,7 @@ export default async function ProductDetailPage({ params }) {
                               {section.content}
                             </div>
                             {section.type === 'list-text' && section.points && (
-                               <ul className="space-y-4 mt-6 bg-slate-50 p-8 rounded-3xl border border-slate-100">
+                               <ul className="space-y-4 mt-6 bg-slate-50 p-8 rounded-3xl border border-slate-100 shadow-sm">
                                  {section.points.map((point, idx) => (
                                    <li key={idx} className="flex items-start">
                                      <ChevronRight className="w-5 h-5 mr-3 flex-shrink-0 mt-1" style={{ color: product.accent }} />
@@ -143,13 +145,13 @@ export default async function ProductDetailPage({ params }) {
                   // Render grid sections (like Core Modules)
                   if (section.type === 'grid') {
                      return (
-                        <div key={index} className="bg-slate-900 text-white p-12 md:p-16 rounded-[3rem] relative overflow-hidden">
+                        <div key={index} className="bg-slate-900 text-white p-12 md:p-16 rounded-[3rem] relative overflow-hidden shadow-2xl animate-fade-up">
                            <div className="absolute inset-0 opacity-10" style={{ backgroundColor: product.accent }} />
                            <div className="relative z-10">
                               <h2 className="text-3xl md:text-4xl font-extrabold mb-10 text-center">{section.sectionTitle}</h2>
                               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                                  {section.items.map((item, idx) => (
-                                    <div key={idx} className="bg-white/10 backdrop-blur-md border border-white/10 p-8 rounded-3xl hover:bg-white/20 transition-colors">
+                                    <div key={idx} className="bg-white/10 backdrop-blur-md border border-white/10 p-8 rounded-3xl hover:bg-white/20 transition-all duration-300 hover-lift">
                                        <h3 className="text-xl font-bold mb-3" style={{ color: product.accentLight }}>{item.title}</h3>
                                        <p className="text-slate-300 leading-relaxed">{item.desc}</p>
                                     </div>
@@ -163,18 +165,18 @@ export default async function ProductDetailPage({ params }) {
                   // Render tags / categories sections
                   if (section.type === 'tags') {
                      return (
-                        <div key={index} className="text-center">
+                        <div key={index} className="text-center animate-fade-up">
                            <h2 className="heading-2 mb-12">{section.sectionTitle}</h2>
                            <div className="grid md:grid-cols-2 gap-12">
                               {section.tagsGroups.map((group, idx) => (
-                                 <div key={idx} className="bg-slate-50 p-10 rounded-3xl border border-slate-100">
+                                 <div key={idx} className="bg-slate-50 p-10 rounded-3xl border border-slate-100 shadow-sm hover-lift">
                                     <div className="flex items-center justify-center mb-6">
                                        <Tags className="w-6 h-6 mr-3" style={{ color: product.accent }} />
                                        <h3 className="text-2xl font-bold text-slate-900">{group.group}</h3>
                                     </div>
                                     <div className="flex flex-wrap gap-3 justify-center">
                                        {group.tags.map((tag, tIdx) => (
-                                          <span key={tIdx} className="px-4 py-2 bg-white border border-slate-200 text-slate-700 font-medium rounded-full shadow-sm">
+                                          <span key={tIdx} className="px-4 py-2 bg-white border border-slate-200 text-slate-700 font-medium rounded-full shadow-sm hover:scale-105 transition-transform">
                                              {tag}
                                           </span>
                                        ))}
