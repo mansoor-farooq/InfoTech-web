@@ -1,3 +1,11 @@
+/**
+ * ICON HELPER GUIDE:
+ * To add an icon for a new service or product:
+ * 1. Pick any icon name from https://lucide.dev/icons (e.g., Cpu, Globe, Lock, Wifi, Truck, Heart)
+ * 2. Import it from 'lucide-react' at the top of this file.
+ * 3. Add a case with your service/product slug in getServiceIcon() or getProductIcon().
+ */
+
 import { 
   BarChart3, 
   Code, 
@@ -23,7 +31,15 @@ import {
   Warehouse, 
   Navigation, 
   Building2,
-  Box
+  Box,
+  Globe,
+  Cpu,
+  Lock,
+  Truck,
+  Heart,
+  DollarSign,
+  Layers,
+  Settings
 } from 'lucide-react';
 
 export function getServiceIcon(slug, className = "w-6 h-6") {
