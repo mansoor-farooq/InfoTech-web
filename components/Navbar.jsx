@@ -91,17 +91,17 @@ export default function Navbar({ services = [], products = [] }) {
                   <div className="bg-white rounded-3xl shadow-[0_20px_40px_-15px_rgba(0,0,0,0.1)] border border-gray-100 overflow-hidden p-4">
                     
                     <div className="mb-4 pb-4 border-b border-gray-100">
-                      <Link href="/products/cartivo" className="flex items-center justify-between p-4 bg-slate-50 hover:bg-blue-50 rounded-2xl transition-colors group/featured">
+                      <Link href="/products/cartivo" className="flex items-center justify-between p-4 bg-slate-900 text-white hover:bg-slate-950 rounded-2xl transition-colors group/featured border border-slate-800">
                         <div className="flex items-center gap-4">
-                          <div className="w-12 h-12 rounded-xl bg-blue-600 text-white flex items-center justify-center flex-shrink-0">
-                            <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" /></svg>
+                          <div className="relative h-10 w-32 flex-shrink-0">
+                            <Image src="/images/cartivo-logo.png" alt="Cartivo Enterprise" fill className="object-contain object-left" />
                           </div>
                           <div>
-                            <div className="text-lg font-extrabold text-slate-900 group-hover/featured:text-blue-600 mb-1">Cartivo Enterprise</div>
-                            <p className="text-sm text-slate-500 font-medium">Our Flagship Enterprise Commerce Platform</p>
+                            <div className="text-base font-extrabold text-white mb-0.5">Enterprise Commerce</div>
+                            <p className="text-xs text-slate-400 font-medium">Flagship Multi-channel E-Commerce Engine</p>
                           </div>
                         </div>
-                        <div className="px-4 py-2 bg-white text-blue-600 rounded-lg text-sm font-bold shadow-sm border border-gray-100 group-hover/featured:bg-blue-600 group-hover/featured:text-white transition-colors">
+                        <div className="px-4 py-2 bg-blue-600 text-white rounded-xl text-xs font-bold shadow-sm group-hover/featured:bg-blue-500 transition-colors">
                           View Platform &rarr;
                         </div>
                       </Link>

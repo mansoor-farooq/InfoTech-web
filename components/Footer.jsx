@@ -55,11 +55,11 @@ export default function Footer() {
           <div className="lg:col-span-3">
             <h4 className="text-xs font-bold tracking-[0.2em] uppercase text-slate-500 mb-8">Products & Company</h4>
             <div className="mb-8">
-              <Link href="/products/cartivo" className="inline-flex items-center gap-3 p-3 rounded-2xl bg-slate-900 border border-slate-800 hover:border-blue-500/50 transition-all group">
-                <div className="relative h-8 w-28">
-                  <Image src="/images/cartivo-logo.png" alt="Cartivo Platform" fill className="object-contain object-left" />
+              <Link href="/products/cartivo" className="inline-flex items-center gap-4 px-4 py-3 rounded-2xl bg-slate-900 border border-slate-800 hover:border-blue-500/50 transition-all group shadow-lg">
+                <div className="relative h-10 w-36">
+                  <Image src="/images/cartivo-logo.png" alt="Cartivo Platform" fill className="object-contain object-left" priority />
                 </div>
-                <span className="text-xs font-bold text-blue-400 group-hover:translate-x-1 transition-transform">
+                <span className="text-xs font-bold text-blue-400 group-hover:translate-x-1.5 transition-transform">
                   &rarr;
                 </span>
               </Link>
