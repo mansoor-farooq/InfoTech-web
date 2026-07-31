@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import { SERVICES_FULL } from '@/lib/data';
 import { getServiceIcon } from '@/lib/icons';
+import ServiceCardGraphic from '@/components/ServiceCardGraphic';
 
 export default function ServicesGrid() {
   const services = Object.entries(SERVICES_FULL).map(([slug, data]) => ({ slug, ...data }));
@@ -25,29 +26,35 @@ export default function ServicesGrid() {
               <Link 
                 key={service.slug} 
                 href={`/services/${service.slug}`}
-                className="clean-card group flex flex-col h-full bg-white p-8 rounded-3xl border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
+                className="clean-card group flex flex-col h-full bg-white p-6 rounded-3xl border border-slate-200 shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 overflow-hidden"
               >
-                {/* Service Icon Badge */}
-                <div 
-                  className="w-14 h-14 rounded-2xl mb-8 flex items-center justify-center transition-transform group-hover:scale-110 shadow-sm border"
-                  style={{ 
-                    backgroundColor: service.accentLight || '#eff6ff', 
-                    color: service.accent || '#2563eb',
-                    borderColor: service.accentBorder || '#bfdbfe'
-                  }}
-                >
-                  {getServiceIcon(service.slug, "w-7 h-7")}
+                {/* Top Interactive Service Graphic Container */}
+                <div className="w-full h-44 mb-6 rounded-2xl overflow-hidden shadow-inner group-hover:scale-[1.02] transition-transform duration-300">
+                  <ServiceCardGraphic slug={service.slug} accent={service.accent} />
+                </div>
+
+                {/* Service Icon & Title Header */}
+                <div className="flex items-center gap-3 mb-3">
+                  <div 
+                    className="w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0 border shadow-xs"
+                    style={{ 
+                      backgroundColor: service.accentLight || '#eff6ff', 
+                      color: service.accent || '#2563eb',
+                      borderColor: service.accentBorder || '#bfdbfe'
+                    }}
+                  >
+                    {getServiceIcon(service.slug, "w-5 h-5")}
+                  </div>
+                  <h3 className="text-xl font-bold text-slate-900 group-hover:text-blue-600 transition-colors line-clamp-1">
+                    {service.title}
+                  </h3>
                 </div>
                 
-                <h3 className="text-2xl font-bold text-slate-900 mb-4 group-hover:text-blue-600 transition-colors">
-                  {service.title}
-                </h3>
-                
-                <p className="text-slate-500 font-medium leading-relaxed mb-8 flex-grow line-clamp-3">
+                <p className="text-slate-500 text-sm font-medium leading-relaxed mb-6 flex-grow line-clamp-3">
                   {service.description}
                 </p>
                 
-                <div className="flex items-center text-sm font-bold mt-auto uppercase tracking-wider" style={{ color: service.accent || '#2563eb' }}>
+                <div className="flex items-center text-xs font-bold mt-auto uppercase tracking-wider" style={{ color: service.accent || '#2563eb' }}>
                   Explore Service <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                 </div>
               </Link>
