@@ -98,7 +98,7 @@ export function getProductIcon(slug, className = "w-6 h-6") {
       return <Warehouse className={className} />;
     case 'field-force-&-sales-automation-sfa':
       return <Navigation className={className} />;
-    case 'enterprise-crm-system':
+      case 'enterprise-crm-system':
       return <Building2 className={className} />;
     default:
       return <Box className={className} />;

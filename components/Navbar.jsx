@@ -91,17 +91,20 @@ export default function Navbar({ services = [], products = [] }) {
                   <div className="bg-white rounded-3xl shadow-[0_20px_40px_-15px_rgba(0,0,0,0.1)] border border-gray-100 overflow-hidden p-4">
                     
                     <div className="mb-4 pb-4 border-b border-gray-100">
-                      <Link href="/products/cartivo" className="flex items-center justify-between p-4 bg-slate-900 text-white hover:bg-slate-950 rounded-2xl transition-colors group/featured border border-slate-800">
+                      <Link href="/products/cartivo" className="flex items-center justify-between p-4.5 bg-gradient-to-r from-blue-50/80 via-indigo-50/50 to-slate-50 border border-blue-100 hover:border-blue-300 rounded-2xl transition-all duration-300 group/featured shadow-xs">
                         <div className="flex items-center gap-4">
-                          <div className="relative h-10 w-32 flex-shrink-0">
-                            <Image src="/images/cartivo-logo.png" alt="Cartivo Enterprise" fill className="object-contain object-left" />
+                          <div className="relative h-10 w-36 flex-shrink-0 flex items-center">
+                            <Image src="/images/cartivo-transparent.png" alt="Cartivo Enterprise" fill className="object-contain object-left" />
                           </div>
                           <div>
-                            <div className="text-base font-extrabold text-white mb-0.5">Enterprise Commerce</div>
-                            <p className="text-xs text-slate-400 font-medium">Flagship Multi-channel E-Commerce Engine</p>
+                            <div className="text-base font-extrabold text-slate-900 group-hover/featured:text-blue-600 transition-colors mb-0.5 flex items-center gap-2">
+                              <span>Cartivo Enterprise</span>
+                              <span className="px-2 py-0.5 rounded-full text-[10px] font-extrabold uppercase tracking-wider bg-blue-600 text-white">Flagship</span>
+                            </div>
+                            <p className="text-xs text-slate-500 font-medium">Multi-channel Enterprise E-Commerce Platform</p>
                           </div>
                         </div>
-                        <div className="px-4 py-2 bg-blue-600 text-white rounded-xl text-xs font-bold shadow-sm group-hover/featured:bg-blue-500 transition-colors">
+                        <div className="px-4 py-2 bg-blue-600 group-hover/featured:bg-blue-700 text-white rounded-xl text-xs font-bold shadow-sm transition-all group-hover/featured:translate-x-1">
                           View Platform &rarr;
                         </div>
                       </Link>
