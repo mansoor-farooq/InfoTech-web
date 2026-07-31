@@ -67,9 +67,9 @@
           "desc": "Machine learning models to forecast trends and inventory needs."
         }
       ],
-      "heroImage": "/images/ChatGPT Image Jul 27, 2026, 11_47_02 AM.png",
-      "architectureImage": "/images/ChatGPT Image Jul 27, 2026, 11_47_02 AM.png",
-      "dashboardImage": "/images/ChatGPT Image Jul 27, 2026, 11_47_02 AM.png"
+      "heroImage": "/images/bireporting.png",
+      "architectureImage": "/images/bireporting.jpg",
+      "dashboardImage": "/images/bireporting.png"
     },
     "web-development": {
       "title": "Web Development",
@@ -107,9 +107,9 @@
           "desc": "Custom RESTful and GraphQL APIs to connect your web apps."
         }
       ],
-      "heroImage": "/images/Custom Web Application Development.png",
+      "heroImage": "/images/webdevelopment.png",
       "architectureImage": "/images/Custom Web Application Development.png",
-      "dashboardImage": "/images/Custom Web Application Development.png"
+      "dashboardImage": "/images/webdevelopment.png"
     },
     "mobile-application": {
       "title": "Mobile Application",
@@ -148,7 +148,7 @@
         }
       ],
       "heroImage": "/images/audit_mobile_banner.png",
-      "architectureImage": "/images/audit_mobile_banner.png",
+      "architectureImage": "/images/audit_web_banner.png",
       "dashboardImage": "/images/audit_mobile_banner.png"
     },
     "infrastructure-management": {
@@ -227,9 +227,9 @@
           "desc": "Continuous development of new modules and capabilities."
         }
       ],
-      "heroImage": "/images/softwiremaintaince.png",
+      "heroImage": "/images/maintaince&enhancedment.png",
       "architectureImage": "/images/softwiremaintaince.png",
-      "dashboardImage": "/images/softwiremaintaince.png"
+      "dashboardImage": "/images/maintaince&enhancedment.png"
     },
     "migration-and-modernization": {
       "title": "Migration And Modernization",
@@ -267,8 +267,8 @@
           "desc": "Transitioning from monolithic structures to microservices."
         }
       ],
-      "heroImage": "/images/Software-That-Improves--Dailyy--Operations--Banner.jpg.jpeg",
-      "architectureImage": "/images/Software-That-Improves--Dailyy--Operations--Banner.jpg.jpeg",
+      "heroImage": "/images/migraction&modrenization.png",
+      "architectureImage": "/images/migraction&modrenizationweb.png",
       "dashboardImage": "/images/Software-That-Improves--Dailyy--Operations--Banner.jpg.jpeg"
     },
     "custom-erp-development": {
@@ -308,7 +308,7 @@
         }
       ],
       "heroImage": "/images/IPR-software-applications.jpg.jpeg",
-      "architectureImage": "/images/IPR-software-applications.jpg.jpeg",
+      "architectureImage": "/images/erp.png",
       "dashboardImage": "/images/IPR-software-applications.jpg.jpeg"
     },
     "ai-and-machine-learning": {
@@ -347,9 +347,9 @@
           "desc": "AI customer support and internal enterprise knowledge base bots."
         }
       ],
-      "heroImage": "/images/ChatGPT Image Jul 27, 2026, 10_31_56 AM.png",
-      "architectureImage": "/images/ChatGPT Image Jul 27, 2026, 10_31_56 AM.png",
-      "dashboardImage": "/images/ChatGPT Image Jul 27, 2026, 10_31_56 AM.png"
+      "heroImage": "/images/ChatGPT Image Jul 31, 2026, 03_02_07 PM (1).png",
+      "architectureImage": "/images/ChatGPT Image Jul 31, 2026, 03_02_07 PM (4).png",
+      "dashboardImage": "/images/ChatGPT Image Jul 31, 2026, 03_02_07 PM (1).png"
     },
     "cloud-devops": {
       "title": "Cloud & DevOps Solutions",
@@ -387,9 +387,9 @@
           "desc": "Prometheus, Grafana, and CloudWatch metrics with instant SLA alerts."
         }
       ],
-      "heroImage": "/images/ChatGPT Image Jul 27, 2026, 10_40_16 AM.png",
-      "architectureImage": "/images/ChatGPT Image Jul 27, 2026, 10_40_16 AM.png",
-      "dashboardImage": "/images/ChatGPT Image Jul 27, 2026, 10_40_16 AM.png"
+      "heroImage": "/images/Cloud & DevOps Solutionssecondry.png",
+      "architectureImage": "/images/Cloud & DevOps Solutionssecondry.png",
+      "dashboardImage": "/images/Cloud & DevOps Solutionssecondry.png"
     },
     "fbr-e-invoicing-compliance": {
       "title": "FBR E-Invoicing & Compliance",
@@ -427,9 +427,9 @@
           "desc": "Built-in reconciliation checks to ensure zero mismatched tax figures."
         }
       ],
-      "heroImage": "/images/Digital-E-Invoic.jpg.jpeg",
+      "heroImage": "/images/Digital e-invociamain.png",
       "architectureImage": "/images/Digital-E-Invoic.jpg.jpeg",
-      "dashboardImage": "/images/Digital-E-Invoic.jpg.jpeg"
+      "dashboardImage": "/images/Digital e-invociasecond.png"
     },
     "cybersecurity-audit": {
       "title": "Cybersecurity & Audit",
@@ -467,9 +467,9 @@
           "desc": "At-rest and in-transit encryption enforcing ISO27001 standards."
         }
       ],
-      "heroImage": "/images/ChatGPT Image Jul 27, 2026, 10_56_26 AM.png",
-      "architectureImage": "/images/ChatGPT Image Jul 27, 2026, 10_56_26 AM.png",
-      "dashboardImage": "/images/ChatGPT Image Jul 27, 2026, 10_56_26 AM.png"
+      "heroImage": "/images/digitaleinvoiciaoptional.png",
+      "architectureImage": "/images/digitaleinvoiciaoptional.png",
+      "dashboardImage": "/images/digitaleinvoiciaoptional.png"
     },
     "enterprise-ui-ux-design": {
       "title": "Enterprise UI/UX Design",
@@ -507,9 +507,9 @@
           "desc": "Refactoring existing software interfaces for faster data entry and lower training times."
         }
       ],
-      "heroImage": "/images/ChatGPT Image Jul 27, 2026, 10_59_22 AM.png",
-      "architectureImage": "/images/ChatGPT Image Jul 27, 2026, 10_59_22 AM.png",
-      "dashboardImage": "/images/ChatGPT Image Jul 27, 2026, 10_59_22 AM.png"
+      "heroImage": "/images/dari.png",
+      "architectureImage": "/images/dari.png",
+      "dashboardImage": "/images/dari.png"
     }
   },
   "NAV_PRODUCTS": [
@@ -682,7 +682,8 @@
           ]
         }
       ],
-      "heroImage": "/images/cartivo-transparent.png"
+      "heroImage": "/images/cartivologo.jpeg",
+      "video": "/videos/cartivo-demo.mp4"
     },
     "hrms-&-payroll-management-system": {
       "title": "HRMS & Payroll Management",
@@ -780,7 +781,9 @@
           "desc": "KPI tracking and evaluation modules."
         }
       ],
-      "heroImage": "/images/HrmsPayroll.jpg.jpeg"
+      "heroImage": "/images/Hrms&payrollsysteam.png",
+      "secImage": "/images/HrmsPayroll.jpg.jpeg",
+      "thirdImage": "/images/hrms.png"
     },
     "digital-e-invocia-integration": {
       "title": "Digital E-Invocia Integration",
@@ -815,7 +818,9 @@
         }
       ],
       "video": "/videos/digital-e-invocia-integration.mp4",
-      "heroImage": "/images/Digital-E-Invoic.jpg.jpeg"
+      "heroImage": "/images/Digital e-invociamain.png",
+      "secImage": "/images/Digital e-invociasecond.png",
+      "thirdImage": "/images/Digital e-invocia.png"
     },
     "e-commerce-solutions": {
       "title": "E-Commerce Solutions",
@@ -849,7 +854,9 @@
           "desc": "Real-time stock updates."
         }
       ],
-      "heroImage": "/images/Pharma-Mart-Bnr.jpg.jpeg"
+      "heroImage": "/images/ecoomerceapp mainimages.png",
+      "secImage": "/images/ecoomercesoluctions.png",
+      "thirdImage": "/images/Pharma-Mart-Bnr.jpg.jpeg"
     },
     "merchandizing-application": {
       "title": "Merchandizing Application",
@@ -883,7 +890,9 @@
           "desc": "Monitor competitor pricing and promotions."
         }
       ],
-      "heroImage": "/images/audit_combined_banner.png"
+      "heroImage": "/images/marchandizingapp.png",
+      "secImage": "/images/audit_web_banner.png",
+      "thirdImage": "/images/audit_mobile_banner.png"
     },
     "order-booking": {
       "title": "Order Booking",
@@ -917,7 +926,9 @@
           "desc": "Optimized visit schedules."
         }
       ],
-      "heroImage": "/images/orderbookingnew.png"
+      "heroImage": "/images/orderbookingappsecond.png",
+      "secImage": "/images/orderbookingnew.png",
+      "thirdImage": "/images/orderbooking.jpeg"
     },
     "secondary-sales": {
       "title": "Secondary Sales",
@@ -951,7 +962,9 @@
           "desc": "Direct engagement with the last mile."
         }
       ],
-      "heroImage": "/images/secondry sales.png"
+      "heroImage": "/images/saleverse secondry saleapp.png",
+      "secImage": "/images/Sales-Verse-Bnr.jpg.jpeg",
+      "thirdImage": "/images/secondrysale.png"
     },
     "procurement-application": {
       "title": "Procurement Application",
@@ -985,7 +998,8 @@
           "desc": "Digital RFQ and bidding system."
         }
       ],
-      "heroImage": "/images/procurement-application.jpg.jpeg"
+      "heroImage": "/images/procurement-application.jpg.jpeg",
+      "secImage": "/images/erp.png"
     },
     "lms": {
       "title": "Learning Management System (LMS)",
@@ -1155,7 +1169,8 @@
           "desc": "Real-time KPI performance tracking for sales managers."
         }
       ],
-      "heroImage": "/images/Sales-Verse-Bnr.jpg.jpeg"
+      "heroImage": "/images/Sales-Verse-Bnr.jpg.jpeg",
+      "secImage": "/images/saleverse secondry saleapp.png"
     },
     "enterprise-crm-system": {
       "title": "Enterprise CRM System",
@@ -1193,7 +1208,7 @@
           "desc": "Generate and email PDF quotes with multi-tier manager approval."
         }
       ],
-      "heroImage": "/images/ChatGPT Image Jul 27, 2026, 10_25_07 AM.png"
+      "heroImage": "/images/ChatGPT Image Jul 31, 2026, 03_02_10 PM (8).png"
     }
   },
   "TESTIMONIALS": [
