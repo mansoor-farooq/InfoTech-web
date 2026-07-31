@@ -383,7 +383,9 @@
         "Secondary Sales",
         "Procurement Application",
         "LMS",
-        "test"
+        "Warehouse Management System (WMS)",
+        "Field Force & Sales Automation (SFA)",
+        "Enterprise CRM System"
       ]
     }
   ],
@@ -806,16 +808,61 @@
         }
       ]
     },
-    "test": {
-      "title": "test",
-      "subtitle": "test",
-      "accent": "#2563eb",
-      "accentLight": "#2563eb15",
-      "accentBorder": "#2563eb30",
-      "accentDark": "#2563eb",
-      "description": "test",
-      "features": [
-        "test"
+    "warehouse-management-system-wms": {
+      "title": "Warehouse Management System (WMS)",
+      "subtitle": "Intelligent inventory and warehouse automation.",
+      "accent": "#8b5cf6",
+      "accentLight": "#f5f3ff",
+      "accentBorder": "#ddd6fe",
+      "accentDark": "#6d28d9",
+      "description": "Enterprise WMS solution featuring barcode/RFID scanning, bin-location management, picking route optimization, and real-time stock reconciliation.",
+      "imagePlaceholder": true,
+      "heroStat1": { "value": "99.9%", "label": "Inventory Accuracy" },
+      "heroStat2": { "value": "RFID", "label": "Barcode & RFID" },
+      "heroStat3": { "value": "Automated", "label": "Bin Tracking" },
+      "videoTitle": "WMS Warehouse Automation Overview",
+      "services": [
+        { "name": "Bin & Aisle Mapping", "desc": "Optimize warehouse space utilization and stock placement." },
+        { "name": "Handheld Barcode Scanning", "desc": "Android PDA app for fast picking, packing, and dispatch." },
+        { "name": "Stock Reconciliation Audit", "desc": "Live physical vs system inventory audit logs." }
+      ]
+    },
+    "field-force-&-sales-automation-sfa": {
+      "title": "Field Force & Sales Automation (SFA)",
+      "subtitle": "Empower field teams and track operational sales.",
+      "accent": "#0284c7",
+      "accentLight": "#f0f9ff",
+      "accentBorder": "#bae6fd",
+      "accentDark": "#0369a1",
+      "description": "Comprehensive SFA platform enabling sales reps to take instant orders, plan daily beats, record attendance, and optimize delivery routes in offline mode.",
+      "imagePlaceholder": true,
+      "heroStat1": { "value": "GPS", "label": "Beat Tracking" },
+      "heroStat2": { "value": "Offline First", "label": "Order Sync" },
+      "heroStat3": { "value": "Real-Time", "label": "Route Optimization" },
+      "videoTitle": "SFA Operations Overview",
+      "services": [
+        { "name": "GPS Route & Beat Planning", "desc": "Intelligent territory maps and rep visit schedules." },
+        { "name": "Offline Order Capture", "desc": "Instant order taking with automatic sync when connection resumes." },
+        { "name": "Target vs Achievement Dashboards", "desc": "Real-time KPI performance tracking for sales managers." }
+      ]
+    },
+    "enterprise-crm-system": {
+      "title": "Enterprise CRM System",
+      "subtitle": "Complete customer lifecycle and pipeline management.",
+      "accent": "#059669",
+      "accentLight": "#ecfdf5",
+      "accentBorder": "#a7f3d0",
+      "accentDark": "#047857",
+      "description": "Unified CRM system for managing leads, customer contracts, support tickets, quotation approvals, and automated email/SMS follow-ups.",
+      "imagePlaceholder": true,
+      "heroStat1": { "value": "360°", "label": "Customer View" },
+      "heroStat2": { "value": "Automated", "label": "Lead Nurturing" },
+      "heroStat3": { "value": "Omnichannel", "label": "Support Desk" },
+      "videoTitle": "Enterprise CRM Workflow",
+      "services": [
+        { "name": "Lead & Pipeline Management", "desc": "Visual Kanban sales pipeline with deal stage tracking." },
+        { "name": "Customer Support Ticketing", "desc": "Omnichannel ticket management with SLA escalation rules." },
+        { "name": "Automated Quotations", "desc": "Generate and email PDF quotes with multi-tier manager approval." }
       ]
     }
   },
