@@ -562,6 +562,66 @@
         "label": "Workflows"
       },
       "videoTitle": "HRMS Overview",
+      "features": [
+        "Biometric Attendance Sync",
+        "Automated Tax & Slip Generation",
+        "Employee Self Service Portal"
+      ],
+      "detailedContent": [
+        {
+          "sectionTitle": "Complete Enterprise Human Capital Solution",
+          "content": "Our HRMS & Payroll Management System automates employee lifecycle operations from recruitment, onboarding, leave management, and biometric attendance to complex tax-compliant payroll calculation and performance appraisals.",
+          "type": "text"
+        },
+        {
+          "sectionTitle": "Core Modules",
+          "type": "grid",
+          "items": [
+            {
+              "title": "Employee Lifecycle Management",
+              "desc": "Centralized database for personnel records, contracts, document uploads, and organizational chart hierarchies."
+            },
+            {
+              "title": "Automated Payroll Engine",
+              "desc": "One-click monthly payroll processing with configurable allowances, deductions, tax slabs, and direct bank transfer exports."
+            },
+            {
+              "title": "Attendance & Leave Management",
+              "desc": "Integration with biometric hardware, face recognition scanners, and mobile GPS check-ins with automated leave approval flows."
+            },
+            {
+              "title": "Employee Self-Service (ESS) Portal",
+              "desc": "Mobile and web portal for staff to view pay slips, submit leave requests, claim expenses, and update personal profiles."
+            }
+          ]
+        },
+        {
+          "sectionTitle": "Key Capabilities & Compliance",
+          "type": "tags",
+          "tagsGroups": [
+            {
+              "group": "Capabilities",
+              "tags": [
+                "Biometric Hardware Integration",
+                "Tax Compliant Slips",
+                "Multi-Branch Support",
+                "Performance Appraisal KPI",
+                "Overtime & Shift Scheduler"
+              ]
+            },
+            {
+              "group": "Target Sectors",
+              "tags": [
+                "Corporate Enterprises",
+                "Manufacturing Units",
+                "Software Houses",
+                "Retail Chains",
+                "Hospitality & Healthcare"
+              ]
+            }
+          ]
+        }
+      ],
       "services": [
         {
           "name": "Attendance Tracking",
@@ -840,6 +900,66 @@
       "heroStat2": { "value": "Offline First", "label": "Order Sync" },
       "heroStat3": { "value": "Real-Time", "label": "Route Optimization" },
       "videoTitle": "SFA Operations Overview",
+      "features": [
+        "GPS Beat & Route Tracking",
+        "Offline Order Sync Engine",
+        "Target vs Achievement Analytics"
+      ],
+      "detailedContent": [
+        {
+          "sectionTitle": "Empower Field Force with Smart Automation",
+          "content": "Field Force & Sales Automation (SFA) is designed for FMCG, pharmaceuticals, and distribution companies to track field reps, record live orders, manage shop inventories, and provide managers with live GPS visibility into daily operations.",
+          "type": "text"
+        },
+        {
+          "sectionTitle": "Core Capabilities",
+          "type": "grid",
+          "items": [
+            {
+              "title": "GPS Beat & Route Planning",
+              "desc": "Automated daily route maps ensuring reps visit scheduled retail outlets with location verification."
+            },
+            {
+              "title": "Offline Order Taking",
+              "desc": "Fast mobile order booking even without internet coverage, with automatic cloud sync when network restores."
+            },
+            {
+              "title": "Shop Stock & Merchandising Audit",
+              "desc": "Record shelf stock levels, competition pricing, and take photo verification at retail stores."
+            },
+            {
+              "title": "Manager Dashboard & Analytics",
+              "desc": "Live tracking of total order bookings, sales rep GPS locations, beat completion rates, and target achievements."
+            }
+          ]
+        },
+        {
+          "sectionTitle": "Key Modules & Industries",
+          "type": "tags",
+          "tagsGroups": [
+            {
+              "group": "Modules",
+              "tags": [
+                "GPS Geofencing Check-in",
+                "Offline Database Sync",
+                "Order History & Ledger",
+                "Promotion & Scheme Engine",
+                "Distributor Stock Visibility"
+              ]
+            },
+            {
+              "group": "Industries",
+              "tags": [
+                "FMCG & Consumer Goods",
+                "Pharmaceutical Sales",
+                "Beverages & Foods",
+                "Wholesale Distribution",
+                "Electronics & Hardware"
+              ]
+            }
+          ]
+        }
+      ],
       "services": [
         { "name": "GPS Route & Beat Planning", "desc": "Intelligent territory maps and rep visit schedules." },
         { "name": "Offline Order Capture", "desc": "Instant order taking with automatic sync when connection resumes." },
