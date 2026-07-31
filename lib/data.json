@@ -1,0 +1,723 @@
+{
+  "COMPANY_INFO": {
+    "name": "InfoTech Solutions",
+    "tagline": "Building Smarter Businesses with AI and Modern Technology",
+    "email": "info@infotechsolutions.com.pk",
+    "phone": "+92 370 2874490",
+    "address": "Suit #412, City Center, Plot No. ST-1, A-2, Shahra-e-Faisal Near Awami Markaz, Karachi, Pakistan",
+    "mapsLink": "https://maps.app.goo.gl/ojbtQQ8VndfWKDyy6",
+    "established": 2008,
+    "years": "16+"
+  },
+  "NAV_SERVICES": [
+    {
+      "slug": "#",
+      "category": "Our Services",
+      "accent": "#2563eb",
+      "items": [
+        "BI Reports",
+        "Web Development",
+        "Mobile Application",
+        "Infrastructure Management",
+        "Maintenance & Enhancements",
+        "Migration And Modernization"
+      ]
+    }
+  ],
+  "SERVICES_FULL": {
+    "bi-reports": {
+      "title": "BI Reports",
+      "subtitle": "Data-driven insights for enterprise decision making.",
+      "accent": "#2563eb",
+      "accentLight": "#eff6ff",
+      "accentBorder": "#bfdbfe",
+      "accentDark": "#1d4ed8",
+      "description": "Transform raw enterprise data into actionable intelligence. Our BI reporting solutions help you visualize KPIs, monitor supply chain health, and make informed strategic decisions in real-time.",
+      "imagePlaceholder": true,
+      "heroStat1": {
+        "value": "Real-Time",
+        "label": "Data Sync"
+      },
+      "heroStat2": {
+        "value": "Interactive",
+        "label": "Dashboards"
+      },
+      "heroStat3": {
+        "value": "Secure",
+        "label": "Access Control"
+      },
+      "videoTitle": "BI Dashboards Overview",
+      "services": [
+        {
+          "name": "Custom Dashboards",
+          "desc": "Interactive PowerBI and custom dashboards tailored to your KPIs."
+        },
+        {
+          "name": "Data Warehousing",
+          "desc": "Centralized data repositories connecting multiple ERP systems."
+        },
+        {
+          "name": "Predictive Analytics",
+          "desc": "Machine learning models to forecast trends and inventory needs."
+        }
+      ]
+    },
+    "web-development": {
+      "title": "Web Development",
+      "subtitle": "Enterprise-grade web applications and platforms.",
+      "accent": "#7c3aed",
+      "accentLight": "#f5f3ff",
+      "accentBorder": "#ddd6fe",
+      "accentDark": "#6d28d9",
+      "description": "Unlock your digital potential with our Custom Web Development services. We architect scalable, secure, and blazing-fast web applications designed specifically for complex enterprise requirements.",
+      "imagePlaceholder": true,
+      "heroStat1": {
+        "value": "100%",
+        "label": "Responsive Design"
+      },
+      "heroStat2": {
+        "value": "Modern",
+        "label": "Tech Stack"
+      },
+      "heroStat3": {
+        "value": "SEO",
+        "label": "Optimized Architecture"
+      },
+      "videoTitle": "Custom Web Development Architecture",
+      "services": [
+        {
+          "name": "Frontend Development",
+          "desc": "Dynamic, fast, and responsive user interfaces using React and Next.js."
+        },
+        {
+          "name": "Backend Architecture",
+          "desc": "Secure and scalable server-side systems using Node.js or .NET."
+        },
+        {
+          "name": "API Development",
+          "desc": "Custom RESTful and GraphQL APIs to connect your web apps."
+        }
+      ]
+    },
+    "mobile-application": {
+      "title": "Mobile Application",
+      "subtitle": "Seamless mobility and enhanced productivity.",
+      "accent": "#0891b2",
+      "accentLight": "#ecfeff",
+      "accentBorder": "#a5f3fc",
+      "accentDark": "#0e7490",
+      "description": "Experience the power of our Corporate Mobile Application Services, tailored to empower businesses with seamless mobility, B2B order taking, and real-time field tracking.",
+      "imagePlaceholder": true,
+      "heroStat1": {
+        "value": "99%",
+        "label": "Crash-Free Rate"
+      },
+      "heroStat2": {
+        "value": "iOS/Android",
+        "label": "Native & Cross-Platform"
+      },
+      "heroStat3": {
+        "value": "Secure",
+        "label": "Enterprise Security"
+      },
+      "videoTitle": "Mobile App Development Process",
+      "services": [
+        {
+          "name": "iOS & Android Apps",
+          "desc": "Native applications designed for enterprise users and field force."
+        },
+        {
+          "name": "Cross-Platform Apps",
+          "desc": "React Native and Flutter apps for fast time-to-market."
+        },
+        {
+          "name": "Enterprise Integration",
+          "desc": "Direct connection to ERPs for live inventory and pricing."
+        }
+      ]
+    },
+    "infrastructure-management": {
+      "title": "Infrastructure Management",
+      "subtitle": "Optimize IT efficiency and reduce costs.",
+      "accent": "#be123c",
+      "accentLight": "#fff1f2",
+      "accentBorder": "#fecdd3",
+      "accentDark": "#9f1239",
+      "description": "We optimize IT infrastructure and operational efficiency through expert management of networks, servers, cloud environments, and enterprise databases.",
+      "imagePlaceholder": true,
+      "heroStat1": {
+        "value": "24/7",
+        "label": "System Monitoring"
+      },
+      "heroStat2": {
+        "value": "Cloud",
+        "label": "AWS, Azure, GCP"
+      },
+      "heroStat3": {
+        "value": "99.99%",
+        "label": "Uptime Guarantee"
+      },
+      "videoTitle": "IT Infrastructure & Security",
+      "services": [
+        {
+          "name": "Cloud Server Management",
+          "desc": "Deployment and maintenance of AWS, Azure, and Google Cloud environments."
+        },
+        {
+          "name": "Database Administration",
+          "desc": "Optimization, backup strategies, and scaling for enterprise databases."
+        },
+        {
+          "name": "Network Security",
+          "desc": "Firewall configuration, vulnerability assessments, and access control."
+        }
+      ]
+    },
+    "maintenance-enhancements": {
+      "title": "Maintenance & Enhancements",
+      "subtitle": "Stay up-to-date and ahead of the competition.",
+      "accent": "#047857",
+      "accentLight": "#ecfdf5",
+      "accentBorder": "#a7f3d0",
+      "accentDark": "#065f46",
+      "description": "Ensure that your business software applications are secure, compliant, and performing at their absolute best. We provide continuous maintenance and feature enhancements.",
+      "imagePlaceholder": true,
+      "heroStat1": {
+        "value": "Proactive",
+        "label": "Issue Resolution"
+      },
+      "heroStat2": {
+        "value": "Continuous",
+        "label": "Feature Delivery"
+      },
+      "heroStat3": {
+        "value": "Secure",
+        "label": "Patch Management"
+      },
+      "videoTitle": "Software Maintenance Lifecycle",
+      "services": [
+        {
+          "name": "Performance Optimization",
+          "desc": "Code refactoring, database tuning, and caching strategies."
+        },
+        {
+          "name": "Security Patching",
+          "desc": "Regular updates to dependencies and vulnerability remediation."
+        },
+        {
+          "name": "Feature Upgrades",
+          "desc": "Continuous development of new modules and capabilities."
+        }
+      ]
+    },
+    "migration-and-modernization": {
+      "title": "Migration And Modernization",
+      "subtitle": "Upgrade legacy systems to modern cloud architectures.",
+      "accent": "#d97706",
+      "accentLight": "#fffbeb",
+      "accentBorder": "#fde68a",
+      "accentDark": "#b45309",
+      "description": "Modernize your aging IT infrastructure. We seamlessly migrate legacy on-premise applications to scalable, cloud-native architectures without disrupting your daily operations.",
+      "imagePlaceholder": true,
+      "heroStat1": {
+        "value": "Zero",
+        "label": "Data Loss Guarantee"
+      },
+      "heroStat2": {
+        "value": "Cloud",
+        "label": "Native Architecture"
+      },
+      "heroStat3": {
+        "value": "Agile",
+        "label": "Phased Rollouts"
+      },
+      "videoTitle": "Cloud Migration Strategy",
+      "services": [
+        {
+          "name": "Legacy App Modernization",
+          "desc": "Rewriting outdated applications using modern frameworks like Next.js and Node."
+        },
+        {
+          "name": "Cloud Migration",
+          "desc": "Moving on-premise databases and servers to AWS or Azure."
+        },
+        {
+          "name": "Architecture Redesign",
+          "desc": "Transitioning from monolithic structures to microservices."
+        }
+      ]
+    }
+  },
+  "NAV_PRODUCTS": [
+    {
+      "slug": "#",
+      "category": "Our Products",
+      "accent": "#10b981",
+      "items": [
+        "Cartivo",
+        "HRMS & Payroll Management System",
+        "Digital E-Invocia Integration",
+        "E-Commerce Solutions",
+        "Merchandizing Application",
+        "Order Booking",
+        "Secondary Sales",
+        "Procurement Application",
+        "LMS",
+        "test"
+      ]
+    }
+  ],
+  "PRODUCTS_FULL": {
+    "cartivo": {
+      "title": "Cartivo",
+      "subtitle": "Enterprise Commerce Platform",
+      "accent": "#2563eb",
+      "accentLight": "#eff6ff",
+      "accentBorder": "#bfdbfe",
+      "accentDark": "#1d4ed8",
+      "description": "Cartivo is a complete Enterprise Commerce Platform built for modern businesses that require scalability, automation, and seamless operations across the entire supply chain. It connects customers, distributors, warehouses, delivery riders, and enterprise systems into one intelligent ecosystem.",
+      "imagePlaceholder": true,
+      "heroStat1": {
+        "value": "Real-Time",
+        "label": "Inventory Sync"
+      },
+      "heroStat2": {
+        "value": "Automated",
+        "label": "Order Routing"
+      },
+      "heroStat3": {
+        "value": "Omnichannel",
+        "label": "B2B & B2C"
+      },
+      "videoTitle": "Cartivo Platform Demo",
+      "features": [
+        "Location Based Product Availability",
+        "Dynamic Pricing",
+        "Business Workflow Automation"
+      ],
+      "detailedContent": [
+        {
+          "sectionTitle": "More than a traditional e-commerce website",
+          "content": "Cartivo is a complete Enterprise Commerce Platform built for modern businesses that require scalability, automation, and seamless operations across the entire supply chain. It is more than a traditional e-commerce website. It connects customers, distributors, warehouses, delivery riders, and enterprise systems into one intelligent ecosystem. The platform is designed for retailers, wholesalers, distributors, pharmaceutical companies, manufacturers, healthcare organizations, and businesses operating across multiple locations.",
+          "type": "text"
+        },
+        {
+          "sectionTitle": "Core Modules",
+          "type": "grid",
+          "items": [
+            {
+              "title": "Customer Website",
+              "desc": "A modern, responsive web application where customers can browse products, search categories, view detailed product information, manage their shopping cart, upload prescriptions when required, and place orders through a secure checkout process."
+            },
+            {
+              "title": "Customer Mobile Application",
+              "desc": "A mobile commerce application that provides the same seamless shopping experience with real-time inventory, location-based pricing, secure ordering, and order tracking."
+            },
+            {
+              "title": "Distributor Portal",
+              "desc": "A centralized portal that allows distributors to receive orders automatically, manage inventory, process customer orders, assign riders, monitor deliveries, print invoices, and manage territory-based operations."
+            },
+            {
+              "title": "Rider Application",
+              "desc": "A dedicated delivery application that enables riders to receive assigned deliveries, navigate to customer locations, update delivery status, collect Cash on Delivery payments, upload proof of delivery, and complete last-mile fulfillment."
+            },
+            {
+              "title": "Warehouse Management",
+              "desc": "A warehouse management module that synchronizes inventory across multiple warehouses, maintains stock availability, and supports automated order fulfillment."
+            }
+          ]
+        },
+        {
+          "sectionTitle": "Customer Journey",
+          "content": "The shopping experience begins when a customer opens the Cartivo website or mobile application. The customer selects a delivery location. Based on the selected location, Cartivo automatically displays products available within the customer's service area. The customer browses products, views product details, adjusts quantities, and adds products to the shopping cart. During checkout, customers provide shipping information, billing details, and can upload prescriptions for regulated products. After placing the order, the customer immediately receives order confirmation and email notification.",
+          "type": "list-text",
+          "points": [
+            "Customer selects delivery location",
+            "Cartivo displays products available in that service area",
+            "Customer browses, manages cart, and uploads prescriptions",
+            "Secure checkout with immediate order confirmation"
+          ]
+        },
+        {
+          "sectionTitle": "Intelligent Order Routing",
+          "content": "Once an order is confirmed, Cartivo automatically starts its business workflow. The platform identifies the customer's delivery territory, locates the nearest warehouse, checks real-time inventory, and identifies the assigned distributor for that territory. The order is automatically routed to the correct distributor without manual intervention. This automation reduces processing time and improves operational efficiency.",
+          "type": "text"
+        },
+        {
+          "sectionTitle": "Distributor & Rider Workflow",
+          "type": "grid",
+          "items": [
+            {
+              "title": "Distributor Workflow",
+              "desc": "The assigned distributor receives the order instantly. The distributor reviews the order, verifies inventory, and approves it. The distributor assigns the order to an available rider, generating the invoice while order status is continuously updated."
+            },
+            {
+              "title": "Rider Workflow",
+              "desc": "The assigned rider receives the delivery request instantly. The rider views customer information, uses in-app navigation, collects COD payments, uploads proof of delivery, and marks the order as delivered, triggering a customer notification."
+            }
+          ]
+        },
+        {
+          "sectionTitle": "Dynamic & Enterprise Features",
+          "type": "grid",
+          "items": [
+            {
+              "title": "Real Time Inventory",
+              "desc": "Cartivo continuously synchronizes inventory from warehouses and ERP systems. Customers always see accurate product availability. Out of stock products are updated automatically."
+            },
+            {
+              "title": "Dynamic Pricing",
+              "desc": "Pricing can vary based on business rules: Territory, Warehouse, Customer type, Distributor, Promotions, and Business agreements. Customers always see the correct price."
+            },
+            {
+              "title": "Territory Based Distribution",
+              "desc": "Businesses can assign distributors to specific cities, regions, or delivery territories. Orders are automatically routed according to predefined business rules."
+            }
+          ]
+        },
+        {
+          "sectionTitle": "Enterprise Architecture & Integration",
+          "content": "Cartivo integrates with virtually any business system via REST APIs. It supports ERP Systems (SAP, ERPNext, Oracle ERP, Microsoft Dynamics), CSV/Excel Imports, Supplier Systems, Accounting Software, CRM Platforms, Payment Gateways, and Logistics Providers.\n\nCartivo follows a modular layered architecture:\n- **Presentation Layer**: Responsive web and mobile user interfaces.\n- **Business Logic Layer**: Processes workflows, validations, pricing, and automation.\n- **Data Access Layer**: Handles database operations securely and scalably.\n- **Integration Layer**: Connects with external systems and APIs.",
+          "type": "text"
+        },
+        {
+          "sectionTitle": "Key Features & Industries",
+          "type": "tags",
+          "tagsGroups": [
+            {
+              "group": "Key Features",
+              "tags": [
+                "Location Based Product Availability",
+                "Real Time Inventory Synchronization",
+                "Dynamic Pricing",
+                "Enterprise Grade Security",
+                "Role Based Access Control",
+                "Multi Warehouse Support",
+                "Multi Distributor Support",
+                "REST API Integration",
+                "Cloud Ready Deployment"
+              ]
+            },
+            {
+              "group": "Industries",
+              "tags": [
+                "Retail",
+                "Wholesale",
+                "Pharmaceutical",
+                "Healthcare",
+                "Medical Supplies",
+                "Manufacturing",
+                "FMCG",
+                "Distribution Networks",
+                "Enterprise Organizations"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "hrms-&-payroll-management-system": {
+      "title": "HRMS & Payroll Management",
+      "subtitle": "Streamline your human resources and payroll.",
+      "accent": "#3b82f6",
+      "accentLight": "#eff6ff",
+      "accentBorder": "#bfdbfe",
+      "accentDark": "#1d4ed8",
+      "description": "A comprehensive Human Resource Management System with integrated payroll, attendance tracking, and employee self-service portals tailored for enterprise compliance and efficiency.",
+      "imagePlaceholder": true,
+      "heroStat1": {
+        "value": "100%",
+        "label": "Automated Payroll"
+      },
+      "heroStat2": {
+        "value": "Secure",
+        "label": "Employee Data"
+      },
+      "heroStat3": {
+        "value": "Custom",
+        "label": "Workflows"
+      },
+      "videoTitle": "HRMS Overview",
+      "services": [
+        {
+          "name": "Attendance Tracking",
+          "desc": "Biometric and app-based attendance."
+        },
+        {
+          "name": "Payroll Automation",
+          "desc": "Tax compliant, one-click salary processing."
+        },
+        {
+          "name": "Performance Appraisals",
+          "desc": "KPI tracking and evaluation modules."
+        }
+      ]
+    },
+    "digital-e-invocia-integration": {
+      "title": "Digital E-Invocia Integration",
+      "subtitle": "FBR/Tax compliant electronic invoicing.",
+      "accent": "#8b5cf6",
+      "accentLight": "#f5f3ff",
+      "accentBorder": "#ddd6fe",
+      "accentDark": "#6d28d9",
+      "description": "Seamless integration with tax authorities and e-invoicing platforms to automate invoice generation, submission, and validation in real-time.",
+      "imagePlaceholder": true,
+      "heroStat1": {
+        "value": "Real-Time",
+        "label": "Validation"
+      },
+      "heroStat2": {
+        "value": "100%",
+        "label": "Compliance"
+      },
+      "heroStat3": {
+        "value": "Secure",
+        "label": "Data Transmission"
+      },
+      "videoTitle": "E-Invoicing Process",
+      "services": [
+        {
+          "name": "ERP Integration",
+          "desc": "Direct connection from SAP, Dynamics, or Custom ERP."
+        },
+        {
+          "name": "Automated Reporting",
+          "desc": "Auto-generation of tax annexures."
+        }
+      ]
+    },
+    "e-commerce-solutions": {
+      "title": "E-Commerce Solutions",
+      "subtitle": "Scalable B2B and B2C digital storefronts.",
+      "accent": "#f59e0b",
+      "accentLight": "#fffbeb",
+      "accentBorder": "#fde68a",
+      "accentDark": "#b45309",
+      "description": "End-to-end e-commerce platforms designed for high volume transactions, complete with inventory sync, payment gateways, and order management.",
+      "imagePlaceholder": true,
+      "heroStat1": {
+        "value": "Omnichannel",
+        "label": "Sales"
+      },
+      "heroStat2": {
+        "value": "99.9%",
+        "label": "Uptime"
+      },
+      "heroStat3": {
+        "value": "Fast",
+        "label": "Checkout"
+      },
+      "videoTitle": "E-Commerce Features",
+      "services": [
+        {
+          "name": "Custom Storefronts",
+          "desc": "Tailored UI/UX for your brand."
+        },
+        {
+          "name": "Inventory Sync",
+          "desc": "Real-time stock updates."
+        }
+      ]
+    },
+    "merchandizing-application": {
+      "title": "Merchandizing Application",
+      "subtitle": "Optimize shelf space and retail execution.",
+      "accent": "#10b981",
+      "accentLight": "#ecfdf5",
+      "accentBorder": "#a7f3d0",
+      "accentDark": "#047857",
+      "description": "Empower your field merchandisers with a mobile application to track shelf share, competitor pricing, out-of-stock scenarios, and promotional compliance.",
+      "imagePlaceholder": true,
+      "heroStat1": {
+        "value": "Offline",
+        "label": "Support"
+      },
+      "heroStat2": {
+        "value": "Photo",
+        "label": "Evidence"
+      },
+      "heroStat3": {
+        "value": "Live",
+        "label": "Analytics"
+      },
+      "videoTitle": "Merchandizing App Demo",
+      "services": [
+        {
+          "name": "Shelf Share Analysis",
+          "desc": "Calculate brand visibility automatically."
+        },
+        {
+          "name": "Competitor Tracking",
+          "desc": "Monitor competitor pricing and promotions."
+        }
+      ]
+    },
+    "order-booking": {
+      "title": "Order Booking",
+      "subtitle": "Streamline B2B order acquisition.",
+      "accent": "#0ea5e9",
+      "accentLight": "#f0f9ff",
+      "accentBorder": "#bae6fd",
+      "accentDark": "#0369a1",
+      "description": "A robust mobile and web solution for sales representatives to book orders in the field, check live inventory, and apply dynamic pricing/discounts.",
+      "imagePlaceholder": true,
+      "heroStat1": {
+        "value": "Instant",
+        "label": "Order Sync"
+      },
+      "heroStat2": {
+        "value": "Dynamic",
+        "label": "Pricing Engine"
+      },
+      "heroStat3": {
+        "value": "GPS",
+        "label": "Tracking"
+      },
+      "videoTitle": "Order Booking Flow",
+      "services": [
+        {
+          "name": "Field Sales App",
+          "desc": "Mobile app for reps on the go."
+        },
+        {
+          "name": "Route Planning",
+          "desc": "Optimized visit schedules."
+        }
+      ]
+    },
+    "secondary-sales": {
+      "title": "Secondary Sales",
+      "subtitle": "Visibility into downstream distribution.",
+      "accent": "#f43f5e",
+      "accentLight": "#fff1f2",
+      "accentBorder": "#fecdd3",
+      "accentDark": "#be123c",
+      "description": "Gain complete visibility into your secondary sales network. Track inventory at distributor level and monitor sell-out data to retailers.",
+      "imagePlaceholder": true,
+      "heroStat1": {
+        "value": "End-to-End",
+        "label": "Visibility"
+      },
+      "heroStat2": {
+        "value": "Automated",
+        "label": "Replenishment"
+      },
+      "heroStat3": {
+        "value": "Scheme",
+        "label": "Management"
+      },
+      "videoTitle": "Secondary Sales Tracking",
+      "services": [
+        {
+          "name": "Distributor Portal",
+          "desc": "Manage inward and outward stock."
+        },
+        {
+          "name": "Retailer Connect",
+          "desc": "Direct engagement with the last mile."
+        }
+      ]
+    },
+    "procurement-application": {
+      "title": "Procurement Application",
+      "subtitle": "Automate your purchasing lifecycle.",
+      "accent": "#64748b",
+      "accentLight": "#f8fafc",
+      "accentBorder": "#e2e8f0",
+      "accentDark": "#334155",
+      "description": "Digitize your procurement process from requisition to purchase order, vendor management, and goods receipt with multi-level approval workflows.",
+      "imagePlaceholder": true,
+      "heroStat1": {
+        "value": "Transparent",
+        "label": "Sourcing"
+      },
+      "heroStat2": {
+        "value": "Automated",
+        "label": "Approvals"
+      },
+      "heroStat3": {
+        "value": "Vendor",
+        "label": "Portal"
+      },
+      "videoTitle": "Procurement Cycle",
+      "services": [
+        {
+          "name": "Requisition Workflows",
+          "desc": "Custom approval hierarchies."
+        },
+        {
+          "name": "Vendor Bidding",
+          "desc": "Digital RFQ and bidding system."
+        }
+      ]
+    },
+    "lms": {
+      "title": "Learning Management System (LMS)",
+      "subtitle": "Corporate training and educational platforms.",
+      "accent": "#14b8a6",
+      "accentLight": "#f0fdfa",
+      "accentBorder": "#ccfbf1",
+      "accentDark": "#0f766e",
+      "description": "An engaging, scalable LMS for corporate training, onboarding, and skills development. Features progress tracking, assessments, and multimedia course delivery.",
+      "imagePlaceholder": true,
+      "heroStat1": {
+        "value": "Interactive",
+        "label": "Courses"
+      },
+      "heroStat2": {
+        "value": "Detailed",
+        "label": "Analytics"
+      },
+      "heroStat3": {
+        "value": "Mobile",
+        "label": "Ready"
+      },
+      "videoTitle": "LMS Platform Overview",
+      "services": [
+        {
+          "name": "Employee Onboarding",
+          "desc": "Structured induction programs."
+        },
+        {
+          "name": "Assessment Engine",
+          "desc": "Quizzes and certification."
+        }
+      ]
+    },
+    "test": {
+      "title": "test",
+      "subtitle": "test",
+      "accent": "#2563eb",
+      "accentLight": "#2563eb15",
+      "accentBorder": "#2563eb30",
+      "accentDark": "#2563eb",
+      "description": "test",
+      "features": [
+        "test"
+      ]
+    }
+  },
+  "TESTIMONIALS": [
+    {
+      "quote": "InfoTech Solutions delivered our complete ERP system on time and within budget. Their understanding of our manufacturing processes was exceptional. The system handles 50,000+ transactions daily without a single issue.",
+      "name": "Operations Director",
+      "company": "Young's Foods",
+      "initials": "YF",
+      "color": "#2563eb"
+    },
+    {
+      "quote": "The integration they built connects our 12 branches in real-time. Before InfoTech, we had data gaps of 24 hours. Now everything is live. Their team genuinely understands enterprise architecture.",
+      "name": "Head of IT",
+      "company": "Dairy Life",
+      "initials": "DL",
+      "color": "#7c3aed"
+    },
+    {
+      "quote": "We had tried two other vendors before InfoTech. They were the first team that actually asked the right questions before writing a single line of code. The Cartivo platform transformed our secondary sales operations.",
+      "name": "Sales Director",
+      "company": "Youngs Bazar",
+      "initials": "YB",
+      "color": "#0891b2"
+    }
+  ]
+}
