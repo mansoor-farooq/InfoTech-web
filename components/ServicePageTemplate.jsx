@@ -96,7 +96,7 @@ export default function ServicePageTemplate({ data }) {
                 data.heroStat1 || { value: '99.9%', label: 'Uptime SLA' },
                 data.heroStat2 || { value: '24/7', label: 'Monitoring' },
                 data.heroStat3 || { value: 'Enterprise', label: 'Security' },
-                { value: '16+ Yrs', label: 'Excellence' }
+                data.heroStat4 || { value: '100%', label: 'Compliance' }
               ].map((stat, i) => (
                 <div key={i} className="p-6 rounded-2xl bg-slate-900/60 border border-slate-800 hover:border-slate-700 transition-all text-center hover-lift">
                   <div className="text-3xl md:text-4xl font-extrabold text-blue-400 mb-1">{stat.value}</div>
