@@ -6,8 +6,9 @@ export function generateStaticParams() {
   return Object.keys(SERVICES_FULL).map(slug => ({ slug }));
 }
 
-export function generateMetadata({ params }) {
-  const data = SERVICES_FULL[params.slug];
+export async function generateMetadata({ params }) {
+  const resolvedParams = await params;
+  const data = SERVICES_FULL[resolvedParams.slug];
   if (!data) return { title: 'Service Not Found' };
   return {
     title: `${data.title} | InfoTech Solutions`,

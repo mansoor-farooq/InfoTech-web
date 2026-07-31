@@ -7,8 +7,9 @@ import Link from 'next/link';
 import { ArrowLeft, Play, CheckCircle2, ChevronRight, Tags } from 'lucide-react';
 import { notFound } from 'next/navigation';
 
-export function generateMetadata({ params }) {
-  const product = PRODUCTS_FULL[params.slug];
+export async function generateMetadata({ params }) {
+  const resolvedParams = await params;
+  const product = PRODUCTS_FULL[resolvedParams.slug];
   if (!product) return { title: 'Product Not Found' };
   
   return {

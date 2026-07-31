@@ -62,7 +62,7 @@ export default function CartivoPage() {
                 autoPlay 
                 muted 
                 loop
-                poster="/images/cartivo-poster.png"
+                poster="/images/cartivo-logo.png"
               >
                 <source src="/videos/cartivo-demo.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
