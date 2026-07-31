@@ -248,21 +248,35 @@ export default async function ProductDetailPage({ params }) {
               <div className="text-center bg-slate-50 p-8 md:p-16 rounded-[3rem] border border-slate-100 mt-24">
                 <h2 className="heading-2 mb-6 text-slate-900">See {product.title} In Action</h2>
                 <p className="text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto mb-12">
-                  Watch this quick video to see how it can transform your daily operations and streamline your workflow.
+                  Watch this demo video to see how {product.title} transforms your business operations.
                 </p>
                 
-                <div className="relative aspect-video max-w-4xl mx-auto rounded-3xl overflow-hidden bg-slate-900 shadow-2xl group cursor-pointer border-8 border-white">
-                  {/* Video Thumbnail Placeholder */}
-                  <div className="absolute inset-0 bg-slate-800 flex items-center justify-center opacity-90 group-hover:opacity-100 transition-opacity">
-                    <span className="text-slate-500 font-bold uppercase tracking-widest text-sm">Video Thumbnail Placeholder</span>
-                  </div>
-                  
-                  {/* Play Button Overlay */}
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="w-20 h-20 md:w-24 md:h-24 rounded-full bg-white/10 backdrop-blur-md flex items-center justify-center border border-white/20 group-hover:scale-110 group-hover:bg-white/30 transition-all duration-300">
-                      <Play className="w-8 h-8 md:w-10 md:h-10 text-white ml-2" />
-                    </div>
-                  </div>
+                <div className="relative aspect-video max-w-4xl mx-auto rounded-3xl overflow-hidden bg-slate-900 shadow-2xl group border-4 border-slate-800">
+                  {product.video ? (
+                    <video 
+                      suppressHydrationWarning
+                      className="w-full h-full object-cover"
+                      controls 
+                      autoPlay 
+                      muted 
+                      loop
+                    >
+                      <source src={product.video} type="video/mp4" />
+                      Your browser does not support the video tag.
+                    </video>
+                  ) : (
+                    <>
+                      <div className="absolute inset-0 bg-slate-800 flex items-center justify-center opacity-90 group-hover:opacity-100 transition-opacity">
+                        <span className="text-slate-500 font-bold uppercase tracking-widest text-sm">{product.title} Video Preview</span>
+                      </div>
+                      
+                      <div className="absolute inset-0 flex items-center justify-center">
+                        <div className="w-20 h-20 md:w-24 md:h-24 rounded-full bg-white/10 backdrop-blur-md flex items-center justify-center border border-white/20 group-hover:scale-110 group-hover:bg-white/30 transition-all duration-300">
+                          <Play className="w-8 h-8 md:w-10 md:h-10 text-white ml-2" />
+                        </div>
+                      </div>
+                    </>
+                  )}
                 </div>
               </div>
 
