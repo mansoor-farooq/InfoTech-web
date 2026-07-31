@@ -19,8 +19,8 @@ export default function Footer() {
           
           {/* Brand & Info */}
           <div className="lg:col-span-4">
-            <Link href="/" className="relative h-10 w-48 block mb-10 opacity-90 hover:opacity-100 transition-opacity">
-              <Image src="/images/Website-Logo.png" alt="InfoTech Solutions" fill className="object-contain object-left invert" />
+            <Link href="/" className="relative h-12 w-52 block mb-8 transition-opacity hover:opacity-90">
+              <Image src="/images/Website-Logo.png" alt="InfoTech Solutions" fill className="object-contain object-left" priority />
             </Link>
             <p className="text-slate-400 font-medium mb-10 max-w-sm leading-relaxed">
               We design, build, and scale enterprise software systems for organizations that demand performance, reliability, and security.
@@ -54,13 +54,16 @@ export default function Footer() {
           {/* Links: Company & Products */}
           <div className="lg:col-span-3">
             <h4 className="text-xs font-bold tracking-[0.2em] uppercase text-slate-500 mb-8">Products & Company</h4>
-            <ul className="space-y-4 mb-12">
-              <li>
-                <Link href="/products/cartivo" className="text-slate-300 hover:text-amber-400 font-semibold transition-colors flex items-center gap-2">
-                  <span className="text-amber-500">⚡</span> Cartivo Platform
-                </Link>
-              </li>
-            </ul>
+            <div className="mb-8">
+              <Link href="/products/cartivo" className="inline-flex items-center gap-3 p-3 rounded-2xl bg-slate-900 border border-slate-800 hover:border-blue-500/50 transition-all group">
+                <div className="relative h-8 w-28">
+                  <Image src="/images/cartivo-logo.png" alt="Cartivo Platform" fill className="object-contain object-left" />
+                </div>
+                <span className="text-xs font-bold text-blue-400 group-hover:translate-x-1 transition-transform">
+                  &rarr;
+                </span>
+              </Link>
+            </div>
             <ul className="space-y-4">
               {['About Us', 'Case Studies', 'Careers', 'Contact'].map(link => {
                 const href = link === 'Contact' ? '/contact' : `/${link.toLowerCase().replace(/ /g, '-')}`;

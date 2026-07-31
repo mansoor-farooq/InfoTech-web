@@ -46,7 +46,7 @@ export default function AboutPage() {
                 
                 <div className="space-y-4">
                   {[
-                    "Proven track record with 200+ enterprise implementations",
+                    "Proven track record with 12+ enterprise implementations",
                     "Deep expertise in ERP integration & FBR tax compliance",
                     "Dedicated 24/7 technical SLAs & SLA management",
                     "Full lifecycle ownership from architecture to cloud hosting"
@@ -72,7 +72,7 @@ export default function AboutPage() {
                   <div className="w-12 h-12 rounded-2xl bg-indigo-50 text-indigo-600 flex items-center justify-center mx-auto mb-4">
                     <Users className="w-6 h-6" />
                   </div>
-                  <div className="text-4xl font-extrabold text-slate-900 mb-2">200+</div>
+                  <div className="text-4xl font-extrabold text-slate-900 mb-2">12+</div>
                   <div className="text-sm font-bold text-slate-500 uppercase tracking-wider">Projects Completed</div>
                 </div>
 
@@ -88,7 +88,7 @@ export default function AboutPage() {
                   <div className="w-12 h-12 rounded-2xl bg-amber-50 text-amber-600 flex items-center justify-center mx-auto mb-4">
                     <Cpu className="w-6 h-6" />
                   </div>
-                  <div className="text-4xl font-extrabold text-slate-900 mb-2">50+</div>
+                  <div className="text-4xl font-extrabold text-slate-900 mb-2">12+</div>
                   <div className="text-sm font-bold text-slate-500 uppercase tracking-wider">Active Clients</div>
                 </div>
               </div>

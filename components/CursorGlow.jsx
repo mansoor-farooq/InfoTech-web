@@ -27,16 +27,11 @@ export default function CursorGlow() {
 
   return (
     <div
-      className="pointer-events-none fixed z-30 transition-opacity duration-500 hidden md:block"
+      id="glow"
       style={{
         left: `${position.x}px`,
         top: `${position.y}px`,
         opacity: opacity,
-        transform: 'translate(-50%, -50%)',
-        width: '450px',
-        height: '450px',
-        background: 'radial-gradient(circle, rgba(37,99,235,0.08) 0%, rgba(124,58,237,0.03) 45%, rgba(255,255,255,0) 70%)',
-        borderRadius: '50%',
       }}
     />
   );

@@ -16,9 +16,9 @@ export default function Navbar({ services = [], products = [] }) {
   return (
     <>
       <header
-        className={`fixed top-0 w-full z-50 transition-all duration-300 border-b ${
+        className={`site-header fixed top-0 w-full z-50 transition-all duration-300 border-b ${
           scrolled
-            ? 'bg-white/95 backdrop-blur-md border-gray-200 py-3 shadow-sm'
+            ? 'scrolled bg-white/90 backdrop-blur-md border-gray-200 py-3 shadow-sm'
             : 'bg-white border-transparent py-5'
         }`}
       >

@@ -21,9 +21,9 @@ const heroConfig = {
 
 const statsConfig = {
   stats: [
-    { value: '16', suffix: '+', label: 'Years of Excellence' },
-    { value: '200', suffix: '+', label: 'Enterprise Projects' },
-    { value: '50', suffix: '+', label: 'Active Clients' },
+    { value: '5', suffix: '+', label: 'Years Experience' },
+    { value: '12', suffix: '+', label: 'Projects Completed' },
+    { value: '12', suffix: '+', label: 'Active Clients' },
     { value: '99.9', suffix: '%', label: 'System Uptime' },
   ]
 };

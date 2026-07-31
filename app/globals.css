@@ -126,13 +126,17 @@ body {
 
 .text-gradient {
   background: linear-gradient(135deg, #2563eb 0%, #7c3aed 50%, #db2777 100%);
+  background-clip: text;
   -webkit-background-clip: text;
+  color: transparent;
   -webkit-text-fill-color: transparent;
 }
 
 .text-gradient-cyan {
   background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 50%, #6366f1 100%);
+  background-clip: text;
   -webkit-background-clip: text;
+  color: transparent;
   -webkit-text-fill-color: transparent;
 }
 
@@ -166,22 +170,18 @@ body {
 
 @keyframes fade-up {
   from {
-    opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(12px);
   }
   to {
-    opacity: 1;
     transform: translateY(0);
   }
 }
 
 @keyframes scale-up {
   from {
-    opacity: 0;
-    transform: scale(0.95);
+    transform: scale(0.98);
   }
   to {
-    opacity: 1;
     transform: scale(1);
   }
 }
@@ -214,3 +214,211 @@ body {
   transform: translateY(-5px) scale(1.02);
   box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.15);
 }
+
+/* =====================================================
+   SITE ANIMATIONS — CUSTOM PREMIUM CSS
+   ===================================================== */
+
+:root {
+  --anim-accent: #2563eb;
+}
+
+/* 1. Cursor glow (mouse follow light) */
+#glow {
+  position: fixed;
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(37, 99, 235, 0.15), transparent 70%);
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: opacity .3s ease;
+}
+@media(max-width: 900px) {
+  #glow { display: none; }
+}
+
+/* 2. Preloader (page load bar) */
+#preloader {
+  display: none !important;
+}
+.pre-bar {
+  width: 140px;
+  height: 2px;
+  background: rgba(255, 255, 255, .15);
+  position: relative;
+  overflow: hidden;
+  border-radius: 999px;
+}
+.pre-bar::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 40%;
+  background: var(--anim-accent);
+  animation: preload 1.1s ease-in-out infinite;
+}
+@keyframes preload {
+  0% { left: -40%; }
+  100% { left: 100%; }
+}
+
+/* 3. Header scroll blur */
+.site-header {
+  transition: background .4s ease, padding .4s ease, border-color .4s ease;
+}
+.site-header.scrolled {
+  background: rgba(2, 6, 23, 0.85);
+  backdrop-filter: blur(14px);
+}
+
+/* 4. Headline line-by-line reveal */
+.anim-title .line {
+  overflow: hidden;
+  display: block;
+}
+.anim-title span {
+  display: inline-block;
+  transform: translateY(0);
+}
+
+/* 5. Generic fade-up reveal */
+.reveal {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+/* 6. Logo marquee (infinite auto-scroll) */
+.marquee-wrapper {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
+}
+.marquee-track {
+  display: flex;
+  gap: 70px;
+  width: max-content;
+  animation: scroll-x 26s linear infinite;
+}
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+.marquee-track img {
+  filter: grayscale(1) brightness(1.2) opacity(.65);
+  transition: filter .3s ease, transform .3s ease;
+}
+.marquee-track img:hover {
+  filter: grayscale(0) brightness(1) opacity(1);
+  transform: scale(1.08);
+}
+@keyframes scroll-x {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* 7. Card hover glow + arrow rotate */
+.anim-card {
+  position: relative;
+  overflow: hidden;
+  transition: all .4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.anim-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 30% 20%, rgba(37, 99, 235, 0.14), transparent 60%);
+  opacity: 0;
+  transition: opacity .45s ease;
+  pointer-events: none;
+}
+.anim-card:hover::before {
+  opacity: 1;
+}
+.anim-card .anim-arrow {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color .3s, background .3s, transform .3s, color .3s;
+}
+.anim-card:hover .anim-arrow {
+  border-color: var(--anim-accent);
+  background: var(--anim-accent);
+  color: #ffffff;
+  transform: rotate(45deg);
+}
+
+/* 8. Scroll progress line */
+.flow-line {
+  position: relative;
+  height: 2px;
+  background: rgba(255, 255, 255, .15);
+}
+.flow-line-fill {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background: var(--anim-accent);
+}
+.flow-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #020617;
+  border: 2px solid rgba(255, 255, 255, .15);
+  transition: border-color .4s, background .4s;
+}
+.flow-step.active .flow-dot {
+  border-color: var(--anim-accent);
+  background: var(--anim-accent);
+  box-shadow: 0 0 16px var(--anim-accent);
+}
+
+/* 9. FAQ accordion */
+.faq-plus {
+  width: 22px;
+  height: 22px;
+  position: relative;
+  flex-shrink: 0;
+}
+.faq-plus::before, .faq-plus::after {
+  content: '';
+  position: absolute;
+  background: currentColor;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform .35s ease;
+}
+.faq-plus::before {
+  width: 14px;
+  height: 1.5px;
+}
+.faq-plus::after {
+  width: 1.5px;
+  height: 14px;
+}
+.faq-item.open .faq-plus::after {
+  transform: translate(-50%, -50%) rotate(90deg);
+  opacity: 0;
+}
+
+/* 10. Button hover lift */
+.anim-btn {
+  transition: transform .35s cubic-bezier(.2, .8, .2, 1), box-shadow .35s;
+}
+.anim-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 30px -10px rgba(37, 99, 235, 0.4);
+}
+

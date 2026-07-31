@@ -14,7 +14,7 @@ export default function StatsBar({ config }) {
               key={i} 
               className="p-8 rounded-3xl bg-slate-900/60 border border-slate-800/80 backdrop-blur-xl hover:border-slate-700 transition-all duration-300 text-center hover-lift group"
             >
-              <div className="text-4xl lg:text-5xl font-extrabold mb-3 tracking-tight bg-gradient-to-r from-white via-slate-100 to-blue-400 -webkit-background-clip-text text-transparent group-hover:scale-105 transition-transform">
+              <div className="text-4xl lg:text-5xl font-extrabold mb-3 tracking-tight text-white group-hover:scale-105 transition-transform">
                 {stat.value}<span className="text-blue-500 font-extrabold">{stat.suffix}</span>
               </div>
               <p className="text-xs font-bold text-slate-400 uppercase tracking-widest">
