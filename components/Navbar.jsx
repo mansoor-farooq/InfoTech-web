@@ -16,12 +16,15 @@ export default function Navbar({ services = [], products = [] }) {
   return (
     <>
       <header
-        className={`site-header fixed top-0 w-full z-50 transition-all duration-300 border-b ${
+        className={`site-header fixed top-0 w-full z-50 transition-all duration-300 ${
           scrolled
-            ? 'scrolled bg-white/90 backdrop-blur-md border-gray-200 py-3 shadow-sm'
-            : 'bg-white border-transparent py-5'
+            ? 'scrolled bg-[#070913]/95 backdrop-blur-xl border-b border-slate-800/80 py-3 shadow-2xl shadow-blue-950/40'
+            : 'bg-[#070913]/90 backdrop-blur-md border-b border-slate-800/50 py-4'
         }`}
       >
+        {/* Top Gradient Accent Bar */}
+        <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-blue-500 via-cyan-400 to-indigo-500 opacity-90" />
+
         <div className="container-xl">
           <div className="flex items-center justify-between">
             {/* Logo */}
@@ -30,21 +33,21 @@ export default function Navbar({ services = [], products = [] }) {
                 src="/images/Website-Logo.png"
                 alt="InfoTech Solutions"
                 fill
-                className="object-contain object-left"
+                className="object-contain object-left filter brightness-125"
                 priority
               />
             </Link>
 
             {/* Desktop Nav */}
             <nav className="hidden lg:flex items-center gap-8">
-              <Link href="/" className="text-[15px] font-semibold text-gray-900 hover:text-blue-600 transition-colors">
+              <Link href="/" className="text-[15px] font-bold text-slate-100 hover:text-cyan-400 transition-colors">
                 Home
               </Link>
               
               <div className="relative group">
-                <Link href="/services" className="flex items-center gap-1 text-[15px] font-semibold text-gray-900 hover:text-blue-600 transition-colors">
+                <Link href="/services" className="flex items-center gap-1 text-[15px] font-bold text-slate-100 hover:text-cyan-400 transition-colors">
                   Services
-                  <ChevronDown className="w-4 h-4 group-hover:rotate-180 transition-transform duration-200" />
+                  <ChevronDown className="w-4 h-4 text-cyan-400 group-hover:rotate-180 transition-transform duration-200" />
                 </Link>
 
                 {/* Services Dropdown Menu */}
@@ -81,9 +84,9 @@ export default function Navbar({ services = [], products = [] }) {
               </div>
 
               <div className="relative group">
-                <Link href="/products" className="flex items-center gap-1 text-[15px] font-semibold text-gray-900 hover:text-blue-600 transition-colors">
+                <Link href="/products" className="flex items-center gap-1 text-[15px] font-bold text-slate-100 hover:text-cyan-400 transition-colors">
                   Products
-                  <ChevronDown className="w-4 h-4 group-hover:rotate-180 transition-transform duration-200" />
+                  <ChevronDown className="w-4 h-4 text-cyan-400 group-hover:rotate-180 transition-transform duration-200" />
                 </Link>
 
                 {/* Products Dropdown Menu */}
@@ -140,24 +143,24 @@ export default function Navbar({ services = [], products = [] }) {
                 </div>
               </div>
 
-              <Link href="/case-studies" className="text-[15px] font-semibold text-gray-900 hover:text-blue-600 transition-colors">
+              <Link href="/case-studies" className="text-[15px] font-bold text-slate-100 hover:text-cyan-400 transition-colors">
                 Case Studies
               </Link>
-              <Link href="/about" className="text-[15px] font-semibold text-gray-900 hover:text-blue-600 transition-colors">
+              <Link href="/about" className="text-[15px] font-bold text-slate-100 hover:text-cyan-400 transition-colors">
                 About Us
               </Link>
             </nav>
 
             {/* CTA */}
             <div className="hidden lg:flex items-center">
-              <Link href="/contact" className="bg-gray-900 hover:bg-blue-600 text-white px-6 py-2.5 rounded-full text-[15px] font-semibold transition-colors">
+              <Link href="/contact" className="bg-gradient-to-r from-blue-600 via-indigo-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white px-6 py-2.5 rounded-full text-[15px] font-extrabold shadow-lg shadow-blue-500/25 border border-cyan-400/30 transition-all duration-300 hover:scale-105">
                 Let's Talk
               </Link>
             </div>
 
             {/* Mobile Toggle */}
             <button
-              className="lg:hidden p-2 text-gray-900"
+              className="lg:hidden p-2 text-white"
               onClick={() => setMobileOpen(!mobileOpen)}
             >
               {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
