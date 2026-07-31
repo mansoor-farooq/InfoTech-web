@@ -20,7 +20,13 @@
         "Mobile Application",
         "Infrastructure Management",
         "Maintenance & Enhancements",
-        "Migration And Modernization"
+        "Migration And Modernization",
+        "Custom ERP Development",
+        "AI & Machine Learning",
+        "Cloud & DevOps Solutions",
+        "FBR E-Invoicing & Compliance",
+        "Cybersecurity & Audit",
+        "Enterprise UI/UX Design"
       ]
     }
   ],
@@ -245,6 +251,120 @@
           "name": "Architecture Redesign",
           "desc": "Transitioning from monolithic structures to microservices."
         }
+      ]
+    },
+    "custom-erp-development": {
+      "title": "Custom ERP Development",
+      "subtitle": "Tailored enterprise resource planning systems.",
+      "accent": "#0284c7",
+      "accentLight": "#f0f9ff",
+      "accentBorder": "#bae6fd",
+      "accentDark": "#0369a1",
+      "description": "Architect and implement custom ERP software tailored to your supply chain, inventory, human resources, and accounting workflows.",
+      "imagePlaceholder": true,
+      "heroStat1": { "value": "100%", "label": "Custom Workflows" },
+      "heroStat2": { "value": "Real-Time", "label": "Financial Sync" },
+      "heroStat3": { "value": "Modular", "label": "Scalable Architecture" },
+      "videoTitle": "Custom ERP Architecture Overview",
+      "services": [
+        { "name": "Financial & Accounting Module", "desc": "Ledgers, trial balances, automated invoicing, and bank reconciliation." },
+        { "name": "Supply Chain & Warehouse ERP", "desc": "Multi-location inventory tracking, purchase orders, and stock reordering." },
+        { "name": "HR & Payroll Integration", "desc": "Employee attendance, biometric integration, and tax calculations." }
+      ]
+    },
+    "ai-and-machine-learning": {
+      "title": "AI & Machine Learning",
+      "subtitle": "Intelligent automation and predictive algorithms.",
+      "accent": "#9333ea",
+      "accentLight": "#faf5ff",
+      "accentBorder": "#e9d5ff",
+      "accentDark": "#7e22ce",
+      "description": "Empower your business with AI agents, predictive demand forecasting, automated OCR document processing, and natural language interfaces.",
+      "imagePlaceholder": true,
+      "heroStat1": { "value": "AI Powered", "label": "Smart Automation" },
+      "heroStat2": { "value": "99%", "label": "OCR Accuracy" },
+      "heroStat3": { "value": "Predictive", "label": "Demand Models" },
+      "videoTitle": "Enterprise AI Solutions",
+      "services": [
+        { "name": "Predictive Demand Forecasting", "desc": "ML models to predict customer purchasing behavior and inventory needs." },
+        { "name": "AI Document & Invoice OCR", "desc": "Automated text extraction from physical paper bills and receipts." },
+        { "name": "Custom AI Conversational Agents", "desc": "AI customer support and internal enterprise knowledge base bots." }
+      ]
+    },
+    "cloud-devops": {
+      "title": "Cloud & DevOps Solutions",
+      "subtitle": "Automated deployment pipelines and cloud orchestration.",
+      "accent": "#059669",
+      "accentLight": "#ecfdf5",
+      "accentBorder": "#a7f3d0",
+      "accentDark": "#047857",
+      "description": "Streamline code deployments with CI/CD automation, Kubernetes container orchestration, and high-availability cloud setups.",
+      "imagePlaceholder": true,
+      "heroStat1": { "value": "Zero Downtime", "label": "CI/CD Deployments" },
+      "heroStat2": { "value": "AWS / Azure", "label": "Multi-Cloud" },
+      "heroStat3": { "value": "Auto-Scaling", "label": "High Concurrency" },
+      "videoTitle": "Enterprise DevOps Pipeline",
+      "services": [
+        { "name": "CI/CD Pipeline Setup", "desc": "Automated build, testing, and deployment scripts via GitHub Actions or Docker." },
+        { "name": "Kubernetes & Containerization", "desc": "Containerized microservices running on EKS/AKS for high elasticity." },
+        { "name": "24/7 Cloud Monitoring & Alerts", "desc": "Prometheus, Grafana, and CloudWatch metrics with instant SLA alerts." }
+      ]
+    },
+    "fbr-e-invoicing-compliance": {
+      "title": "FBR E-Invoicing & Compliance",
+      "subtitle": "Native integration with FBR Digital Tax systems.",
+      "accent": "#ea580c",
+      "accentLight": "#fff7ed",
+      "accentBorder": "#ffedd5",
+      "accentDark": "#c2410c",
+      "description": "Ensure your sales and point-of-sale systems comply with FBR (Federal Board of Revenue) digital invoicing, QR code printing, and real-time API reporting.",
+      "imagePlaceholder": true,
+      "heroStat1": { "value": "FBR Certified", "label": "API Integration" },
+      "heroStat2": { "value": "Instant", "label": "QR Code Generation" },
+      "heroStat3": { "value": "100%", "label": "Tax Compliance" },
+      "videoTitle": "FBR Integration Overview",
+      "services": [
+        { "name": "FBR Real-Time POS Sync", "desc": "Direct POS connection to FBR tax servers for digital invoice registration." },
+        { "name": "Automated Tax Return Reports", "desc": "Export sales and purchase tax data formatted for monthly return filing." },
+        { "name": "Compliance Auditing Tools", "desc": "Built-in reconciliation checks to ensure zero mismatched tax figures." }
+      ]
+    },
+    "cybersecurity-audit": {
+      "title": "Cybersecurity & Audit",
+      "subtitle": "Protect critical assets and satisfy compliance standards.",
+      "accent": "#e11d48",
+      "accentLight": "#fff1f2",
+      "accentBorder": "#fecdd3",
+      "accentDark": "#be123c",
+      "description": "Safeguard your software ecosystem with penetration testing, vulnerability assessments, role-based access control (RBAC), and SOC compliance preparation.",
+      "imagePlaceholder": true,
+      "heroStat1": { "value": "Pen-Tested", "label": "Code Audits" },
+      "heroStat2": { "value": "256-Bit", "label": "Data Encryption" },
+      "heroStat3": { "value": "Role-Based", "label": "Access Control" },
+      "videoTitle": "Enterprise Security Practices",
+      "services": [
+        { "name": "Vulnerability Assessment & Pen Testing", "desc": "Comprehensive security testing to identify and eliminate system vulnerabilities." },
+        { "name": "Identity & Access Management (IAM)", "desc": "Granular permission rules, OAuth2, JWT, and multi-factor authentication (MFA)." },
+        { "name": "Data Encryption & Compliance", "desc": "At-rest and in-transit encryption enforcing ISO27001 standards." }
+      ]
+    },
+    "enterprise-ui-ux-design": {
+      "title": "Enterprise UI/UX Design",
+      "subtitle": "User-centric design systems for complex B2B platforms.",
+      "accent": "#4f46e5",
+      "accentLight": "#eef2ff",
+      "accentBorder": "#c7d2fe",
+      "accentDark": "#3730a3",
+      "description": "Transform cumbersome enterprise software into intuitive, elegant, and accessible user experiences that boost employee productivity and user adoption.",
+      "imagePlaceholder": true,
+      "heroStat1": { "value": "Modern", "label": "Design Systems" },
+      "heroStat2": { "value": "Responsive", "label": "Multi-Device" },
+      "heroStat3": { "value": "High", "label": "User Adoption" },
+      "videoTitle": "UI/UX Product Design Process",
+      "services": [
+        { "name": "Interactive Wireframing & Prototyping", "desc": "Clickable Figma prototypes for rapid product testing before development." },
+        { "name": "Design Systems & Pattern Libraries", "desc": "Consistent brand design systems tailored for web, tablet, and mobile apps." },
+        { "name": "Usability Audits & Redesigns", "desc": "Refactoring existing software interfaces for faster data entry and lower training times." }
       ]
     }
   },

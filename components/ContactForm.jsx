@@ -42,11 +42,21 @@ export default function ContactForm() {
         <div>
           <label className="block text-sm font-bold text-slate-700 mb-2">Service Required</label>
           <select className="w-full px-5 py-3.5 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-600 text-slate-900 bg-white">
+            <option value="">Select Service or Platform</option>
             <option>Web Development</option>
             <option>Mobile Application</option>
-            <option>BI & Reporting</option>
-            <option>ERP / Cartivo Platform</option>
+            <option>BI Reports & Analytics</option>
+            <option>Custom ERP Development</option>
+            <option>AI & Machine Learning</option>
+            <option>Cloud & DevOps Solutions</option>
+            <option>FBR E-Invoicing & Compliance</option>
+            <option>Cybersecurity & Audit</option>
+            <option>Enterprise UI/UX Design</option>
             <option>Infrastructure Management</option>
+            <option>Maintenance & Enhancements</option>
+            <option>Migration And Modernization</option>
+            <option>Cartivo Commerce Platform</option>
+            <option>HRMS & Payroll System</option>
             <option>Other / Custom Project</option>
           </select>
         </div>
