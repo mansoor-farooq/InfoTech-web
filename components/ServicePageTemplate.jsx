@@ -2,6 +2,7 @@ import ServerNavbar from '@/components/ServerNavbar';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
 import Image from 'next/image';
+import ImagePlaceholder from '@/components/ImagePlaceholder';
 import { ArrowRight, CheckCircle2 } from 'lucide-react';
 
 export default function ServicePageTemplate({ data }) {
@@ -58,13 +59,11 @@ export default function ServicePageTemplate({ data }) {
               </div>
 
               {/* Main Service Image Placeholder */}
-              <div className="relative h-full min-h-[500px] w-full rounded-3xl bg-gray-100 border-2 border-dashed border-gray-300 flex items-center justify-center overflow-hidden">
-                 <div className="text-center p-8">
-                    <h3 className="text-2xl font-bold text-gray-400 mb-2">Image Placeholder</h3>
-                    <p className="text-gray-400 font-medium">Add your high-res "{data.title}" image here.</p>
-                 </div>
-                 {/* <Image src={`/images/${data.slug}-hero.jpg`} alt={data.title} fill className="object-cover" /> */}
-              </div>
+              <ImagePlaceholder 
+                label={`${data.title} Feature Image`}
+                pathHint={`/images/${data.title.toLowerCase().replace(/ /g, '-')}-hero.jpg`}
+                aspect="aspect-square lg:aspect-auto min-h-[450px]"
+              />
 
             </div>
           </div>

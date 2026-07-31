@@ -33,11 +33,13 @@ export default function ServicesPage() {
               {services.map((service) => (
                 <Link key={service.slug} href={`/services/${service.slug}`}
                   className="group flex flex-col bg-white rounded-3xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-gray-100 hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] hover:-translate-y-1 transition-all duration-300">
-                  <div className="relative aspect-[4/3] bg-slate-100 overflow-hidden">
-                    <div className="absolute inset-0 opacity-10 transition-opacity duration-300 group-hover:opacity-20" style={{ backgroundColor: service.accent }} />
-                    <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center">
-                      <LayoutGrid className="w-12 h-12 mb-4 text-slate-300 group-hover:scale-110 transition-transform duration-300" style={{ color: service.accent }} />
+                  <div className="relative aspect-[4/3] bg-slate-50 border-b border-slate-100 overflow-hidden flex flex-col items-center justify-center p-6 text-center">
+                    <div className="w-10 h-10 rounded-xl bg-white shadow-xs flex items-center justify-center mb-2 border border-slate-200" style={{ color: service.accent }}>
+                      <LayoutGrid className="w-5 h-5" />
                     </div>
+                    <span className="text-xs font-mono font-bold text-blue-600 bg-white px-3 py-1 rounded-md border border-slate-200 shadow-xs">
+                      Path: /images/service-{service.slug}.png
+                    </span>
                   </div>
                   <div className="p-8 flex flex-col flex-grow">
                     <h3 className="text-2xl font-bold text-slate-900 mb-3 group-hover:text-blue-600 transition-colors">{service.title}</h3>

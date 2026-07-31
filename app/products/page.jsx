@@ -2,6 +2,7 @@ import { PRODUCTS_FULL } from '@/lib/data';
 import ServerNavbar from '@/components/ServerNavbar';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowRight, LayoutGrid } from 'lucide-react';
 
 export const metadata = {
@@ -43,14 +44,22 @@ export default function ProductsPage() {
                   href={`/products/${product.slug}`}
                   className="group flex flex-col bg-white rounded-3xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-gray-100 hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] hover:-translate-y-1 transition-all duration-300"
                 >
-                  {/* Card Image Area (Placeholder) */}
-                  <div className="relative aspect-[4/3] bg-slate-100 overflow-hidden">
-                    {/* A subtle gradient matching the product accent */}
-                    <div className="absolute inset-0 opacity-10 transition-opacity duration-300 group-hover:opacity-20" style={{ backgroundColor: product.accent }} />
-                    <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center">
-                       <LayoutGrid className="w-12 h-12 mb-4 text-slate-300 group-hover:scale-110 transition-transform duration-300" style={{ color: product.accent }} />
-                       <span className="text-sm font-bold text-slate-400 uppercase tracking-widest">Image Placeholder</span>
-                    </div>
+                  {/* Card Image Area (Placeholder / Logo) */}
+                  <div className="relative aspect-[4/3] bg-slate-50 border-b border-slate-100 overflow-hidden flex flex-col items-center justify-center p-6 text-center">
+                    {product.logo ? (
+                      <div className="relative h-14 w-48 bg-white p-2 rounded-xl shadow-sm border border-slate-200 flex items-center justify-center">
+                        <Image src={product.logo} alt={product.title} fill className="object-contain p-1" />
+                      </div>
+                    ) : (
+                      <>
+                        <div className="w-10 h-10 rounded-xl bg-white shadow-xs flex items-center justify-center mb-2 border border-slate-200" style={{ color: product.accent }}>
+                          <LayoutGrid className="w-5 h-5" />
+                        </div>
+                        <span className="text-xs font-mono font-bold text-blue-600 bg-white px-3 py-1 rounded-md border border-slate-200 shadow-xs">
+                          Path: /images/product-{product.slug}.png
+                        </span>
+                      </>
+                    )}
                   </div>
 
                   {/* Card Content Area */}

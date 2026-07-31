@@ -2,6 +2,7 @@ import { PRODUCTS_FULL } from '@/lib/data';
 import ServerNavbar from '@/components/ServerNavbar';
 import Footer from '@/components/Footer';
 import Image from 'next/image';
+import ImagePlaceholder from '@/components/ImagePlaceholder';
 import Link from 'next/link';
 import { ArrowLeft, Play, CheckCircle2, ChevronRight, Tags } from 'lucide-react';
 import { notFound } from 'next/navigation';
@@ -86,14 +87,11 @@ export default async function ProductDetailPage({ params }) {
               </div>
 
               {/* Main Product Image Placeholder */}
-              <div className="relative aspect-video rounded-3xl overflow-hidden bg-slate-200 shadow-2xl border-4 border-white">
-                <div className="absolute inset-0 flex flex-col items-center justify-center text-slate-400">
-                  <div className="w-16 h-16 rounded-2xl bg-white shadow-lg flex items-center justify-center mb-4">
-                     <span className="font-bold text-2xl" style={{ color: product.accent }}>{product.title.charAt(0)}</span>
-                  </div>
-                  <span className="font-bold uppercase tracking-widest text-sm text-center">Main Product Image<br/>(Hero)</span>
-                </div>
-              </div>
+              <ImagePlaceholder 
+                label={`${product.title} Main Hero Image`}
+                pathHint={`/images/${resolvedParams.slug}-hero.png`}
+                aspect="aspect-video"
+              />
 
             </div>
           </div>
@@ -113,13 +111,14 @@ export default async function ProductDetailPage({ params }) {
                      const isEven = index % 2 === 0;
                      return (
                         <div key={index} className="grid md:grid-cols-2 gap-12 items-center">
-                          <div className={`order-2 ${isEven ? 'md:order-1' : 'md:order-2'} relative aspect-square md:aspect-[4/3] rounded-3xl overflow-hidden bg-slate-100 shadow-inner`}>
-                            <div className="absolute inset-0 flex flex-col items-center justify-center text-slate-400 font-bold uppercase tracking-widest text-sm p-6 text-center">
-                              <span className="mb-2 text-2xl">📸</span>
-                              Image Placeholder
-                              <span className="block mt-2 text-xs font-normal opacity-70">For {section.sectionTitle}</span>
-                            </div>
+                          <div className={`order-2 ${isEven ? 'md:order-1' : 'md:order-2'}`}>
+                            <ImagePlaceholder 
+                              label={`${section.sectionTitle} Screenshot`}
+                              pathHint={`/images/${resolvedParams.slug}-section-${index + 1}.png`}
+                              aspect="aspect-square md:aspect-[4/3]"
+                            />
                           </div>
+
                           <div className={`order-1 ${isEven ? 'md:order-2' : 'md:order-1'}`}>
                             <h2 className="heading-2 mb-6 text-slate-900">{section.sectionTitle}</h2>
                             <div className="text-lg text-slate-600 leading-relaxed mb-6 whitespace-pre-wrap">
@@ -193,11 +192,12 @@ export default async function ProductDetailPage({ params }) {
                 /* Fallback for simple products (without detailedContent) */
                 <>
                   <div className="grid md:grid-cols-2 gap-12 items-center">
-                    <div className="order-2 md:order-1 relative aspect-square md:aspect-[4/3] rounded-3xl overflow-hidden bg-slate-100 shadow-inner">
-                      <div className="absolute inset-0 flex flex-col items-center justify-center text-slate-400 font-bold uppercase tracking-widest text-sm p-6 text-center">
-                        <span className="mb-2 text-2xl">📸</span>
-                        Image Placeholder 1
-                      </div>
+                    <div className="order-2 md:order-1">
+                      <ImagePlaceholder 
+                        label={`${product.title} Overview Image`}
+                        pathHint={`/images/${resolvedParams.slug}-overview.png`}
+                        aspect="aspect-square md:aspect-[4/3]"
+                      />
                     </div>
                     <div className="order-1 md:order-2">
                       <h2 className="heading-2 mb-6 text-slate-900">Comprehensive Overview</h2>
@@ -230,11 +230,12 @@ export default async function ProductDetailPage({ params }) {
                         ))}
                       </ul>
                     </div>
-                    <div className="relative aspect-square md:aspect-[4/3] rounded-3xl overflow-hidden bg-slate-100 shadow-inner">
-                      <div className="absolute inset-0 flex flex-col items-center justify-center text-slate-400 font-bold uppercase tracking-widest text-sm p-6 text-center">
-                        <span className="mb-2 text-2xl">🖼️</span>
-                        Image Placeholder 2
-                      </div>
+                    <div>
+                      <ImagePlaceholder 
+                        label={`${product.title} Features Screenshot`}
+                        pathHint={`/images/${resolvedParams.slug}-features.png`}
+                        aspect="aspect-square md:aspect-[4/3]"
+                      />
                     </div>
                   </div>
                 </>
