@@ -69,7 +69,7 @@
       ],
       "heroImage": "/images/bireporting.png",
       "architectureImage": "/images/bireporting.jpg",
-      "dashboardImage": "/images/bireporting.png"
+      "dashboardImage": null
     },
     "web-development": {
       "title": "Web Development",
@@ -109,7 +109,7 @@
       ],
       "heroImage": "/images/webdevelopment.png",
       "architectureImage": "/images/Custom Web Application Development.png",
-      "dashboardImage": "/images/webdevelopment.png"
+      "dashboardImage": null
     },
     "mobile-application": {
       "title": "Mobile Application",
@@ -149,7 +149,7 @@
       ],
       "heroImage": "/images/audit_mobile_banner.png",
       "architectureImage": "/images/audit_web_banner.png",
-      "dashboardImage": "/images/audit_mobile_banner.png"
+      "dashboardImage": null
     },
     "infrastructure-management": {
       "title": "Infrastructure Management",
@@ -188,8 +188,8 @@
         }
       ],
       "heroImage": "/images/Infrastructure.png",
-      "architectureImage": "/images/Infrastructure.png",
-      "dashboardImage": "/images/Infrastructure.png"
+      "architectureImage": null,
+      "dashboardImage": null
     },
     "maintenance-enhancements": {
       "title": "Maintenance & Enhancements",
@@ -229,7 +229,7 @@
       ],
       "heroImage": "/images/maintaince&enhancedment.png",
       "architectureImage": "/images/softwiremaintaince.png",
-      "dashboardImage": "/images/maintaince&enhancedment.png"
+      "dashboardImage": null
     },
     "migration-and-modernization": {
       "title": "Migration And Modernization",
@@ -307,9 +307,9 @@
           "desc": "Employee attendance, biometric integration, and tax calculations."
         }
       ],
-      "heroImage": "/images/IPR-software-applications.jpg.jpeg",
-      "architectureImage": "/images/erp.png",
-      "dashboardImage": "/images/IPR-software-applications.jpg.jpeg"
+      "heroImage": "/images/erp.png",
+      "architectureImage": null,
+      "dashboardImage": null
     },
     "ai-and-machine-learning": {
       "title": "AI & Machine Learning",
@@ -347,9 +347,9 @@
           "desc": "AI customer support and internal enterprise knowledge base bots."
         }
       ],
-      "heroImage": "/images/ChatGPT Image Jul 31, 2026, 03_02_07 PM (1).png",
-      "architectureImage": "/images/ChatGPT Image Jul 31, 2026, 03_02_07 PM (4).png",
-      "dashboardImage": "/images/ChatGPT Image Jul 31, 2026, 03_02_07 PM (1).png"
+      "heroImage": null,
+      "architectureImage": null,
+      "dashboardImage": null
     },
     "cloud-devops": {
       "title": "Cloud & DevOps Solutions",
@@ -388,8 +388,8 @@
         }
       ],
       "heroImage": "/images/Cloud & DevOps Solutionssecondry.png",
-      "architectureImage": "/images/Cloud & DevOps Solutionssecondry.png",
-      "dashboardImage": "/images/Cloud & DevOps Solutionssecondry.png"
+      "architectureImage": null,
+      "dashboardImage": null
     },
     "fbr-e-invoicing-compliance": {
       "title": "FBR E-Invoicing & Compliance",
@@ -427,8 +427,8 @@
           "desc": "Built-in reconciliation checks to ensure zero mismatched tax figures."
         }
       ],
-      "heroImage": "/images/Digital e-invociamain.png",
-      "architectureImage": "/images/Digital-E-Invoic.jpg.jpeg",
+      "heroImage": "/images/Digital-E-Invoic.jpg.jpeg",
+      "architectureImage": "/images/Digital e-invociamain.png",
       "dashboardImage": "/images/Digital e-invociasecond.png"
     },
     "cybersecurity-audit": {
@@ -467,9 +467,9 @@
           "desc": "At-rest and in-transit encryption enforcing ISO27001 standards."
         }
       ],
-      "heroImage": "/images/digitaleinvoiciaoptional.png",
-      "architectureImage": "/images/digitaleinvoiciaoptional.png",
-      "dashboardImage": "/images/digitaleinvoiciaoptional.png"
+      "heroImage": null,
+      "architectureImage": null,
+      "dashboardImage": null
     },
     "enterprise-ui-ux-design": {
       "title": "Enterprise UI/UX Design",
@@ -507,9 +507,9 @@
           "desc": "Refactoring existing software interfaces for faster data entry and lower training times."
         }
       ],
-      "heroImage": "/images/dari.png",
-      "architectureImage": "/images/dari.png",
-      "dashboardImage": "/images/dari.png"
+      "heroImage": null,
+      "architectureImage": null,
+      "dashboardImage": null
     }
   },
   "NAV_PRODUCTS": [
@@ -682,7 +682,7 @@
           ]
         }
       ],
-      "heroImage": "/images/cartivologo.jpeg",
+      "heroImage": "/images/cartivo-transparent.png",
       "video": "/videos/cartivo-demo.mp4"
     },
     "hrms-&-payroll-management-system": {
@@ -781,8 +781,8 @@
           "desc": "KPI tracking and evaluation modules."
         }
       ],
-      "heroImage": "/images/Hrms&payrollsysteam.png",
-      "secImage": "/images/HrmsPayroll.jpg.jpeg",
+      "heroImage": "/images/HrmsPayroll.jpg.jpeg",
+      "secImage": "/images/Hrms&payrollsysteam.png",
       "thirdImage": "/images/hrms.png"
     },
     "digital-e-invocia-integration": {
@@ -818,9 +818,9 @@
         }
       ],
       "video": "/videos/digital-e-invocia-integration.mp4",
-      "heroImage": "/images/Digital e-invociamain.png",
-      "secImage": "/images/Digital e-invociasecond.png",
-      "thirdImage": "/images/Digital e-invocia.png"
+      "heroImage": "/images/Digital-E-Invoic.jpg.jpeg",
+      "secImage": "/images/Digital e-invociamain.png",
+      "thirdImage": "/images/Digital e-invociasecond.png"
     },
     "e-commerce-solutions": {
       "title": "E-Commerce Solutions",
@@ -854,9 +854,9 @@
           "desc": "Real-time stock updates."
         }
       ],
-      "heroImage": "/images/ecoomerceapp mainimages.png",
-      "secImage": "/images/ecoomercesoluctions.png",
-      "thirdImage": "/images/Pharma-Mart-Bnr.jpg.jpeg"
+      "heroImage": "/images/Pharma-Mart-Bnr.jpg.jpeg",
+      "secImage": "/images/ecoomerceapp mainimages.png",
+      "thirdImage": "/images/ecoomercesoluctions.png"
     },
     "merchandizing-application": {
       "title": "Merchandizing Application",
@@ -962,8 +962,8 @@
           "desc": "Direct engagement with the last mile."
         }
       ],
-      "heroImage": "/images/saleverse secondry saleapp.png",
-      "secImage": "/images/Sales-Verse-Bnr.jpg.jpeg",
+      "heroImage": "/images/Sales-Verse-Bnr.jpg.jpeg",
+      "secImage": "/images/saleverse secondry saleapp.png",
       "thirdImage": "/images/secondrysale.png"
     },
     "procurement-application": {
@@ -1071,7 +1071,7 @@
           "desc": "Live physical vs system inventory audit logs."
         }
       ],
-      "heroImage": "/images/ChatGPT Image Jul 31, 2026, 03_02_11 PM (10).png"
+      "heroImage": null
     },
     "field-force-&-sales-automation-sfa": {
       "title": "Field Force & Sales Automation (SFA)",
@@ -1208,7 +1208,7 @@
           "desc": "Generate and email PDF quotes with multi-tier manager approval."
         }
       ],
-      "heroImage": "/images/ChatGPT Image Jul 31, 2026, 03_02_10 PM (8).png"
+      "heroImage": null
     }
   },
   "TESTIMONIALS": [

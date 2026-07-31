@@ -60,8 +60,8 @@ export default function ServicePageTemplate({ data }) {
               <div className="lg:col-span-5 relative animate-scale-up">
                 <div className="relative z-10 hover-lift">
                   {data.heroImage ? (
-                    <div className="relative aspect-[4/3] w-full rounded-3xl overflow-hidden shadow-2xl border border-slate-700 bg-slate-950">
-                      <Image src={data.heroImage} alt={data.title} fill className="object-cover" priority />
+                    <div className="relative aspect-[4/3] w-full rounded-3xl overflow-hidden shadow-2xl border border-slate-700 bg-slate-950 flex items-center justify-center p-2">
+                      <Image src={data.heroImage} alt={data.title} fill className="object-contain" priority />
                     </div>
                   ) : (
                     <ImagePlaceholder 
@@ -130,8 +130,8 @@ export default function ServicePageTemplate({ data }) {
               {/* Image 1: Architecture Blueprint */}
               <div className="hover-lift animate-fade-up">
                 {data.architectureImage ? (
-                  <div className="relative aspect-video w-full rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-slate-950">
-                    <Image src={data.architectureImage} alt={`${data.title} Architecture`} fill className="object-cover" />
+                  <div className="relative aspect-video w-full rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-slate-950 flex items-center justify-center p-2">
+                    <Image src={data.architectureImage} alt={`${data.title} Architecture`} fill className="object-contain" />
                   </div>
                 ) : (
                   <ImagePlaceholder 
@@ -145,8 +145,8 @@ export default function ServicePageTemplate({ data }) {
               {/* Image 2: Live Analytics & Dashboard */}
               <div className="hover-lift animate-fade-up">
                 {data.dashboardImage ? (
-                  <div className="relative aspect-video w-full rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-slate-950">
-                    <Image src={data.dashboardImage} alt={`${data.title} Dashboard`} fill className="object-cover" />
+                  <div className="relative aspect-video w-full rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-slate-950 flex items-center justify-center p-2">
+                    <Image src={data.dashboardImage} alt={`${data.title} Dashboard`} fill className="object-contain" />
                   </div>
                 ) : (
                   <ImagePlaceholder 

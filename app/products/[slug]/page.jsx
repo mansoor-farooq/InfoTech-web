@@ -90,8 +90,8 @@ export default async function ProductDetailPage({ params }) {
               {/* Main Product Image */}
               <div className="animate-scale-up hover-lift">
                 {product.heroImage ? (
-                  <div className="relative aspect-video w-full rounded-3xl overflow-hidden shadow-2xl border border-slate-200 bg-slate-900">
-                    <Image src={product.heroImage} alt={product.title} fill className="object-cover" priority />
+                  <div className="relative aspect-video w-full rounded-3xl overflow-hidden shadow-2xl border border-slate-200 bg-slate-950 flex items-center justify-center p-2">
+                    <Image src={product.heroImage} alt={product.title} fill className="object-contain" priority />
                   </div>
                 ) : (
                   <ImagePlaceholder 
