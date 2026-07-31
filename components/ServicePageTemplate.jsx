@@ -1,6 +1,7 @@
 import ServerNavbar from '@/components/ServerNavbar';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
+import Image from 'next/image';
 import ImagePlaceholder from '@/components/ImagePlaceholder';
 import { ArrowRight, CheckCircle2, ShieldCheck, Zap, Layers, Cpu, Code2, Server } from 'lucide-react';
 
@@ -58,11 +59,17 @@ export default function ServicePageTemplate({ data }) {
               {/* Right Column: Main Hero Image Placeholder with Floating Glass Stats */}
               <div className="lg:col-span-5 relative animate-scale-up">
                 <div className="relative z-10 hover-lift">
-                  <ImagePlaceholder 
-                    label={`${data.title} Engineering Blueprint`}
-                    pathHint={`/images/service-${slug}-hero.png`}
-                    aspect="aspect-square md:aspect-[4/3]"
-                  />
+                  {data.heroImage ? (
+                    <div className="relative aspect-[4/3] w-full rounded-3xl overflow-hidden shadow-2xl border border-slate-700 bg-slate-950">
+                      <Image src={data.heroImage} alt={data.title} fill className="object-cover" priority />
+                    </div>
+                  ) : (
+                    <ImagePlaceholder 
+                      label={`${data.title} Engineering Blueprint`}
+                      pathHint={`/images/service-${slug}-hero.png`}
+                      aspect="aspect-square md:aspect-[4/3]"
+                    />
+                  )}
                 </div>
 
                 {/* Floating Metric Badge */}
@@ -122,20 +129,32 @@ export default function ServicePageTemplate({ data }) {
               
               {/* Image 1: Architecture Blueprint */}
               <div className="hover-lift animate-fade-up">
-                <ImagePlaceholder 
-                  label={`${data.title} Architecture Blueprint`}
-                  pathHint={`/images/service-${slug}-architecture.png`}
-                  aspect="aspect-video"
-                />
+                {data.architectureImage ? (
+                  <div className="relative aspect-video w-full rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-slate-950">
+                    <Image src={data.architectureImage} alt={`${data.title} Architecture`} fill className="object-cover" />
+                  </div>
+                ) : (
+                  <ImagePlaceholder 
+                    label={`${data.title} Architecture Blueprint`}
+                    pathHint={`/images/service-${slug}-architecture.png`}
+                    aspect="aspect-video"
+                  />
+                )}
               </div>
 
               {/* Image 2: Live Analytics & Dashboard */}
               <div className="hover-lift animate-fade-up">
-                <ImagePlaceholder 
-                  label={`${data.title} Live Management Dashboard`}
-                  pathHint={`/images/service-${slug}-dashboard.png`}
-                  aspect="aspect-video"
-                />
+                {data.dashboardImage ? (
+                  <div className="relative aspect-video w-full rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-slate-950">
+                    <Image src={data.dashboardImage} alt={`${data.title} Dashboard`} fill className="object-cover" />
+                  </div>
+                ) : (
+                  <ImagePlaceholder 
+                    label={`${data.title} Live Management Dashboard`}
+                    pathHint={`/images/service-${slug}-dashboard.png`}
+                    aspect="aspect-video"
+                  />
+                )}
               </div>
 
             </div>

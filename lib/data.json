@@ -66,7 +66,10 @@
           "name": "Predictive Analytics",
           "desc": "Machine learning models to forecast trends and inventory needs."
         }
-      ]
+      ],
+      "heroImage": "/images/ChatGPT Image Jul 20, 2026, 04_40_56 PM.png",
+      "architectureImage": "/images/ChatGPT Image Jul 20, 2026, 04_40_56 PM.png",
+      "dashboardImage": "/images/ChatGPT Image Jul 20, 2026, 04_40_56 PM.png"
     },
     "web-development": {
       "title": "Web Development",
@@ -103,7 +106,10 @@
           "name": "API Development",
           "desc": "Custom RESTful and GraphQL APIs to connect your web apps."
         }
-      ]
+      ],
+      "heroImage": "/images/Custom Web Application Development.png",
+      "architectureImage": "/images/Custom Web Application Development.png",
+      "dashboardImage": "/images/Custom Web Application Development.png"
     },
     "mobile-application": {
       "title": "Mobile Application",
@@ -140,7 +146,10 @@
           "name": "Enterprise Integration",
           "desc": "Direct connection to ERPs for live inventory and pricing."
         }
-      ]
+      ],
+      "heroImage": "/images/ChatGPT Image Jul 31, 2026, 02_59_20 PM (10).png",
+      "architectureImage": "/images/ChatGPT Image Jul 31, 2026, 02_59_20 PM (10).png",
+      "dashboardImage": "/images/ChatGPT Image Jul 31, 2026, 02_59_20 PM (10).png"
     },
     "infrastructure-management": {
       "title": "Infrastructure Management",
@@ -177,7 +186,10 @@
           "name": "Network Security",
           "desc": "Firewall configuration, vulnerability assessments, and access control."
         }
-      ]
+      ],
+      "heroImage": "/images/Infrastructure.png",
+      "architectureImage": "/images/Infrastructure.png",
+      "dashboardImage": "/images/Infrastructure.png"
     },
     "maintenance-enhancements": {
       "title": "Maintenance & Enhancements",
@@ -214,7 +226,10 @@
           "name": "Feature Upgrades",
           "desc": "Continuous development of new modules and capabilities."
         }
-      ]
+      ],
+      "heroImage": "/images/softwiremaintaince.png",
+      "architectureImage": "/images/softwiremaintaince.png",
+      "dashboardImage": "/images/softwiremaintaince.png"
     },
     "migration-and-modernization": {
       "title": "Migration And Modernization",
@@ -251,7 +266,10 @@
           "name": "Architecture Redesign",
           "desc": "Transitioning from monolithic structures to microservices."
         }
-      ]
+      ],
+      "heroImage": "/images/Software-That-Improves--Dailyy--Operations--Banner.jpg.jpeg",
+      "architectureImage": "/images/Software-That-Improves--Dailyy--Operations--Banner.jpg.jpeg",
+      "dashboardImage": "/images/Software-That-Improves--Dailyy--Operations--Banner.jpg.jpeg"
     },
     "custom-erp-development": {
       "title": "Custom ERP Development",
@@ -288,7 +306,10 @@
           "name": "HR & Payroll Integration",
           "desc": "Employee attendance, biometric integration, and tax calculations."
         }
-      ]
+      ],
+      "heroImage": "/images/IPR-software-applications.jpg.jpeg",
+      "architectureImage": "/images/IPR-software-applications.jpg.jpeg",
+      "dashboardImage": "/images/IPR-software-applications.jpg.jpeg"
     },
     "ai-and-machine-learning": {
       "title": "AI & Machine Learning",
@@ -325,7 +346,10 @@
           "name": "Custom AI Conversational Agents",
           "desc": "AI customer support and internal enterprise knowledge base bots."
         }
-      ]
+      ],
+      "heroImage": "/images/ChatGPT Image Jul 31, 2026, 03_02_07 PM (5).png",
+      "architectureImage": "/images/ChatGPT Image Jul 31, 2026, 03_02_07 PM (5).png",
+      "dashboardImage": "/images/ChatGPT Image Jul 31, 2026, 03_02_07 PM (5).png"
     },
     "cloud-devops": {
       "title": "Cloud & DevOps Solutions",
@@ -362,7 +386,10 @@
           "name": "24/7 Cloud Monitoring & Alerts",
           "desc": "Prometheus, Grafana, and CloudWatch metrics with instant SLA alerts."
         }
-      ]
+      ],
+      "heroImage": "/images/ChatGPT Image Jul 31, 2026, 03_02_08 PM (6).png",
+      "architectureImage": "/images/ChatGPT Image Jul 31, 2026, 03_02_08 PM (6).png",
+      "dashboardImage": "/images/ChatGPT Image Jul 31, 2026, 03_02_08 PM (6).png"
     },
     "fbr-e-invoicing-compliance": {
       "title": "FBR E-Invoicing & Compliance",
@@ -399,7 +426,10 @@
           "name": "Compliance Auditing Tools",
           "desc": "Built-in reconciliation checks to ensure zero mismatched tax figures."
         }
-      ]
+      ],
+      "heroImage": "/images/DigitalEinvoicia.png",
+      "architectureImage": "/images/DigitalEinvoicia.png",
+      "dashboardImage": "/images/DigitalEinvoicia.png"
     },
     "cybersecurity-audit": {
       "title": "Cybersecurity & Audit",
@@ -436,7 +466,10 @@
           "name": "Data Encryption & Compliance",
           "desc": "At-rest and in-transit encryption enforcing ISO27001 standards."
         }
-      ]
+      ],
+      "heroImage": "/images/ChatGPT Image Jul 31, 2026, 03_02_09 PM (7).png",
+      "architectureImage": "/images/ChatGPT Image Jul 31, 2026, 03_02_09 PM (7).png",
+      "dashboardImage": "/images/ChatGPT Image Jul 31, 2026, 03_02_09 PM (7).png"
     },
     "enterprise-ui-ux-design": {
       "title": "Enterprise UI/UX Design",
@@ -473,7 +506,10 @@
           "name": "Usability Audits & Redesigns",
           "desc": "Refactoring existing software interfaces for faster data entry and lower training times."
         }
-      ]
+      ],
+      "heroImage": "/images/ChatGPT Image Jul 31, 2026, 03_02_10 PM (8).png",
+      "architectureImage": "/images/ChatGPT Image Jul 31, 2026, 03_02_10 PM (8).png",
+      "dashboardImage": "/images/ChatGPT Image Jul 31, 2026, 03_02_10 PM (8).png"
     }
   },
   "NAV_PRODUCTS": [
@@ -645,7 +681,8 @@
             }
           ]
         }
-      ]
+      ],
+      "heroImage": "/images/cartivo-transparent.png"
     },
     "hrms-&-payroll-management-system": {
       "title": "HRMS & Payroll Management",
@@ -742,7 +779,8 @@
           "name": "Performance Appraisals",
           "desc": "KPI tracking and evaluation modules."
         }
-      ]
+      ],
+      "heroImage": "/images/hrms.png"
     },
     "digital-e-invocia-integration": {
       "title": "Digital E-Invocia Integration",
@@ -776,7 +814,8 @@
           "desc": "Auto-generation of tax annexures."
         }
       ],
-      "video": "/videos/digital-e-invocia-integration.mp4"
+      "video": "/videos/digital-e-invocia-integration.mp4",
+      "heroImage": "/images/DigitalEinvoicia.png"
     },
     "e-commerce-solutions": {
       "title": "E-Commerce Solutions",
@@ -809,7 +848,8 @@
           "name": "Inventory Sync",
           "desc": "Real-time stock updates."
         }
-      ]
+      ],
+      "heroImage": "/images/Commerce-bnr.png"
     },
     "merchandizing-application": {
       "title": "Merchandizing Application",
@@ -842,7 +882,8 @@
           "name": "Competitor Tracking",
           "desc": "Monitor competitor pricing and promotions."
         }
-      ]
+      ],
+      "heroImage": "/images/mercheindizing1.png"
     },
     "order-booking": {
       "title": "Order Booking",
@@ -875,7 +916,8 @@
           "name": "Route Planning",
           "desc": "Optimized visit schedules."
         }
-      ]
+      ],
+      "heroImage": "/images/orderbookingnew.png"
     },
     "secondary-sales": {
       "title": "Secondary Sales",
@@ -908,7 +950,8 @@
           "name": "Retailer Connect",
           "desc": "Direct engagement with the last mile."
         }
-      ]
+      ],
+      "heroImage": "/images/secondry sales.png"
     },
     "procurement-application": {
       "title": "Procurement Application",
@@ -941,7 +984,8 @@
           "name": "Vendor Bidding",
           "desc": "Digital RFQ and bidding system."
         }
-      ]
+      ],
+      "heroImage": "/images/procurement-application.jpg.jpeg"
     },
     "lms": {
       "title": "Learning Management System (LMS)",
@@ -974,7 +1018,8 @@
           "name": "Assessment Engine",
           "desc": "Quizzes and certification."
         }
-      ]
+      ],
+      "heroImage": "/images/ChatGPT Image Jul 31, 2026, 03_02_07 PM (1).png"
     },
     "warehouse-management-system-wms": {
       "title": "Warehouse Management System (WMS)",
@@ -1011,7 +1056,8 @@
           "name": "Stock Reconciliation Audit",
           "desc": "Live physical vs system inventory audit logs."
         }
-      ]
+      ],
+      "heroImage": "/images/ChatGPT Image Jul 31, 2026, 03_02_11 PM (10).png"
     },
     "field-force-&-sales-automation-sfa": {
       "title": "Field Force & Sales Automation (SFA)",
@@ -1108,7 +1154,8 @@
           "name": "Target vs Achievement Dashboards",
           "desc": "Real-time KPI performance tracking for sales managers."
         }
-      ]
+      ],
+      "heroImage": "/images/ChatGPT Image Jul 31, 2026, 02_59_20 PM (8).png"
     },
     "enterprise-crm-system": {
       "title": "Enterprise CRM System",
@@ -1145,7 +1192,8 @@
           "name": "Automated Quotations",
           "desc": "Generate and email PDF quotes with multi-tier manager approval."
         }
-      ]
+      ],
+      "heroImage": "/images/ChatGPT Image Jul 31, 2026, 02_59_20 PM (9).png"
     }
   },
   "TESTIMONIALS": [
