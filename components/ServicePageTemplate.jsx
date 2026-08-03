@@ -119,32 +119,47 @@ export default function ServicePageTemplate({ data }) {
             {/* Multi-Image Gallery Grid */}
             <div className="grid lg:grid-cols-2 gap-12 items-center mb-24">
               
-              {/* Image 1: Architecture Blueprint */}
+              {/* Image 2: Architecture / Overview Blueprint */}
               <div className="hover-lift animate-fade-up">
-                {data.architectureImage ? (
+                {(data.image2 || data.architectureImage) ? (
                   <div className="relative aspect-video w-full rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-slate-950 flex items-center justify-center p-2">
-                    <Image src={data.architectureImage} alt={`${data.title} Architecture`} fill className="object-contain" />
+                    <Image src={data.image2 || data.architectureImage} alt={`${data.title} Architecture`} fill className="object-contain" />
                   </div>
                 ) : (
                   <ImagePlaceholder 
-                    label={`${data.title} Architecture Blueprint`}
-                    pathHint={`/images/service-${slug}-architecture.png`}
+                    label={`${data.title} System Overview Blueprint (Image 2)`}
+                    pathHint={`/images/services/${slug}-2-architecture.png`}
                     aspect="aspect-video"
                   />
                 )}
               </div>
 
-              {/* Image 2: Live Analytics & Dashboard */}
+              {/* Image 3: Live Management Dashboard */}
               <div className="hover-lift animate-fade-up">
-                {data.dashboardImage ? (
+                {(data.image3 || data.dashboardImage) ? (
                   <div className="relative aspect-video w-full rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-slate-950 flex items-center justify-center p-2">
-                    <Image src={data.dashboardImage} alt={`${data.title} Dashboard`} fill className="object-contain" />
+                    <Image src={data.image3 || data.dashboardImage} alt={`${data.title} Dashboard`} fill className="object-contain" />
                   </div>
                 ) : (
                   <ImagePlaceholder 
-                    label={`${data.title} Live Management Dashboard`}
-                    pathHint={`/images/service-${slug}-dashboard.png`}
+                    label={`${data.title} Live Management Dashboard (Image 3)`}
+                    pathHint={`/images/services/${slug}-3-dashboard.png`}
                     aspect="aspect-video"
+                  />
+                )}
+              </div>
+
+              {/* Image 4: Detailed Workflow / Module Screenshot */}
+              <div className="hover-lift animate-fade-up lg:col-span-2">
+                {(data.image4 || data.featureImage) ? (
+                  <div className="relative aspect-[21/9] w-full rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-slate-950 flex items-center justify-center p-2">
+                    <Image src={data.image4 || data.featureImage} alt={`${data.title} Detailed Feature Module`} fill className="object-contain" />
+                  </div>
+                ) : (
+                  <ImagePlaceholder 
+                    label={`${data.title} Detailed Workflow Screenshot (Image 4)`}
+                    pathHint={`/images/services/${slug}-4-workflow.png`}
+                    aspect="aspect-video md:aspect-[21/9]"
                   />
                 )}
               </div>

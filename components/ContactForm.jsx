@@ -50,7 +50,7 @@ export default function ContactForm() {
             <option>AI & Machine Learning</option>
             <option>Cloud & DevOps Solutions</option>
             <option>FBR E-Invoicing & Compliance</option>
-            <option>Cybersecurity & Audit</option>
+            <option>Audit</option>
             <option>Enterprise UI/UX Design</option>
             <option>Infrastructure Management</option>
             <option>Maintenance & Enhancements</option>

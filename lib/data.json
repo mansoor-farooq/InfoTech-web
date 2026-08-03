@@ -25,7 +25,7 @@
         "AI & Machine Learning",
         "Cloud & DevOps Solutions",
         "FBR E-Invoicing & Compliance",
-        "Cybersecurity & Audit",
+        "Audit",
         "Enterprise UI/UX Design"
       ]
     }
@@ -69,7 +69,10 @@
       ],
       "heroImage": "/images/bireporting.png",
       "architectureImage": "/images/bireporting.jpg",
-      "dashboardImage": null
+      "dashboardImage": null,
+      "image2": "/images/bireporting.jpg",
+      "image3": "/images/services/bi-reports-3-dashboard.png",
+      "image4": "/images/services/bi-reports-4-workflow.png"
     },
     "web-development": {
       "title": "Web Development",
@@ -109,7 +112,10 @@
       ],
       "heroImage": "/images/webdevelopment.png",
       "architectureImage": "/images/Custom Web Application Development.png",
-      "dashboardImage": null
+      "dashboardImage": null,
+      "image2": "/images/Custom Web Application Development.png",
+      "image3": "/images/services/web-development-3-dashboard.png",
+      "image4": "/images/services/web-development-4-workflow.png"
     },
     "mobile-application": {
       "title": "Mobile Application",
@@ -149,7 +155,10 @@
       ],
       "heroImage": "/images/audit_mobile_banner.png",
       "architectureImage": "/images/audit_web_banner.png",
-      "dashboardImage": null
+      "dashboardImage": null,
+      "image2": "/images/audit_web_banner.png",
+      "image3": "/images/services/mobile-application-3-dashboard.png",
+      "image4": "/images/services/mobile-application-4-workflow.png"
     },
     "infrastructure-management": {
       "title": "Infrastructure Management",
@@ -189,7 +198,10 @@
       ],
       "heroImage": "/images/Infrastructure.png",
       "architectureImage": null,
-      "dashboardImage": null
+      "dashboardImage": null,
+      "image2": "/images/services/infrastructure-management-2-architecture.png",
+      "image3": "/images/services/infrastructure-management-3-dashboard.png",
+      "image4": "/images/services/infrastructure-management-4-workflow.png"
     },
     "maintenance-enhancements": {
       "title": "Maintenance & Enhancements",
@@ -229,7 +241,10 @@
       ],
       "heroImage": "/images/maintaince&enhancedment.png",
       "architectureImage": "/images/softwiremaintaince.png",
-      "dashboardImage": null
+      "dashboardImage": null,
+      "image2": "/images/softwiremaintaince.png",
+      "image3": "/images/services/maintenance-enhancements-3-dashboard.png",
+      "image4": "/images/services/maintenance-enhancements-4-workflow.png"
     },
     "migration-and-modernization": {
       "title": "Migration And Modernization",
@@ -269,7 +284,10 @@
       ],
       "heroImage": "/images/migraction&modrenization.png",
       "architectureImage": "/images/migraction&modrenizationweb.png",
-      "dashboardImage": "/images/Software-That-Improves--Dailyy--Operations--Banner.jpg.jpeg"
+      "dashboardImage": "/images/Software-That-Improves--Dailyy--Operations--Banner.jpg.jpeg",
+      "image2": "/images/migraction&modrenizationweb.png",
+      "image3": "/images/Software-That-Improves--Dailyy--Operations--Banner.jpg.jpeg",
+      "image4": "/images/services/migration-and-modernization-4-workflow.png"
     },
     "custom-erp-development": {
       "title": "Custom ERP Development",
@@ -309,7 +327,10 @@
       ],
       "heroImage": "/images/erp.png",
       "architectureImage": null,
-      "dashboardImage": null
+      "dashboardImage": null,
+      "image2": "/images/services/custom-erp-development-2-architecture.png",
+      "image3": "/images/services/custom-erp-development-3-dashboard.png",
+      "image4": "/images/services/custom-erp-development-4-workflow.png"
     },
     "ai-and-machine-learning": {
       "title": "AI & Machine Learning",
@@ -347,9 +368,12 @@
           "desc": "AI customer support and internal enterprise knowledge base bots."
         }
       ],
-      "heroImage": null,
+      "heroImage": "/images/services/ai-and-machine-learning-1-hero.png",
       "architectureImage": null,
-      "dashboardImage": null
+      "dashboardImage": null,
+      "image2": "/images/services/ai-and-machine-learning-2-architecture.png",
+      "image3": "/images/services/ai-and-machine-learning-3-dashboard.png",
+      "image4": "/images/services/ai-and-machine-learning-4-workflow.png"
     },
     "cloud-devops": {
       "title": "Cloud & DevOps Solutions",
@@ -389,7 +413,10 @@
       ],
       "heroImage": "/images/Cloud & DevOps Solutionssecondry.png",
       "architectureImage": null,
-      "dashboardImage": null
+      "dashboardImage": null,
+      "image2": "/images/services/cloud-devops-2-architecture.png",
+      "image3": "/images/services/cloud-devops-3-dashboard.png",
+      "image4": "/images/services/cloud-devops-4-workflow.png"
     },
     "fbr-e-invoicing-compliance": {
       "title": "FBR E-Invoicing & Compliance",
@@ -429,7 +456,10 @@
       ],
       "heroImage": "/images/Digital-E-Invoic.jpg.jpeg",
       "architectureImage": "/images/Digital e-invociamain.png",
-      "dashboardImage": "/images/Digital e-invociasecond.png"
+      "dashboardImage": "/images/Digital e-invociasecond.png",
+      "image2": "/images/Digital e-invociamain.png",
+      "image3": "/images/Digital e-invociasecond.png",
+      "image4": "/images/services/fbr-e-invoicing-compliance-4-workflow.png"
     }
   },
   "NAV_PRODUCTS": [
@@ -603,7 +633,10 @@
         }
       ],
       "heroImage": "/images/cartivo-transparent.png",
-      "video": "/videos/cartivo-demo.mp4"
+      "video": "/videos/cartivo-demo.mp4",
+      "image2": "/images/products/cartivo-2-dashboard.png",
+      "image3": "/images/products/cartivo-3-features.png",
+      "image4": "/images/products/cartivo-4-analytics.png"
     },
     "hrms-&-payroll-management-system": {
       "title": "HRMS & Payroll Management",
@@ -703,7 +736,10 @@
       ],
       "heroImage": "/images/HrmsPayroll.jpg.jpeg",
       "secImage": "/images/Hrms&payrollsysteam.png",
-      "thirdImage": "/images/hrms.png"
+      "thirdImage": "/images/hrms.png",
+      "image2": "/images/Hrms&payrollsysteam.png",
+      "image3": "/images/hrms.png",
+      "image4": "/images/products/hrms-&-payroll-management-system-4-analytics.png"
     },
     "digital-e-invocia-integration": {
       "title": "Digital E-Invocia Integration",
@@ -740,7 +776,10 @@
       "video": "/videos/digital-e-invocia-integration.mp4",
       "heroImage": "/images/Digital-E-Invoic.jpg.jpeg",
       "secImage": "/images/Digital e-invociamain.png",
-      "thirdImage": "/images/Digital e-invociasecond.png"
+      "thirdImage": "/images/Digital e-invociasecond.png",
+      "image2": "/images/Digital e-invociamain.png",
+      "image3": "/images/Digital e-invociasecond.png",
+      "image4": "/images/products/digital-e-invocia-integration-4-analytics.png"
     },
     "e-commerce-solutions": {
       "title": "E-Commerce Solutions",
@@ -776,7 +815,10 @@
       ],
       "heroImage": "/images/Pharma-Mart-Bnr.jpg.jpeg",
       "secImage": "/images/ecoomerceapp mainimages.png",
-      "thirdImage": "/images/ecoomercesoluctions.png"
+      "thirdImage": "/images/ecoomercesoluctions.png",
+      "image2": "/images/ecoomerceapp mainimages.png",
+      "image3": "/images/ecoomercesoluctions.png",
+      "image4": "/images/products/e-commerce-solutions-4-analytics.png"
     },
     "merchandizing-application": {
       "title": "Merchandizing Application",
@@ -812,7 +854,10 @@
       ],
       "heroImage": "/images/marchandizingapp.png",
       "secImage": "/images/audit_web_banner.png",
-      "thirdImage": "/images/audit_mobile_banner.png"
+      "thirdImage": "/images/audit_mobile_banner.png",
+      "image2": "/images/audit_web_banner.png",
+      "image3": "/images/audit_mobile_banner.png",
+      "image4": "/images/products/merchandizing-application-4-analytics.png"
     },
     "order-booking": {
       "title": "Order Booking",
@@ -848,7 +893,10 @@
       ],
       "heroImage": "/images/orderbookingappsecond.png",
       "secImage": "/images/orderbookingnew.png",
-      "thirdImage": "/images/orderbooking.jpeg"
+      "thirdImage": "/images/orderbooking.jpeg",
+      "image2": "/images/orderbookingnew.png",
+      "image3": "/images/orderbooking.jpeg",
+      "image4": "/images/products/order-booking-4-analytics.png"
     },
     "secondary-sales": {
       "title": "Secondary Sales",
@@ -884,7 +932,10 @@
       ],
       "heroImage": "/images/Sales-Verse-Bnr.jpg.jpeg",
       "secImage": "/images/saleverse secondry saleapp.png",
-      "thirdImage": "/images/secondrysale.png"
+      "thirdImage": "/images/secondrysale.png",
+      "image2": "/images/saleverse secondry saleapp.png",
+      "image3": "/images/secondrysale.png",
+      "image4": "/images/products/secondary-sales-4-analytics.png"
     },
     "procurement-application": {
       "title": "Procurement Application",
@@ -919,7 +970,10 @@
         }
       ],
       "heroImage": "/images/procurement-application.jpg.jpeg",
-      "secImage": "/images/erp.png"
+      "secImage": "/images/erp.png",
+      "image2": "/images/erp.png",
+      "image3": "/images/products/procurement-application-3-features.png",
+      "image4": "/images/products/procurement-application-4-analytics.png"
     },
     "lms": {
       "title": "Learning Management System (LMS)",
@@ -953,7 +1007,10 @@
           "desc": "Quizzes and certification."
         }
       ],
-      "heroImage": "/images/Learning-Managment-System.jpg.jpeg"
+      "heroImage": "/images/Learning-Managment-System.jpg.jpeg",
+      "image2": "/images/products/lms-2-dashboard.png",
+      "image3": "/images/products/lms-3-features.png",
+      "image4": "/images/products/lms-4-analytics.png"
     },
     "warehouse-management-system-wms": {
       "title": "Warehouse Management System (WMS)",
@@ -991,7 +1048,10 @@
           "desc": "Live physical vs system inventory audit logs."
         }
       ],
-      "heroImage": null
+      "heroImage": "/images/products/warehouse-management-system-wms-1-hero.png",
+      "image2": "/images/products/warehouse-management-system-wms-2-dashboard.png",
+      "image3": "/images/products/warehouse-management-system-wms-3-features.png",
+      "image4": "/images/products/warehouse-management-system-wms-4-analytics.png"
     },
     "field-force-&-sales-automation-sfa": {
       "title": "Field Force & Sales Automation (SFA)",
@@ -1090,7 +1150,10 @@
         }
       ],
       "heroImage": "/images/Sales-Verse-Bnr.jpg.jpeg",
-      "secImage": "/images/saleverse secondry saleapp.png"
+      "secImage": "/images/saleverse secondry saleapp.png",
+      "image2": "/images/saleverse secondry saleapp.png",
+      "image3": "/images/products/field-force-&-sales-automation-sfa-3-features.png",
+      "image4": "/images/products/field-force-&-sales-automation-sfa-4-analytics.png"
     },
     "enterprise-crm-system": {
       "title": "Enterprise CRM System",
@@ -1128,7 +1191,10 @@
           "desc": "Generate and email PDF quotes with multi-tier manager approval."
         }
       ],
-      "heroImage": null
+      "heroImage": "/images/products/enterprise-crm-system-1-hero.png",
+      "image2": "/images/products/enterprise-crm-system-2-dashboard.png",
+      "image3": "/images/products/enterprise-crm-system-3-features.png",
+      "image4": "/images/products/enterprise-crm-system-4-analytics.png"
     }
   },
   "TESTIMONIALS": [

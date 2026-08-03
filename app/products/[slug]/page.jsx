@@ -99,6 +99,67 @@ export default async function ProductDetailPage({ params }) {
           </div>
         </section>
 
+        {/* Product Multi-Image Showcase Section (Images 2, 3, 4) */}
+        <section className="py-16 bg-slate-50 border-b border-slate-200">
+          <div className="container-xl">
+            <div className="text-center max-w-3xl mx-auto mb-12 animate-fade-up">
+              <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-4 tracking-tight">
+                System Interface & Module Screenshots
+              </h2>
+              <p className="text-slate-600 font-medium">
+                Detailed visual overview of core modules, dashboards, and enterprise features.
+              </p>
+            </div>
+
+            <div className="grid lg:grid-cols-2 gap-8 items-center">
+              {/* Image 2 */}
+              <div className="hover-lift animate-fade-up">
+                {(product.image2 || product.secImage) ? (
+                  <div className="relative aspect-video w-full rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-slate-950 flex items-center justify-center p-2">
+                    <Image src={product.image2 || product.secImage} alt={`${product.title} Dashboard`} fill className="object-contain" />
+                  </div>
+                ) : (
+                  <ImagePlaceholder 
+                    label={`${product.title} Main Dashboard (Image 2)`}
+                    pathHint={`/images/products/${resolvedParams.slug}-2-dashboard.png`}
+                    aspect="aspect-video"
+                  />
+                )}
+              </div>
+
+              {/* Image 3 */}
+              <div className="hover-lift animate-fade-up">
+                {(product.image3 || product.thirdImage) ? (
+                  <div className="relative aspect-video w-full rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-slate-950 flex items-center justify-center p-2">
+                    <Image src={product.image3 || product.thirdImage} alt={`${product.title} Interface`} fill className="object-contain" />
+                  </div>
+                ) : (
+                  <ImagePlaceholder 
+                    label={`${product.title} Secondary Interface (Image 3)`}
+                    pathHint={`/images/products/${resolvedParams.slug}-3-features.png`}
+                    aspect="aspect-video"
+                  />
+                )}
+              </div>
+
+              {/* Image 4 */}
+              <div className="hover-lift animate-fade-up lg:col-span-2">
+                {(product.image4 || product.fourthImage) ? (
+                  <div className="relative aspect-[21/9] w-full rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-slate-950 flex items-center justify-center p-2">
+                    <Image src={product.image4 || product.fourthImage} alt={`${product.title} Analytics`} fill className="object-contain" />
+                  </div>
+                ) : (
+                  <ImagePlaceholder 
+                    label={`${product.title} Analytics & Operations (Image 4)`}
+                    pathHint={`/images/products/${resolvedParams.slug}-4-analytics.png`}
+                    aspect="aspect-video md:aspect-[21/9]"
+                  />
+                )}
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Dynamic Detailed Content */}
         <section className="section py-20 lg:py-32">
           <div className="container-xl">
