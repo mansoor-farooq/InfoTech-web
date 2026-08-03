@@ -118,5 +118,5 @@ export default function ServicesGrid() {
             </div>
           </div>
         </section>
-      );
+  );
 }
