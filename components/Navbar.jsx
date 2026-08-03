@@ -146,6 +146,9 @@ export default function Navbar({ services = [], products = [] }) {
               <Link href="/case-studies" className="text-[15px] font-bold text-slate-100 hover:text-cyan-400 transition-colors">
                 Case Studies
               </Link>
+              <Link href="/careers" className="text-[15px] font-bold text-slate-100 hover:text-cyan-400 transition-colors">
+                Careers
+              </Link>
               <Link href="/about" className="text-[15px] font-bold text-slate-100 hover:text-cyan-400 transition-colors">
                 About Us
               </Link>
@@ -189,6 +192,9 @@ export default function Navbar({ services = [], products = [] }) {
                 </Link>
                 <Link href="/case-studies" onClick={() => setMobileOpen(false)} className="block text-gray-900 font-bold px-3">
                   Case Studies
+                </Link>
+                <Link href="/careers" onClick={() => setMobileOpen(false)} className="block text-gray-900 font-bold px-3">
+                  Careers
                 </Link>
                 <Link href="/about" onClick={() => setMobileOpen(false)} className="block text-gray-900 font-bold px-3">
                   About Us
