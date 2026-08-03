@@ -12,16 +12,16 @@ export const metadata = {
 };
 
 const SERVICE_IMAGES = {
-  'bi-reports': '/images/card-images/bi-reports.jpeg',
-  'web-development': '/images/card-images/web-development.jpeg',
-  'mobile-application': '/images/card-images/mobile-application.jpeg',
-  'infrastructure-management': '/images/card-images/infrastructure-management.jpeg',
-  'maintenance-and-enhancements': '/images/card-images/maintenance-and-enhancements.jpeg',
-  'migration-and-modernization': '/images/card-images/migration-and-modernization.jpeg',
-  'custom-erp-development': '/images/card-images/custom-erp-development.jpeg',
-  'ai-and-machine-learning': '/images/card-images/ai-and-machine-learning.jpeg',
-  'cloud-devops': '/images/card-images/cloud-devops.jpeg',
-  'fbr-einvoicing-and-compliance': '/images/card-images/fbr-einvoicing-and-compliance.jpeg',
+  'bi-reports': '/images/bireporting.png',
+  'web-development': '/images/Commerce-bnr.png',
+  'mobile-application': '/images/orderbookingnew.png',
+  'infrastructure-management': '/images/Infrastructure.png',
+  'maintenance-and-enhancements': '/images/maintaince&enhancedment.png',
+  'migration-and-modernization': '/images/migraction&modrenization.png',
+  'custom-erp-development': '/images/Hrms&payrollsysteam.png',
+  'ai-and-machine-learning': '/images/ai-hero-1.png',
+  'cloud-devops': '/images/Cloud & DevOps Solutionssecondry.png',
+  'fbr-einvoicing-and-compliance': '/images/Digital e-invociamain.png',
 };
 
 export default function ServicesPage() {
