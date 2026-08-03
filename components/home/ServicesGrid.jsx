@@ -49,7 +49,7 @@ export default function ServicesGrid() {
           </div>
         </AnimatedReveal>
 
-        {/* Services Cards Grid with Realistic Imagery */}
+        {/* Services Cards Grid with Rounded Inner Images */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => {
             const imgPath = SERVICE_IMAGES[service.slug] || '/images/dashboard.jpg';
@@ -59,39 +59,39 @@ export default function ServicesGrid() {
                 <ThreeDCard depth={15}>
                   <Link 
                     href={`/services/${service.slug}`}
-                    className="clean-card group flex flex-col h-full bg-white rounded-3xl border border-slate-200/80 shadow-sm hover:shadow-2xl hover:border-blue-500/30 transition-all duration-500 overflow-hidden"
+                    className="clean-card group flex flex-col h-full bg-white p-5 rounded-3xl border border-slate-200/80 shadow-sm hover:shadow-2xl hover:border-blue-500/30 transition-all duration-500 overflow-hidden"
                   >
-                    {/* Realistic Image Container */}
-                    <div className="w-full h-52 relative overflow-hidden bg-slate-900">
+                    {/* Realistic Image Container with Border Radius */}
+                    <div className="w-full h-52 relative rounded-2xl overflow-hidden bg-slate-900 shadow-inner">
                       <Image 
                         src={imgPath}
                         alt={service.title}
                         fill
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                        className="object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
+                        className="object-cover rounded-2xl group-hover:scale-110 transition-transform duration-700 ease-out"
                       />
-                      {/* Gradient Overlay for Readability and Gloss */}
-                      <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-900/20 to-transparent opacity-80 group-hover:opacity-60 transition-opacity" />
+                      {/* Gradient Overlay for Readability */}
+                      <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-slate-950/80 via-slate-900/20 to-transparent opacity-80 group-hover:opacity-60 transition-opacity" />
                       
                       {/* Category Badge */}
-                      <div className="absolute top-4 left-4 backdrop-blur-md bg-slate-950/60 border border-white/20 px-3 py-1 rounded-full text-[11px] font-semibold text-white tracking-wide shadow-sm">
+                      <div className="absolute top-3.5 left-3.5 backdrop-blur-md bg-slate-950/60 border border-white/20 px-3 py-1 rounded-full text-[11px] font-semibold text-white tracking-wide shadow-sm">
                         {service.heroStat1?.label || 'Enterprise'}
                       </div>
                     </div>
 
                     {/* Card Details */}
-                    <div className="p-6 flex flex-col flex-grow">
+                    <div className="pt-5 flex flex-col flex-grow">
                       {/* Service Icon & Title Header */}
                       <div className="flex items-center gap-3 mb-3">
                         <div 
-                          className="w-11 h-11 rounded-2xl flex items-center justify-center flex-shrink-0 border shadow-sm transition-transform duration-300 group-hover:scale-110 group-hover:rotate-3"
+                          className="w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0 border shadow-sm transition-transform duration-300 group-hover:scale-110 group-hover:rotate-3"
                           style={{ 
                             backgroundColor: service.accentLight || '#eff6ff', 
                             color: service.accent || '#2563eb',
                             borderColor: service.accentBorder || '#bfdbfe'
                           }}
                         >
-                          {getServiceIcon(service.slug, "w-5.5 h-5.5")}
+                          {getServiceIcon(service.slug, "w-5 h-5")}
                         </div>
                         <h3 className="text-xl font-bold text-slate-900 group-hover:text-blue-600 transition-colors line-clamp-1">
                           {service.title}
@@ -113,13 +113,10 @@ export default function ServicesGrid() {
                       </div>
                     </div>
                   </Link>
-                </ThreeDCard>
-              </AnimatedReveal>
-            );
-          })}
-        </div>
-        
-      </div>
-    </section>
-  );
+                );
+              })}
+            </div>
+          </div>
+        </section>
+      );
 }
