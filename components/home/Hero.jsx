@@ -1,8 +1,9 @@
 'use client';
+import { useState } from 'react';
 import Link from 'next/link';
-import { ArrowRight, ShieldCheck, Zap, Activity } from 'lucide-react';
+import { ArrowRight, ShieldCheck, Zap, Activity, Play, X } from 'lucide-react';
 import Image from 'next/image';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import ThreeDCard from '@/components/ThreeDCard';
 import ScrambleText from '@/components/ScrambleText';
 import CinematicWrapper from '@/components/three/CinematicWrapper';
@@ -10,6 +11,14 @@ import AnimatedReveal from '@/components/AnimatedReveal';
 
 export default function Hero({ config }) {
   if (!config) return null;
+
+  const videos = [
+    { id: 1, title: 'Enterprise Overview', url: 'https://www.youtube.com/embed/jX4dLxiso6A' },
+    { id: 2, title: 'Platform Architecture', url: 'https://www.youtube.com/embed/NPpeX_Suhpg' },
+    { id: 3, title: 'Real-Time Performance', url: 'https://www.youtube.com/embed/J41q6Zljjn8' },
+  ];
+
+  const [activeVideo, setActiveVideo] = useState(videos[0].url);
 
   return (
     <section className="bg-transparent text-white pt-32 pb-0 relative overflow-hidden">
@@ -79,15 +88,10 @@ export default function Hero({ config }) {
           </AnimatedReveal>
         </div>
 
-        {/* Dashboard Mockup with Continuous Float Animation */}
+        {/* Dashboard Mockup */}
         <AnimatedReveal delay={500} animation="fade-up">
-          <div className="max-w-5xl mx-auto relative z-10 pb-20 perspective-[2000px]">
-            <motion.div 
-              animate={{ y: [0, -15, 0] }}
-              transition={{ repeat: Infinity, duration: 6, ease: "easeInOut" }}
-            >
-              <ThreeDCard depth={30}>
-                <div className="relative rounded-2xl overflow-hidden border border-slate-800/60 shadow-[0_0_80px_rgba(37,99,235,0.15)] bg-slate-900/50 backdrop-blur-sm">
+          <div className="max-w-5xl mx-auto relative z-10 pb-20">
+            <div className="relative rounded-2xl overflow-hidden border border-slate-800/60 shadow-[0_0_80px_rgba(37,99,235,0.15)] bg-slate-900/50 backdrop-blur-sm">
                   {/* Fake Browser Chrome */}
                   <div className="bg-slate-950/80 px-4 py-3 border-b border-slate-800/60 flex items-center gap-2 backdrop-blur-md">
                     <div className="flex gap-1.5">
@@ -100,72 +104,51 @@ export default function Hero({ config }) {
                     </div>
                   </div>
                   {/* Dashboard Content Mockup */}
-                  <div className="relative aspect-video bg-slate-900/40 p-6 flex flex-col justify-between">
-                    <div className="absolute inset-0 bg-gradient-to-tr from-blue-900/10 to-transparent" />
-                    {/* Header Row */}
-                    <div className="flex justify-between items-start w-full relative z-10">
-                      <div className="space-y-2 w-1/3">
-                        <div className="h-4 bg-slate-800 rounded w-2/3" />
-                        <div className="h-2 bg-slate-800 rounded w-1/2" />
-                      </div>
-                      <div className="flex gap-2">
-                        <div className="w-8 h-8 rounded bg-slate-800" />
-                        <div className="w-8 h-8 rounded bg-blue-600" />
-                      </div>
+                  <div className="relative bg-slate-900/40 flex flex-col">
+                    {/* Inline Video Player */}
+                    <div className="w-full aspect-video relative bg-black">
+                      <iframe 
+                        src={activeVideo} 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                        className="absolute inset-0 w-full h-full border-0"
+                      />
                     </div>
-                    {/* Main Stats Row */}
-                    <div className="grid grid-cols-3 gap-4 w-full relative z-10">
-                      {[1, 2, 3].map((i) => (
-                        <div key={i} className="h-24 bg-slate-800/50 border border-slate-700/50 rounded-xl p-4 flex flex-col justify-between">
-                          <div className="w-6 h-6 rounded-full bg-slate-700" />
-                          <div className="space-y-2">
-                            <div className="h-3 bg-slate-700 rounded w-1/2" />
-                            <div className="h-2 bg-slate-700/50 rounded w-1/4" />
+                    {/* Video Triggers */}
+                    <div className="p-4 grid grid-cols-3 gap-4 w-full bg-slate-950/50 border-t border-slate-800/60">
+                      {videos.map((video) => {
+                        const isActive = activeVideo?.includes(video.url);
+                        return (
+                        <button 
+                          key={video.id}
+                          onClick={() => setActiveVideo(video.url + '?autoplay=1')}
+                          className={`relative h-20 border rounded-xl p-3 flex flex-col justify-between items-start transition-all overflow-hidden cursor-pointer text-left ${isActive ? 'bg-blue-900/30 border-blue-500/50' : 'bg-slate-800/50 border-slate-700/50 hover:border-blue-500/50'}`}
+                        >
+                          <div className={`absolute inset-0 bg-blue-500/10 transition-opacity ${isActive ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'}`} />
+                          <div className={`w-6 h-6 rounded-full flex items-center justify-center transition-colors z-10 ${isActive ? 'bg-blue-500' : 'bg-slate-700 hover:bg-blue-600'}`}>
+                            <Play className="w-3 h-3 text-white ml-0.5" />
                           </div>
-                        </div>
-                      ))}
+                          <div className="z-10 flex flex-col justify-center">
+                            <span className={`text-xs sm:text-sm font-semibold transition-colors truncate ${isActive ? 'text-white' : 'text-slate-300'}`}>
+                              {video.title}
+                            </span>
+                            <span className="text-[10px] text-slate-400 font-medium">
+                              Watch Video
+                            </span>
+                          </div>
+                        </button>
+                      )})}
                     </div>
                   </div>
                 </div>
-              </ThreeDCard>
-            </motion.div>
 
-            {/* Performance Badges with Pop-in Animation */}
-            <motion.div 
-              initial={{ scale: 0, opacity: 0 }}
-              whileInView={{ scale: 1, opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.8, type: 'spring', stiffness: 100 }}
-              className="absolute -right-6 top-20 bg-slate-900/90 backdrop-blur-md border border-slate-700 shadow-2xl rounded-xl p-3 flex items-center gap-3"
-            >
-              <div className="w-10 h-10 rounded-full bg-emerald-500/20 flex items-center justify-center">
-                <Activity className="w-5 h-5 text-emerald-400" />
-              </div>
-              <div>
-                <p className="text-[10px] text-slate-400 font-bold uppercase tracking-wider">Performance</p>
-                <p className="text-sm font-extrabold text-white">Real-time Sync</p>
-              </div>
-            </motion.div>
 
-            <motion.div 
-              initial={{ scale: 0, opacity: 0 }}
-              whileInView={{ scale: 1, opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ delay: 1, type: 'spring', stiffness: 100 }}
-              className="absolute -left-6 bottom-32 bg-slate-900/90 backdrop-blur-md border border-slate-700 shadow-2xl rounded-xl p-3 flex items-center gap-3"
-            >
-              <div className="w-10 h-10 rounded-full bg-blue-500/20 flex items-center justify-center">
-                <Zap className="w-5 h-5 text-blue-400" />
-              </div>
-              <div>
-                <p className="text-[10px] text-slate-400 font-bold uppercase tracking-wider">Speed Score</p>
-                <p className="text-sm font-extrabold text-white">100 / 100</p>
-              </div>
-            </motion.div>
           </div>
         </AnimatedReveal>
 
       </div>
+
+
     </section>
   );
 }
