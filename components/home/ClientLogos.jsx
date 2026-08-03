@@ -7,9 +7,6 @@ const CLIENTS = [
   { name: 'Dairy Life', src: '/images/dairylifelogo.png' },
   { name: 'Youngs Bazar', src: '/images/newYoungs-bazar.png' },
   { name: 'Fusion', src: '/images/Fusion.png'},
-  { name: 'Enterprise Client 1', textLogo: 'ENTERPRISE' },
-  { name: 'Global Tech', textLogo: 'GLOBALTECH' },
-  { name: 'Systems', textLogo: 'SYSTEMS' },
 ];
 
 export default function ClientLogos() {
