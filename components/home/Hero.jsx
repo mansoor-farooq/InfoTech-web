@@ -62,55 +62,7 @@ export default function Hero({ config }) {
           </div>
         </div>
 
-        {/* 3D Interactive Cyber Glass Dashboard Mockup */}
-        <div className="max-w-5xl mx-auto relative mt-12">
-          <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-[#020617] via-[#020617]/80 to-transparent z-20 pointer-events-none" />
-          
-          <ThreeDCard depth={50}>
-            <div className="relative rounded-t-3xl border border-slate-800 bg-slate-950/90 shadow-2xl overflow-hidden ring-1 ring-white/10 backdrop-blur-2xl transition-all duration-500">
-              
-              {/* Mac OS Browser Window Header Bar */}
-              <div className="h-12 border-b border-slate-800/80 bg-slate-950 px-4 flex items-center justify-between">
-                <div className="flex items-center gap-2">
-                  <div className="w-3 h-3 rounded-full bg-rose-500/80" />
-                  <div className="w-3 h-3 rounded-full bg-amber-500/80" />
-                  <div className="w-3 h-3 rounded-full bg-emerald-500/80" />
-                </div>
-                <div className="flex items-center gap-2 bg-slate-900/90 px-4 py-1 rounded-full border border-slate-800 text-xs font-mono text-slate-400">
-                  <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
-                  <span>https://enterprise.infotech.com.pk/dashboard</span>
-                </div>
-                <div className="flex items-center gap-2 text-xs text-slate-400 font-mono hidden sm:flex">
-                  <Activity className="w-3.5 h-3.5 text-blue-400 animate-pulse" />
-                  <span>12ms API</span>
-                </div>
-              </div>
-              
-              {/* Dashboard Display Area */}
-              <div className="relative aspect-[16/9] w-full bg-slate-950 flex items-center justify-center overflow-hidden">
-                <Image 
-                  src={config.heroImage || "/images/dashboard.jpg"} 
-                  alt="Enterprise Dashboard Preview" 
-                  fill 
-                  className="object-cover opacity-90 hover:opacity-100 transition-opacity" 
-                  priority 
-                />
-
-                {/* Overlay Glass Stat Widgets in 3D */}
-                <div className="absolute bottom-8 left-8 hidden md:flex items-center gap-4 bg-slate-900/90 backdrop-blur-xl p-4 rounded-2xl border border-slate-700/80 shadow-2xl animate-float">
-                  <div className="w-10 h-10 rounded-xl bg-blue-600/20 border border-blue-500/30 flex items-center justify-center text-blue-400">
-                    <Zap className="w-5 h-5" />
-                  </div>
-                  <div>
-                    <div className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Real-time Performance</div>
-                    <div className="text-sm font-bold text-white">100/100 Speed Score</div>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </ThreeDCard>
-        </div>
+        {/* Removed Dashboard Mockup as per user feedback */}
 
       </div>
     </section>
