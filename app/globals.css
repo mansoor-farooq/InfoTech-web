@@ -309,11 +309,9 @@ body {
   animation-play-state: paused;
 }
 .marquee-track img {
-  filter: grayscale(1) brightness(1.2) opacity(.65);
-  transition: filter .3s ease, transform .3s ease;
+  transition: transform .3s ease;
 }
 .marquee-track img:hover {
-  filter: grayscale(0) brightness(1) opacity(1);
   transform: scale(1.08);
 }
 @keyframes scroll-x {

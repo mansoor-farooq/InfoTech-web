@@ -71,7 +71,7 @@
       "image2": "/images/bireporting.jpg",
       "image3": "/images/services/bi-reports-3-dashboard.png",
       "image4": "/images/services/bi-reports-4-workflow.png",
-      "video": "/videos/services/bi-reports-demo.mp4"
+      "video": "https://www.youtube.com/embed/2e9w4Z-Qh-I"
     },
     "web-development": {
       "title": "Web Development",
@@ -115,7 +115,7 @@
       "image2": "/images/Custom Web Application Development.png",
       "image3": "/images/services/web-development-3-dashboard.png",
       "image4": "/images/services/web-development-4-workflow.png",
-      "video": "/videos/services/web-development-demo.mp4"
+      "video": "https://www.youtube.com/embed/5qap5aO4i9A"
     },
     "mobile-application": {
       "title": "Mobile Application",
@@ -159,7 +159,7 @@
       "image2": "/images/audit_web_banner.png",
       "image3": "/images/services/mobile-application-3-dashboard.png",
       "image4": "/images/services/mobile-application-4-workflow.png",
-      "video": "/videos/services/mobile-application-demo.mp4"
+      "video": "https://www.youtube.com/embed/L_LUpnjgPso"
     },
     "infrastructure-management": {
       "title": "Infrastructure Management",
@@ -203,7 +203,7 @@
       "image2": "/images/services/infrastructure-management-2-architecture.png",
       "image3": "/images/services/infrastructure-management-3-dashboard.png",
       "image4": "/images/services/infrastructure-management-4-workflow.png",
-      "video": "/videos/services/infrastructure-management-demo.mp4"
+      "video": "https://www.youtube.com/embed/ScMzIvxBSi4"
     },
     "maintenance-enhancements": {
       "title": "Maintenance & Enhancements",
@@ -247,7 +247,7 @@
       "image2": "/images/softwiremaintaince.png",
       "image3": "/images/services/maintenance-enhancements-3-dashboard.png",
       "image4": "/images/services/maintenance-enhancements-4-workflow.png",
-      "video": "/videos/services/maintenance-enhancements-demo.mp4"
+      "video": "https://www.youtube.com/embed/9bZkp7q19f0"
     },
     "migration-and-modernization": {
       "title": "Migration And Modernization",
@@ -291,7 +291,7 @@
       "image2": "/images/migraction&modrenizationweb.png",
       "image3": "/images/Software-That-Improves--Dailyy--Operations--Banner.jpg.jpeg",
       "image4": "/images/services/migration-and-modernization-4-workflow.png",
-      "video": "/videos/services/migration-and-modernization-demo.mp4"
+      "video": "https://www.youtube.com/embed/tgbNymZ7vqY"
     },
     "custom-erp-development": {
       "title": "Custom ERP Development",
@@ -335,7 +335,7 @@
       "image2": "/images/services/custom-erp-development-2-architecture.png",
       "image3": "/images/services/custom-erp-development-3-dashboard.png",
       "image4": "/images/services/custom-erp-development-4-workflow.png",
-      "video": "/videos/services/custom-erp-development-demo.mp4"
+      "video": "https://www.youtube.com/embed/2e9w4Z-Qh-I"
     },
     "ai-and-machine-learning": {
       "title": "AI & Machine Learning",
@@ -379,7 +379,7 @@
       "image2": "/images/services/ai-and-machine-learning-2-architecture.png",
       "image3": "/images/services/ai-and-machine-learning-3-dashboard.png",
       "image4": "/images/services/ai-and-machine-learning-4-workflow.png",
-      "video": "/videos/services/ai-and-machine-learning-demo.mp4"
+      "video": "https://www.youtube.com/embed/kXYiU_JCYtU"
     },
     "cloud-devops": {
       "title": "Cloud & DevOps Solutions",
@@ -423,7 +423,7 @@
       "image2": "/images/services/cloud-devops-2-architecture.png",
       "image3": "/images/services/cloud-devops-3-dashboard.png",
       "image4": "/images/services/cloud-devops-4-workflow.png",
-      "video": "/videos/services/cloud-devops-demo.mp4"
+      "video": "https://www.youtube.com/embed/ScMzIvxBSi4"
     },
     "fbr-e-invoicing-compliance": {
       "title": "FBR E-Invoicing & Compliance",
@@ -467,7 +467,7 @@
       "image2": "/images/Digital e-invociamain.png",
       "image3": "/images/Digital e-invociasecond.png",
       "image4": "/images/services/fbr-e-invoicing-compliance-4-workflow.png",
-      "video": "/videos/services/fbr-e-invoicing-compliance-demo.mp4"
+      "video": "/videos/digital-e-invocia-integration.mp4"
     }
   },
   "NAV_PRODUCTS": [
@@ -641,7 +641,7 @@
         }
       ],
       "heroImage": "/images/cartivo-transparent.png",
-      "video": "/videos/cartivo-demo.mp4",
+      "video": "https://www.youtube.com/embed/5qap5aO4i9A",
       "image2": "/images/products/cartivo-2-dashboard.png",
       "image3": "/images/products/cartivo-3-features.png",
       "image4": "/images/products/cartivo-4-analytics.png"
@@ -748,7 +748,7 @@
       "image2": "/images/Hrms&payrollsysteam.png",
       "image3": "/images/hrms.png",
       "image4": "/images/products/hrms-&-payroll-management-system-4-analytics.png",
-      "video": "/videos/products/hrms-&-payroll-management-system-demo.mp4"
+      "video": "https://www.youtube.com/embed/2e9w4Z-Qh-I"
     },
     "digital-e-invocia-integration": {
       "title": "Digital E-Invocia Integration",
@@ -828,7 +828,7 @@
       "image2": "/images/ecoomerceapp mainimages.png",
       "image3": "/images/ecoomercesoluctions.png",
       "image4": "/images/products/e-commerce-solutions-4-analytics.png",
-      "video": "/videos/products/e-commerce-solutions-demo.mp4"
+      "video": "https://www.youtube.com/embed/5qap5aO4i9A"
     },
     "merchandizing-application": {
       "title": "Merchandizing Application",
@@ -868,7 +868,7 @@
       "image2": "/images/audit_web_banner.png",
       "image3": "/images/audit_mobile_banner.png",
       "image4": "/images/products/merchandizing-application-4-analytics.png",
-      "video": "/videos/products/merchandizing-application-demo.mp4"
+      "video": "https://www.youtube.com/embed/9bZkp7q19f0"
     },
     "order-booking": {
       "title": "Order Booking",
@@ -908,7 +908,7 @@
       "image2": "/images/orderbookingnew.png",
       "image3": "/images/orderbooking.jpeg",
       "image4": "/images/products/order-booking-4-analytics.png",
-      "video": "/videos/products/order-booking-demo.mp4"
+      "video": "https://www.youtube.com/embed/L_LUpnjgPso"
     },
     "secondary-sales": {
       "title": "Secondary Sales",
@@ -948,7 +948,7 @@
       "image2": "/images/saleverse secondry saleapp.png",
       "image3": "/images/secondrysale.png",
       "image4": "/images/products/secondary-sales-4-analytics.png",
-      "video": "/videos/products/secondary-sales-demo.mp4"
+      "video": "https://www.youtube.com/embed/tgbNymZ7vqY"
     },
     "procurement-application": {
       "title": "Procurement Application",
@@ -987,7 +987,7 @@
       "image2": "/images/erp.png",
       "image3": "/images/products/procurement-application-3-features.png",
       "image4": "/images/products/procurement-application-4-analytics.png",
-      "video": "/videos/products/procurement-application-demo.mp4"
+      "video": "https://www.youtube.com/embed/2e9w4Z-Qh-I"
     },
     "lms": {
       "title": "Learning Management System (LMS)",
@@ -1025,7 +1025,7 @@
       "image2": "/images/products/lms-2-dashboard.png",
       "image3": "/images/products/lms-3-features.png",
       "image4": "/images/products/lms-4-analytics.png",
-      "video": "/videos/products/lms-demo.mp4"
+      "video": "https://www.youtube.com/embed/kXYiU_JCYtU"
     },
     "warehouse-management-system-wms": {
       "title": "Warehouse Management System (WMS)",
@@ -1067,7 +1067,7 @@
       "image2": "/images/products/warehouse-management-system-wms-2-dashboard.png",
       "image3": "/images/products/warehouse-management-system-wms-3-features.png",
       "image4": "/images/products/warehouse-management-system-wms-4-analytics.png",
-      "video": "/videos/products/warehouse-management-system-wms-demo.mp4"
+      "video": "https://www.youtube.com/embed/9bZkp7q19f0"
     },
     "field-force-&-sales-automation-sfa": {
       "title": "Field Force & Sales Automation (SFA)",
@@ -1170,7 +1170,7 @@
       "image2": "/images/saleverse secondry saleapp.png",
       "image3": "/images/products/field-force-&-sales-automation-sfa-3-features.png",
       "image4": "/images/products/field-force-&-sales-automation-sfa-4-analytics.png",
-      "video": "/videos/products/field-force-&-sales-automation-sfa-demo.mp4"
+      "video": "https://www.youtube.com/embed/L_LUpnjgPso"
     },
     "enterprise-crm-system": {
       "title": "Enterprise CRM System",
@@ -1212,7 +1212,7 @@
       "image2": "/images/products/enterprise-crm-system-2-dashboard.png",
       "image3": "/images/products/enterprise-crm-system-3-features.png",
       "image4": "/images/products/enterprise-crm-system-4-analytics.png",
-      "video": "/videos/products/enterprise-crm-system-demo.mp4"
+      "video": "https://www.youtube.com/embed/tgbNymZ7vqY"
     }
   },
   "TESTIMONIALS": [

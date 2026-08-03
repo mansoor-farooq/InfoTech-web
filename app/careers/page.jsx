@@ -1,7 +1,7 @@
 import ServerNavbar from '@/components/ServerNavbar';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
-import { ArrowRight, Briefcase, CheckCircle2, Zap, Rocket, Users, ShieldCheck, Award } from 'lucide-react';
+import { ArrowRight, Briefcase, Zap, Rocket, Users, Award } from 'lucide-react';
 
 export const metadata = {
   title: 'Careers | Join InfoTech Solutions',
@@ -9,57 +9,6 @@ export const metadata = {
 };
 
 export default function CareersPage() {
-  const openPositions = [
-    {
-      title: 'Senior Full Stack Engineer (Next.js / Node.js)',
-      department: 'Engineering',
-      type: 'Full-time',
-      location: 'Hybrid / Remote',
-      experience: '5+ Years',
-      description: 'Architect scalable web applications, microservices, and enterprise web portals using Next.js, TypeScript, and cloud services.',
-    },
-    {
-      title: 'Mobile Application Engineer (React Native / Flutter)',
-      department: 'Mobile Engineering',
-      type: 'Full-time',
-      location: 'Hybrid / Remote',
-      experience: '4+ Years',
-      description: 'Develop high-performance iOS & Android enterprise mobile applications for sales force automation and field operations.',
-    },
-    {
-      title: 'Cloud DevOps & Infrastructure Specialist',
-      department: 'DevOps & Cloud',
-      type: 'Full-time',
-      location: 'On-site / Hybrid',
-      experience: '4+ Years',
-      description: 'Manage Kubernetes clusters, Docker pipelines, AWS/GCP cloud environments, and CI/CD automated deployments.',
-    },
-    {
-      title: 'Enterprise ERP & Supply Chain Consultant',
-      department: 'Enterprise Solutions',
-      type: 'Full-time',
-      location: 'On-site',
-      experience: '5+ Years',
-      description: 'Design and deploy custom ERP solutions, warehouse management systems, and inventory sync modules.',
-    },
-    {
-      title: 'AI & Machine Learning Solutions Engineer',
-      department: 'AI & Data Science',
-      type: 'Full-time',
-      location: 'Hybrid',
-      experience: '3+ Years',
-      description: 'Build predictive AI models, automated document OCR processing engines, and natural language interfaces.',
-    },
-    {
-      title: 'FBR E-Invoicing & Compliance Specialist',
-      department: 'Tax & Compliance',
-      type: 'Full-time',
-      location: 'Hybrid',
-      experience: '3+ Years',
-      description: 'Implement real-time digital e-invoicing integrations with FBR and enterprise billing systems.',
-    },
-  ];
-
   const culturePerks = [
     {
       icon: Rocket,
@@ -106,12 +55,12 @@ export default function CareersPage() {
             </h1>
 
             <p className="text-lg md:text-2xl text-slate-300 font-medium leading-relaxed mb-10 max-w-3xl mx-auto">
-              At InfoTech Solutions, we design and scale complex software systems that power industries. Explore open roles and build software that matters.
+              At InfoTech Solutions, we design and scale complex software systems that power industries. Send us your profile and build software that matters.
             </p>
 
             <div className="flex flex-wrap items-center justify-center gap-4">
               <a href="#positions" className="btn-primary py-4 px-8 text-base bg-blue-600 hover:bg-blue-700 shadow-xl shadow-blue-600/30">
-                View Open Positions <ArrowRight className="w-5 h-5 ml-2" />
+                View Talent Network <ArrowRight className="w-5 h-5 ml-2" />
               </a>
               <Link href="/contact" className="btn-secondary py-4 px-8 text-base border-slate-700 text-slate-200 hover:bg-slate-800">
                 Contact HR Team
@@ -149,45 +98,36 @@ export default function CareersPage() {
           </div>
         </section>
 
-        {/* Open Positions Grid */}
+        {/* Open Positions Notice Section */}
         <section id="positions" className="section py-24 bg-slate-950 border-b border-slate-800">
           <div className="container-xl">
-            <div className="text-center max-w-3xl mx-auto mb-16">
+            <div className="text-center max-w-3xl mx-auto mb-12">
               <span className="text-blue-400 font-mono text-xs font-bold uppercase tracking-widest block mb-3">Careers</span>
               <h2 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-4">Current Opportunities</h2>
               <p className="text-slate-400 text-lg">
-                Find a role where you can apply your skills to challenge complex engineering problems.
+                Explore potential career pathways and join our talent network.
               </p>
             </div>
 
-            <div className="grid lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
-              {openPositions.map((job, idx) => (
-                <div key={idx} className="bg-slate-900 p-8 rounded-3xl border border-slate-800 hover:border-slate-700 transition-all flex flex-col justify-between hover-lift">
-                  <div>
-                    <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
-                      <span className="px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-blue-600/20 text-blue-400 border border-blue-500/30">
-                        {job.department}
-                      </span>
-                      <div className="flex items-center gap-2 text-xs font-mono text-slate-400">
-                        <span>{job.type}</span> • <span>{job.location}</span>
-                      </div>
-                    </div>
+            <div className="bg-slate-900 border border-slate-800 rounded-3xl p-10 md:p-16 text-center max-w-3xl mx-auto shadow-2xl">
+              <div className="w-16 h-16 rounded-2xl bg-blue-600/20 border border-blue-500/30 text-blue-400 flex items-center justify-center mx-auto mb-6">
+                <Briefcase className="w-8 h-8" />
+              </div>
+              
+              <h3 className="text-2xl md:text-3xl font-extrabold text-white mb-4">
+                No Active Job Openings Right Now
+              </h3>
+              
+              <p className="text-slate-300 text-lg leading-relaxed mb-8 max-w-xl mx-auto font-medium">
+                We currently don't have any specific open job positions available. However, we are always interested in connecting with talented software engineers, architects, and designers for future projects.
+              </p>
 
-                    <h3 className="text-2xl font-bold text-white mb-3">{job.title}</h3>
-                    <p className="text-slate-400 text-sm leading-relaxed mb-6">{job.description}</p>
-                  </div>
-
-                  <div className="pt-6 border-t border-slate-800 flex items-center justify-between">
-                    <span className="text-xs text-slate-400 font-mono font-medium">Req Exp: {job.experience}</span>
-                    <Link
-                      href={`/contact?job=${encodeURIComponent(job.title)}`}
-                      className="btn-primary py-2.5 px-5 text-sm bg-blue-600 hover:bg-blue-700 shadow-md"
-                    >
-                      Apply Now &rarr;
-                    </Link>
-                  </div>
-                </div>
-              ))}
+              <Link
+                href="/contact?subject=General+Job+Application"
+                className="btn-primary py-4 px-8 text-base bg-blue-600 hover:bg-blue-700 shadow-xl shadow-blue-600/30 inline-flex items-center"
+              >
+                Submit Your CV / Resume <ArrowRight className="w-5 h-5 ml-2" />
+              </Link>
             </div>
           </div>
         </section>
@@ -195,7 +135,7 @@ export default function CareersPage() {
         {/* Call to Action Banner */}
         <section className="py-24 bg-gradient-to-r from-blue-900 via-slate-900 to-indigo-950 text-center">
           <div className="container-xl max-w-3xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-extrabold mb-6">Don't See Your Role?</h2>
+            <h2 className="text-4xl md:text-5xl font-extrabold mb-6">Join Our Talent Network</h2>
             <p className="text-xl text-slate-300 mb-8 font-medium">
               We are always looking for exceptional software talent. Send us your CV and portfolio.
             </p>

@@ -6,6 +6,8 @@ import StatsBar from '@/components/home/StatsBar';
 import ServicesGrid from '@/components/home/ServicesGrid';
 import WhyInfoTech from '@/components/home/WhyInfoTech';
 import Testimonials from '@/components/home/Testimonials';
+import GlobeBackground from '@/components/GlobeBackground';
+import PageTransition from '@/components/PageTransition';
 import { COMPANY_INFO, TESTIMONIALS } from '@/lib/data';
 
 const heroConfig = {
@@ -43,8 +45,10 @@ const whyReasons = [
 export default function Home() {
   return (
     <>
+      <PageTransition />
       <ServerNavbar />
-      <main>
+      <GlobeBackground />
+      <main className="relative z-0">
         <Hero config={heroConfig} />
         <ClientLogos />
         <StatsBar config={statsConfig} />

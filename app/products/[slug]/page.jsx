@@ -313,17 +313,23 @@ export default async function ProductDetailPage({ params }) {
                 
                 <div className="relative aspect-video max-w-4xl mx-auto rounded-3xl overflow-hidden bg-slate-900 shadow-2xl group border-4 border-slate-800">
                   {product.video ? (
-                    <video 
-                      suppressHydrationWarning
-                      className="w-full h-full object-cover"
-                      controls 
-                      autoPlay 
-                      muted 
-                      loop
-                    >
-                      <source src={product.video} type="video/mp4" />
-                      Your browser does not support the video tag.
-                    </video>
+                    product.video.includes('youtube.com') || product.video.includes('youtu.be') ? (
+                      <iframe 
+                        src={product.video} 
+                        title={`${product.title} YouTube Demo`} 
+                        className="w-full h-full border-0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowFullScreen 
+                      />
+                    ) : (
+                      <video 
+                        suppressHydrationWarning
+                        className="w-full h-full object-cover"
+                        controls 
+                        playsInline
+                        src={product.video}
+                      />
+                    )
                   ) : (
                     <>
                       <div className="absolute inset-0 bg-slate-800 flex items-center justify-center opacity-90 group-hover:opacity-100 transition-opacity">

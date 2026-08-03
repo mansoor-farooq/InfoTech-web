@@ -4,6 +4,7 @@ import ScrollProgress from '@/components/ScrollProgress';
 import BackToTop from '@/components/BackToTop';
 import CursorGlow from '@/components/CursorGlow';
 import Preloader from '@/components/Preloader';
+import WhatsAppButton from '@/components/WhatsAppButton';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,12 +26,13 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col bg-white text-slate-900 relative selection:bg-blue-600 selection:text-white">
+    <html lang="en" suppressHydrationWarning className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
+      <body suppressHydrationWarning className="min-h-full flex flex-col bg-white text-slate-900 relative selection:bg-blue-600 selection:text-white">
         <Preloader />
         <ScrollProgress />
         <CursorGlow />
         {children}
+        <WhatsAppButton />
         <BackToTop />
       </body>
     </html>

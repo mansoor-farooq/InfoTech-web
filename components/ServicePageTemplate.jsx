@@ -244,6 +244,50 @@ export default function ServicePageTemplate({ data }) {
           </div>
         </section>
 
+        {/* Live Video Demonstration (YouTube & MP4 Support) */}
+        <section id="video-demo" className="section py-24 bg-slate-900 text-white border-b border-slate-800">
+          <div className="container-xl">
+            <div className="text-center max-w-3xl mx-auto mb-12 animate-fade-up">
+              <span className="text-cyan-400 font-mono text-xs font-bold uppercase tracking-widest block mb-3">Live Video Demonstration</span>
+              <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight">
+                {data.videoTitle || `${data.title} Overview & Demo`}
+              </h2>
+            </div>
+
+            <div className="max-w-4xl mx-auto rounded-3xl overflow-hidden shadow-2xl border border-slate-800 bg-slate-950 aspect-video flex items-center justify-center relative hover-lift">
+              {data.video ? (
+                data.video.includes('youtube.com') || data.video.includes('youtu.be') ? (
+                  <iframe 
+                    src={data.video} 
+                    title={`${data.title} YouTube Demo`} 
+                    className="w-full h-full border-0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowFullScreen 
+                  />
+                ) : (
+                  <video 
+                    suppressHydrationWarning
+                    controls 
+                    playsInline
+                    className="w-full h-full object-cover" 
+                    src={data.video} 
+                  />
+                )
+              ) : (
+                <div className="text-center p-8">
+                  <div className="w-16 h-16 rounded-full bg-blue-600/20 border border-blue-500/30 flex items-center justify-center text-blue-400 mx-auto mb-4 animate-pulse">
+                    <Zap className="w-8 h-8" />
+                  </div>
+                  <h3 className="text-xl font-bold text-white mb-2">{data.title} Demo Video</h3>
+                  <p className="text-slate-400 text-sm max-w-md mx-auto">
+                    Video walkthrough ready.
+                  </p>
+                </div>
+              )}
+            </div>
+          </div>
+        </section>
+
         {/* Enterprise Call To Action Banner */}
         <section className="py-24 bg-gradient-to-br from-slate-900 via-blue-950 to-slate-950 text-white relative overflow-hidden">
            <div className="absolute inset-0 bg-[radial-gradient(#3b82f6_1px,transparent_1px)] [background-size:24px_24px] opacity-20 pointer-events-none" />
