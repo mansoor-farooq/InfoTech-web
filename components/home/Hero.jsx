@@ -52,14 +52,7 @@ export default function Hero({ config }) {
             </Link>
           </div>
 
-          {/* Tech Stack Badges */}
-          <div className="flex flex-wrap items-center justify-center gap-3 mt-12 text-xs font-mono text-slate-400">
-            {['Next.js 16', 'React 19', 'Python AI', 'PostgreSQL', 'Cloud K8s', 'SAP Integration'].map((tech, i) => (
-              <span key={i} className="px-3 py-1.5 rounded-lg bg-slate-900/80 border border-slate-800 shadow-sm">
-                {tech}
-              </span>
-            ))}
-          </div>
+          {/* Tech Stack Badges Removed as per user request */}
         </div>
 
         {/* Removed Dashboard Mockup as per user feedback */}

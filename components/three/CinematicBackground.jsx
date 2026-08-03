@@ -38,9 +38,9 @@ function FloatingCubes() {
         (Math.random() - 0.5) * 5,
       ],
       scale: 0.22 + Math.random() * 0.8,
-      speed: 0.08 + Math.random() * 0.28,
-      floatSpeed: 0.35 + Math.random() * 0.7,
-      floatRange: 0.12 + Math.random() * 0.35,
+      speed: 0.03 + Math.random() * 0.1,
+      floatSpeed: 0.15 + Math.random() * 0.35,
+      floatRange: 0.08 + Math.random() * 0.2,
       color: colors[index % colors.length],
     }))
   }, [])
@@ -52,13 +52,13 @@ function CameraRig() {
   useFrame((state, delta) => {
     state.camera.position.x = THREE.MathUtils.lerp(
       state.camera.position.x,
-      state.pointer.x * 0.8,
-      Math.min(1, delta * 0.8),
+      state.pointer.x * 0.6,
+      Math.min(1, delta * 0.5),
     )
     state.camera.position.y = THREE.MathUtils.lerp(
       state.camera.position.y,
-      state.pointer.y * 0.45,
-      Math.min(1, delta * 0.8),
+      state.pointer.y * 0.3,
+      Math.min(1, delta * 0.5),
     )
     state.camera.lookAt(0, 0, 0)
   })
