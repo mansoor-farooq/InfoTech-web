@@ -234,6 +234,7 @@ body {
   z-index: 9999;
   transform: translate(-50%, -50%);
   transition: opacity .3s ease;
+  mix-blend-mode: screen;
 }
 @media(max-width: 900px) {
   #glow { display: none; }

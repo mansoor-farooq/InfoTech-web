@@ -12,12 +12,13 @@ const CLIENTS = [
 export default function ClientLogos() {
   const shouldReduceMotion = useReducedMotion();
   
-  // Create a continuous array by duplicating it a few times so the loop is seamless
-  const duplicatedClients = [...CLIENTS, ...CLIENTS, ...CLIENTS, ...CLIENTS];
+  // Create a continuous array by duplicating it enough times so the loop is seamless even on ultrawide screens
+  const baseClients = [...CLIENTS, ...CLIENTS, ...CLIENTS, ...CLIENTS];
+  const duplicatedClients = [...baseClients, ...baseClients]; // 32 items
 
   return (
-    <section className="py-12 border-b border-gray-100 bg-white overflow-hidden">
-      <div className="container-xl mb-8">
+    <section className="py-12 border-y border-gray-100 bg-white overflow-hidden relative">
+      <div className="container-xl mb-8 relative z-10">
         <p className="text-center text-xs font-bold text-gray-400 uppercase tracking-widest">
           Trusted by Pakistan&apos;s Leading Enterprises
         </p>
@@ -25,11 +26,11 @@ export default function ClientLogos() {
 
       <div className="w-full relative flex items-center overflow-hidden">
         {/* Fading Edges for better visual effect */}
-        <div className="absolute left-0 top-0 bottom-0 w-24 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none" />
-        <div className="absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none" />
+        <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none" />
+        <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none" />
 
         <motion.div
-          className="flex items-center gap-16 md:gap-24 w-max"
+          className="flex items-center w-max"
           animate={shouldReduceMotion ? {} : { x: ["0%", "-50%"] }}
           transition={shouldReduceMotion ? {} : {
             x: {
@@ -41,7 +42,7 @@ export default function ClientLogos() {
           }}
         >
           {duplicatedClients.map((client, i) => (
-            <div key={i} className="flex items-center justify-center h-16 relative w-36 flex-shrink-0 group">
+            <div key={i} className="flex items-center justify-center h-16 relative w-36 flex-shrink-0 group mx-8 md:mx-12">
               {client.src ? (
                 <Image 
                   src={client.src} 
