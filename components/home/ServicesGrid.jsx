@@ -7,16 +7,16 @@ import AnimatedReveal from '@/components/AnimatedReveal';
 import ThreeDCard from '@/components/ThreeDCard';
 
 const SERVICE_IMAGES = {
-  'bi-reports': '/images/bireporting.png',
-  'web-development': '/images/webdevelopment.png',
-  'mobile-application': '/images/orderbookingnew.png',
-  'infrastructure-management': '/images/Infrastructure.png',
-  'maintenance-and-enhancements': '/images/maintaince&enhancedment.png',
-  'migration-and-modernization': '/images/migraction&modrenization.png',
-  'custom-erp-development': '/images/erp.png',
-  'ai-and-machine-learning': '/images/ai-hero-1.png',
-  'cloud-devops': '/images/Cloud & DevOps Solutionssecondry.png',
-  'fbr-einvoicing-and-compliance': '/images/Digital e-invociamain.png',
+  'bi-reports': '/images/card-images/bi-reports.jpeg',
+  'web-development': '/images/card-images/web-development.jpeg',
+  'mobile-application': '/images/card-images/mobile-application.jpeg',
+  'infrastructure-management': '/images/card-images/infrastructure-management.jpeg',
+  'maintenance-and-enhancements': '/images/card-images/maintenance-and-enhancements.jpeg',
+  'migration-and-modernization': '/images/card-images/migration-and-modernization.jpeg',
+  'custom-erp-development': '/images/card-images/custom-erp-development.jpeg',
+  'ai-and-machine-learning': '/images/card-images/ai-and-machine-learning.jpeg',
+  'cloud-devops': '/images/card-images/cloud-devops.jpeg',
+  'fbr-einvoicing-and-compliance': '/images/card-images/fbr-einvoicing-and-compliance.jpeg',
 };
 
 export default function ServicesGrid() {
@@ -49,7 +49,7 @@ export default function ServicesGrid() {
           </div>
         </AnimatedReveal>
 
-        {/* Services Cards Grid with Rounded Inner Images */}
+        {/* Services Cards Grid with Uploaded Card Images */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => {
             const imgPath = SERVICE_IMAGES[service.slug] || '/images/dashboard.jpg';
@@ -71,7 +71,7 @@ export default function ServicesGrid() {
                         className="object-cover rounded-2xl group-hover:scale-110 transition-transform duration-700 ease-out"
                       />
                       {/* Gradient Overlay for Readability */}
-                      <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-slate-950/80 via-slate-900/20 to-transparent opacity-80 group-hover:opacity-60 transition-opacity" />
+                      <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-slate-950/70 via-slate-900/10 to-transparent opacity-70 group-hover:opacity-50 transition-opacity" />
                       
                       {/* Category Badge */}
                       <div className="absolute top-3.5 left-3.5 backdrop-blur-md bg-slate-950/60 border border-white/20 px-3 py-1 rounded-full text-[11px] font-semibold text-white tracking-wide shadow-sm">
