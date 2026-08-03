@@ -82,7 +82,13 @@ export default function ServiceCardGraphic({ slug, accent = '#2563eb' }) {
 
           {/* Status Bar */}
           <div className="flex items-center justify-between text-[9px] text-slate-500 pt-1.5 border-t border-slate-800/80 font-sans">
-            <span className="text-emerald-400 font-bold flex items-center gap-1"><span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping" /> Live Ready</span>
+            <span className="text-emerald-400 font-bold flex items-center gap-1">
+              <span className="relative flex w-2 h-2">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                <span className="relative inline-flex rounded-full w-2 h-2 bg-emerald-500"></span>
+              </span>
+              Live Ready
+            </span>
             <span>UTF-8 • JSX</span>
           </div>
         </div>
@@ -127,7 +133,7 @@ export default function ServiceCardGraphic({ slug, accent = '#2563eb' }) {
             {['Node-01 (Primary Cluster)', 'Node-02 (Database Replica)', 'Node-03 (Edge Cache)'].map((server, i) => (
               <div key={i} className="bg-slate-900 p-2 rounded-lg border border-slate-800 flex items-center justify-between text-[9px]">
                 <span className="text-slate-300 font-mono">{server}</span>
-                <span className="w-2 h-2 rounded-full bg-emerald-400 shadow-[0_0_8px_rgba(52,211,153,0.8)]" />
+                <span className={`w-2 h-2 rounded-full bg-emerald-400 shadow-[0_0_8px_rgba(52,211,153,0.8)] ${i === 2 ? 'animate-pulse' : ''}`} />
               </div>
             ))}
           </div>
@@ -152,10 +158,10 @@ export default function ServiceCardGraphic({ slug, accent = '#2563eb' }) {
 
           <div className="bg-slate-900/90 p-2.5 rounded-xl border border-purple-500/20 text-[10px] space-y-1.5 my-auto">
             <div className="text-slate-400 flex items-center gap-1">
-              <span className="text-purple-400 font-bold">&gt;</span> Analyzing Enterprise BigData...
+              <span className="text-purple-400 font-bold animate-pulse">&gt;</span> Analyzing Enterprise BigData<span className="animate-pulse">...</span>
             </div>
-            <div className="bg-purple-950/50 p-1.5 rounded text-purple-200 font-mono text-[9px] border border-purple-800/40">
-              ✓ Prediction Accuracy: 99.2%
+            <div className="bg-purple-950/50 p-1.5 rounded text-purple-200 font-mono text-[9px] border border-purple-800/40 flex items-center gap-1">
+              <CheckCircle className="w-3 h-3 text-emerald-400" /> Prediction Accuracy: 99.2%
             </div>
           </div>
 
@@ -178,9 +184,11 @@ export default function ServiceCardGraphic({ slug, accent = '#2563eb' }) {
           </div>
 
           <div className="space-y-1 text-[9px] text-slate-400 my-auto">
-            <div className="text-emerald-400">✔ Step 1: Build Docker Container (Done)</div>
-            <div className="text-emerald-400">✔ Step 2: Automated Tests Passed</div>
-            <div className="text-cyan-300 font-bold animate-pulse">➜ Step 3: Kubernetes Rolling Deploy...</div>
+            <div className="text-emerald-400 flex items-center gap-1"><CheckCircle className="w-3 h-3" /> Step 1: Build Docker Container</div>
+            <div className="text-emerald-400 flex items-center gap-1"><CheckCircle className="w-3 h-3" /> Step 2: Automated Tests Passed</div>
+            <div className="text-cyan-300 font-bold flex items-center gap-1">
+              <span className="animate-spin"><Sparkles className="w-3 h-3" /></span> Step 3: Kubernetes Deploy<span className="animate-pulse">...</span>
+            </div>
           </div>
 
           <div className="flex justify-between items-center text-[9px] text-slate-500 pt-1 border-t border-slate-800">
