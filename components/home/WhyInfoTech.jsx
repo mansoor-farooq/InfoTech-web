@@ -1,5 +1,6 @@
-import { CheckCircle2 } from 'lucide-react';
+import { CheckCircle2, Sparkles, Shield, Cpu, Zap } from 'lucide-react';
 import AnimatedReveal from '@/components/AnimatedReveal';
+import Image from 'next/image';
 
 const REASONS = [
   {
@@ -22,39 +23,48 @@ const REASONS = [
 
 export default function WhyInfoTech({ config, reasons }) {
   if (!config) return null;
-  const whyReasons = reasons || [];
+  const whyReasons = reasons || REASONS;
 
   return (
-    <section className="section bg-white overflow-hidden">
-      <div className="container-xl">
-        <div className="grid lg:grid-cols-2 gap-20 items-start">
+    <section className="section bg-white overflow-hidden py-24 relative">
+      <div className="container-xl relative z-10">
+        <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
           
+          {/* Left Text Column */}
           <AnimatedReveal animation="slide-right">
             <div>
-              <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight mb-8">
-                {config.whyTitle.split('. ').map((part, index, array) => (
-                  <span key={index} className={index === array.length - 1 ? "text-blue-600" : ""}>
-                    {part}{index !== array.length - 1 ? ". " : ""}
-                    {index !== array.length - 1 && <br />}
-                  </span>
-                ))}
+              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-50 border border-blue-200/60 text-xs font-bold uppercase tracking-widest text-blue-700 mb-6 shadow-xs">
+                <Sparkles className="w-3.5 h-3.5 text-blue-600" />
+                Why Partner With Us
+              </div>
+
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-slate-900 tracking-tight mb-8 leading-[1.1]">
+                We don't just write code. <br />
+                <span className="bg-gradient-to-r from-blue-600 via-indigo-600 to-blue-800 bg-clip-text text-transparent">
+                  We engineer enterprise systems.
+                </span>
               </h2>
-              <p className="text-xl text-slate-500 font-medium mb-12 leading-relaxed">
+
+              <p className="text-lg md:text-xl text-slate-600 font-medium mb-12 leading-relaxed">
                 {config.whyDescription}
               </p>
               
-              <div className="space-y-10">
+              <div className="space-y-8">
                 {whyReasons.map((reason, idx) => (
                   <AnimatedReveal key={reason.id || idx} animation="fade-up" delay={idx * 100}>
-                    <div className="flex gap-5 group">
+                    <div className="flex gap-4 group">
                       <div className="flex-shrink-0 mt-1">
-                        <div className="w-8 h-8 rounded-xl bg-blue-50 border border-blue-100 flex items-center justify-center text-blue-600 group-hover:scale-110 group-hover:bg-blue-600 group-hover:text-white transition-all">
+                        <div className="w-9 h-9 rounded-2xl bg-blue-50 border border-blue-100 flex items-center justify-center text-blue-600 group-hover:scale-110 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300 shadow-xs">
                           <CheckCircle2 className="w-5 h-5" />
                         </div>
                       </div>
                       <div>
-                        <h4 className="text-xl font-bold text-slate-900 mb-2 group-hover:text-blue-600 transition-colors">{reason.title}</h4>
-                        <p className="text-slate-500 font-medium leading-relaxed">{reason.description}</p>
+                        <h4 className="text-xl font-bold text-slate-900 mb-1.5 group-hover:text-blue-600 transition-colors">
+                          {reason.title}
+                        </h4>
+                        <p className="text-slate-600 text-sm font-medium leading-relaxed">
+                          {reason.description || reason.desc}
+                        </p>
                       </div>
                     </div>
                   </AnimatedReveal>
@@ -63,59 +73,75 @@ export default function WhyInfoTech({ config, reasons }) {
             </div>
           </AnimatedReveal>
           
+          {/* Right Visual Column */}
           <AnimatedReveal animation="slide-left" delay={200}>
-            <div className="hidden lg:block relative h-full min-h-[620px] bg-slate-950 rounded-3xl border border-slate-800/80 overflow-hidden shadow-2xl">
-              {/* High-Tech Grid Pattern */}
-              <div className="absolute inset-0 bg-[radial-gradient(#3b82f6_1.5px,transparent_1.5px)] [background-size:24px_24px] opacity-25 pointer-events-none" />
-              <div className="absolute inset-0 p-8 flex flex-col justify-center gap-6">
-                 
-                 {/* Card 01 */}
-                 <div className="bg-slate-900/90 border border-blue-500/30 shadow-2xl rounded-2xl p-6 w-[88%] transform -rotate-2 transition-all duration-300 hover:rotate-0 hover:border-blue-500/60 backdrop-blur-xl group">
-                    <div className="flex items-center justify-between mb-4">
-                      <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-xl shadow-md shadow-blue-500/30 flex items-center justify-center text-white font-extrabold text-sm">01</div>
-                      <span className="text-[11px] font-extrabold text-blue-400 bg-blue-500/10 border border-blue-500/20 px-3 py-1 rounded-full uppercase tracking-wider">
-                        Enterprise Architecture
-                      </span>
-                    </div>
-                    <h4 className="text-lg font-extrabold text-white mb-2 group-hover:text-blue-400 transition-colors">
-                      High-Performance Infrastructure
-                    </h4>
-                    <p className="text-xs text-slate-300 font-medium leading-relaxed">
-                      Engineered for 99.99% uptime, handling high-volume transactions with secure microservice architecture and automated cloud scaling.
-                    </p>
-                 </div>
+            <div className="relative">
+              {/* Outer Decorative Glow */}
+              <div className="absolute -inset-4 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-[2.5rem] opacity-15 blur-2xl pointer-events-none" />
 
-                 {/* Card 02 */}
-                 <div className="bg-slate-900/90 border border-purple-500/30 shadow-2xl rounded-2xl p-6 w-[88%] transform translate-x-12 rotate-2 transition-all duration-300 hover:rotate-0 hover:border-purple-500/60 backdrop-blur-xl group">
-                    <div className="flex items-center justify-between mb-4">
-                      <div className="w-10 h-10 bg-gradient-to-br from-purple-500 to-pink-600 rounded-xl shadow-md shadow-purple-500/30 flex items-center justify-center text-white font-extrabold text-sm">02</div>
-                      <span className="text-[11px] font-extrabold text-purple-400 bg-purple-500/10 border border-purple-500/20 px-3 py-1 rounded-full uppercase tracking-wider">
-                        Supply Chain Sync
-                      </span>
+              <div className="relative bg-slate-950 rounded-[2.5rem] border border-slate-800/80 p-8 sm:p-10 overflow-hidden shadow-2xl space-y-6">
+                {/* Tech Grid Background */}
+                <div className="absolute inset-0 bg-[radial-gradient(#3b82f6_1.5px,transparent_1.5px)] [background-size:28px_28px] opacity-20 pointer-events-none" />
+                
+                {/* Card 01 */}
+                <div className="relative z-10 bg-slate-900/90 border border-blue-500/30 shadow-2xl rounded-2xl p-6 transform hover:-translate-y-1 hover:border-blue-500/60 transition-all duration-300 backdrop-blur-xl group">
+                  <div className="flex items-center justify-between mb-3">
+                    <div className="flex items-center gap-3">
+                      <div className="w-10 h-10 bg-blue-600/20 border border-blue-500/30 rounded-xl flex items-center justify-center text-blue-400 font-extrabold text-sm">
+                        <Cpu className="w-5 h-5" />
+                      </div>
+                      <h4 className="text-base font-extrabold text-white group-hover:text-blue-400 transition-colors">
+                        High-Performance Core
+                      </h4>
                     </div>
-                    <h4 className="text-lg font-extrabold text-white mb-2 group-hover:text-purple-400 transition-colors">
-                      Cartivo Multi-Channel Integration
-                    </h4>
-                    <p className="text-xs text-slate-300 font-medium leading-relaxed">
-                      Real-time inventory routing, distributor dispatch, and rider tracking connected directly into core financial ledgers.
-                    </p>
-                 </div>
+                    <span className="text-[10px] font-mono font-bold text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 px-3 py-1 rounded-full uppercase tracking-wider">
+                      99.99% Uptime
+                    </span>
+                  </div>
+                  <p className="text-xs text-slate-300 font-medium leading-relaxed">
+                    Engineered for enterprise scale, handling high-volume transactions with microservices, auto-scaling, and sub-second SLAs.
+                  </p>
+                </div>
 
-                 {/* Card 03 */}
-                 <div className="bg-slate-900/90 border border-emerald-500/30 shadow-2xl rounded-2xl p-6 w-[88%] transform -translate-x-2 rotate-1 transition-all duration-300 hover:rotate-0 hover:border-emerald-500/60 backdrop-blur-xl group">
-                    <div className="flex items-center justify-between mb-4">
-                      <div className="w-10 h-10 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-xl shadow-md shadow-emerald-500/30 flex items-center justify-center text-white font-extrabold text-sm">03</div>
-                      <span className="text-[11px] font-extrabold text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 px-3 py-1 rounded-full uppercase tracking-wider">
-                        100% Tax Compliant
-                      </span>
+                {/* Card 02 */}
+                <div className="relative z-10 bg-slate-900/90 border border-purple-500/30 shadow-2xl rounded-2xl p-6 transform hover:-translate-y-1 hover:border-purple-500/60 transition-all duration-300 backdrop-blur-xl group">
+                  <div className="flex items-center justify-between mb-3">
+                    <div className="flex items-center gap-3">
+                      <div className="w-10 h-10 bg-purple-600/20 border border-purple-500/30 rounded-xl flex items-center justify-center text-purple-400 font-extrabold text-sm">
+                        <Zap className="w-5 h-5" />
+                      </div>
+                      <h4 className="text-base font-extrabold text-white group-hover:text-purple-400 transition-colors">
+                        Cartivo Commerce Engine
+                      </h4>
                     </div>
-                    <h4 className="text-lg font-extrabold text-white mb-2 group-hover:text-emerald-400 transition-colors">
-                      FBR & Local E-Invoicing
-                    </h4>
-                    <p className="text-xs text-slate-300 font-medium leading-relaxed">
-                      Native compliance out of the box with real-time tax validation, automated annexure generation, and zero manual overhead.
-                    </p>
-                 </div>
+                    <span className="text-[10px] font-mono font-bold text-purple-400 bg-purple-500/10 border border-purple-500/20 px-3 py-1 rounded-full uppercase tracking-wider">
+                      Live Sync
+                    </span>
+                  </div>
+                  <p className="text-xs text-slate-300 font-medium leading-relaxed">
+                    Automated inventory dispatch, distributor order booking, and real-time rider tracking connected to your financial ledger.
+                  </p>
+                </div>
+
+                {/* Card 03 */}
+                <div className="relative z-10 bg-slate-900/90 border border-emerald-500/30 shadow-2xl rounded-2xl p-6 transform hover:-translate-y-1 hover:border-emerald-500/60 transition-all duration-300 backdrop-blur-xl group">
+                  <div className="flex items-center justify-between mb-3">
+                    <div className="flex items-center gap-3">
+                      <div className="w-10 h-10 bg-emerald-600/20 border border-emerald-500/30 rounded-xl flex items-center justify-center text-emerald-400 font-extrabold text-sm">
+                        <Shield className="w-5 h-5" />
+                      </div>
+                      <h4 className="text-base font-extrabold text-white group-hover:text-emerald-400 transition-colors">
+                        FBR & Tax Compliance
+                      </h4>
+                    </div>
+                    <span className="text-[10px] font-mono font-bold text-cyan-400 bg-cyan-500/10 border border-cyan-500/20 px-3 py-1 rounded-full uppercase tracking-wider">
+                      FBR Certified
+                    </span>
+                  </div>
+                  <p className="text-xs text-slate-300 font-medium leading-relaxed">
+                    Native digital tax compliance with real-time QR code printing, automated monthly return exports, and zero manual errors.
+                  </p>
+                </div>
 
               </div>
             </div>
