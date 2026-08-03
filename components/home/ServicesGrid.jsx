@@ -113,10 +113,12 @@ export default function ServicesGrid() {
                       </div>
                     </div>
                   </Link>
-                );
-              })}
-            </div>
-          </div>
-        </section>
+                </ThreeDCard>
+              </AnimatedReveal>
+            );
+          })}
+        </div>
+      </div>
+    </section>
   );
 }
