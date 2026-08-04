@@ -17,8 +17,8 @@ const SERVICE_IMAGES = {
   'custom-erp-development': '/images/Hrms&payrollsysteam.png',
   'ai-and-machine-learning': '/images/ai-hero-1.png',
   'cloud-devops': '/images/Cloud & DevOps Solutionssecondry.png',
-  'fbr-e-invoicing-compliance': '/images/Digital e-invocia.png',
-  'fbr-einvoicing-and-compliance': '/images/Digital e-invocia.png',
+  'fbr-e-invoicing-compliance': '/images/Digital-E-Invoic.jpg',
+  'fbr-einvoicing-and-compliance': '/images/Digital-E-Invoic.jpg',
 };
 
 export default function ServicesGrid() {
