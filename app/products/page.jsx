@@ -14,7 +14,7 @@ export const metadata = {
 const PRODUCT_IMAGES = {
   'cartivo': '/images/Commerce-bnr.png',
   'hrms-payroll-management-system': '/images/Hrms&payrollsysteam.png',
-  'digital-e-invocia-integration': '/images/Digital e-invociamain.png',
+  'digital-e-invocia-integration': '/images/Digital e-invocia.png',
   'e-commerce-solutions': '/images/ecommerce soluction.png',
   'merchandizing-application': '/images/marchandizingapp.png',
   'order-booking': '/images/orderbookingnew.png',

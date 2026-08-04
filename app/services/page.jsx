@@ -21,7 +21,7 @@ const SERVICE_IMAGES = {
   'custom-erp-development': '/images/Hrms&payrollsysteam.png',
   'ai-and-machine-learning': '/images/ai-hero-1.png',
   'cloud-devops': '/images/Cloud & DevOps Solutionssecondry.png',
-  'fbr-einvoicing-and-compliance': '/images/Digital e-invociamain.png',
+  'fbr-einvoicing-and-compliance': '/images/Digital e-invocia.png',
 };
 
 export default function ServicesPage() {

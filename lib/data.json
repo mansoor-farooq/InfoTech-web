@@ -461,12 +461,12 @@
           "desc": "Built-in reconciliation checks to ensure zero mismatched tax figures."
         }
       ],
-      "heroImage": "/images/Digital-E-Invoic.jpg.jpeg",
+      "heroImage": "/images/Digital e-invocia.png",
       "architectureImage": "/images/Digital e-invociamain.png",
       "dashboardImage": "/images/Digital e-invociasecond.png",
       "image2": "/images/Digital e-invociamain.png",
       "image3": "/images/Digital e-invociasecond.png",
-      "image4": "/images/services/fbr-e-invoicing-compliance-4-workflow.png",
+      "image4": "/images/Digital-E-Invoic.jpg",
       "video": "/videos/digital-e-invocia-integration.mp4"
     }
   },
@@ -640,7 +640,7 @@
           ]
         }
       ],
-      "heroImage": "/images/cartivo-transparent.png",
+      "heroImage": "/images/ChatGPT Image Jul 31, 2026, 03_02_07 PM (1).png",
       "video": "https://www.youtube.com/embed/5qap5aO4i9A",
       "image2": "/images/products/cartivo-2-dashboard.png",
       "image3": "/images/products/cartivo-3-features.png",
