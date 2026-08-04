@@ -6,21 +6,6 @@ import { getServiceIcon } from '@/lib/icons';
 import AnimatedReveal from '@/components/AnimatedReveal';
 import ThreeDCard from '@/components/ThreeDCard';
 
-const SERVICE_IMAGES = {
-  'bi-reports': '/images/bireporting.png',
-  'web-development': '/images/Commerce-bnr.png',
-  'mobile-application': '/images/orderbookingnew.png',
-  'infrastructure-management': '/images/Infrastructure.png',
-  'maintenance-enhancements': '/images/maintaince&enhancedment.png',
-  'maintenance-and-enhancements': '/images/maintaince&enhancedment.png',
-  'migration-and-modernization': '/images/migraction&modrenization.png',
-  'custom-erp-development': '/images/Hrms&payrollsysteam.png',
-  'ai-and-machine-learning': '/images/ai-hero-1.png',
-  'cloud-devops': '/images/Cloud & DevOps Solutionssecondry.png',
-  'fbr-e-invoicing-compliance': '/images/Digital-E-Invoic.jpg',
-  'fbr-einvoicing-and-compliance': '/images/Digital-E-Invoic.jpg',
-};
-
 export default function ServicesGrid() {
   const services = Object.entries(SERVICES_FULL).map(([slug, data]) => ({ slug, ...data }));
 
@@ -32,7 +17,7 @@ export default function ServicesGrid() {
 
       <div className="container-xl relative z-10">
         
-        {/* Attractive Header */}
+        {/* Header */}
         <AnimatedReveal animation="fade-up">
           <div className="max-w-3xl mb-16 text-left">
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-50 border border-blue-200/60 text-xs font-bold uppercase tracking-widest text-blue-700 mb-4 shadow-xs">
@@ -51,10 +36,10 @@ export default function ServicesGrid() {
           </div>
         </AnimatedReveal>
 
-        {/* Services Cards Grid with Product Page Images */}
+        {/* Services Cards Grid - Reads directly from data.json */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => {
-            const imgPath = SERVICE_IMAGES[service.slug] || service.heroImage || '/images/dashboard.jpg';
+            const imgPath = service.cardImage || service.heroImage || '/images/dashboard.jpg';
 
             return (
               <AnimatedReveal key={service.slug} animation="fade-up" delay={(index % 3) * 100}>

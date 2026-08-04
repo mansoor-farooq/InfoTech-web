@@ -66,6 +66,7 @@
         }
       ],
       "heroImage": "/images/bireporting.png",
+      "cardImage": "/images/bireporting.png",
       "architectureImage": "/images/bireporting.jpg",
       "dashboardImage": null,
       "image2": "/images/bireporting.jpg",
@@ -110,6 +111,7 @@
         }
       ],
       "heroImage": "/images/webdevelopment.png",
+      "cardImage": "/images/Commerce-bnr.png",
       "architectureImage": "/images/Custom Web Application Development.png",
       "dashboardImage": null,
       "image2": "/images/Custom Web Application Development.png",
@@ -154,6 +156,7 @@
         }
       ],
       "heroImage": "/images/audit_mobile_banner.png",
+      "cardImage": "/images/orderbookingnew.png",
       "architectureImage": "/images/audit_web_banner.png",
       "dashboardImage": null,
       "image2": "/images/audit_web_banner.png",
@@ -198,6 +201,7 @@
         }
       ],
       "heroImage": "/images/Infrastructure.png",
+      "cardImage": "/images/Infrastructure.png",
       "architectureImage": null,
       "dashboardImage": null,
       "image2": "/images/services/infrastructure-management-2-architecture.png",
@@ -242,6 +246,7 @@
         }
       ],
       "heroImage": "/images/maintaince&enhancedment.png",
+      "cardImage": "/images/maintaince&enhancedment.png",
       "architectureImage": "/images/softwiremaintaince.png",
       "dashboardImage": null,
       "image2": "/images/softwiremaintaince.png",
@@ -286,6 +291,7 @@
         }
       ],
       "heroImage": "/images/migraction&modrenization.png",
+      "cardImage": "/images/migraction&modrenization.png",
       "architectureImage": "/images/migraction&modrenizationweb.png",
       "dashboardImage": "/images/Software-That-Improves--Dailyy--Operations--Banner.jpg.jpeg",
       "image2": "/images/migraction&modrenizationweb.png",
@@ -330,6 +336,7 @@
         }
       ],
       "heroImage": "/images/erp.png",
+      "cardImage": "/images/Hrms&payrollsysteam.png",
       "architectureImage": null,
       "dashboardImage": null,
       "image2": "/images/services/custom-erp-development-2-architecture.png",
@@ -374,6 +381,7 @@
         }
       ],
       "heroImage": "/images/services/ai-and-machine-learning-1-hero.png",
+      "cardImage": "/images/ai-hero-1.png",
       "architectureImage": null,
       "dashboardImage": null,
       "image2": "/images/services/ai-and-machine-learning-2-architecture.png",
@@ -418,6 +426,7 @@
         }
       ],
       "heroImage": "/images/Cloud & DevOps Solutionssecondry.png",
+      "cardImage": "/images/Cloud & DevOps Solutionssecondry.png",
       "architectureImage": null,
       "dashboardImage": null,
       "image2": "/images/services/cloud-devops-2-architecture.png",
@@ -462,6 +471,7 @@
         }
       ],
       "heroImage": "/images/Digital e-invocia.png",
+      "cardImage": "/images/Digital-E-Invoic.jpg",
       "architectureImage": "/images/Digital e-invociamain.png",
       "dashboardImage": "/images/Digital e-invociasecond.png",
       "image2": "/images/Digital e-invociamain.png",
@@ -641,6 +651,7 @@
         }
       ],
       "heroImage": "/images/ChatGPT Image Jul 31, 2026, 03_02_07 PM (1).png",
+      "cardImage": "/images/Commerce-bnr.png",
       "video": "https://www.youtube.com/embed/5qap5aO4i9A",
       "image2": "/images/products/cartivo-2-dashboard.png",
       "image3": "/images/products/cartivo-3-features.png",
@@ -743,6 +754,7 @@
         }
       ],
       "heroImage": "/images/HrmsPayroll.jpg.jpeg",
+      "cardImage": "/images/Hrms&payrollsysteam.png",
       "secImage": "/images/Hrms&payrollsysteam.png",
       "thirdImage": "/images/hrms.png",
       "image2": "/images/Hrms&payrollsysteam.png",
@@ -784,6 +796,7 @@
       ],
       "video": "/videos/digital-e-invocia-integration.mp4",
       "heroImage": "/images/Digital-E-Invoic.jpg.jpeg",
+      "cardImage": "/images/Digital-E-Invoic.jpg",
       "secImage": "/images/Digital e-invociamain.png",
       "thirdImage": "/images/Digital e-invociasecond.png",
       "image2": "/images/Digital e-invociamain.png",
@@ -823,6 +836,7 @@
         }
       ],
       "heroImage": "/images/Pharma-Mart-Bnr.jpg.jpeg",
+      "cardImage": "/images/ecoomerceapp mainimages.png",
       "secImage": "/images/ecoomerceapp mainimages.png",
       "thirdImage": "/images/ecoomercesoluctions.png",
       "image2": "/images/ecoomerceapp mainimages.png",
@@ -863,6 +877,7 @@
         }
       ],
       "heroImage": "/images/marchandizingapp.png",
+      "cardImage": "/images/marchandizingapp.png",
       "secImage": "/images/audit_web_banner.png",
       "thirdImage": "/images/audit_mobile_banner.png",
       "image2": "/images/audit_web_banner.png",
@@ -903,6 +918,7 @@
         }
       ],
       "heroImage": "/images/orderbookingappsecond.png",
+      "cardImage": "/images/orderbookingnew.png",
       "secImage": "/images/orderbookingnew.png",
       "thirdImage": "/images/orderbooking.jpeg",
       "image2": "/images/orderbookingnew.png",
@@ -943,6 +959,7 @@
         }
       ],
       "heroImage": "/images/Sales-Verse-Bnr.jpg.jpeg",
+      "cardImage": "/images/secondrysale.png",
       "secImage": "/images/saleverse secondry saleapp.png",
       "thirdImage": "/images/secondrysale.png",
       "image2": "/images/saleverse secondry saleapp.png",
@@ -983,6 +1000,7 @@
         }
       ],
       "heroImage": "/images/procurement-application.jpg.jpeg",
+      "cardImage": "/images/procurement-application.jpg.jpeg",
       "secImage": "/images/erp.png",
       "image2": "/images/erp.png",
       "image3": "/images/products/procurement-application-3-features.png",
@@ -1022,6 +1040,7 @@
         }
       ],
       "heroImage": "/images/Learning-Managment-System.jpg.jpeg",
+      "cardImage": "/images/Learning-Managment-System.jpg.jpeg",
       "image2": "/images/products/lms-2-dashboard.png",
       "image3": "/images/products/lms-3-features.png",
       "image4": "/images/products/lms-4-analytics.png",
@@ -1064,6 +1083,7 @@
         }
       ],
       "heroImage": "/images/products/warehouse-management-system-wms-1-hero.png",
+      "cardImage": "/images/ChatGPT Image Jul 31, 2026, 03_02_07 PM (1).png",
       "image2": "/images/products/warehouse-management-system-wms-2-dashboard.png",
       "image3": "/images/products/warehouse-management-system-wms-3-features.png",
       "image4": "/images/products/warehouse-management-system-wms-4-analytics.png",
@@ -1166,6 +1186,7 @@
         }
       ],
       "heroImage": "/images/Sales-Verse-Bnr.jpg.jpeg",
+      "cardImage": "/images/saleverse secondry saleapp.png",
       "secImage": "/images/saleverse secondry saleapp.png",
       "image2": "/images/saleverse secondry saleapp.png",
       "image3": "/images/products/field-force-&-sales-automation-sfa-3-features.png",
@@ -1209,6 +1230,7 @@
         }
       ],
       "heroImage": "/images/products/enterprise-crm-system-1-hero.png",
+      "cardImage": "/images/Sales-Verse-Bnr.jpg.jpeg",
       "image2": "/images/products/enterprise-crm-system-2-dashboard.png",
       "image3": "/images/products/enterprise-crm-system-3-features.png",
       "image4": "/images/products/enterprise-crm-system-4-analytics.png",

@@ -11,21 +11,6 @@ export const metadata = {
   description: 'Explore our suite of enterprise services including Web Development, Mobile Apps, and IT Infrastructure.',
 };
 
-const SERVICE_IMAGES = {
-  'bi-reports': '/images/bireporting.png',
-  'web-development': '/images/Commerce-bnr.png',
-  'mobile-application': '/images/orderbookingnew.png',
-  'infrastructure-management': '/images/Infrastructure.png',
-  'maintenance-enhancements': '/images/maintaince&enhancedment.png',
-  'maintenance-and-enhancements': '/images/maintaince&enhancedment.png',
-  'migration-and-modernization': '/images/migraction&modrenization.png',
-  'custom-erp-development': '/images/Hrms&payrollsysteam.png',
-  'ai-and-machine-learning': '/images/ai-hero-1.png',
-  'cloud-devops': '/images/Cloud & DevOps Solutionssecondry.png',
-  'fbr-e-invoicing-compliance': '/images/Digital-E-Invoic.jpg',
-  'fbr-einvoicing-and-compliance': '/images/Digital-E-Invoic.jpg',
-};
-
 export default function ServicesPage() {
   const services = Object.entries(SERVICES_FULL).map(([slug, data]) => ({ slug, ...data }));
 
@@ -52,12 +37,12 @@ export default function ServicesPage() {
           </div>
         </section>
 
-        {/* Services Grid */}
+        {/* Services Grid - Reads directly from data.json */}
         <section className="section py-20 relative bg-slate-50">
           <div className="container-xl">
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {services.map((service) => {
-                const imgPath = SERVICE_IMAGES[service.slug] || service.heroImage || '/images/dashboard.jpg';
+                const imgPath = service.cardImage || service.heroImage || '/images/dashboard.jpg';
 
                 return (
                   <Link 
