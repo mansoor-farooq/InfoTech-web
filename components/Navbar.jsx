@@ -2,16 +2,29 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { ChevronDown, Menu, X } from 'lucide-react';
+import { ChevronDown, Menu, X, ArrowRight, Sparkles, Layers, PhoneCall } from 'lucide-react';
+import { getServiceIcon, getProductIcon } from '@/lib/icons';
+
 export default function Navbar({ services = [], products = [] }) {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
+  const [mobileProductsOpen, setMobileProductsOpen] = useState(false);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
     window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
+
+  // Prevent body scroll when mobile menu is open
+  useEffect(() => {
+    if (mobileOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+  }, [mobileOpen]);
 
   return (
     <>
@@ -28,7 +41,7 @@ export default function Navbar({ services = [], products = [] }) {
         <div className="container-xl">
           <div className="flex items-center justify-between">
             {/* Logo */}
-            <Link href="/" className="relative h-10 w-48 flex-shrink-0">
+            <Link href="/" className="relative h-10 w-44 sm:w-48 flex-shrink-0">
               <Image
                 src="/images/Website-Logo.png"
                 alt="InfoTech Solutions"
@@ -62,18 +75,16 @@ export default function Navbar({ services = [], products = [] }) {
                         >
                           <div 
                             className="w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0 transition-colors"
-                            style={{ backgroundColor: service.accentLight, color: service.accent }}
+                            style={{ backgroundColor: service.accentLight || '#eff6ff', color: service.accent || '#2563eb' }}
                           >
-                            <svg className="w-5 h-5 group-hover/item:scale-110 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                            </svg>
+                            {getServiceIcon(service.slug, "w-5 h-5 group-hover/item:scale-110 transition-transform")}
                           </div>
                           <div>
                             <div className="text-[15px] font-bold text-gray-900 group-hover/item:text-blue-600 transition-colors mb-1">
                               {service.title}
                             </div>
                             <p className="text-xs text-gray-500 font-medium line-clamp-2 leading-relaxed">
-                              {service.subtitle}
+                              {service.subtitle || service.description}
                             </p>
                           </div>
                         </Link>
@@ -97,7 +108,7 @@ export default function Navbar({ services = [], products = [] }) {
                       <Link href="/products/cartivo" className="flex items-center justify-between p-4.5 bg-gradient-to-r from-blue-50/80 via-indigo-50/50 to-slate-50 border border-blue-100 hover:border-blue-300 rounded-2xl transition-all duration-300 group/featured shadow-xs">
                         <div className="flex items-center gap-4">
                           <div className="relative h-10 w-36 flex-shrink-0 flex items-center">
-                            <Image src="/images/cartivo-transparent.png" alt="Cartivo Enterprise" fill className="object-contain object-left" />
+                            <Image src="/images/cartivologo.jpeg" alt="Cartivo Enterprise" fill className="object-contain object-left rounded-lg" />
                           </div>
                           <div>
                             <div className="text-base font-extrabold text-slate-900 group-hover/featured:text-blue-600 transition-colors mb-0.5 flex items-center gap-2">
@@ -122,18 +133,16 @@ export default function Navbar({ services = [], products = [] }) {
                         >
                           <div 
                             className="w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0 transition-colors"
-                            style={{ backgroundColor: product.accentLight, color: product.accent }}
+                            style={{ backgroundColor: product.accentLight || '#ecfdf5', color: product.accent || '#10b981' }}
                           >
-                            <svg className="w-5 h-5 group-hover/item:scale-110 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
-                            </svg>
+                            {getProductIcon(product.slug, "w-5 h-5 group-hover/item:scale-110 transition-transform")}
                           </div>
                           <div>
                             <div className="text-[15px] font-bold text-gray-900 group-hover/item:text-blue-600 transition-colors mb-1">
                               {product.title}
                             </div>
                             <p className="text-xs text-gray-500 font-medium line-clamp-2 leading-relaxed">
-                              {product.subtitle}
+                              {product.subtitle || product.description}
                             </p>
                           </div>
                         </Link>
@@ -154,55 +163,186 @@ export default function Navbar({ services = [], products = [] }) {
               </Link>
             </nav>
 
-            {/* CTA */}
+            {/* Desktop CTA */}
             <div className="hidden lg:flex items-center">
               <Link href="/contact" className="bg-gradient-to-r from-blue-600 via-indigo-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white px-6 py-2.5 rounded-full text-[15px] font-extrabold shadow-lg shadow-blue-500/25 border border-cyan-400/30 transition-all duration-300 hover:scale-105">
                 Let's Talk
               </Link>
             </div>
 
-            {/* Mobile Toggle */}
+            {/* Mobile Hamburger Toggle */}
             <button
-              className="lg:hidden p-2 text-white"
+              className="lg:hidden p-2.5 rounded-xl bg-slate-900/90 border border-slate-700/70 text-slate-200 hover:text-white hover:border-cyan-400/50 transition-all shadow-md active:scale-95"
               onClick={() => setMobileOpen(!mobileOpen)}
+              aria-label="Toggle Navigation Menu"
             >
-              {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+              {mobileOpen ? <X className="w-6 h-6 text-cyan-400" /> : <Menu className="w-6 h-6" />}
             </button>
           </div>
         </div>
 
-        {/* Mobile Menu */}
+        {/* Premium Mobile Menu Overlay */}
         {mobileOpen && (
-          <div className="lg:hidden absolute top-full left-0 w-full bg-white border-t border-gray-100 shadow-xl px-4 py-6 max-h-[85vh] overflow-y-auto">
-            <div className="space-y-4">
-              <div className="text-xs font-bold text-gray-400 uppercase tracking-widest px-3 mb-2">Services</div>
-              {services.map((service) => (
-                <Link
-                  key={service.slug}
-                  href={`/services/${service.slug}`}
-                  onClick={() => setMobileOpen(false)}
-                  className="block p-3 rounded-lg bg-gray-50 text-gray-900 font-bold text-sm"
+          <div className="lg:hidden fixed inset-0 top-[65px] bg-[#070913]/98 backdrop-blur-2xl z-50 overflow-y-auto border-t border-slate-800/80 flex flex-col justify-between pb-8">
+            <div className="p-5 space-y-6">
+              
+              {/* Featured Cartivo Banner Card for Mobile */}
+              <Link 
+                href="/products/cartivo"
+                onClick={() => setMobileOpen(false)}
+                className="block p-4 rounded-2xl bg-gradient-to-br from-blue-950/80 via-slate-900 to-indigo-950/80 border border-blue-500/30 shadow-xl relative overflow-hidden group active:scale-[0.98] transition-all"
+              >
+                <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/10 rounded-full blur-2xl pointer-events-none" />
+                <div className="flex items-center justify-between mb-2">
+                  <div className="flex items-center gap-2.5">
+                    <div className="relative w-8 h-8 rounded-lg overflow-hidden border border-blue-400/30">
+                      <Image src="/images/cartivologo.jpeg" alt="Cartivo" fill className="object-cover" />
+                    </div>
+                    <span className="text-base font-extrabold text-white">Cartivo Platform</span>
+                  </div>
+                  <span className="px-2.5 py-0.5 rounded-full text-[10px] font-extrabold uppercase tracking-wider bg-blue-600 text-white shadow-xs">
+                    Flagship
+                  </span>
+                </div>
+                <p className="text-xs text-slate-300 font-medium leading-relaxed mb-3">
+                  Multi-channel Enterprise E-Commerce Platform
+                </p>
+                <div className="text-xs font-bold text-cyan-400 flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+                  Explore Cartivo <ArrowRight className="w-3.5 h-3.5" />
+                </div>
+              </Link>
+
+              {/* Navigation Links Accordion */}
+              <div className="space-y-2">
+                <Link 
+                  href="/" 
+                  onClick={() => setMobileOpen(false)} 
+                  className="flex items-center justify-between p-3.5 rounded-xl text-base font-bold text-slate-100 hover:bg-slate-900/80 border border-transparent hover:border-slate-800 transition-colors"
                 >
-                  {service.title}
+                  Home
                 </Link>
-              ))}
-              <div className="border-t border-gray-100 pt-4 space-y-4">
-                <Link href="/products" onClick={() => setMobileOpen(false)} className="block text-gray-900 font-bold px-3">
-                  Products
-                </Link>
-                <Link href="/case-studies" onClick={() => setMobileOpen(false)} className="block text-gray-900 font-bold px-3">
+
+                {/* Services Mobile Accordion */}
+                <div className="rounded-xl border border-slate-800/60 overflow-hidden bg-slate-900/40">
+                  <button
+                    onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
+                    className="w-full flex items-center justify-between p-3.5 text-base font-bold text-slate-100 text-left cursor-pointer"
+                  >
+                    <span className="flex items-center gap-2">
+                      <Sparkles className="w-4 h-4 text-blue-400" /> Services
+                    </span>
+                    <ChevronDown className={`w-4 h-4 text-slate-400 transition-transform duration-300 ${mobileServicesOpen ? 'rotate-180 text-blue-400' : ''}`} />
+                  </button>
+
+                  {mobileServicesOpen && (
+                    <div className="p-2 space-y-1 bg-slate-950/60 border-t border-slate-800/60 max-h-64 overflow-y-auto">
+                      {services.map((service) => (
+                        <Link
+                          key={service.slug}
+                          href={`/services/${service.slug}`}
+                          onClick={() => setMobileOpen(false)}
+                          className="flex items-center gap-3 p-2.5 rounded-lg hover:bg-slate-900 text-slate-200 text-xs font-semibold transition-colors"
+                        >
+                          <div 
+                            className="w-7 h-7 rounded-md flex items-center justify-center flex-shrink-0"
+                            style={{ backgroundColor: service.accentLight || '#eff6ff', color: service.accent || '#2563eb' }}
+                          >
+                            {getServiceIcon(service.slug, "w-4 h-4")}
+                          </div>
+                          <span className="truncate">{service.title}</span>
+                        </Link>
+                      ))}
+                      <Link
+                        href="/services"
+                        onClick={() => setMobileOpen(false)}
+                        className="block text-center p-2 text-xs font-bold text-cyan-400 hover:underline"
+                      >
+                        View All Services &rarr;
+                      </Link>
+                    </div>
+                  )}
+                </div>
+
+                {/* Products Mobile Accordion */}
+                <div className="rounded-xl border border-slate-800/60 overflow-hidden bg-slate-900/40">
+                  <button
+                    onClick={() => setMobileProductsOpen(!mobileProductsOpen)}
+                    className="w-full flex items-center justify-between p-3.5 text-base font-bold text-slate-100 text-left cursor-pointer"
+                  >
+                    <span className="flex items-center gap-2">
+                      <Layers className="w-4 h-4 text-emerald-400" /> Products
+                    </span>
+                    <ChevronDown className={`w-4 h-4 text-slate-400 transition-transform duration-300 ${mobileProductsOpen ? 'rotate-180 text-emerald-400' : ''}`} />
+                  </button>
+
+                  {mobileProductsOpen && (
+                    <div className="p-2 space-y-1 bg-slate-950/60 border-t border-slate-800/60 max-h-64 overflow-y-auto">
+                      {products.map((product) => (
+                        <Link
+                          key={product.slug}
+                          href={`/products/${product.slug}`}
+                          onClick={() => setMobileOpen(false)}
+                          className="flex items-center gap-3 p-2.5 rounded-lg hover:bg-slate-900 text-slate-200 text-xs font-semibold transition-colors"
+                        >
+                          <div 
+                            className="w-7 h-7 rounded-md flex items-center justify-center flex-shrink-0"
+                            style={{ backgroundColor: product.accentLight || '#ecfdf5', color: product.accent || '#10b981' }}
+                          >
+                            {getProductIcon(product.slug, "w-4 h-4")}
+                          </div>
+                          <span className="truncate">{product.title}</span>
+                        </Link>
+                      ))}
+                      <Link
+                        href="/products"
+                        onClick={() => setMobileOpen(false)}
+                        className="block text-center p-2 text-xs font-bold text-emerald-400 hover:underline"
+                      >
+                        View All Products &rarr;
+                      </Link>
+                    </div>
+                  )}
+                </div>
+
+                <Link 
+                  href="/case-studies" 
+                  onClick={() => setMobileOpen(false)} 
+                  className="flex items-center justify-between p-3.5 rounded-xl text-base font-bold text-slate-100 hover:bg-slate-900/80 transition-colors"
+                >
                   Case Studies
                 </Link>
-                <Link href="/careers" onClick={() => setMobileOpen(false)} className="block text-gray-900 font-bold px-3">
+
+                <Link 
+                  href="/careers" 
+                  onClick={() => setMobileOpen(false)} 
+                  className="flex items-center justify-between p-3.5 rounded-xl text-base font-bold text-slate-100 hover:bg-slate-900/80 transition-colors"
+                >
                   Careers
                 </Link>
-                <Link href="/about" onClick={() => setMobileOpen(false)} className="block text-gray-900 font-bold px-3">
+
+                <Link 
+                  href="/about" 
+                  onClick={() => setMobileOpen(false)} 
+                  className="flex items-center justify-between p-3.5 rounded-xl text-base font-bold text-slate-100 hover:bg-slate-900/80 transition-colors"
+                >
                   About Us
                 </Link>
-                <Link href="/contact" onClick={() => setMobileOpen(false)} className="block text-gray-900 font-bold px-3">
-                  Contact Us
-                </Link>
               </div>
+
+            </div>
+
+            {/* Mobile Footer CTA */}
+            <div className="px-5 pt-4 border-t border-slate-800/80 space-y-3">
+              <Link 
+                href="/contact" 
+                onClick={() => setMobileOpen(false)} 
+                className="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-blue-600 via-indigo-600 to-cyan-500 text-white py-3.5 rounded-xl text-base font-extrabold shadow-xl shadow-blue-500/25 border border-cyan-400/30 active:scale-95 transition-all"
+              >
+                <PhoneCall className="w-4 h-4" /> Let's Talk
+              </Link>
+              <p className="text-[11px] text-center text-slate-500 font-medium">
+                InfoTech Solutions &bull; Enterprise Engineering
+              </p>
             </div>
           </div>
         )}
