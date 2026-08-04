@@ -24,7 +24,7 @@ export default function CartivoPage() {
               <div className="flex items-center gap-4 mb-6">
                 <div className="relative h-14 w-52 flex items-center justify-center">
                   <Image 
-                    src="/images/cartivo-transparent.png" 
+                    src="/images/cartivologo.jpeg" 
                     alt="Cartivo Official Logo" 
                     fill 
                     className="object-contain object-left" 
