@@ -11,11 +11,13 @@ const SERVICE_IMAGES = {
   'web-development': '/images/Commerce-bnr.png',
   'mobile-application': '/images/orderbookingnew.png',
   'infrastructure-management': '/images/Infrastructure.png',
+  'maintenance-enhancements': '/images/maintaince&enhancedment.png',
   'maintenance-and-enhancements': '/images/maintaince&enhancedment.png',
   'migration-and-modernization': '/images/migraction&modrenization.png',
   'custom-erp-development': '/images/Hrms&payrollsysteam.png',
   'ai-and-machine-learning': '/images/ai-hero-1.png',
   'cloud-devops': '/images/Cloud & DevOps Solutionssecondry.png',
+  'fbr-e-invoicing-compliance': '/images/Digital e-invocia.png',
   'fbr-einvoicing-and-compliance': '/images/Digital e-invocia.png',
 };
 
@@ -52,7 +54,7 @@ export default function ServicesGrid() {
         {/* Services Cards Grid with Product Page Images */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => {
-            const imgPath = SERVICE_IMAGES[service.slug] || '/images/dashboard.jpg';
+            const imgPath = SERVICE_IMAGES[service.slug] || service.heroImage || '/images/dashboard.jpg';
 
             return (
               <AnimatedReveal key={service.slug} animation="fade-up" delay={(index % 3) * 100}>
