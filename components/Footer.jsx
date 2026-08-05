@@ -57,9 +57,9 @@ export default function Footer() {
             <div className="mb-8">
               <Link href="/products/cartivo" className="inline-flex items-center gap-3 transition-all group hover:opacity-90">
                 <div className="relative w-36 h-10">
-                  <Image src="/images/cartivo-transparent.png" alt="Cartivo Platform" fill className="object-contain object-left" priority />
+                  <Image src="/images/cartiovo.png" alt="Cartivo Platform" fill className="object-contain object-left scale-[3] origin-left" priority />
                 </div>
-                <span className="text-sm font-bold text-blue-400 group-hover:translate-x-1.5 transition-transform">
+                <span className="text-sm font-bold text-blue-400 group-hover:translate-x-1.5 transition-transform ml-8">
                   &rarr;
                 </span>
               </Link>

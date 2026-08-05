@@ -65,13 +65,13 @@
           "desc": "Machine learning models to forecast trends and inventory needs."
         }
       ],
-      "heroImage": "/images/bireporting.png",
-      "cardImage": "/images/bireporting.png",
+      "heroImage": "/images/dataanatlic.jpeg",
+      "cardImage": "/images/dataanatlic.jpeg",
       "architectureImage": "/images/bireporting.jpg",
       "dashboardImage": null,
-      "image2": "/images/bireporting.jpg",
-      "image3": "/images/bireporting.png",
-      "image4": "/images/bireporting.jpg",
+      "image2": "/images/dataanatlic.jpeg",
+      "image3": "/images/dataanatlic.jpeg",
+      "image4": "/images/dataanatlic.jpeg",
       "video": "https://www.youtube.com/embed/2e9w4Z-Qh-I"
     },
     "web-development": {
@@ -380,13 +380,13 @@
           "desc": "AI customer support and internal enterprise knowledge base bots."
         }
       ],
-      "heroImage": "/images/ChatGPT Image Jul 31, 2026, 03_02_07 PM (1).png",
-      "cardImage": "/images/ChatGPT Image Jul 31, 2026, 03_02_07 PM (1).png",
+      "heroImage": "/images/aichatbot.jpeg",
+      "cardImage": "/images/aichatbot.jpeg",
       "architectureImage": null,
       "dashboardImage": null,
-      "image2": "/images/ChatGPT Image Jul 31, 2026, 03_02_07 PM (4).png",
-      "image3": "/images/ChatGPT Image Jul 31, 2026, 03_02_10 PM (8).png",
-      "image4": "/images/ChatGPT Image Jul 31, 2026, 03_02_11 PM (10).png",
+      "image2": "/images/aichatbot.jpeg",
+      "image3": "/images/aichatbot.jpeg",
+      "image4": "/images/aichatbot.jpeg",
       "video": "https://www.youtube.com/embed/kXYiU_JCYtU"
     },
     "cloud-devops": {
@@ -505,7 +505,7 @@
     "cartivo": {
       "title": "Cartivo",
       "subtitle": "Enterprise Commerce Platform",
-      "logo": "/images/cartivologo.jpeg",
+      "logo": "/images/cartiovo.png",
       "accent": "#2563eb",
       "accentLight": "#eff6ff",
       "accentBorder": "#bfdbfe",
@@ -835,13 +835,13 @@
           "desc": "Real-time stock updates."
         }
       ],
-      "heroImage": "/images/Pharma-Mart-Bnr.jpg.jpeg",
-      "cardImage": "/images/ecoomerceapp mainimages.png",
-      "secImage": "/images/ecoomerceapp mainimages.png",
-      "thirdImage": "/images/ecoomercesoluctions.png",
-      "image2": "/images/ecoomerceapp mainimages.png",
-      "image3": "/images/ecoomercesoluctions.png",
-      "image4": "/images/ecoomercesoluctions.png",
+      "heroImage": "/images/e-commerce.jpeg",
+      "cardImage": "/images/e-commerce.jpeg",
+      "secImage": "/images/e-commerce.jpeg",
+      "thirdImage": "/images/e-commerce.jpeg",
+      "image2": "/images/e-commerce.jpeg",
+      "image3": "/images/e-commerce.jpeg",
+      "image4": "/images/e-commerce.jpeg",
       "video": "https://www.youtube.com/embed/5qap5aO4i9A"
     },
     "merchandizing-application": {
@@ -999,12 +999,12 @@
           "desc": "Digital RFQ and bidding system."
         }
       ],
-      "heroImage": "/images/procurement-application.jpg.jpeg",
-      "cardImage": "/images/procurement-application.jpg.jpeg",
-      "secImage": "/images/erp.png",
-      "image2": "/images/erp.png",
-      "image3": "/images/procurement-application.jpg.jpeg",
-      "image4": "/images/procurement-application.jpg.jpeg",
+      "heroImage": "/images/Procurement.jpeg",
+      "cardImage": "/images/Procurement.jpeg",
+      "secImage": "/images/Procurement.jpeg",
+      "image2": "/images/Procurement.jpeg",
+      "image3": "/images/Procurement.jpeg",
+      "image4": "/images/Procurement.jpeg",
       "video": "https://www.youtube.com/embed/2e9w4Z-Qh-I"
     },
     "lms": {

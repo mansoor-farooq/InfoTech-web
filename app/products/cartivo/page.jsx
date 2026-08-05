@@ -22,23 +22,15 @@ export default function CartivoPage() {
           <div className="container-xl relative z-10 grid lg:grid-cols-2 gap-12 items-center">
             <div className="max-w-2xl">
               {/* Premium Cartivo Brand Badge */}
-              <div className="inline-flex items-center gap-3 px-4 py-2.5 rounded-2xl bg-slate-900/90 border border-blue-500/30 shadow-xl shadow-blue-500/10 mb-6 backdrop-blur-md">
-                <div className="relative w-10 h-10 rounded-xl overflow-hidden flex-shrink-0 border border-blue-400/40 shadow-sm">
+              <div className="mb-8">
+                <div className="relative w-80 md:w-[32rem] h-32 md:h-48">
                   <Image 
-                    src="/images/cartivologo.jpeg" 
+                    src="/images/cartiovo.png" 
                     alt="Cartivo Logo" 
                     fill 
-                    className="object-cover" 
+                    className="object-contain object-left scale-[1.5] md:scale-[2] origin-left" 
                     priority 
                   />
-                </div>
-                <div className="flex items-center gap-2">
-                  <span className="text-xl font-black tracking-tight text-white">
-                    Cartivo
-                  </span>
-                  <span className="text-xs font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-blue-500/20 text-blue-400 border border-blue-500/30">
-                    Flagship Platform
-                  </span>
                 </div>
               </div>
 

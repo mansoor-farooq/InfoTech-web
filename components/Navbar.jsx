@@ -113,8 +113,8 @@ export default function Navbar({ services = [], products = [] }) {
                     <div className="mb-4 pb-4 border-b border-gray-100">
                       <Link href="/products/cartivo" className="flex items-center justify-between p-4.5 bg-gradient-to-r from-blue-50/80 via-indigo-50/50 to-slate-50 border border-blue-100 hover:border-blue-300 rounded-2xl transition-all duration-300 group/featured shadow-xs">
                         <div className="flex items-center gap-4">
-                          <div className="relative h-10 w-36 flex-shrink-0 flex items-center">
-                            <Image src="/images/cartivologo.jpeg" alt="Cartivo Enterprise" fill className="object-contain object-left rounded-lg" />
+                          <div className="relative h-14 w-48 flex-shrink-0 flex items-center">
+                            <Image src="/images/cartiovo.png" alt="Cartivo Enterprise" fill className="object-contain object-left scale-[2.5] origin-left" />
                           </div>
                           <div>
                             <div className="text-base font-extrabold text-slate-900 group-hover/featured:text-blue-600 transition-colors mb-0.5 flex items-center gap-2">
@@ -222,8 +222,8 @@ export default function Navbar({ services = [], products = [] }) {
               <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/10 rounded-full blur-2xl pointer-events-none" />
               <div className="flex items-center justify-between mb-2">
                 <div className="flex items-center gap-2.5">
-                  <div className="relative w-8 h-8 rounded-lg overflow-hidden border border-blue-400/40 shadow-sm">
-                    <Image src="/images/cartivologo.jpeg" alt="Cartivo" fill className="object-cover" />
+                  <div className="relative w-24 h-12 overflow-visible">
+                    <Image src="/images/cartiovo.png" alt="Cartivo" fill className="object-contain object-left scale-[2.5] origin-left" />
                   </div>
                   <span className="text-base font-extrabold text-white">Cartivo Platform</span>
                 </div>
