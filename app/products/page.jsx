@@ -51,13 +51,14 @@ export default function ProductsPage() {
                     className="clean-card group flex flex-col h-full bg-white p-5 rounded-3xl border border-slate-200/80 shadow-sm hover:shadow-2xl hover:border-emerald-500/30 transition-all duration-500 overflow-hidden"
                   >
                     {/* Inner Image Container */}
-                    <div className="w-full h-52 relative rounded-2xl flex items-center justify-center p-2">
+                    <div className="w-full h-52 relative rounded-2xl flex items-center justify-center p-2 bg-gradient-to-br from-slate-50 to-emerald-50/20 overflow-hidden">
+                      <div className="absolute inset-0 bg-emerald-400/5 blur-3xl rounded-full scale-110 group-hover:scale-150 transition-transform duration-700" />
                       <Image 
                         src={imgPath}
                         alt={product.title}
                         fill
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                        className="object-contain rounded-2xl group-hover:scale-105 transition-transform duration-700 ease-out drop-shadow-lg"
+                        className="object-contain rounded-2xl group-hover:scale-105 group-hover:-translate-y-1 transition-all duration-700 ease-out drop-shadow-lg relative z-10 p-2"
                       />
                       
                       {/* Category Badge */}

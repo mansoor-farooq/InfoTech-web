@@ -83,8 +83,9 @@ export default async function ProductDetailPage({ params }) {
               {/* Main Product Image */}
               <div className="animate-scale-up hover-lift">
                 {product.heroImage ? (
-                  <div className="relative aspect-video w-full rounded-3xl flex items-center justify-center">
-                    <Image src={product.heroImage} alt={product.title} fill className="object-contain drop-shadow-2xl" priority />
+                  <div className="relative aspect-video w-full rounded-3xl flex items-center justify-center bg-gradient-to-tr from-slate-50 to-blue-50/30 overflow-hidden group border border-white shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.07)] transition-shadow duration-700">
+                    <div className="absolute inset-0 bg-blue-400/5 blur-3xl rounded-full scale-110 group-hover:scale-125 transition-transform duration-700" />
+                    <Image src={product.heroImage} alt={product.title} fill className="object-contain drop-shadow-2xl group-hover:scale-105 group-hover:-translate-y-2 transition-all duration-700 ease-out z-10 p-4" priority />
                   </div>
                 ) : (
                   <ImagePlaceholder 
@@ -115,8 +116,9 @@ export default async function ProductDetailPage({ params }) {
               {/* Image 2 */}
               <div className="hover-lift animate-fade-up">
                 {(product.image2 || product.secImage) ? (
-                  <div className="relative aspect-video w-full rounded-3xl flex items-center justify-center">
-                    <Image src={product.image2 || product.secImage} alt={`${product.title} Dashboard`} fill className="object-contain drop-shadow-xl" />
+                  <div className="relative aspect-video w-full rounded-3xl flex items-center justify-center bg-gradient-to-tr from-slate-50 to-blue-50/30 overflow-hidden group border border-white shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.07)] transition-shadow duration-700">
+                    <div className="absolute inset-0 bg-blue-400/5 blur-3xl rounded-full scale-110 group-hover:scale-125 transition-transform duration-700" />
+                    <Image src={product.image2 || product.secImage} alt={`${product.title} Dashboard`} fill className="object-contain drop-shadow-xl group-hover:scale-105 group-hover:-translate-y-2 transition-all duration-700 ease-out z-10 p-4" />
                   </div>
                 ) : (
                   <ImagePlaceholder 
@@ -130,8 +132,9 @@ export default async function ProductDetailPage({ params }) {
               {/* Image 3 */}
               <div className="hover-lift animate-fade-up">
                 {(product.image3 || product.thirdImage) ? (
-                  <div className="relative aspect-video w-full rounded-3xl flex items-center justify-center">
-                    <Image src={product.image3 || product.thirdImage} alt={`${product.title} Interface`} fill className="object-contain drop-shadow-xl" />
+                  <div className="relative aspect-video w-full rounded-3xl flex items-center justify-center bg-gradient-to-tr from-slate-50 to-blue-50/30 overflow-hidden group border border-white shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.07)] transition-shadow duration-700">
+                    <div className="absolute inset-0 bg-blue-400/5 blur-3xl rounded-full scale-110 group-hover:scale-125 transition-transform duration-700" />
+                    <Image src={product.image3 || product.thirdImage} alt={`${product.title} Interface`} fill className="object-contain drop-shadow-xl group-hover:scale-105 group-hover:-translate-y-2 transition-all duration-700 ease-out z-10 p-4" />
                   </div>
                 ) : (
                   <ImagePlaceholder 
@@ -145,8 +148,9 @@ export default async function ProductDetailPage({ params }) {
               {/* Image 4 */}
               <div className="hover-lift animate-fade-up lg:col-span-2">
                 {(product.image4 || product.fourthImage) ? (
-                  <div className="relative aspect-[21/9] w-full rounded-3xl flex items-center justify-center">
-                    <Image src={product.image4 || product.fourthImage} alt={`${product.title} Analytics`} fill className="object-contain drop-shadow-2xl" />
+                  <div className="relative aspect-[21/9] w-full rounded-3xl flex items-center justify-center bg-gradient-to-tr from-slate-50 to-blue-50/30 overflow-hidden group border border-white shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.07)] transition-shadow duration-700">
+                    <div className="absolute inset-0 bg-blue-400/5 blur-3xl rounded-full scale-110 group-hover:scale-125 transition-transform duration-700" />
+                    <Image src={product.image4 || product.fourthImage} alt={`${product.title} Analytics`} fill className="object-contain drop-shadow-2xl group-hover:scale-105 group-hover:-translate-y-2 transition-all duration-700 ease-out z-10 p-6" />
                   </div>
                 ) : (
                   <ImagePlaceholder 
