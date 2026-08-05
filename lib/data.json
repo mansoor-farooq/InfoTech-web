@@ -65,13 +65,13 @@
           "desc": "Machine learning models to forecast trends and inventory needs."
         }
       ],
-      "heroImage": "/images/dataanatlic.jpeg",
-      "cardImage": "/images/dataanatlic.jpeg",
-      "architectureImage": "/images/bireporting.jpg",
+      "heroImage": "/images/Powerbi/bestpowebiimagebanner.png",
+      "cardImage": "/images/Powerbi/bestpowebiimagebanner.png",
+      "architectureImage": "/images/Powerbi/bireporting.png",
       "dashboardImage": null,
-      "image2": "/images/dataanatlic.jpeg",
-      "image3": "/images/dataanatlic.jpeg",
-      "image4": "/images/dataanatlic.jpeg",
+      "image2": "/images/Powerbi/power-bi-dashboards-bookings-report.png",
+      "image3": "/images/Powerbi/power-BI-YUSAPI-1024x574.png",
+      "image4": "/images/Powerbi/power-BIHero_image.jpeg",
       "video": "https://www.youtube.com/embed/2e9w4Z-Qh-I"
     },
     "web-development": {
@@ -110,13 +110,13 @@
           "desc": "Custom RESTful and GraphQL APIs to connect your web apps."
         }
       ],
-      "heroImage": "/images/webdevelopment.png",
-      "cardImage": "/images/Commerce-bnr.png",
-      "architectureImage": "/images/Custom Web Application Development.png",
+      "heroImage": "/images/web-development/Web development (1).png",
+      "cardImage": "/images/web-development/Web development (1).png",
+      "architectureImage": "/images/web-development/Web development (2).png",
       "dashboardImage": null,
-      "image2": "/images/Custom Web Application Development.png",
-      "image3": "/images/webdevelopment.png",
-      "image4": "/images/Custom Web Application Development.png",
+      "image2": "/images/web-development/Web development (4).png",
+      "image3": "/images/web-development/webdevelopment.png",
+      "image4": "/images/web-development/Web development (1).png",
       "video": "https://www.youtube.com/embed/5qap5aO4i9A"
     },
     "mobile-application": {
@@ -200,13 +200,13 @@
           "desc": "Firewall configuration, vulnerability assessments, and access control."
         }
       ],
-      "heroImage": "/images/Infrastructure.png",
-      "cardImage": "/images/Infrastructure.png",
-      "architectureImage": null,
+      "heroImage": "/images/Infrastructure Management/Infrastruture Managment (1).png",
+      "cardImage": "/images/Infrastructure Management/Infrastruture Managment (1).png",
+      "architectureImage": "/images/Infrastructure Management/Infrastruture Managment (2).png",
       "dashboardImage": null,
-      "image2": "/images/Infrastructure.png",
-      "image3": "/images/Infrastructure.png",
-      "image4": "/images/Infrastructure.png",
+      "image2": "/images/Infrastructure Management/Infrastruture Managment (4).png",
+      "image3": "/images/Infrastructure Management/Infrastruture Managment (5).png",
+      "image4": "/images/Infrastructure Management/maintaince&enhancedment.png",
       "video": "https://www.youtube.com/embed/ScMzIvxBSi4"
     },
     "maintenance-enhancements": {
@@ -245,13 +245,13 @@
           "desc": "Continuous development of new modules and capabilities."
         }
       ],
-      "heroImage": "/images/maintaince&enhancedment.png",
-      "cardImage": "/images/maintaince&enhancedment.png",
-      "architectureImage": "/images/softwiremaintaince.png",
+      "heroImage": "/images/Maintenance & Enhancements/Maintenance & Enhancements (1).png",
+      "cardImage": "/images/Maintenance & Enhancements/Maintenance & Enhancements (1).png",
+      "architectureImage": "/images/Maintenance & Enhancements/Maintenance & Enhancements (2).png",
       "dashboardImage": null,
-      "image2": "/images/softwiremaintaince.png",
-      "image3": "/images/maintaince&enhancedment.png",
-      "image4": "/images/softwiremaintaince.png",
+      "image2": "/images/Maintenance & Enhancements/Maintenance & Enhancements (4).png",
+      "image3": "/images/Maintenance & Enhancements/Maintenance & Enhancements (1).png",
+      "image4": "/images/Maintenance & Enhancements/Maintenance & Enhancements (1).png",
       "video": "https://www.youtube.com/embed/9bZkp7q19f0"
     },
     "migration-and-modernization": {
@@ -290,13 +290,13 @@
           "desc": "Transitioning from monolithic structures to microservices."
         }
       ],
-      "heroImage": "/images/migraction&modrenization.png",
-      "cardImage": "/images/migraction&modrenization.png",
-      "architectureImage": "/images/migraction&modrenizationweb.png",
-      "dashboardImage": "/images/Software-That-Improves--Dailyy--Operations--Banner.jpg.jpeg",
-      "image2": "/images/migraction&modrenizationweb.png",
-      "image3": "/images/Software-That-Improves--Dailyy--Operations--Banner.jpg.jpeg",
-      "image4": "/images/migraction&modrenizationweb.png",
+      "heroImage": "/images/Migration And Modernization/Migration and modernization (1).png",
+      "cardImage": "/images/Migration And Modernization/Migration and modernization (1).png",
+      "architectureImage": "/images/Migration And Modernization/Migration and modernization (2).png",
+      "dashboardImage": "/images/Migration And Modernization/Migration and modernization (3).png",
+      "image2": "/images/Migration And Modernization/Migration and modernization (4).png",
+      "image3": "/images/Migration And Modernization/Migration and modernization (1).png",
+      "image4": "/images/Migration And Modernization/Migration and modernization (1).png",
       "video": "https://www.youtube.com/embed/tgbNymZ7vqY"
     },
     "custom-erp-development": {
@@ -335,13 +335,13 @@
           "desc": "Employee attendance, biometric integration, and tax calculations."
         }
       ],
-      "heroImage": "/images/erp.png",
-      "cardImage": "/images/Hrms&payrollsysteam.png",
-      "architectureImage": null,
+      "heroImage": "/images/Custom ERP Development/Custom Erp  (1).png",
+      "cardImage": "/images/Custom ERP Development/Custom Erp  (1).png",
+      "architectureImage": "/images/Custom ERP Development/Custom Erp  (2).png",
       "dashboardImage": null,
-      "image2": "/images/erp.png",
-      "image3": "/images/Hrms&payrollsysteam.png",
-      "image4": "/images/erp.png",
+      "image2": "/images/Custom ERP Development/Custom Erp  (4).png",
+      "image3": "/images/Custom ERP Development/Custom Erp  (1).png",
+      "image4": "/images/Custom ERP Development/Custom Erp  (1).png",
       "video": "https://www.youtube.com/embed/2e9w4Z-Qh-I"
     },
     "ai-and-machine-learning": {
@@ -380,13 +380,13 @@
           "desc": "AI customer support and internal enterprise knowledge base bots."
         }
       ],
-      "heroImage": "/images/aichatbot.jpeg",
-      "cardImage": "/images/aichatbot.jpeg",
-      "architectureImage": null,
+      "heroImage": "/images/AI & Machine Learning/Chatbot.png",
+      "cardImage": "/images/AI & Machine Learning/Chatbot.png",
+      "architectureImage": "/images/AI & Machine Learning/Shelf Analysis (1).png",
       "dashboardImage": null,
-      "image2": "/images/aichatbot.jpeg",
-      "image3": "/images/aichatbot.jpeg",
-      "image4": "/images/aichatbot.jpeg",
+      "image2": "/images/AI & Machine Learning/Shelf Analysis (3).png",
+      "image3": "/images/AI & Machine Learning/Shelf Analysis (4).png",
+      "image4": "/images/AI & Machine Learning/Chatbot.png",
       "video": "https://www.youtube.com/embed/kXYiU_JCYtU"
     },
     "cloud-devops": {
@@ -425,13 +425,13 @@
           "desc": "Prometheus, Grafana, and CloudWatch metrics with instant SLA alerts."
         }
       ],
-      "heroImage": "/images/Cloud & DevOps Solutionssecondry.png",
-      "cardImage": "/images/Cloud & DevOps Solutionssecondry.png",
-      "architectureImage": null,
+      "heroImage": "/images/Cloud and deveops/Cloud and deveops (1).png",
+      "cardImage": "/images/Cloud and deveops/Cloud and deveops (1).png",
+      "architectureImage": "/images/Cloud and deveops/Cloud and deveops (2).png",
       "dashboardImage": null,
-      "image2": "/images/Cloud & DevOps Solutionssecondry.png",
-      "image3": "/images/Cloud & DevOps Solutionssecondry.png",
-      "image4": "/images/Cloud & DevOps Solutionssecondry.png",
+      "image2": "/images/Cloud and deveops/Cloud and deveops (4).png",
+      "image3": "/images/Cloud and deveops/Cloud and deveops (5).png",
+      "image4": "/images/Cloud and deveops/Cloud and deveops (6).png",
       "video": "https://www.youtube.com/embed/ScMzIvxBSi4"
     },
     "fbr-e-invoicing-compliance": {
@@ -470,13 +470,13 @@
           "desc": "Built-in reconciliation checks to ensure zero mismatched tax figures."
         }
       ],
-      "heroImage": "/images/Digital e-invocia.png",
-      "cardImage": "/images/Digital-E-Invoic.jpg",
-      "architectureImage": "/images/Digital e-invociamain.png",
-      "dashboardImage": "/images/Digital e-invociasecond.png",
-      "image2": "/images/Digital e-invociamain.png",
-      "image3": "/images/Digital e-invociasecond.png",
-      "image4": "/images/Digital-E-Invoic.jpg",
+      "heroImage": "/images/FBR E-Invoicing & Compliance/FBR E INVOICE (1).png",
+      "cardImage": "/images/FBR E-Invoicing & Compliance/FBR E INVOICE (1).png",
+      "architectureImage": "/images/FBR E-Invoicing & Compliance/FBR E INVOICE (2).png",
+      "dashboardImage": "/images/FBR E-Invoicing & Compliance/FBR E INVOICE (3).png",
+      "image2": "/images/FBR E-Invoicing & Compliance/FBR E INVOICE (4).png",
+      "image3": "/images/FBR E-Invoicing & Compliance/FBR E INVOICE (1).png",
+      "image4": "/images/FBR E-Invoicing & Compliance/FBR E INVOICE (1).png",
       "video": "/videos/digital-e-invocia-integration.mp4"
     }
   },
@@ -835,13 +835,13 @@
           "desc": "Real-time stock updates."
         }
       ],
-      "heroImage": "/images/e-commerce.jpeg",
-      "cardImage": "/images/e-commerce.jpeg",
+      "heroImage": "/images/E-Commerce Solutions/E commerce Solution (1).png",
+      "cardImage": "/images/E-Commerce Solutions/E commerce Solution (1).png",
       "secImage": "/images/e-commerce.jpeg",
       "thirdImage": "/images/e-commerce.jpeg",
-      "image2": "/images/e-commerce.jpeg",
-      "image3": "/images/e-commerce.jpeg",
-      "image4": "/images/e-commerce.jpeg",
+      "image2": "/images/E-Commerce Solutions/E commerce Solution (2).png",
+      "image3": "/images/E-Commerce Solutions/E commerce Solution (3).png",
+      "image4": "/images/E-Commerce Solutions/E commerce Solution.png",
       "video": "https://www.youtube.com/embed/5qap5aO4i9A"
     },
     "merchandizing-application": {
