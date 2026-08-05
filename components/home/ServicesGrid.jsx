@@ -48,17 +48,15 @@ export default function ServicesGrid() {
                     href={`/services/${service.slug}`}
                     className="clean-card group flex flex-col h-full bg-white p-4.5 sm:p-5 rounded-3xl border border-slate-200/80 shadow-md hover:shadow-2xl hover:border-blue-500/30 transition-all duration-500 overflow-hidden active:scale-[0.99]"
                   >
-                    {/* Realistic Image Container with Border Radius */}
-                    <div className="w-full h-48 sm:h-52 relative rounded-2xl overflow-hidden bg-slate-100 shadow-inner p-2 border border-slate-200/50">
+                    {/* Realistic Image Container */}
+                    <div className="w-full h-48 sm:h-52 relative rounded-2xl flex items-center justify-center p-2">
                       <Image 
                         src={imgPath}
                         alt={service.title}
                         fill
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                        className="object-contain rounded-2xl group-hover:scale-105 transition-transform duration-700 ease-out"
+                        className="object-contain rounded-2xl group-hover:scale-105 transition-transform duration-700 ease-out drop-shadow-lg"
                       />
-                      {/* Gradient Overlay for Readability - removed since object-contain is used and background is light */}
-                      <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-slate-900/40 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity" />
                       
                       {/* Category Badge */}
                       <div className="absolute top-3 left-3 backdrop-blur-md bg-slate-950/70 border border-white/20 px-3 py-1 rounded-full text-[10px] sm:text-[11px] font-semibold text-white tracking-wide shadow-sm">

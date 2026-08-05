@@ -55,8 +55,8 @@ export default function ServicePageTemplate({ data }) {
               <div className="lg:col-span-5 relative animate-scale-up">
                 <div className="relative z-10 hover-lift">
                   {data.heroImage ? (
-                    <div className="relative aspect-[4/3] w-full rounded-3xl overflow-hidden shadow-2xl border border-slate-700 bg-slate-900/50 flex items-center justify-center p-4">
-                      <Image src={data.heroImage} alt={data.title} fill className="object-contain" priority />
+                    <div className="relative aspect-[4/3] w-full rounded-3xl flex items-center justify-center">
+                      <Image src={data.heroImage} alt={data.title} fill className="object-contain drop-shadow-2xl" priority />
                     </div>
                   ) : (
                     <ImagePlaceholder 
@@ -122,8 +122,8 @@ export default function ServicePageTemplate({ data }) {
               {/* Image 2: Architecture / Overview Blueprint */}
               <div className="hover-lift animate-fade-up">
                 {(data.image2 || data.architectureImage) ? (
-                  <div className="relative aspect-video w-full rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-slate-50 flex items-center justify-center p-4">
-                    <Image src={data.image2 || data.architectureImage} alt={`${data.title} Architecture`} fill className="object-contain" />
+                  <div className="relative aspect-video w-full rounded-3xl flex items-center justify-center">
+                    <Image src={data.image2 || data.architectureImage} alt={`${data.title} Architecture`} fill className="object-contain drop-shadow-xl" />
                   </div>
                 ) : (
                   <ImagePlaceholder 
@@ -137,8 +137,8 @@ export default function ServicePageTemplate({ data }) {
               {/* Image 3: Live Management Dashboard */}
               <div className="hover-lift animate-fade-up">
                 {(data.image3 || data.dashboardImage) ? (
-                  <div className="relative aspect-video w-full rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-slate-50 flex items-center justify-center p-4">
-                    <Image src={data.image3 || data.dashboardImage} alt={`${data.title} Dashboard`} fill className="object-contain" />
+                  <div className="relative aspect-video w-full rounded-3xl flex items-center justify-center">
+                    <Image src={data.image3 || data.dashboardImage} alt={`${data.title} Dashboard`} fill className="object-contain drop-shadow-xl" />
                   </div>
                 ) : (
                   <ImagePlaceholder 
@@ -152,8 +152,8 @@ export default function ServicePageTemplate({ data }) {
               {/* Image 4: Detailed Workflow / Module Screenshot */}
               <div className="hover-lift animate-fade-up lg:col-span-2">
                 {(data.image4 || data.featureImage) ? (
-                  <div className="relative aspect-[21/9] w-full rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-slate-50 flex items-center justify-center p-4">
-                    <Image src={data.image4 || data.featureImage} alt={`${data.title} Detailed Feature Module`} fill className="object-contain" />
+                  <div className="relative aspect-[21/9] w-full rounded-3xl flex items-center justify-center">
+                    <Image src={data.image4 || data.featureImage} alt={`${data.title} Detailed Feature Module`} fill className="object-contain drop-shadow-2xl" />
                   </div>
                 ) : (
                   <ImagePlaceholder 
