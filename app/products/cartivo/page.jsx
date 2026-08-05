@@ -93,15 +93,14 @@ export default function CartivoPage() {
             <div className="grid md:grid-cols-3 gap-8">
               {/* App Screenshot 1 - Merchandising */}
               <div className="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl border border-slate-200/80 group transition-all duration-500">
-                <div className="relative h-64 bg-slate-900 overflow-hidden">
+                <div className="relative h-64 bg-slate-100 overflow-hidden p-4">
                   <Image 
                     src="/images/marchandizingapp.png"
                     alt="Merchandising Management"
                     fill
                     sizes="(max-width: 768px) 100vw, 33vw"
-                    className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                    className="object-contain group-hover:scale-105 transition-transform duration-700 ease-out"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent opacity-60 group-hover:opacity-30 transition-opacity" />
                 </div>
                 <div className="p-6">
                   <h3 className="font-bold text-slate-900 text-xl group-hover:text-blue-600 transition-colors">Merchandising Management</h3>
@@ -111,15 +110,14 @@ export default function CartivoPage() {
 
               {/* App Screenshot 2 - Secondary Sales */}
               <div className="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl border border-slate-200/80 group transition-all duration-500">
-                <div className="relative h-64 bg-slate-900 overflow-hidden">
+                <div className="relative h-64 bg-slate-100 overflow-hidden p-4">
                   <Image 
                     src="/images/saleverse secondry saleapp.png"
                     alt="Secondary Sales Dashboard"
                     fill
                     sizes="(max-width: 768px) 100vw, 33vw"
-                    className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                    className="object-contain group-hover:scale-105 transition-transform duration-700 ease-out"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent opacity-60 group-hover:opacity-30 transition-opacity" />
                 </div>
                 <div className="p-6">
                   <h3 className="font-bold text-slate-900 text-xl group-hover:text-blue-600 transition-colors">Secondary Sales Dashboard</h3>
@@ -129,15 +127,14 @@ export default function CartivoPage() {
 
               {/* App Screenshot 3 - Order Booking */}
               <div className="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl border border-slate-200/80 group transition-all duration-500">
-                <div className="relative h-64 bg-slate-900 overflow-hidden">
+                <div className="relative h-64 bg-slate-100 overflow-hidden p-4">
                   <Image 
                     src="/images/orderbookingnew.png"
                     alt="Mobile Order Booking"
                     fill
                     sizes="(max-width: 768px) 100vw, 33vw"
-                    className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                    className="object-contain group-hover:scale-105 transition-transform duration-700 ease-out"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent opacity-60 group-hover:opacity-30 transition-opacity" />
                 </div>
                 <div className="p-6">
                   <h3 className="font-bold text-slate-900 text-xl group-hover:text-blue-600 transition-colors">Mobile Order Booking</h3>

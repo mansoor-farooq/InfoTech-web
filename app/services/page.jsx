@@ -51,16 +51,16 @@ export default function ServicesPage() {
                     className="clean-card group flex flex-col h-full bg-white p-5 rounded-3xl border border-slate-200/80 shadow-sm hover:shadow-2xl hover:border-blue-500/30 transition-all duration-500 overflow-hidden"
                   >
                     {/* Inner Image Container with Rounded Corners */}
-                    <div className="w-full h-52 relative rounded-2xl overflow-hidden bg-slate-900 shadow-inner">
+                    <div className="w-full h-52 relative rounded-2xl overflow-hidden bg-slate-100 shadow-inner p-2 border border-slate-200/50">
                       <Image 
                         src={imgPath}
                         alt={service.title}
                         fill
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                        className="object-cover rounded-2xl group-hover:scale-110 transition-transform duration-700 ease-out"
+                        className="object-contain rounded-2xl group-hover:scale-105 transition-transform duration-700 ease-out"
                       />
-                      {/* Gradient Overlay for Readability */}
-                      <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-slate-950/70 via-slate-900/10 to-transparent opacity-70 group-hover:opacity-50 transition-opacity" />
+                      {/* Gradient Overlay for Readability - removed since object-contain is used and background is light */}
+                      <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-slate-900/40 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity" />
                       
                       {/* Category Badge */}
                       <div className="absolute top-3.5 left-3.5 backdrop-blur-md bg-slate-950/60 border border-white/20 px-3 py-1 rounded-full text-[11px] font-semibold text-white tracking-wide shadow-sm">

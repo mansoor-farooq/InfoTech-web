@@ -115,7 +115,7 @@ export default async function ProductDetailPage({ params }) {
               {/* Image 2 */}
               <div className="hover-lift animate-fade-up">
                 {(product.image2 || product.secImage) ? (
-                  <div className="relative aspect-video w-full rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-slate-950 flex items-center justify-center p-2">
+                  <div className="relative aspect-video w-full rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-slate-100 flex items-center justify-center p-4">
                     <Image src={product.image2 || product.secImage} alt={`${product.title} Dashboard`} fill className="object-contain" />
                   </div>
                 ) : (
@@ -130,7 +130,7 @@ export default async function ProductDetailPage({ params }) {
               {/* Image 3 */}
               <div className="hover-lift animate-fade-up">
                 {(product.image3 || product.thirdImage) ? (
-                  <div className="relative aspect-video w-full rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-slate-950 flex items-center justify-center p-2">
+                  <div className="relative aspect-video w-full rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-slate-100 flex items-center justify-center p-4">
                     <Image src={product.image3 || product.thirdImage} alt={`${product.title} Interface`} fill className="object-contain" />
                   </div>
                 ) : (
@@ -145,7 +145,7 @@ export default async function ProductDetailPage({ params }) {
               {/* Image 4 */}
               <div className="hover-lift animate-fade-up lg:col-span-2">
                 {(product.image4 || product.fourthImage) ? (
-                  <div className="relative aspect-[21/9] w-full rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-slate-950 flex items-center justify-center p-2">
+                  <div className="relative aspect-[21/9] w-full rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-slate-100 flex items-center justify-center p-4">
                     <Image src={product.image4 || product.fourthImage} alt={`${product.title} Analytics`} fill className="object-contain" />
                   </div>
                 ) : (
