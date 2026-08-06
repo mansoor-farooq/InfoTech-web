@@ -653,9 +653,12 @@
       "heroImage": "/images/ChatGPT Image Jul 31, 2026, 03_02_07 PM (1).png",
       "cardImage": "/images/Commerce-bnr.png",
       "video": "https://www.youtube.com/embed/5qap5aO4i9A",
-      "image2": "/images/Commerce-bnr.png",
-      "image3": "/images/ecoomerceapp mainimages.png",
-      "image4": "/images/ecoomercesoluctions.png"
+      "gallery": [
+        "/images/Commerce-bnr.png",
+        "/images/ecoomerceapp mainimages.png",
+        "/images/ecoomercesoluctions.png",
+        "/images/Commerce-bnr.png"
+      ]
     },
     "hrms-&-payroll-management-system": {
       "title": "HRMS & Payroll Management",

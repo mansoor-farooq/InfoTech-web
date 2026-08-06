@@ -112,6 +112,18 @@ export default async function ProductDetailPage({ params }) {
               </p>
             </div>
 
+            {product.gallery ? (
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 items-center">
+                {product.gallery.map((img, idx) => (
+                  <div key={idx} className="hover-lift animate-fade-up">
+                    <div className="relative aspect-video w-full rounded-3xl flex items-center justify-center bg-gradient-to-tr from-slate-50 to-blue-50/30 overflow-hidden group border border-white shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.07)] transition-shadow duration-700">
+                      <div className="absolute inset-0 bg-blue-400/5 blur-3xl rounded-full scale-110 group-hover:scale-125 transition-transform duration-700" />
+                      <Image src={img} alt={`${product.title} Gallery Image ${idx + 1}`} fill className="object-contain drop-shadow-xl group-hover:scale-105 group-hover:-translate-y-2 transition-all duration-700 ease-out z-10 p-4" />
+                    </div>
+                  </div>
+                ))}
+              </div>
+            ) : (
             <div className="grid lg:grid-cols-2 gap-8 items-center">
               {/* Image 2 */}
               <div className="hover-lift animate-fade-up">
@@ -161,6 +173,7 @@ export default async function ProductDetailPage({ params }) {
                 )}
               </div>
             </div>
+            )}
           </div>
         </section>
 
@@ -179,11 +192,18 @@ export default async function ProductDetailPage({ params }) {
                      return (
                         <div key={index} className="grid md:grid-cols-2 gap-12 items-center animate-fade-up">
                           <div className={`order-2 ${isEven ? 'md:order-1' : 'md:order-2'} hover-lift`}>
-                            <ImagePlaceholder 
-                              label={`${section.sectionTitle} Screenshot`}
-                              pathHint={`/images/${resolvedParams.slug}-section-${index + 1}.png`}
-                              aspect="aspect-square md:aspect-[4/3]"
-                            />
+                            {section.image ? (
+                              <div className="relative aspect-square md:aspect-[4/3] w-full rounded-3xl flex items-center justify-center bg-gradient-to-tr from-slate-50 to-blue-50/30 overflow-hidden group border border-white shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.07)] transition-shadow duration-700">
+                                <div className="absolute inset-0 bg-blue-400/5 blur-3xl rounded-full scale-110 group-hover:scale-125 transition-transform duration-700" />
+                                <Image src={section.image} alt={section.sectionTitle} fill className="object-contain drop-shadow-2xl group-hover:scale-105 group-hover:-translate-y-2 transition-all duration-700 ease-out z-10 p-6" />
+                              </div>
+                            ) : (
+                              <ImagePlaceholder 
+                                label={`${section.sectionTitle} Screenshot`}
+                                pathHint={`/images/${resolvedParams.slug}-section-${index + 1}.png`}
+                                aspect="aspect-square md:aspect-[4/3]"
+                              />
+                            )}
                           </div>
 
                           <div className={`order-1 ${isEven ? 'md:order-2' : 'md:order-1'}`}>
