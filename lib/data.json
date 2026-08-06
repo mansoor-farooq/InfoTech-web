@@ -155,13 +155,13 @@
           "desc": "Direct connection to ERPs for live inventory and pricing."
         }
       ],
-      "heroImage": "/images/orderbookingappsecond.png",
-      "cardImage": "/images/orderbookingnew.png",
-      "architectureImage": "/images/saleverse secondry saleapp.png",
-      "dashboardImage": "/images/secondrysale.png",
-      "image2": "/images/saleverse secondry saleapp.png",
-      "image3": "/images/orderbookingappsecond.png",
-      "image4": "/images/orderbookingnew.png",
+      "heroImage": "/images/Mobile Application/Mobile Apps (1).png",
+      "cardImage": "/images/Mobile Application/Mobile Apps (1).png",
+      "architectureImage": "/images/Mobile Application/Mobile Apps (2).png",
+      "dashboardImage": "/images/Mobile Application/Mobile Apps (3).png",
+      "image2": "/images/Mobile Application/Mobile Apps (2).png",
+      "image3": "/images/Mobile Application/Mobile Apps (3).png",
+      "image4": "/images/Mobile Application/Mobile Apps (4).png",
       "video": "https://www.youtube.com/embed/L_LUpnjgPso"
     },
     "infrastructure-management": {
