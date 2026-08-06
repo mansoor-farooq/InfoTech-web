@@ -1002,12 +1002,12 @@
     },
     "e-commerce-solutions": {
       "title": "E-Commerce Solutions",
-      "subtitle": "Scalable B2B and B2C digital storefronts.",
+      "subtitle": "Next-Generation Enterprise Digital Commerce",
       "accent": "#f59e0b",
       "accentLight": "#fffbeb",
       "accentBorder": "#fde68a",
       "accentDark": "#b45309",
-      "description": "End-to-end e-commerce platforms designed for high volume transactions, complete with inventory sync, payment gateways, and order management.",
+      "description": "Transform your retail operations with our end-to-end e-commerce platform. Designed for high-volume transactions, our solution seamlessly integrates inventory management, intelligent order routing, and secure payment gateways to deliver a flawless customer experience across B2B and B2C channels.",
       "imagePlaceholder": true,
       "heroStat1": {
         "value": "Omnichannel",
@@ -1048,16 +1048,104 @@
       ],
       "detailedContent": [
         {
-          "type": "text",
-          "sectionTitle": "Custom Storefronts",
-          "content": "Tailored UI/UX for your brand.",
+          "type": "list-text",
+          "sectionTitle": "Smart Shopping Journey",
+          "content": "Deliver a seamless, intuitive shopping experience that guides customers from discovery to delivery. Our E-Commerce Solutions are designed to reduce friction, optimize conversion rates, and build brand loyalty through personalization and intelligent product recommendations.",
+          "points": [
+            "AI-driven product recommendations and personalized search.",
+            "Frictionless, one-click checkout with multiple payment gateways.",
+            "Real-time order tracking and dynamic delivery estimates."
+          ],
           "image": "/images/E-Commerce Solutions/E commerce Solution (1).png"
         },
         {
-          "type": "text",
-          "sectionTitle": "Inventory Sync",
-          "content": "Real-time stock updates.",
+          "type": "list-text",
+          "sectionTitle": "Seamless Customer Experience",
+          "content": "Empower your customers with a responsive, lightning-fast storefront that works beautifully across all devices. We focus on performance and accessibility, ensuring your digital presence is robust enough to handle high-volume traffic during peak sale events.",
+          "points": [
+            "Mobile-first, responsive design for all screen sizes.",
+            "High-performance architecture ensuring lightning-fast load times.",
+            "Interactive product catalogs with 360-degree views and zoom."
+          ],
           "image": "/images/E-Commerce Solutions/E commerce Solution (2).png"
+        },
+        {
+          "type": "grid",
+          "sectionTitle": "Enterprise E-Commerce Modules",
+          "items": [
+            {
+              "title": "Inventory Management",
+              "desc": "Real-time sync across multiple warehouses and physical stores, preventing overselling."
+            },
+            {
+              "title": "Order Fulfillment",
+              "desc": "Automated routing, pick-and-pack workflows, and integrated shipping carrier APIs."
+            },
+            {
+              "title": "Dynamic Pricing",
+              "desc": "Rule-based pricing engines for sales, wholesale discounts, and customer tiers."
+            },
+            {
+              "title": "B2B Portal",
+              "desc": "Dedicated interfaces for bulk ordering, quotes, and corporate account management."
+            },
+            {
+              "title": "Marketing Automation",
+              "desc": "Abandoned cart recovery, loyalty programs, and targeted email campaigns."
+            },
+            {
+              "title": "Analytics Dashboard",
+              "desc": "Comprehensive insights into sales velocity, customer acquisition cost, and LTV."
+            }
+          ]
+        },
+        {
+          "type": "list-text",
+          "sectionTitle": "Comprehensive Order Management",
+          "content": "Take full control of your supply chain and order lifecycle. Our solution provides a centralized hub to manage orders, handle returns, process refunds, and communicate with logistics providers—all from a single, intuitive dashboard.",
+          "points": [
+            "Centralized order dashboard for both B2B and B2C channels.",
+            "Automated return merchandise authorization (RMA) workflows.",
+            "Integrated customer support ticketing linked directly to orders."
+          ],
+          "image": "/images/E-Commerce Solutions/E commerce Solution (3).png"
+        },
+        {
+          "type": "list-text",
+          "sectionTitle": "Advanced Analytics & Reporting",
+          "content": "Make data-driven decisions with real-time analytics. Understand customer behavior, track inventory velocity, and measure the success of your marketing campaigns with customizable reports and visual dashboards.",
+          "points": [
+            "Customizable KPI dashboards tailored to your business goals.",
+            "Cohort analysis and customer lifetime value (CLV) tracking.",
+            "Exportable reports for financial reconciliation and tax compliance."
+          ],
+          "image": "/images/E-Commerce Solutions/E commerce Solution (4).png"
+        },
+        {
+          "type": "tags",
+          "sectionTitle": "Integrations & Technologies",
+          "tagsGroups": [
+            {
+              "group": "Payment Gateways",
+              "tags": [
+                "Stripe",
+                "PayPal",
+                "Square",
+                "Authorize.Net",
+                "Braintree"
+              ]
+            },
+            {
+              "group": "Shipping & Logistics",
+              "tags": [
+                "FedEx",
+                "UPS",
+                "DHL",
+                "USPS",
+                "ShipStation"
+              ]
+            }
+          ]
         }
       ]
     },
