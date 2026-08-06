@@ -1044,30 +1044,71 @@
         "/images/E-Commerce Solutions/E commerce Solution (1).png",
         "/images/E-Commerce Solutions/E commerce Solution (2).png",
         "/images/E-Commerce Solutions/E commerce Solution (3).png",
-        "/images/E-Commerce Solutions/E commerce Solution (4).png"
+        "/images/E-Commerce Solutions/E commerce Solution (4).png",
+        "/images/E-Commerce Solutions/E commerce Solution (5).png",
+        "/images/E-Commerce Solutions/E commerce Solution (6).png",
+        "/images/E-Commerce Solutions/E commerce Solution (7).png",
+        "/images/E-Commerce Solutions/E commerce Solution (9).png",
+        "/images/E-Commerce Solutions/ChatGPT Image Aug 6, 2026, 05_10_01 PM (1).png",
+        "/images/E-Commerce Solutions/ChatGPT Image Aug 6, 2026, 05_10_05 PM (2).png",
+        "/images/E-Commerce Solutions/ChatGPT Image Aug 6, 2026, 05_10_05 PM (3).png",
+        "/images/E-Commerce Solutions/E commerce Solution.png"
       ],
       "detailedContent": [
         {
           "type": "list-text",
-          "sectionTitle": "Smart Shopping Journey",
-          "content": "Deliver a seamless, intuitive shopping experience that guides customers from discovery to delivery. Our E-Commerce Solutions are designed to reduce friction, optimize conversion rates, and build brand loyalty through personalization and intelligent product recommendations.",
+          "sectionTitle": "Smart Shopping Journey & Personalization",
+          "content": "Deliver a seamless, intuitive shopping experience that guides customers from discovery to delivery. Our E-Commerce Solutions utilize AI to analyze browsing habits, ensuring every user sees highly relevant product recommendations, which dramatically increases average order value (AOV) and conversion rates.",
           "points": [
-            "AI-driven product recommendations and personalized search.",
+            "AI-driven product recommendations and dynamic category sorting.",
             "Frictionless, one-click checkout with multiple payment gateways.",
-            "Real-time order tracking and dynamic delivery estimates."
+            "Real-time order tracking and predictive delivery estimates."
           ],
           "image": "/images/E-Commerce Solutions/E commerce Solution (1).png"
         },
         {
           "type": "list-text",
-          "sectionTitle": "Seamless Customer Experience",
-          "content": "Empower your customers with a responsive, lightning-fast storefront that works beautifully across all devices. We focus on performance and accessibility, ensuring your digital presence is robust enough to handle high-volume traffic during peak sale events.",
+          "sectionTitle": "Lightning-Fast Customer Experience",
+          "content": "Empower your customers with a responsive, lightning-fast storefront that works beautifully across all devices. We focus heavily on core web vitals and accessibility, ensuring your digital presence is robust enough to handle massive traffic spikes during Black Friday and flash sales.",
           "points": [
-            "Mobile-first, responsive design for all screen sizes.",
-            "High-performance architecture ensuring lightning-fast load times.",
+            "Mobile-first, responsive design for flawless smartphone browsing.",
+            "High-performance architecture ensuring sub-second page load times.",
             "Interactive product catalogs with 360-degree views and zoom."
           ],
           "image": "/images/E-Commerce Solutions/E commerce Solution (2).png"
+        },
+        {
+          "type": "list-text",
+          "sectionTitle": "Comprehensive Order Management",
+          "content": "Take full control of your supply chain and order lifecycle. Our solution provides a centralized hub to manage orders, handle returns, process refunds, and communicate with logistics providers—all from a single, intuitive dashboard.",
+          "points": [
+            "Centralized order dashboard for both B2B and B2C channels.",
+            "Automated return merchandise authorization (RMA) workflows.",
+            "Integrated customer support ticketing linked directly to orders."
+          ],
+          "image": "/images/E-Commerce Solutions/E commerce Solution (3).png"
+        },
+        {
+          "type": "list-text",
+          "sectionTitle": "Advanced Analytics & Revenue Reporting",
+          "content": "Make data-driven decisions with real-time analytics. Understand customer behavior, track inventory velocity, and measure the success of your marketing campaigns with customizable reports and visual dashboards that give you a birds-eye view of your business.",
+          "points": [
+            "Customizable KPI dashboards tailored to your business goals.",
+            "Cohort analysis and customer lifetime value (CLV) tracking.",
+            "Exportable reports for financial reconciliation and tax compliance."
+          ],
+          "image": "/images/E-Commerce Solutions/E commerce Solution (4).png"
+        },
+        {
+          "type": "list-text",
+          "sectionTitle": "Seamless B2B & Wholesale Portals",
+          "content": "Scale your wholesale operations alongside your B2C store. Our platform allows you to create secure, dedicated B2B portals where corporate clients can view customized pricing, place bulk orders, and manage their invoices independently.",
+          "points": [
+            "Customer-specific pricing tiers and volume discount rules.",
+            "Quick-order forms and CSV upload for massive wholesale orders.",
+            "Approval workflows for corporate purchasing departments."
+          ],
+          "image": "/images/E-Commerce Solutions/E commerce Solution (5).png"
         },
         {
           "type": "grid",
@@ -1086,40 +1127,95 @@
               "desc": "Rule-based pricing engines for sales, wholesale discounts, and customer tiers."
             },
             {
-              "title": "B2B Portal",
-              "desc": "Dedicated interfaces for bulk ordering, quotes, and corporate account management."
-            },
-            {
               "title": "Marketing Automation",
               "desc": "Abandoned cart recovery, loyalty programs, and targeted email campaigns."
             },
             {
-              "title": "Analytics Dashboard",
-              "desc": "Comprehensive insights into sales velocity, customer acquisition cost, and LTV."
+              "title": "Multi-Currency & Tax",
+              "desc": "Automatic tax calculation and localized currency display for global scaling."
+            },
+            {
+              "title": "Headless Architecture",
+              "desc": "Decoupled frontend for lightning-fast performance and omnichannel selling."
             }
           ]
         },
         {
           "type": "list-text",
-          "sectionTitle": "Comprehensive Order Management",
-          "content": "Take full control of your supply chain and order lifecycle. Our solution provides a centralized hub to manage orders, handle returns, process refunds, and communicate with logistics providers—all from a single, intuitive dashboard.",
+          "sectionTitle": "Omnichannel Inventory Synchronization",
+          "content": "Never accidentally oversell again. Our powerful inventory engine synchronizes stock levels across your web store, mobile app, physical retail locations (POS), and third-party marketplaces (Amazon, eBay) in real-time.",
           "points": [
-            "Centralized order dashboard for both B2B and B2C channels.",
-            "Automated return merchandise authorization (RMA) workflows.",
-            "Integrated customer support ticketing linked directly to orders."
+            "Multi-warehouse inventory routing based on customer proximity.",
+            "Low-stock automated alerts and predictive restocking algorithms.",
+            "Barcode scanning integration for warehouse management."
           ],
-          "image": "/images/E-Commerce Solutions/E commerce Solution (3).png"
+          "image": "/images/E-Commerce Solutions/E commerce Solution (6).png"
         },
         {
           "type": "list-text",
-          "sectionTitle": "Advanced Analytics & Reporting",
-          "content": "Make data-driven decisions with real-time analytics. Understand customer behavior, track inventory velocity, and measure the success of your marketing campaigns with customizable reports and visual dashboards.",
+          "sectionTitle": "Marketing & Loyalty Automation",
+          "content": "Turn one-time buyers into lifelong brand advocates. Utilize our built-in marketing tools to create automated abandoned cart recovery sequences, personalized email campaigns, and tier-based loyalty reward programs.",
           "points": [
-            "Customizable KPI dashboards tailored to your business goals.",
-            "Cohort analysis and customer lifetime value (CLV) tracking.",
-            "Exportable reports for financial reconciliation and tax compliance."
+            "Automated email triggers based on user browsing behavior.",
+            "Points-based reward system integration at checkout.",
+            "Flash sale countdowns and promotional banner management."
           ],
-          "image": "/images/E-Commerce Solutions/E commerce Solution (4).png"
+          "image": "/images/E-Commerce Solutions/E commerce Solution (7).png"
+        },
+        {
+          "type": "list-text",
+          "sectionTitle": "Global Scalability & Security",
+          "content": "Expand your business internationally with confidence. Our architecture is built on a highly secure, auto-scaling cloud infrastructure that ensures 99.99% uptime, while complying with PCI-DSS and global data privacy regulations.",
+          "points": [
+            "PCI-DSS Level 1 compliant secure payment processing.",
+            "Auto-scaling server infrastructure to handle traffic spikes.",
+            "Multi-language support and automated currency conversion."
+          ],
+          "image": "/images/E-Commerce Solutions/E commerce Solution (9).png"
+        },
+        {
+          "type": "list-text",
+          "sectionTitle": "AI-Powered Customer Support",
+          "content": "Reduce support ticket volume with intelligent chatbots and self-service portals. Customers can track their orders, initiate returns, and get answers to FAQs instantly, freeing up your human agents for complex queries.",
+          "points": [
+            "24/7 AI chatbot integration for instant query resolution.",
+            "Self-service return portals with automated shipping label generation.",
+            "Seamless handoff to human agents with full context history."
+          ],
+          "image": "/images/E-Commerce Solutions/ChatGPT Image Aug 6, 2026, 05_10_01 PM (1).png"
+        },
+        {
+          "type": "list-text",
+          "sectionTitle": "Mobile App Storefronts",
+          "content": "Capture the growing mobile commerce market with natively compiled iOS and Android applications. Keep your brand directly in your customers' pockets with push notifications and exclusive mobile-only promotions.",
+          "points": [
+            "Native iOS and Android apps synced with your main store.",
+            "Rich push notifications for sales and abandoned carts.",
+            "Biometric login and mobile wallet (Apple/Google Pay) integration."
+          ],
+          "image": "/images/E-Commerce Solutions/ChatGPT Image Aug 6, 2026, 05_10_05 PM (2).png"
+        },
+        {
+          "type": "list-text",
+          "sectionTitle": "Strategic Vendor Management",
+          "content": "For multi-vendor marketplaces, our solution provides robust tools for vendor onboarding, commission tracking, and individual store management, allowing you to easily curate a vast catalog of products.",
+          "points": [
+            "Dedicated vendor dashboards for product uploads and order fulfillment.",
+            "Automated commission splitting and payout scheduling.",
+            "Quality control workflows before vendor products go live."
+          ],
+          "image": "/images/E-Commerce Solutions/ChatGPT Image Aug 6, 2026, 05_10_05 PM (3).png"
+        },
+        {
+          "type": "list-text",
+          "sectionTitle": "Intelligent PIM & Cataloging",
+          "content": "Manage massive product catalogs effortlessly. Our Product Information Management (PIM) module lets you organize variants, bulk update prices, and sync inventory levels across thousands of SKUs instantly.",
+          "points": [
+            "Bulk editing tools and CSV imports for rapid catalog building.",
+            "Advanced product variants (size, color, material) management.",
+            "SEO-optimized product URL and meta tag generation."
+          ],
+          "image": "/images/E-Commerce Solutions/E commerce Solution.png"
         },
         {
           "type": "tags",
@@ -1143,6 +1239,15 @@
                 "DHL",
                 "USPS",
                 "ShipStation"
+              ]
+            },
+            {
+              "group": "ERP & CRM",
+              "tags": [
+                "Salesforce",
+                "SAP",
+                "Oracle NetSuite",
+                "HubSpot"
               ]
             }
           ]
@@ -1364,7 +1469,7 @@
           "desc": "Digital RFQ and bidding system."
         }
       ],
-      "heroImage": "/images/Procurement Application/procurment (1).png",
+      "heroImage": "/images/Procurement Application/ChatGPT Image Aug 6, 2026, 03_58_22 PM (3).png",
       "cardImage": "/images/Procurement Application/procurment (1).png",
       "secImage": "/images/Procurement.jpeg",
       "image2": "/images/Procurement Application/procurment (2).png",
