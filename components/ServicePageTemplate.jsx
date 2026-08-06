@@ -116,55 +116,80 @@ export default function ServicePageTemplate({ data }) {
               </p>
             </div>
 
-            {/* Multi-Image Gallery Grid */}
-            <div className="grid lg:grid-cols-2 gap-12 items-center mb-24">
-              
-              {/* Image 2: Architecture / Overview Blueprint */}
-              <div className="hover-lift animate-fade-up">
-                {(data.image2 || data.architectureImage) ? (
-                  <div className="relative aspect-video w-full rounded-3xl flex items-center justify-center">
-                    <Image src={data.image2 || data.architectureImage} alt={`${data.title} Architecture`} fill className="object-contain drop-shadow-xl" />
-                  </div>
-                ) : (
-                  <ImagePlaceholder 
-                    label={`${data.title} System Overview Blueprint (Image 2)`}
-                    pathHint={`/images/services/${slug}-2-architecture.png`}
-                    aspect="aspect-video"
-                  />
-                )}
-              </div>
+            {/* Dynamic Detailed Content (Alternating Left/Right layout) */}
+            {data.detailedContent ? (
+              <div className="max-w-5xl mx-auto space-y-24 mb-24">
+                {data.detailedContent.map((section, index) => {
+                  const isEven = index % 2 === 0;
+                  return (
+                    <div key={index} className="grid md:grid-cols-2 gap-12 items-center animate-fade-up">
+                      <div className={`order-2 ${isEven ? 'md:order-1' : 'md:order-2'} hover-lift`}>
+                        {section.image ? (
+                          <div className="relative aspect-square md:aspect-[4/3] w-full rounded-3xl flex items-center justify-center bg-gradient-to-tr from-slate-50 to-blue-50/30 overflow-hidden group border border-white shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.07)] transition-shadow duration-700">
+                            <div className="absolute inset-0 bg-blue-400/5 blur-3xl rounded-full scale-110 group-hover:scale-125 transition-transform duration-700" />
+                            <Image src={section.image} alt={section.sectionTitle} fill className="object-contain drop-shadow-2xl group-hover:scale-105 group-hover:-translate-y-2 transition-all duration-700 ease-out z-10 p-6" />
+                          </div>
+                        ) : null}
+                      </div>
 
-              {/* Image 3: Live Management Dashboard */}
-              <div className="hover-lift animate-fade-up">
-                {(data.image3 || data.dashboardImage) ? (
-                  <div className="relative aspect-video w-full rounded-3xl flex items-center justify-center">
-                    <Image src={data.image3 || data.dashboardImage} alt={`${data.title} Dashboard`} fill className="object-contain drop-shadow-xl" />
-                  </div>
-                ) : (
-                  <ImagePlaceholder 
-                    label={`${data.title} Live Management Dashboard (Image 3)`}
-                    pathHint={`/images/services/${slug}-3-dashboard.png`}
-                    aspect="aspect-video"
-                  />
-                )}
+                      <div className={`order-1 ${isEven ? 'md:order-2' : 'md:order-1'}`}>
+                        <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-6 tracking-tight">{section.sectionTitle}</h2>
+                        <div className="text-lg text-slate-600 leading-relaxed mb-6 whitespace-pre-wrap">
+                          {section.content}
+                        </div>
+                      </div>
+                    </div>
+                  );
+                })}
               </div>
+            ) : (
+              <div className="grid lg:grid-cols-2 gap-12 items-center mb-24">
+                {/* Image 2: Architecture / Overview Blueprint */}
+                <div className="hover-lift animate-fade-up">
+                  {(data.image2 || data.architectureImage) ? (
+                    <div className="relative aspect-video w-full rounded-3xl flex items-center justify-center">
+                      <Image src={data.image2 || data.architectureImage} alt={`${data.title} Architecture`} fill className="object-contain drop-shadow-xl" />
+                    </div>
+                  ) : (
+                    <ImagePlaceholder 
+                      label={`${data.title} System Overview Blueprint (Image 2)`}
+                      pathHint={`/images/services/${slug}-2-architecture.png`}
+                      aspect="aspect-video"
+                    />
+                  )}
+                </div>
 
-              {/* Image 4: Detailed Workflow / Module Screenshot */}
-              <div className="hover-lift animate-fade-up lg:col-span-2">
-                {(data.image4 || data.featureImage) ? (
-                  <div className="relative aspect-[21/9] w-full rounded-3xl flex items-center justify-center">
-                    <Image src={data.image4 || data.featureImage} alt={`${data.title} Detailed Feature Module`} fill className="object-contain drop-shadow-2xl" />
-                  </div>
-                ) : (
-                  <ImagePlaceholder 
-                    label={`${data.title} Detailed Workflow Screenshot (Image 4)`}
-                    pathHint={`/images/services/${slug}-4-workflow.png`}
-                    aspect="aspect-video md:aspect-[21/9]"
-                  />
-                )}
+                {/* Image 3: Live Management Dashboard */}
+                <div className="hover-lift animate-fade-up">
+                  {(data.image3 || data.dashboardImage) ? (
+                    <div className="relative aspect-video w-full rounded-3xl flex items-center justify-center">
+                      <Image src={data.image3 || data.dashboardImage} alt={`${data.title} Dashboard`} fill className="object-contain drop-shadow-xl" />
+                    </div>
+                  ) : (
+                    <ImagePlaceholder 
+                      label={`${data.title} Live Management Dashboard (Image 3)`}
+                      pathHint={`/images/services/${slug}-3-dashboard.png`}
+                      aspect="aspect-video"
+                    />
+                  )}
+                </div>
+
+                {/* Image 4: Detailed Workflow / Module Screenshot */}
+                <div className="hover-lift animate-fade-up lg:col-span-2">
+                  {(data.image4 || data.featureImage) ? (
+                    <div className="relative aspect-[21/9] w-full rounded-3xl flex items-center justify-center">
+                      <Image src={data.image4 || data.featureImage} alt={`${data.title} Detailed Feature Module`} fill className="object-contain drop-shadow-2xl" />
+                    </div>
+                  ) : (
+                    <ImagePlaceholder 
+                      label={`${data.title} Detailed Workflow Screenshot (Image 4)`}
+                      pathHint={`/images/services/${slug}-4-workflow.png`}
+                      aspect="aspect-video md:aspect-[21/9]"
+                    />
+                  )}
+                </div>
               </div>
-
-            </div>
+            )}
 
           </div>
         </section>

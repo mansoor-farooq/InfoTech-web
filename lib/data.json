@@ -78,6 +78,26 @@
         "/images/Powerbi/powerbi.jpg",
         "/images/Powerbi/powebidash.png",
         "/images/Powerbi/bireporting.png"
+      ],
+      "detailedContent": [
+        {
+          "type": "text",
+          "sectionTitle": "Custom Dashboards",
+          "content": "Interactive PowerBI and custom dashboards tailored to your KPIs.",
+          "image": "/images/Powerbi/powerbi_1first.png"
+        },
+        {
+          "type": "text",
+          "sectionTitle": "Data Warehousing",
+          "content": "Centralized data repositories connecting multiple ERP systems.",
+          "image": "/images/Powerbi/powerbi.jpg"
+        },
+        {
+          "type": "text",
+          "sectionTitle": "Predictive Analytics",
+          "content": "Machine learning models to forecast trends and inventory needs.",
+          "image": "/images/Powerbi/powebidash.png"
+        }
       ]
     },
     "web-development": {
@@ -129,6 +149,26 @@
         "/images/web-development/Web development (2).png",
         "/images/web-development/Web development (3).png",
         "/images/web-development/Web development (4).png"
+      ],
+      "detailedContent": [
+        {
+          "type": "text",
+          "sectionTitle": "Frontend Development",
+          "content": "Dynamic, fast, and responsive user interfaces using React and Next.js.",
+          "image": "/images/web-development/Web development (1).png"
+        },
+        {
+          "type": "text",
+          "sectionTitle": "Backend Architecture",
+          "content": "Secure and scalable server-side systems using Node.js or .NET.",
+          "image": "/images/web-development/Web development (2).png"
+        },
+        {
+          "type": "text",
+          "sectionTitle": "API Development",
+          "content": "Custom RESTful and GraphQL APIs to connect your web apps.",
+          "image": "/images/web-development/Web development (3).png"
+        }
       ]
     },
     "mobile-application": {
@@ -180,6 +220,26 @@
         "/images/Mobile Application/Mobile Apps (2).png",
         "/images/Mobile Application/Mobile Apps (3).png",
         "/images/Mobile Application/Mobile Apps (4).png"
+      ],
+      "detailedContent": [
+        {
+          "type": "text",
+          "sectionTitle": "iOS & Android Apps",
+          "content": "Native applications designed for enterprise users and field force.",
+          "image": "/images/Mobile Application/Mobile Apps (1).png"
+        },
+        {
+          "type": "text",
+          "sectionTitle": "Cross-Platform Apps",
+          "content": "React Native and Flutter apps for fast time-to-market.",
+          "image": "/images/Mobile Application/Mobile Apps (2).png"
+        },
+        {
+          "type": "text",
+          "sectionTitle": "Enterprise Integration",
+          "content": "Direct connection to ERPs for live inventory and pricing.",
+          "image": "/images/Mobile Application/Mobile Apps (3).png"
+        }
       ]
     },
     "infrastructure-management": {
@@ -231,6 +291,26 @@
         "/images/Infrastructure Management/Infrastruture Managment (2).png",
         "/images/Infrastructure Management/Infrastruture Managment (3).png",
         "/images/Infrastructure Management/Infrastruture Managment (4).png"
+      ],
+      "detailedContent": [
+        {
+          "type": "text",
+          "sectionTitle": "Cloud Server Management",
+          "content": "Deployment and maintenance of AWS, Azure, and Google Cloud environments.",
+          "image": "/images/Infrastructure Management/Infrastruture Managment (1).png"
+        },
+        {
+          "type": "text",
+          "sectionTitle": "Database Administration",
+          "content": "Optimization, backup strategies, and scaling for enterprise databases.",
+          "image": "/images/Infrastructure Management/Infrastruture Managment (2).png"
+        },
+        {
+          "type": "text",
+          "sectionTitle": "Network Security",
+          "content": "Firewall configuration, vulnerability assessments, and access control.",
+          "image": "/images/Infrastructure Management/Infrastruture Managment (3).png"
+        }
       ]
     },
     "maintenance-enhancements": {
@@ -282,6 +362,26 @@
         "/images/Maintenance & Enhancements/Maintenance & Enhancements (2).png",
         "/images/Maintenance & Enhancements/Maintenance & Enhancements (3).png",
         "/images/Maintenance & Enhancements/Maintenance & Enhancements (4).png"
+      ],
+      "detailedContent": [
+        {
+          "type": "text",
+          "sectionTitle": "Performance Optimization",
+          "content": "Code refactoring, database tuning, and caching strategies.",
+          "image": "/images/Maintenance & Enhancements/Maintenance & Enhancements (1).png"
+        },
+        {
+          "type": "text",
+          "sectionTitle": "Security Patching",
+          "content": "Regular updates to dependencies and vulnerability remediation.",
+          "image": "/images/Maintenance & Enhancements/Maintenance & Enhancements (2).png"
+        },
+        {
+          "type": "text",
+          "sectionTitle": "Feature Upgrades",
+          "content": "Continuous development of new modules and capabilities.",
+          "image": "/images/Maintenance & Enhancements/Maintenance & Enhancements (3).png"
+        }
       ]
     },
     "migration-and-modernization": {
@@ -333,6 +433,26 @@
         "/images/Migration And Modernization/Migration and modernization (2).png",
         "/images/Migration And Modernization/Migration and modernization (3).png",
         "/images/Migration And Modernization/Migration and modernization (4).png"
+      ],
+      "detailedContent": [
+        {
+          "type": "text",
+          "sectionTitle": "Legacy App Modernization",
+          "content": "Rewriting outdated applications using modern frameworks like Next.js and Node.",
+          "image": "/images/Migration And Modernization/Migration and modernization (1).png"
+        },
+        {
+          "type": "text",
+          "sectionTitle": "Cloud Migration",
+          "content": "Moving on-premise databases and servers to AWS or Azure.",
+          "image": "/images/Migration And Modernization/Migration and modernization (2).png"
+        },
+        {
+          "type": "text",
+          "sectionTitle": "Architecture Redesign",
+          "content": "Transitioning from monolithic structures to microservices.",
+          "image": "/images/Migration And Modernization/Migration and modernization (3).png"
+        }
       ]
     },
     "custom-erp-development": {
@@ -384,6 +504,26 @@
         "/images/Custom ERP Development/Custom Erp  (2).png",
         "/images/Custom ERP Development/Custom Erp  (3).png",
         "/images/Custom ERP Development/Custom Erp  (4).png"
+      ],
+      "detailedContent": [
+        {
+          "type": "text",
+          "sectionTitle": "Financial & Accounting Module",
+          "content": "Ledgers, trial balances, automated invoicing, and bank reconciliation.",
+          "image": "/images/Custom ERP Development/Custom Erp  (1).png"
+        },
+        {
+          "type": "text",
+          "sectionTitle": "Supply Chain & Warehouse ERP",
+          "content": "Multi-location inventory tracking, purchase orders, and stock reordering.",
+          "image": "/images/Custom ERP Development/Custom Erp  (2).png"
+        },
+        {
+          "type": "text",
+          "sectionTitle": "HR & Payroll Integration",
+          "content": "Employee attendance, biometric integration, and tax calculations.",
+          "image": "/images/Custom ERP Development/Custom Erp  (3).png"
+        }
       ]
     },
     "ai-and-machine-learning": {
@@ -435,6 +575,26 @@
         "/images/AI & Machine Learning/Shelf Analysis (2).png",
         "/images/AI & Machine Learning/Shelf Analysis (3).png",
         "/images/AI & Machine Learning/Shelf Analysis (4).png"
+      ],
+      "detailedContent": [
+        {
+          "type": "text",
+          "sectionTitle": "Predictive Demand Forecasting",
+          "content": "ML models to predict customer purchasing behavior and inventory needs.",
+          "image": "/images/AI & Machine Learning/Shelf Analysis (1).png"
+        },
+        {
+          "type": "text",
+          "sectionTitle": "AI Document & Invoice OCR",
+          "content": "Automated text extraction from physical paper bills and receipts.",
+          "image": "/images/AI & Machine Learning/Shelf Analysis (2).png"
+        },
+        {
+          "type": "text",
+          "sectionTitle": "Custom AI Conversational Agents",
+          "content": "AI customer support and internal enterprise knowledge base bots.",
+          "image": "/images/AI & Machine Learning/Shelf Analysis (3).png"
+        }
       ]
     },
     "cloud-devops": {
@@ -486,6 +646,26 @@
         "/images/Cloud and deveops/Cloud and deveops (2).png",
         "/images/Cloud and deveops/Cloud and deveops (3).png",
         "/images/Cloud and deveops/Cloud and deveops (4).png"
+      ],
+      "detailedContent": [
+        {
+          "type": "text",
+          "sectionTitle": "CI/CD Pipeline Setup",
+          "content": "Automated build, testing, and deployment scripts via GitHub Actions or Docker.",
+          "image": "/images/Cloud and deveops/Cloud and deveops (1).png"
+        },
+        {
+          "type": "text",
+          "sectionTitle": "Kubernetes & Containerization",
+          "content": "Containerized microservices running on EKS/AKS for high elasticity.",
+          "image": "/images/Cloud and deveops/Cloud and deveops (2).png"
+        },
+        {
+          "type": "text",
+          "sectionTitle": "24/7 Cloud Monitoring & Alerts",
+          "content": "Prometheus, Grafana, and CloudWatch metrics with instant SLA alerts.",
+          "image": "/images/Cloud and deveops/Cloud and deveops (3).png"
+        }
       ]
     },
     "fbr-e-invoicing-compliance": {
@@ -537,6 +717,26 @@
         "/images/FBR E-Invoicing & Compliance/FBR E INVOICE (2).png",
         "/images/FBR E-Invoicing & Compliance/FBR E INVOICE (3).png",
         "/images/FBR E-Invoicing & Compliance/FBR E INVOICE (4).png"
+      ],
+      "detailedContent": [
+        {
+          "type": "text",
+          "sectionTitle": "FBR Real-Time POS Sync",
+          "content": "Direct POS connection to FBR tax servers for digital invoice registration.",
+          "image": "/images/FBR E-Invoicing & Compliance/FBR E INVOICE (1).png"
+        },
+        {
+          "type": "text",
+          "sectionTitle": "Automated Tax Return Reports",
+          "content": "Export sales and purchase tax data formatted for monthly return filing.",
+          "image": "/images/FBR E-Invoicing & Compliance/FBR E INVOICE (2).png"
+        },
+        {
+          "type": "text",
+          "sectionTitle": "Compliance Auditing Tools",
+          "content": "Built-in reconciliation checks to ensure zero mismatched tax figures.",
+          "image": "/images/FBR E-Invoicing & Compliance/FBR E INVOICE (3).png"
+        }
       ]
     }
   },
@@ -704,58 +904,22 @@
       ],
       "detailedContent": [
         {
-          "sectionTitle": "Complete Enterprise Human Capital Solution",
-          "content": "Our HRMS & Payroll Management System automates employee lifecycle operations from recruitment, onboarding, leave management, and biometric attendance to complex tax-compliant payroll calculation and performance appraisals.",
           "type": "text",
+          "sectionTitle": "Attendance Tracking",
+          "content": "Biometric and app-based attendance.",
           "image": "/images/Hrms&payrollsysteam.png"
         },
         {
-          "sectionTitle": "Core Modules",
-          "type": "grid",
-          "items": [
-            {
-              "title": "Employee Lifecycle Management",
-              "desc": "Centralized database for personnel records, contracts, document uploads, and organizational chart hierarchies."
-            },
-            {
-              "title": "Automated Payroll Engine",
-              "desc": "One-click monthly payroll processing with configurable allowances, deductions, tax slabs, and direct bank transfer exports."
-            },
-            {
-              "title": "Attendance & Leave Management",
-              "desc": "Integration with biometric hardware, face recognition scanners, and mobile GPS check-ins with automated leave approval flows."
-            },
-            {
-              "title": "Employee Self-Service (ESS) Portal",
-              "desc": "Mobile and web portal for staff to view pay slips, submit leave requests, claim expenses, and update personal profiles."
-            }
-          ]
+          "type": "text",
+          "sectionTitle": "Payroll Automation",
+          "content": "Tax compliant, one-click salary processing.",
+          "image": "/images/Hrms&payrollsysteam.png"
         },
         {
-          "sectionTitle": "Key Capabilities & Compliance",
-          "type": "tags",
-          "tagsGroups": [
-            {
-              "group": "Capabilities",
-              "tags": [
-                "Biometric Hardware Integration",
-                "Tax Compliant Slips",
-                "Multi-Branch Support",
-                "Performance Appraisal KPI",
-                "Overtime & Shift Scheduler"
-              ]
-            },
-            {
-              "group": "Target Sectors",
-              "tags": [
-                "Corporate Enterprises",
-                "Manufacturing Units",
-                "Software Houses",
-                "Retail Chains",
-                "Hospitality & Healthcare"
-              ]
-            }
-          ]
+          "type": "text",
+          "sectionTitle": "Performance Appraisals",
+          "content": "KPI tracking and evaluation modules.",
+          "image": "/images/hrms.png"
         }
       ],
       "services": [
@@ -820,7 +984,21 @@
       "thirdImage": "/images/Digital e-invociasecond.png",
       "image2": "/images/Digital e-invociamain.png",
       "image3": "/images/Digital e-invociasecond.png",
-      "image4": "/images/Digital e-invociasecond.png"
+      "image4": "/images/Digital e-invociasecond.png",
+      "detailedContent": [
+        {
+          "type": "text",
+          "sectionTitle": "ERP Integration",
+          "content": "Direct connection from SAP, Dynamics, or Custom ERP.",
+          "image": "/images/Digital-E-Invoic.jpg"
+        },
+        {
+          "type": "text",
+          "sectionTitle": "Automated Reporting",
+          "content": "Auto-generation of tax annexures.",
+          "image": "/images/Digital e-invociamain.png"
+        }
+      ]
     },
     "e-commerce-solutions": {
       "title": "E-Commerce Solutions",
@@ -867,6 +1045,20 @@
         "/images/E-Commerce Solutions/E commerce Solution (2).png",
         "/images/E-Commerce Solutions/E commerce Solution (3).png",
         "/images/E-Commerce Solutions/E commerce Solution (4).png"
+      ],
+      "detailedContent": [
+        {
+          "type": "text",
+          "sectionTitle": "Custom Storefronts",
+          "content": "Tailored UI/UX for your brand.",
+          "image": "/images/E-Commerce Solutions/E commerce Solution (1).png"
+        },
+        {
+          "type": "text",
+          "sectionTitle": "Inventory Sync",
+          "content": "Real-time stock updates.",
+          "image": "/images/E-Commerce Solutions/E commerce Solution (2).png"
+        }
       ]
     },
     "merchandizing-application": {
@@ -908,7 +1100,21 @@
       "image2": "/images/audit_web_banner.png",
       "image3": "/images/audit_mobile_banner.png",
       "image4": "/images/marchandizingapp.png",
-      "video": "https://www.youtube.com/watch?v=s42VQasz4iI"
+      "video": "https://www.youtube.com/watch?v=s42VQasz4iI",
+      "detailedContent": [
+        {
+          "type": "text",
+          "sectionTitle": "Shelf Share Analysis",
+          "content": "Calculate brand visibility automatically.",
+          "image": "/images/marchandizingapp.png"
+        },
+        {
+          "type": "text",
+          "sectionTitle": "Competitor Tracking",
+          "content": "Monitor competitor pricing and promotions.",
+          "image": "/images/audit_web_banner.png"
+        }
+      ]
     },
     "order-booking": {
       "title": "Order Booking",
@@ -949,7 +1155,21 @@
       "image2": "/images/orderbookingnew.png",
       "image3": "/images/orderbooking.jpeg",
       "image4": "/images/orderbookingnew.png",
-      "video": "https://www.youtube.com/embed/L_LUpnjgPso"
+      "video": "https://www.youtube.com/embed/L_LUpnjgPso",
+      "detailedContent": [
+        {
+          "type": "text",
+          "sectionTitle": "Field Sales App",
+          "content": "Mobile app for reps on the go.",
+          "image": "/images/orderbookingnew.png"
+        },
+        {
+          "type": "text",
+          "sectionTitle": "Route Planning",
+          "content": "Optimized visit schedules.",
+          "image": "/images/orderbookingnew.png"
+        }
+      ]
     },
     "secondary-sales": {
       "title": "Secondary Sales",
@@ -990,7 +1210,21 @@
       "image2": "/images/saleverse secondry saleapp.png",
       "image3": "/images/secondrysale.png",
       "image4": "/images/secondrysale.png",
-      "video": "https://www.youtube.com/embed/tgbNymZ7vqY"
+      "video": "https://www.youtube.com/embed/tgbNymZ7vqY",
+      "detailedContent": [
+        {
+          "type": "text",
+          "sectionTitle": "Distributor Portal",
+          "content": "Manage inward and outward stock.",
+          "image": "/images/saleverse secondry saleapp.png"
+        },
+        {
+          "type": "text",
+          "sectionTitle": "Retailer Connect",
+          "content": "Direct engagement with the last mile.",
+          "image": "/images/saleverse secondry saleapp.png"
+        }
+      ]
     },
     "procurement-application": {
       "title": "Procurement Application",
@@ -1036,6 +1270,20 @@
         "/images/Procurement Application/procurment (2).png",
         "/images/Procurement Application/procurment (3).png",
         "/images/Procurement Application/procurment (4).png"
+      ],
+      "detailedContent": [
+        {
+          "type": "text",
+          "sectionTitle": "Requisition Workflows",
+          "content": "Custom approval hierarchies.",
+          "image": "/images/Procurement Application/procurment (1).png"
+        },
+        {
+          "type": "text",
+          "sectionTitle": "Vendor Bidding",
+          "content": "Digital RFQ and bidding system.",
+          "image": "/images/Procurement Application/procurment (2).png"
+        }
       ]
     },
     "lms": {
@@ -1075,7 +1323,21 @@
       "image2": "/images/Learning-Managment-System.jpg.jpeg",
       "image3": "/images/Learning-Managment-System.jpg.jpeg",
       "image4": "/images/Learning-Managment-System.jpg.jpeg",
-      "video": "https://www.youtube.com/embed/kXYiU_JCYtU"
+      "video": "https://www.youtube.com/embed/kXYiU_JCYtU",
+      "detailedContent": [
+        {
+          "type": "text",
+          "sectionTitle": "Employee Onboarding",
+          "content": "Structured induction programs.",
+          "image": "/images/Learning-Managment-System.jpg.jpeg"
+        },
+        {
+          "type": "text",
+          "sectionTitle": "Assessment Engine",
+          "content": "Quizzes and certification.",
+          "image": "/images/Learning-Managment-System.jpg.jpeg"
+        }
+      ]
     },
     "warehouse-management-system-wms": {
       "title": "Warehouse Management System (WMS)",
@@ -1118,7 +1380,27 @@
       "image2": "/images/ChatGPT Image Jul 31, 2026, 03_02_07 PM (4).png",
       "image3": "/images/ChatGPT Image Jul 31, 2026, 03_02_10 PM (8).png",
       "image4": "/images/ChatGPT Image Jul 31, 2026, 03_02_11 PM (10).png",
-      "video": "https://www.youtube.com/embed/9bZkp7q19f0"
+      "video": "https://www.youtube.com/embed/9bZkp7q19f0",
+      "detailedContent": [
+        {
+          "type": "text",
+          "sectionTitle": "Bin & Aisle Mapping",
+          "content": "Optimize warehouse space utilization and stock placement.",
+          "image": "/images/ChatGPT Image Jul 31, 2026, 03_02_07 PM (1).png"
+        },
+        {
+          "type": "text",
+          "sectionTitle": "Handheld Barcode Scanning",
+          "content": "Android PDA app for fast picking, packing, and dispatch.",
+          "image": "/images/ChatGPT Image Jul 31, 2026, 03_02_07 PM (4).png"
+        },
+        {
+          "type": "text",
+          "sectionTitle": "Stock Reconciliation Audit",
+          "content": "Live physical vs system inventory audit logs.",
+          "image": "/images/ChatGPT Image Jul 31, 2026, 03_02_10 PM (8).png"
+        }
+      ]
     },
     "field-force-&-sales-automation-sfa": {
       "title": "Field Force & Sales Automation (SFA)",
@@ -1149,57 +1431,22 @@
       ],
       "detailedContent": [
         {
-          "sectionTitle": "Empower Field Force with Smart Automation",
-          "content": "Field Force & Sales Automation (SFA) is designed for FMCG, pharmaceuticals, and distribution companies to track field reps, record live orders, manage shop inventories, and provide managers with live GPS visibility into daily operations.",
-          "type": "text"
+          "type": "text",
+          "sectionTitle": "GPS Route & Beat Planning",
+          "content": "Intelligent territory maps and rep visit schedules.",
+          "image": "/images/Sales-Verse-Bnr.jpg.jpeg"
         },
         {
-          "sectionTitle": "Core Capabilities",
-          "type": "grid",
-          "items": [
-            {
-              "title": "GPS Beat & Route Planning",
-              "desc": "Automated daily route maps ensuring reps visit scheduled retail outlets with location verification."
-            },
-            {
-              "title": "Offline Order Taking",
-              "desc": "Fast mobile order booking even without internet coverage, with automatic cloud sync when network restores."
-            },
-            {
-              "title": "Shop Stock & Merchandising Audit",
-              "desc": "Record shelf stock levels, competition pricing, and take photo verification at retail stores."
-            },
-            {
-              "title": "Manager Dashboard & Analytics",
-              "desc": "Live tracking of total order bookings, sales rep GPS locations, beat completion rates, and target achievements."
-            }
-          ]
+          "type": "text",
+          "sectionTitle": "Offline Order Capture",
+          "content": "Instant order taking with automatic sync when connection resumes.",
+          "image": "/images/saleverse secondry saleapp.png"
         },
         {
-          "sectionTitle": "Key Modules & Industries",
-          "type": "tags",
-          "tagsGroups": [
-            {
-              "group": "Modules",
-              "tags": [
-                "GPS Geofencing Check-in",
-                "Offline Database Sync",
-                "Order History & Ledger",
-                "Promotion & Scheme Engine",
-                "Distributor Stock Visibility"
-              ]
-            },
-            {
-              "group": "Industries",
-              "tags": [
-                "FMCG & Consumer Goods",
-                "Pharmaceutical Sales",
-                "Beverages & Foods",
-                "Wholesale Distribution",
-                "Electronics & Hardware"
-              ]
-            }
-          ]
+          "type": "text",
+          "sectionTitle": "Target vs Achievement Dashboards",
+          "content": "Real-time KPI performance tracking for sales managers.",
+          "image": "/images/saleverse secondry saleapp.png"
         }
       ],
       "services": [
@@ -1265,7 +1512,27 @@
       "image2": "/images/Sales-Verse-Bnr.jpg.jpeg",
       "image3": "/images/saleverse secondry saleapp.png",
       "image4": "/images/Sales-Verse-Bnr.jpg.jpeg",
-      "video": "https://www.youtube.com/embed/tgbNymZ7vqY"
+      "video": "https://www.youtube.com/embed/tgbNymZ7vqY",
+      "detailedContent": [
+        {
+          "type": "text",
+          "sectionTitle": "Lead & Pipeline Management",
+          "content": "Visual Kanban sales pipeline with deal stage tracking.",
+          "image": "/images/Sales-Verse-Bnr.jpg.jpeg"
+        },
+        {
+          "type": "text",
+          "sectionTitle": "Customer Support Ticketing",
+          "content": "Omnichannel ticket management with SLA escalation rules.",
+          "image": "/images/Sales-Verse-Bnr.jpg.jpeg"
+        },
+        {
+          "type": "text",
+          "sectionTitle": "Automated Quotations",
+          "content": "Generate and email PDF quotes with multi-tier manager approval.",
+          "image": "/images/saleverse secondry saleapp.png"
+        }
+      ]
     }
   },
   "TESTIMONIALS": [
