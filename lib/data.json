@@ -1032,8 +1032,8 @@
           "desc": "Real-time stock updates."
         }
       ],
-      "heroImage": "/images/E-Commerce Solutions/E commerce Solution (1).png",
-      "cardImage": "/images/E-Commerce Solutions/E commerce Solution (1).png",
+      "heroImage": "/images/E-Commerce Solutions/E commerce Solution (3).png",
+      "cardImage": "/images/E-Commerce Solutions/E commerce Solution (3).png",
       "secImage": "/images/e-commerce.jpeg",
       "thirdImage": "/images/e-commerce.jpeg",
       "image2": "/images/E-Commerce Solutions/E commerce Solution (2).png",
@@ -1198,6 +1198,24 @@
         },
         {
           "type": "text",
+          "sectionTitle": "Shelf Share Analysis",
+          "content": "Calculate brand visibility automatically.",
+          "image": "/images/marchandizingapp.png"
+        },
+        {
+          "type": "text",
+          "sectionTitle": "Shelf Share Analysis",
+          "content": "Calculate brand visibility automatically.",
+          "image": "/images/marchandizingapp.png"
+        },
+        {
+          "type": "text",
+          "sectionTitle": "Shelf Share Analysis",
+          "content": "Calculate brand visibility automatically.",
+          "image": "/images/marchandizingapp.png"
+        },
+        {
+          "type": "text",
           "sectionTitle": "Competitor Tracking",
           "content": "Monitor competitor pricing and promotions.",
           "image": "/images/audit_web_banner.png"
@@ -1316,12 +1334,12 @@
     },
     "procurement-application": {
       "title": "Procurement Application",
-      "subtitle": "Automate your purchasing lifecycle.",
+      "subtitle": "Strategic Enterprise Sourcing & Spend Management",
       "accent": "#64748b",
       "accentLight": "#f8fafc",
       "accentBorder": "#e2e8f0",
       "accentDark": "#334155",
-      "description": "Digitize your procurement process from requisition to purchase order, vendor management, and goods receipt with multi-level approval workflows.",
+      "description": "Elevate your procurement operations from tactical purchasing to strategic spend management. Our robust Procurement Application digitizes the entire procure-to-pay (P2P) lifecycle, ensuring compliance, reducing rogue spending, and fostering seamless vendor collaboration.",
       "imagePlaceholder": true,
       "heroStat1": {
         "value": "Transparent",
@@ -1357,20 +1375,144 @@
         "/images/Procurement Application/procurment (1).png",
         "/images/Procurement Application/procurment (2).png",
         "/images/Procurement Application/procurment (3).png",
-        "/images/Procurement Application/procurment (4).png"
+        "/images/Procurement Application/procurment (4).png",
+        "/images/Procurement Application/ChatGPT Image Aug 6, 2026, 03_58_19 PM (1).png",
+        "/images/Procurement Application/ChatGPT Image Aug 6, 2026, 03_58_21 PM (2).png",
+        "/images/Procurement Application/ChatGPT Image Aug 6, 2026, 03_58_22 PM (3).png"
       ],
       "detailedContent": [
         {
-          "type": "text",
-          "sectionTitle": "Requisition Workflows",
-          "content": "Custom approval hierarchies.",
+          "type": "list-text",
+          "sectionTitle": "Intelligent Requisition & Catalog Management",
+          "content": "Simplify the purchasing process for your employees while maintaining strict budgetary controls. Our intuitive catalog-based requisition system guides users to approved vendors and negotiated contracts, dramatically reducing rogue spending.",
+          "points": [
+            "Consumer-like shopping experience for internal requisitions.",
+            "Real-time budget checking before requisition submission.",
+            "PunchOut catalogs for seamless B2B supplier integration."
+          ],
           "image": "/images/Procurement Application/procurment (1).png"
         },
         {
-          "type": "text",
-          "sectionTitle": "Vendor Bidding",
-          "content": "Digital RFQ and bidding system.",
+          "type": "list-text",
+          "sectionTitle": "Dynamic Multi-Level Approvals",
+          "content": "Accelerate cycle times with a highly configurable, rules-based workflow engine. Whether routing by department, cost center, or spending threshold, the system automatically escalates and delegates approvals to keep business moving.",
+          "points": [
+            "Visual workflow builder for complex organizational hierarchies.",
+            "Mobile approvals via email or dedicated app notifications.",
+            "Automated out-of-office delegations and escalation rules."
+          ],
           "image": "/images/Procurement Application/procurment (2).png"
+        },
+        {
+          "type": "grid",
+          "sectionTitle": "Core Procurement Capabilities",
+          "items": [
+            {
+              "title": "Vendor Portal",
+              "desc": "Self-service onboarding, document management, and real-time PO visibility for suppliers."
+            },
+            {
+              "title": "Sourcing & RFX",
+              "desc": "Digitize RFQs, RFPs, and reverse auctions to secure the best market pricing."
+            },
+            {
+              "title": "Contract Management",
+              "desc": "Centralized repository with automated renewal alerts and compliance tracking."
+            },
+            {
+              "title": "3-Way Matching",
+              "desc": "Automated matching of POs, Goods Receipts (GRN), and Invoices to prevent overpayment."
+            },
+            {
+              "title": "Inventory Linkage",
+              "desc": "Direct integration with warehouse management for accurate restock triggers."
+            },
+            {
+              "title": "Spend Analytics",
+              "desc": "AI-driven dashboards to identify saving opportunities and supplier performance."
+            }
+          ]
+        },
+        {
+          "type": "list-text",
+          "sectionTitle": "Collaborative Vendor Portal",
+          "content": "Transform supplier relationships with a dedicated, secure portal. Vendors can independently manage their profiles, submit compliance documents, acknowledge Purchase Orders, and upload digital invoices—drastically reducing manual data entry for your AP team.",
+          "points": [
+            "Automated vendor onboarding and risk assessment scoring.",
+            "Secure document exchange for NDAs, insurance, and tax forms.",
+            "Dispute resolution chat and direct communication channels."
+          ],
+          "image": "/images/Procurement Application/procurment (3).png"
+        },
+        {
+          "type": "list-text",
+          "sectionTitle": "Automated Invoice Processing & 3-Way Match",
+          "content": "Eliminate invoice discrepancies and late payment penalties. Our system automatically captures invoice data via OCR, performs a rigorous 3-way match against the original PO and the Goods Receipt Note (GRN), and routes exceptions for manual review.",
+          "points": [
+            "AI-powered OCR data extraction for paper and PDF invoices.",
+            "Line-level matching with configurable tolerance thresholds.",
+            "Seamless export of approved invoices to your core ERP system."
+          ],
+          "image": "/images/Procurement Application/procurment (4).png"
+        },
+        {
+          "type": "list-text",
+          "sectionTitle": "Actionable Spend Analytics",
+          "content": "Gain unprecedented visibility into corporate spending patterns. With real-time dashboards and predictive analytics, procurement leaders can identify consolidation opportunities, track diversity spend, and negotiate better terms with high-volume suppliers.",
+          "points": [
+            "Categorized spend analysis (direct vs. indirect materials).",
+            "Supplier performance scorecards (OTIF - On Time In Full).",
+            "Savings tracking against negotiated contract rates."
+          ],
+          "image": "/images/Procurement Application/ChatGPT Image Aug 6, 2026, 03_58_19 PM (1).png"
+        },
+        {
+          "type": "list-text",
+          "sectionTitle": "Strategic Contract Lifecycle Management",
+          "content": "Never miss a renewal deadline or compliance requirement again. The platform centralizes all supplier agreements, tracks milestone deliverables, and ensures that purchasing systems automatically apply negotiated pricing tiers.",
+          "points": [
+            "Secure, searchable centralized contract repository.",
+            "Automated alerts for expirations and key deliverables.",
+            "Version control and integrated electronic signatures."
+          ],
+          "image": "/images/Procurement Application/ChatGPT Image Aug 6, 2026, 03_58_21 PM (2).png"
+        },
+        {
+          "type": "list-text",
+          "sectionTitle": "Supply Chain Resilience & Risk Management",
+          "content": "Proactively manage risks in your supply base. The application continuously monitors vendor financial health, geopolitical risks, and sustainability compliance, ensuring your operations remain uninterrupted in a volatile global market.",
+          "points": [
+            "Real-time risk scoring and third-party data integrations.",
+            "Alternative supplier identification for critical categories.",
+            "ESG (Environmental, Social, and Governance) compliance tracking."
+          ],
+          "image": "/images/Procurement Application/ChatGPT Image Aug 6, 2026, 03_58_22 PM (3).png"
+        },
+        {
+          "type": "tags",
+          "sectionTitle": "Seamless ERP Integrations",
+          "tagsGroups": [
+            {
+              "group": "Enterprise Systems",
+              "tags": [
+                "SAP S/4HANA",
+                "Oracle NetSuite",
+                "Microsoft Dynamics 365",
+                "Workday",
+                "Infor"
+              ]
+            },
+            {
+              "group": "Financial & AP",
+              "tags": [
+                "QuickBooks Enterprise",
+                "Xero",
+                "Sage Intacct",
+                "Coupa",
+                "Ariba"
+              ]
+            }
+          ]
         }
       ]
     },
