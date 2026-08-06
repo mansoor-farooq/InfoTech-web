@@ -248,7 +248,7 @@ export default async function ProductDetailPage({ params }) {
                               )}
                               <h2 className="heading-2 text-slate-900">{section.sectionTitle}</h2>
                            </div>
-                           <div className="grid md:grid-cols-3 gap-8">
+                           <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
                               {section.cards.map((card, idx) => (
                                  <div key={idx} className="bg-white rounded-3xl overflow-hidden shadow-sm border border-slate-100 hover:shadow-xl transition-shadow duration-300 group">
                                     <div className="relative aspect-[4/3] w-full bg-slate-50 border-b border-slate-100 flex items-center justify-center">

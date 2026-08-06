@@ -537,6 +537,32 @@
           "type": "centered-text"
         },
         {
+          "sectionTitle": "Platform Capabilities",
+          "type": "image-cards",
+          "cards": [
+            {
+              "image": "/images/cartivo/Cartivo (1).png",
+              "title": "Placeholder Title 1",
+              "desc": "This is a placeholder description. You can update this text in lib/data.json."
+            },
+            {
+              "image": "/images/cartivo/Cartivo (2).png",
+              "title": "Placeholder Title 2",
+              "desc": "This is a placeholder description. You can update this text in lib/data.json."
+            },
+            {
+              "image": "/images/cartivo/Cartivo (3).png",
+              "title": "Placeholder Title 3",
+              "desc": "This is a placeholder description. You can update this text in lib/data.json."
+            },
+            {
+              "image": "/images/cartivo/Cartivo (4).png",
+              "title": "Placeholder Title 4",
+              "desc": "This is a placeholder description. You can update this text in lib/data.json."
+            }
+          ]
+        },
+        {
           "badge": "PLATFORM SCREENSHOTS",
           "sectionTitle": "See Cartivo in Action",
           "type": "image-cards",
