@@ -534,7 +534,8 @@
         {
           "sectionTitle": "More than a traditional e-commerce website",
           "content": "Cartivo is a complete Enterprise Commerce Platform built for modern businesses that require scalability, automation, and seamless operations across the entire supply chain. It is more than a traditional e-commerce website. It connects customers, distributors, warehouses, delivery riders, and enterprise systems into one intelligent ecosystem. The platform is designed for retailers, wholesalers, distributors, pharmaceutical companies, manufacturers, healthcare organizations, and businesses operating across multiple locations.",
-          "type": "text"
+          "type": "text",
+          "image": "/images/cartivo/Cartivo (1).png"
         },
         {
           "sectionTitle": "Core Modules",
@@ -566,6 +567,7 @@
           "sectionTitle": "Customer Journey",
           "content": "The shopping experience begins when a customer opens the Cartivo website or mobile application. The customer selects a delivery location. Based on the selected location, Cartivo automatically displays products available within the customer's service area. The customer browses products, views product details, adjusts quantities, and adds products to the shopping cart. During checkout, customers provide shipping information, billing details, and can upload prescriptions for regulated products. After placing the order, the customer immediately receives order confirmation and email notification.",
           "type": "list-text",
+          "image": "/images/cartivo/Cartivo (2).png",
           "points": [
             "Customer selects delivery location",
             "Cartivo displays products available in that service area",
@@ -576,7 +578,8 @@
         {
           "sectionTitle": "Intelligent Order Routing",
           "content": "Once an order is confirmed, Cartivo automatically starts its business workflow. The platform identifies the customer's delivery territory, locates the nearest warehouse, checks real-time inventory, and identifies the assigned distributor for that territory. The order is automatically routed to the correct distributor without manual intervention. This automation reduces processing time and improves operational efficiency.",
-          "type": "text"
+          "type": "text",
+          "image": "/images/cartivo/Cartivo (3).png"
         },
         {
           "sectionTitle": "Distributor & Rider Workflow",
@@ -613,7 +616,8 @@
         {
           "sectionTitle": "Enterprise Architecture & Integration",
           "content": "Cartivo integrates with virtually any business system via REST APIs. It supports ERP Systems (SAP, ERPNext, Oracle ERP, Microsoft Dynamics), CSV/Excel Imports, Supplier Systems, Accounting Software, CRM Platforms, Payment Gateways, and Logistics Providers.\n\nCartivo follows a modular layered architecture:\n- **Presentation Layer**: Responsive web and mobile user interfaces.\n- **Business Logic Layer**: Processes workflows, validations, pricing, and automation.\n- **Data Access Layer**: Handles database operations securely and scalably.\n- **Integration Layer**: Connects with external systems and APIs.",
-          "type": "text"
+          "type": "text",
+          "image": "/images/cartivo/Cartivo (4).png"
         },
         {
           "sectionTitle": "Key Features & Industries",
@@ -691,7 +695,8 @@
         {
           "sectionTitle": "Complete Enterprise Human Capital Solution",
           "content": "Our HRMS & Payroll Management System automates employee lifecycle operations from recruitment, onboarding, leave management, and biometric attendance to complex tax-compliant payroll calculation and performance appraisals.",
-          "type": "text"
+          "type": "text",
+          "image": "/images/Hrms&payrollsysteam.png"
         },
         {
           "sectionTitle": "Core Modules",
