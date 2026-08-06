@@ -18,7 +18,6 @@ export default function CartivoPage() {
         {/* Hero Section with Video */}
         <section className="pt-32 pb-24 bg-[#020617] text-white overflow-hidden relative">
           <div className="absolute top-0 right-0 w-3/4 h-full bg-gradient-to-l from-blue-600/20 to-transparent pointer-events-none" />
-          
           <div className="container-xl relative z-10 grid lg:grid-cols-2 gap-12 items-center">
             <div className="max-w-2xl">
               {/* Premium Cartivo Brand Badge */}
@@ -79,6 +78,80 @@ export default function CartivoPage() {
             </p>
           </div>
         </section>
+
+        {/* Feature Sections - Image + Text (HRMS Style) */}
+        <section className="section bg-white">
+          <div className="container-xl">
+            <div className="max-w-5xl mx-auto space-y-24">
+
+              {/* Feature 1 */}
+              <div className="grid md:grid-cols-2 gap-12 items-center animate-fade-up">
+                <div className="hover-lift">
+                  <div className="relative aspect-square md:aspect-[4/3] w-full rounded-3xl flex items-center justify-center bg-gradient-to-tr from-slate-50 to-blue-50/30 overflow-hidden group border border-white shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.07)] transition-shadow duration-700">
+                    <div className="absolute inset-0 bg-blue-400/5 blur-3xl rounded-full scale-110 group-hover:scale-125 transition-transform duration-700" />
+                    <Image src="/images/cartivo/Cartivo (1).png" alt="Complete Enterprise Commerce Solution" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-contain drop-shadow-2xl group-hover:scale-105 group-hover:-translate-y-2 transition-all duration-700 ease-out z-10 p-6" />
+                  </div>
+                </div>
+                <div>
+                  <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-6 tracking-tight">Complete Enterprise Commerce Solution</h2>
+                  <p className="text-lg text-slate-600 leading-relaxed">
+                    Cartivo connects customers, distributors, warehouses, delivery riders, and enterprise systems into one intelligent ecosystem. It is designed for retailers, wholesalers, distributors, pharmaceutical companies, manufacturers, healthcare organizations, and businesses operating across multiple locations.
+                  </p>
+                </div>
+              </div>
+
+              {/* Feature 2 */}
+              <div className="grid md:grid-cols-2 gap-12 items-center animate-fade-up">
+                <div className="order-2 md:order-1">
+                  <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-6 tracking-tight">Omnichannel B2B & B2C Ordering</h2>
+                  <p className="text-lg text-slate-600 leading-relaxed">
+                    Empower your clients and field sales teams with multi-tier pricing, location-based product availability, automated order routing, and real-time inventory synchronization across all channels.
+                  </p>
+                </div>
+                <div className="order-1 md:order-2 hover-lift">
+                  <div className="relative aspect-square md:aspect-[4/3] w-full rounded-3xl flex items-center justify-center bg-gradient-to-tr from-slate-50 to-blue-50/30 overflow-hidden group border border-white shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.07)] transition-shadow duration-700">
+                    <div className="absolute inset-0 bg-blue-400/5 blur-3xl rounded-full scale-110 group-hover:scale-125 transition-transform duration-700" />
+                    <Image src="/images/cartivo/Cartivo (2).png" alt="Omnichannel B2B & B2C Ordering" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-contain drop-shadow-2xl group-hover:scale-105 group-hover:-translate-y-2 transition-all duration-700 ease-out z-10 p-6" />
+                  </div>
+                </div>
+              </div>
+
+              {/* Feature 3 */}
+              <div className="grid md:grid-cols-2 gap-12 items-center animate-fade-up">
+                <div className="hover-lift">
+                  <div className="relative aspect-square md:aspect-[4/3] w-full rounded-3xl flex items-center justify-center bg-gradient-to-tr from-slate-50 to-blue-50/30 overflow-hidden group border border-white shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.07)] transition-shadow duration-700">
+                    <div className="absolute inset-0 bg-blue-400/5 blur-3xl rounded-full scale-110 group-hover:scale-125 transition-transform duration-700" />
+                    <Image src="/images/cartivo/Cartivo (3).png" alt="Secondary Sales & Distribution Tracking" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-contain drop-shadow-2xl group-hover:scale-105 group-hover:-translate-y-2 transition-all duration-700 ease-out z-10 p-6" />
+                  </div>
+                </div>
+                <div>
+                  <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-6 tracking-tight">Secondary Sales & Distribution Tracking</h2>
+                  <p className="text-lg text-slate-600 leading-relaxed">
+                    Gain 100% visibility into downstream channel performance, stock movement across regional warehouses, sell-out data, and distributor performance metrics in real time.
+                  </p>
+                </div>
+              </div>
+
+              {/* Feature 4 */}
+              <div className="grid md:grid-cols-2 gap-12 items-center animate-fade-up">
+                <div className="order-2 md:order-1">
+                  <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-6 tracking-tight">Field Force & Mobile Order Booking</h2>
+                  <p className="text-lg text-slate-600 leading-relaxed">
+                    Equip sales representatives with intuitive mobile applications for offline order booking, digital catalog browsing, store visit logs, and instant order dispatching.
+                  </p>
+                </div>
+                <div className="order-1 md:order-2 hover-lift">
+                  <div className="relative aspect-square md:aspect-[4/3] w-full rounded-3xl flex items-center justify-center bg-gradient-to-tr from-slate-50 to-blue-50/30 overflow-hidden group border border-white shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.07)] transition-shadow duration-700">
+                    <div className="absolute inset-0 bg-blue-400/5 blur-3xl rounded-full scale-110 group-hover:scale-125 transition-transform duration-700" />
+                    <Image src="/images/cartivo/Cartivo (4).png" alt="Field Force & Mobile Order Booking" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-contain drop-shadow-2xl group-hover:scale-105 group-hover:-translate-y-2 transition-all duration-700 ease-out z-10 p-6" />
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
 
         {/* Platform Screenshots - Loaded with Real Product Images */}
         <section className="section bg-slate-50 border-b border-gray-200">

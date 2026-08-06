@@ -1,3 +1,7 @@
+export const dynamic = 'force-dynamic';
+// Trigger reload for cartivo gallery update
+
+
 import { PRODUCTS_FULL, getProductData } from '@/lib/data';
 import ServerNavbar from '@/components/ServerNavbar';
 import Footer from '@/components/Footer';
@@ -32,6 +36,7 @@ export default async function ProductDetailPage({ params }) {
     notFound();
   }
 
+  // Render Product Detail Page
   return (
     <>
       <ServerNavbar />
@@ -227,75 +232,6 @@ export default async function ProductDetailPage({ params }) {
                   }
 
                   // Render centered text sections
-                  if (section.type === 'centered-text') {
-                     return (
-                        <div key={index} className="text-center max-w-5xl mx-auto animate-fade-up">
-                           <h2 className="heading-2 mb-6 text-slate-900">{section.sectionTitle}</h2>
-                           <div className="text-xl text-slate-600 leading-relaxed">
-                              {section.content}
-                           </div>
-                        </div>
-                     )
-                  }
-
-                  // Render image cards sections
-                  if (section.type === 'image-cards') {
-                     return (
-                        <div key={index} className="animate-fade-up bg-slate-50 p-12 rounded-[3rem] border border-slate-100">
-                           <div className="text-center mb-16">
-                              {section.badge && (
-                                 <span className="inline-block px-4 py-1.5 rounded-full bg-blue-100 text-blue-700 font-bold text-sm tracking-wider uppercase mb-6">{section.badge}</span>
-                              )}
-                              <h2 className="heading-2 text-slate-900">{section.sectionTitle}</h2>
-                           </div>
-                           <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-                              {section.cards.map((card, idx) => (
-                                 <div key={idx} className="bg-white rounded-3xl overflow-hidden shadow-sm border border-slate-100 hover:shadow-xl transition-shadow duration-300 group">
-                                    <div className="relative aspect-[4/3] w-full bg-slate-50 border-b border-slate-100 flex items-center justify-center">
-                                       <Image src={card.image} alt={card.title} fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
-                                    </div>
-                                    <div className="p-8">
-                                       <h3 className="text-xl font-bold text-slate-900 mb-3">{card.title}</h3>
-                                       <p className="text-slate-600 leading-relaxed text-sm">{card.desc}</p>
-                                    </div>
-                                 </div>
-                              ))}
-                           </div>
-                        </div>
-                     )
-                  }
-
-                  // Render light grid sections
-                  if (section.type === 'light-grid') {
-                     return (
-                        <div key={index} className="animate-fade-up text-center">
-                           <h2 className="heading-2 mb-4 text-slate-900">{section.sectionTitle}</h2>
-                           {section.subtitle && (
-                              <p className="text-lg text-slate-600 mb-16">{section.subtitle}</p>
-                           )}
-                           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 text-left">
-                              {section.items.map((item, idx) => {
-                                 let IconComponent = LayoutGrid;
-                                 if (item.icon === 'users') IconComponent = Users;
-                                 else if (item.icon === 'smartphone') IconComponent = Smartphone;
-                                 else if (item.icon === 'building') IconComponent = Building;
-                                 else if (item.icon === 'truck') IconComponent = Truck;
-                                 
-                                 return (
-                                    <div key={idx} className="bg-white border border-slate-100 rounded-3xl p-8 hover:shadow-xl transition-shadow duration-300">
-                                       <div className="w-12 h-12 rounded-2xl flex items-center justify-center mb-6" style={{ backgroundColor: `${product.accent}15` }}>
-                                          <IconComponent className="w-6 h-6" style={{ color: product.accent }} />
-                                       </div>
-                                       <h3 className="text-xl font-bold text-slate-900 mb-3">{item.title}</h3>
-                                       <p className="text-slate-600 leading-relaxed text-sm">{item.desc}</p>
-                                    </div>
-                                 )
-                              })}
-                           </div>
-                        </div>
-                     )
-                  }
-
                   // Render grid sections (like Core Modules)
                   if (section.type === 'grid') {
                      return (

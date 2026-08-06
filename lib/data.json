@@ -532,82 +532,75 @@
       ],
       "detailedContent": [
         {
-          "sectionTitle": "More than a traditional e-commerce website.",
+          "sectionTitle": "Complete Enterprise Commerce Solution",
           "content": "Cartivo connects customers, distributors, warehouses, delivery riders, and enterprise systems into one intelligent ecosystem. It is designed for retailers, wholesalers, distributors, pharmaceutical companies, manufacturers, healthcare organizations, and businesses operating across multiple locations.",
-          "type": "centered-text"
+          "type": "text",
+          "image": "/images/cartivo/Cartivo (1).png"
         },
         {
-          "sectionTitle": "Platform Capabilities",
-          "type": "image-cards",
-          "cards": [
-            {
-              "image": "/images/cartivo/Cartivo (1).png",
-              "title": "Placeholder Title 1",
-              "desc": "This is a placeholder description. You can update this text in lib/data.json."
-            },
-            {
-              "image": "/images/cartivo/Cartivo (2).png",
-              "title": "Placeholder Title 2",
-              "desc": "This is a placeholder description. You can update this text in lib/data.json."
-            },
-            {
-              "image": "/images/cartivo/Cartivo (3).png",
-              "title": "Placeholder Title 3",
-              "desc": "This is a placeholder description. You can update this text in lib/data.json."
-            },
-            {
-              "image": "/images/cartivo/Cartivo (4).png",
-              "title": "Placeholder Title 4",
-              "desc": "This is a placeholder description. You can update this text in lib/data.json."
-            }
-          ]
+          "sectionTitle": "Omnichannel B2B & B2C Ordering",
+          "content": "Empower your clients and field sales teams with multi-tier pricing, location-based product availability, automated order routing, and real-time inventory synchronization.",
+          "type": "text",
+          "image": "/images/cartivo/Cartivo (2).png"
         },
         {
-          "badge": "PLATFORM SCREENSHOTS",
-          "sectionTitle": "See Cartivo in Action",
-          "type": "image-cards",
-          "cards": [
-            {
-              "image": "/images/cartivo/Cartivo (1).png",
-              "title": "Merchandising Management",
-              "desc": "Track shelf share, competitor pricing, out-of-stock items, and field compliance in real time."
-            },
-            {
-              "image": "/images/cartivo/Cartivo (2).png",
-              "title": "Secondary Sales Dashboard",
-              "desc": "Complete visibility into downstream distribution channels, stock movement, and retailer sell-out data."
-            },
-            {
-              "image": "/images/cartivo/Cartivo (3).png",
-              "title": "Mobile Order Booking",
-              "desc": "Empower field sales reps to capture orders, check live inventory, and sync offline seamlessly."
-            }
-          ]
+          "sectionTitle": "Secondary Sales & Distribution Tracking",
+          "content": "Gain 100% visibility into downstream channel performance, stock movement across regional warehouses, sell-out data, and distributor performance metrics.",
+          "type": "text",
+          "image": "/images/cartivo/Cartivo (3).png"
+        },
+        {
+          "sectionTitle": "Field Force & Mobile Order Booking",
+          "content": "Equip sales representatives with intuitive mobile applications for offline order booking, digital catalog browsing, store visit logs, and instant order dispatching.",
+          "type": "text",
+          "image": "/images/cartivo/Cartivo (4).png"
         },
         {
           "sectionTitle": "Core Modules",
-          "subtitle": "An integrated suite of applications that powers your entire operational lifecycle.",
-          "type": "light-grid",
+          "type": "grid",
           "items": [
             {
-              "icon": "users",
-              "title": "Customer Website",
-              "desc": "A modern, responsive web application where customers can browse products, manage their shopping cart, upload prescriptions, and place orders securely."
+              "title": "Customer Website & Mobile App",
+              "desc": "Responsive customer portals with real-time inventory, dynamic pricing, and order tracking on web, iOS, and Android."
             },
             {
-              "icon": "smartphone",
-              "title": "Customer Mobile App",
-              "desc": "Provides the same seamless shopping experience with real-time inventory, location-based pricing, secure ordering, and order tracking on iOS and Android."
+              "title": "Warehouse Management System (WMS)",
+              "desc": "Stock transfers, bin allocation, dispatch management, and automated replenishment alerts across multiple hubs."
             },
             {
-              "icon": "building",
-              "title": "Distributor Portal",
-              "desc": "A centralized portal allowing distributors to receive orders automatically, manage inventory, assign riders, print invoices, and monitor operations."
+              "title": "Field Sales & Rider Mobile App",
+              "desc": "GPS-tracked order booking, delivery routing, proof of delivery, and real-time payment collection."
             },
             {
-              "icon": "truck",
-              "title": "Delivery Rider App",
-              "desc": "A mobile app for delivery personnel to receive assigned orders, navigate using GPS, capture proof of delivery, and update order statuses in real time."
+              "title": "Admin Operations & Analytics Hub",
+              "desc": "Comprehensive dashboard for ERP integration, master data management, dynamic pricing engines, and executive reporting."
+            }
+          ]
+        },
+        {
+          "sectionTitle": "Key Capabilities & Sector Coverage",
+          "type": "tags",
+          "tagsGroups": [
+            {
+              "group": "Key Features",
+              "tags": [
+                "Location Based Product Availability",
+                "Dynamic Pricing Engine",
+                "Business Workflow Automation",
+                "ERP & CRM Integration",
+                "Real-Time Stock Sync",
+                "Offline Order Capture"
+              ]
+            },
+            {
+              "group": "Target Industries",
+              "tags": [
+                "FMCG & Distribution",
+                "Pharmaceuticals",
+                "Retail & Wholesalers",
+                "Healthcare & Medical",
+                "Electronics & Consumer Goods"
+              ]
             }
           ]
         }
@@ -616,10 +609,10 @@
       "cardImage": "/images/Commerce-bnr.png",
       "video": "https://www.youtube.com/embed/5qap5aO4i9A",
       "gallery": [
-        "/images/Commerce-bnr.png",
-        "/images/ecoomerceapp mainimages.png",
-        "/images/ecoomercesoluctions.png",
-        "/images/Commerce-bnr.png"
+        "/images/cartivo/Cartivo (1).png",
+        "/images/cartivo/Cartivo (2).png",
+        "/images/cartivo/Cartivo (3).png",
+        "/images/cartivo/Cartivo (4).png"
       ]
     },
     "hrms-&-payroll-management-system": {
