@@ -65,14 +65,20 @@
           "desc": "Machine learning models to forecast trends and inventory needs."
         }
       ],
-      "heroImage": "/images/Powerbi/bestpowebiimagebanner.png",
-      "cardImage": "/images/Powerbi/bestpowebiimagebanner.png",
+      "heroImage": "/images/Powerbi/powerbi_1first.png",
+      "cardImage": "/images/Powerbi/powerbi_1first.png",
       "architectureImage": "/images/Powerbi/bireporting.png",
       "dashboardImage": null,
-      "image2": "/images/Powerbi/power-bi-dashboards-bookings-report.png",
-      "image3": "/images/Powerbi/power-BI-YUSAPI-1024x574.png",
-      "image4": "/images/Powerbi/power-BIHero_image.jpeg",
-      "video": "https://www.youtube.com/embed/2e9w4Z-Qh-I"
+      "image2": "/images/Powerbi/powerbi.jpg",
+      "image3": "/images/Powerbi/powebidash.png",
+      "image4": "/images/Powerbi/bireporting.png",
+      "video": "https://www.youtube.com/embed/2e9w4Z-Qh-I",
+      "gallery": [
+        "/images/Powerbi/powerbi_1first.png",
+        "/images/Powerbi/powerbi.jpg",
+        "/images/Powerbi/powebidash.png",
+        "/images/Powerbi/bireporting.png"
+      ]
     },
     "web-development": {
       "title": "Web Development",
@@ -114,10 +120,16 @@
       "cardImage": "/images/web-development/Web development (1).png",
       "architectureImage": "/images/web-development/Web development (2).png",
       "dashboardImage": null,
-      "image2": "/images/web-development/Web development (4).png",
-      "image3": "/images/web-development/webdevelopment.png",
-      "image4": "/images/web-development/Web development (1).png",
-      "video": "https://www.youtube.com/embed/5qap5aO4i9A"
+      "image2": "/images/web-development/Web development (2).png",
+      "image3": "/images/web-development/Web development (3).png",
+      "image4": "/images/web-development/Web development (4).png",
+      "video": "https://www.youtube.com/embed/5qap5aO4i9A",
+      "gallery": [
+        "/images/web-development/Web development (1).png",
+        "/images/web-development/Web development (2).png",
+        "/images/web-development/Web development (3).png",
+        "/images/web-development/Web development (4).png"
+      ]
     },
     "mobile-application": {
       "title": "Mobile Application",
@@ -162,7 +174,13 @@
       "image2": "/images/Mobile Application/Mobile Apps (2).png",
       "image3": "/images/Mobile Application/Mobile Apps (3).png",
       "image4": "/images/Mobile Application/Mobile Apps (4).png",
-      "video": "https://www.youtube.com/embed/L_LUpnjgPso"
+      "video": "https://www.youtube.com/embed/L_LUpnjgPso",
+      "gallery": [
+        "/images/Mobile Application/Mobile Apps (1).png",
+        "/images/Mobile Application/Mobile Apps (2).png",
+        "/images/Mobile Application/Mobile Apps (3).png",
+        "/images/Mobile Application/Mobile Apps (4).png"
+      ]
     },
     "infrastructure-management": {
       "title": "Infrastructure Management",
@@ -204,10 +222,16 @@
       "cardImage": "/images/Infrastructure Management/Infrastruture Managment (1).png",
       "architectureImage": "/images/Infrastructure Management/Infrastruture Managment (2).png",
       "dashboardImage": null,
-      "image2": "/images/Infrastructure Management/Infrastruture Managment (4).png",
-      "image3": "/images/Infrastructure Management/Infrastruture Managment (5).png",
-      "image4": "/images/Infrastructure Management/maintaince&enhancedment.png",
-      "video": "https://www.youtube.com/embed/ScMzIvxBSi4"
+      "image2": "/images/Infrastructure Management/Infrastruture Managment (2).png",
+      "image3": "/images/Infrastructure Management/Infrastruture Managment (3).png",
+      "image4": "/images/Infrastructure Management/Infrastruture Managment (4).png",
+      "video": "https://www.youtube.com/embed/ScMzIvxBSi4",
+      "gallery": [
+        "/images/Infrastructure Management/Infrastruture Managment (1).png",
+        "/images/Infrastructure Management/Infrastruture Managment (2).png",
+        "/images/Infrastructure Management/Infrastruture Managment (3).png",
+        "/images/Infrastructure Management/Infrastruture Managment (4).png"
+      ]
     },
     "maintenance-enhancements": {
       "title": "Maintenance & Enhancements",
@@ -249,10 +273,16 @@
       "cardImage": "/images/Maintenance & Enhancements/Maintenance & Enhancements (1).png",
       "architectureImage": "/images/Maintenance & Enhancements/Maintenance & Enhancements (2).png",
       "dashboardImage": null,
-      "image2": "/images/Maintenance & Enhancements/Maintenance & Enhancements (4).png",
-      "image3": "/images/Maintenance & Enhancements/Maintenance & Enhancements (1).png",
-      "image4": "/images/Maintenance & Enhancements/Maintenance & Enhancements (1).png",
-      "video": "https://www.youtube.com/embed/9bZkp7q19f0"
+      "image2": "/images/Maintenance & Enhancements/Maintenance & Enhancements (2).png",
+      "image3": "/images/Maintenance & Enhancements/Maintenance & Enhancements (3).png",
+      "image4": "/images/Maintenance & Enhancements/Maintenance & Enhancements (4).png",
+      "video": "https://www.youtube.com/embed/9bZkp7q19f0",
+      "gallery": [
+        "/images/Maintenance & Enhancements/Maintenance & Enhancements (1).png",
+        "/images/Maintenance & Enhancements/Maintenance & Enhancements (2).png",
+        "/images/Maintenance & Enhancements/Maintenance & Enhancements (3).png",
+        "/images/Maintenance & Enhancements/Maintenance & Enhancements (4).png"
+      ]
     },
     "migration-and-modernization": {
       "title": "Migration And Modernization",
@@ -294,10 +324,16 @@
       "cardImage": "/images/Migration And Modernization/Migration and modernization (1).png",
       "architectureImage": "/images/Migration And Modernization/Migration and modernization (2).png",
       "dashboardImage": "/images/Migration And Modernization/Migration and modernization (3).png",
-      "image2": "/images/Migration And Modernization/Migration and modernization (4).png",
-      "image3": "/images/Migration And Modernization/Migration and modernization (1).png",
-      "image4": "/images/Migration And Modernization/Migration and modernization (1).png",
-      "video": "https://www.youtube.com/embed/tgbNymZ7vqY"
+      "image2": "/images/Migration And Modernization/Migration and modernization (2).png",
+      "image3": "/images/Migration And Modernization/Migration and modernization (3).png",
+      "image4": "/images/Migration And Modernization/Migration and modernization (4).png",
+      "video": "https://www.youtube.com/embed/tgbNymZ7vqY",
+      "gallery": [
+        "/images/Migration And Modernization/Migration and modernization (1).png",
+        "/images/Migration And Modernization/Migration and modernization (2).png",
+        "/images/Migration And Modernization/Migration and modernization (3).png",
+        "/images/Migration And Modernization/Migration and modernization (4).png"
+      ]
     },
     "custom-erp-development": {
       "title": "Custom ERP Development",
@@ -339,10 +375,16 @@
       "cardImage": "/images/Custom ERP Development/Custom Erp  (1).png",
       "architectureImage": "/images/Custom ERP Development/Custom Erp  (2).png",
       "dashboardImage": null,
-      "image2": "/images/Custom ERP Development/Custom Erp  (4).png",
-      "image3": "/images/Custom ERP Development/Custom Erp  (1).png",
-      "image4": "/images/Custom ERP Development/Custom Erp  (1).png",
-      "video": "https://www.youtube.com/embed/2e9w4Z-Qh-I"
+      "image2": "/images/Custom ERP Development/Custom Erp  (2).png",
+      "image3": "/images/Custom ERP Development/Custom Erp  (3).png",
+      "image4": "/images/Custom ERP Development/Custom Erp  (4).png",
+      "video": "https://www.youtube.com/embed/2e9w4Z-Qh-I",
+      "gallery": [
+        "/images/Custom ERP Development/Custom Erp  (1).png",
+        "/images/Custom ERP Development/Custom Erp  (2).png",
+        "/images/Custom ERP Development/Custom Erp  (3).png",
+        "/images/Custom ERP Development/Custom Erp  (4).png"
+      ]
     },
     "ai-and-machine-learning": {
       "title": "AI & Machine Learning",
@@ -380,14 +422,20 @@
           "desc": "AI customer support and internal enterprise knowledge base bots."
         }
       ],
-      "heroImage": "/images/AI & Machine Learning/Chatbot.png",
-      "cardImage": "/images/AI & Machine Learning/Chatbot.png",
+      "heroImage": "/images/AI & Machine Learning/Shelf Analysis (1).png",
+      "cardImage": "/images/AI & Machine Learning/Shelf Analysis (1).png",
       "architectureImage": "/images/AI & Machine Learning/Shelf Analysis (1).png",
       "dashboardImage": null,
-      "image2": "/images/AI & Machine Learning/Shelf Analysis (3).png",
-      "image3": "/images/AI & Machine Learning/Shelf Analysis (4).png",
-      "image4": "/images/AI & Machine Learning/Chatbot.png",
-      "video": "https://www.youtube.com/embed/kXYiU_JCYtU"
+      "image2": "/images/AI & Machine Learning/Shelf Analysis (2).png",
+      "image3": "/images/AI & Machine Learning/Shelf Analysis (3).png",
+      "image4": "/images/AI & Machine Learning/Shelf Analysis (4).png",
+      "video": "https://www.youtube.com/embed/kXYiU_JCYtU",
+      "gallery": [
+        "/images/AI & Machine Learning/Shelf Analysis (1).png",
+        "/images/AI & Machine Learning/Shelf Analysis (2).png",
+        "/images/AI & Machine Learning/Shelf Analysis (3).png",
+        "/images/AI & Machine Learning/Shelf Analysis (4).png"
+      ]
     },
     "cloud-devops": {
       "title": "Cloud & DevOps Solutions",
@@ -429,10 +477,16 @@
       "cardImage": "/images/Cloud and deveops/Cloud and deveops (1).png",
       "architectureImage": "/images/Cloud and deveops/Cloud and deveops (2).png",
       "dashboardImage": null,
-      "image2": "/images/Cloud and deveops/Cloud and deveops (4).png",
-      "image3": "/images/Cloud and deveops/Cloud and deveops (5).png",
-      "image4": "/images/Cloud and deveops/Cloud and deveops (6).png",
-      "video": "https://www.youtube.com/embed/ScMzIvxBSi4"
+      "image2": "/images/Cloud and deveops/Cloud and deveops (2).png",
+      "image3": "/images/Cloud and deveops/Cloud and deveops (3).png",
+      "image4": "/images/Cloud and deveops/Cloud and deveops (4).png",
+      "video": "https://www.youtube.com/embed/ScMzIvxBSi4",
+      "gallery": [
+        "/images/Cloud and deveops/Cloud and deveops (1).png",
+        "/images/Cloud and deveops/Cloud and deveops (2).png",
+        "/images/Cloud and deveops/Cloud and deveops (3).png",
+        "/images/Cloud and deveops/Cloud and deveops (4).png"
+      ]
     },
     "fbr-e-invoicing-compliance": {
       "title": "FBR E-Invoicing & Compliance",
@@ -474,10 +528,16 @@
       "cardImage": "/images/FBR E-Invoicing & Compliance/FBR E INVOICE (1).png",
       "architectureImage": "/images/FBR E-Invoicing & Compliance/FBR E INVOICE (2).png",
       "dashboardImage": "/images/FBR E-Invoicing & Compliance/FBR E INVOICE (3).png",
-      "image2": "/images/FBR E-Invoicing & Compliance/FBR E INVOICE (4).png",
-      "image3": "/images/FBR E-Invoicing & Compliance/FBR E INVOICE (1).png",
-      "image4": "/images/FBR E-Invoicing & Compliance/FBR E INVOICE (1).png",
-      "video": "/videos/digital-e-invocia-integration.mp4"
+      "image2": "/images/FBR E-Invoicing & Compliance/FBR E INVOICE (2).png",
+      "image3": "/images/FBR E-Invoicing & Compliance/FBR E INVOICE (3).png",
+      "image4": "/images/FBR E-Invoicing & Compliance/FBR E INVOICE (4).png",
+      "video": "/videos/digital-e-invocia-integration.mp4",
+      "gallery": [
+        "/images/FBR E-Invoicing & Compliance/FBR E INVOICE (1).png",
+        "/images/FBR E-Invoicing & Compliance/FBR E INVOICE (2).png",
+        "/images/FBR E-Invoicing & Compliance/FBR E INVOICE (3).png",
+        "/images/FBR E-Invoicing & Compliance/FBR E INVOICE (4).png"
+      ]
     }
   },
   "NAV_PRODUCTS": [
@@ -712,7 +772,7 @@
           "desc": "KPI tracking and evaluation modules."
         }
       ],
-      "heroImage": "/images/HrmsPayroll.jpg.jpeg",
+      "heroImage": "/images/Hrms&payrollsysteam.png",
       "cardImage": "/images/Hrms&payrollsysteam.png",
       "secImage": "/images/Hrms&payrollsysteam.png",
       "thirdImage": "/images/hrms.png",
@@ -800,8 +860,14 @@
       "thirdImage": "/images/e-commerce.jpeg",
       "image2": "/images/E-Commerce Solutions/E commerce Solution (2).png",
       "image3": "/images/E-Commerce Solutions/E commerce Solution (3).png",
-      "image4": "/images/E-Commerce Solutions/E commerce Solution.png",
-      "video": "https://www.youtube.com/embed/5qap5aO4i9A"
+      "image4": "/images/E-Commerce Solutions/E commerce Solution (4).png",
+      "video": "https://www.youtube.com/embed/5qap5aO4i9A",
+      "gallery": [
+        "/images/E-Commerce Solutions/E commerce Solution (1).png",
+        "/images/E-Commerce Solutions/E commerce Solution (2).png",
+        "/images/E-Commerce Solutions/E commerce Solution (3).png",
+        "/images/E-Commerce Solutions/E commerce Solution (4).png"
+      ]
     },
     "merchandizing-application": {
       "title": "Merchandizing Application",
@@ -876,7 +942,7 @@
           "desc": "Optimized visit schedules."
         }
       ],
-      "heroImage": "/images/orderbookingappsecond.png",
+      "heroImage": "/images/orderbookingnew.png",
       "cardImage": "/images/orderbookingnew.png",
       "secImage": "/images/orderbookingnew.png",
       "thirdImage": "/images/orderbooking.jpeg",
@@ -917,8 +983,8 @@
           "desc": "Direct engagement with the last mile."
         }
       ],
-      "heroImage": "/images/Sales-Verse-Bnr.jpg.jpeg",
-      "cardImage": "/images/secondrysale.png",
+      "heroImage": "/images/saleverse secondry saleapp.png",
+      "cardImage": "/images/saleverse secondry saleapp.png",
       "secImage": "/images/saleverse secondry saleapp.png",
       "thirdImage": "/images/secondrysale.png",
       "image2": "/images/saleverse secondry saleapp.png",
@@ -958,13 +1024,19 @@
           "desc": "Digital RFQ and bidding system."
         }
       ],
-      "heroImage": "/images/Procurement.jpeg",
-      "cardImage": "/images/Procurement.jpeg",
+      "heroImage": "/images/Procurement Application/procurment (1).png",
+      "cardImage": "/images/Procurement Application/procurment (1).png",
       "secImage": "/images/Procurement.jpeg",
-      "image2": "/images/Procurement.jpeg",
-      "image3": "/images/Procurement.jpeg",
-      "image4": "/images/Procurement.jpeg",
-      "video": "https://www.youtube.com/embed/2e9w4Z-Qh-I"
+      "image2": "/images/Procurement Application/procurment (2).png",
+      "image3": "/images/Procurement Application/procurment (3).png",
+      "image4": "/images/Procurement Application/procurment (4).png",
+      "video": "https://www.youtube.com/embed/2e9w4Z-Qh-I",
+      "gallery": [
+        "/images/Procurement Application/procurment (1).png",
+        "/images/Procurement Application/procurment (2).png",
+        "/images/Procurement Application/procurment (3).png",
+        "/images/Procurement Application/procurment (4).png"
+      ]
     },
     "lms": {
       "title": "Learning Management System (LMS)",
