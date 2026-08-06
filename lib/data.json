@@ -867,7 +867,6 @@
       ],
       "heroImage": "/images/cartivo/Cartivo (4).png",
       "cardImage": "/images/cartivo/Cartivo (4).png",
-      "video": "https://www.youtube.com/embed/5qap5aO4i9A",
       "gallery": [
         "/images/cartivo/Cartivo (1).png",
         "/images/cartivo/Cartivo (2).png",
@@ -942,8 +941,7 @@
       "thirdImage": "/images/hrms.png",
       "image2": "/images/Hrms&payrollsysteam.png",
       "image3": "/images/hrms.png",
-      "image4": "/images/hrms.png",
-      "video": "https://www.youtube.com/embed/2e9w4Z-Qh-I"
+      "image4": "/images/hrms.png"
     },
     "digital-e-invocia-integration": {
       "title": "Digital E-Invocia Integration",
@@ -977,7 +975,6 @@
           "desc": "Auto-generation of tax annexures."
         }
       ],
-      "video": "/videos/digital-e-invocia-integration.mp4",
       "heroImage": "/images/Digital-E-Invoic.jpg",
       "cardImage": "/images/Digital-E-Invoic.jpg",
       "secImage": "/images/Digital e-invociamain.png",
@@ -1039,7 +1036,6 @@
       "image2": "/images/E-Commerce Solutions/E commerce Solution (2).png",
       "image3": "/images/E-Commerce Solutions/E commerce Solution (3).png",
       "image4": "/images/E-Commerce Solutions/E commerce Solution (4).png",
-      "video": "https://www.youtube.com/embed/5qap5aO4i9A",
       "gallery": [
         "/images/E-Commerce Solutions/E commerce Solution (1).png",
         "/images/E-Commerce Solutions/E commerce Solution (2).png",
@@ -1293,7 +1289,6 @@
       "image2": "/images/audit_web_banner.png",
       "image3": "/images/audit_mobile_banner.png",
       "image4": "/images/marchandizingapp.png",
-      "video": "https://www.youtube.com/watch?v=s42VQasz4iI",
       "detailedContent": [
         {
           "type": "text",
@@ -1366,7 +1361,6 @@
       "image2": "/images/orderbookingnew.png",
       "image3": "/images/orderbooking.jpeg",
       "image4": "/images/orderbookingnew.png",
-      "video": "https://www.youtube.com/embed/L_LUpnjgPso",
       "detailedContent": [
         {
           "type": "text",
@@ -1421,7 +1415,6 @@
       "image2": "/images/saleverse secondry saleapp.png",
       "image3": "/images/secondrysale.png",
       "image4": "/images/secondrysale.png",
-      "video": "https://www.youtube.com/embed/tgbNymZ7vqY",
       "detailedContent": [
         {
           "type": "text",
@@ -1475,7 +1468,6 @@
       "image2": "/images/Procurement Application/procurment (2).png",
       "image3": "/images/Procurement Application/procurment (3).png",
       "image4": "/images/Procurement Application/procurment (4).png",
-      "video": "https://www.youtube.com/embed/2e9w4Z-Qh-I",
       "gallery": [
         "/images/Procurement Application/procurment (1).png",
         "/images/Procurement Application/procurment (2).png",
@@ -1658,7 +1650,6 @@
       "image2": "/images/Learning-Managment-System.jpg.jpeg",
       "image3": "/images/Learning-Managment-System.jpg.jpeg",
       "image4": "/images/Learning-Managment-System.jpg.jpeg",
-      "video": "https://www.youtube.com/embed/kXYiU_JCYtU",
       "detailedContent": [
         {
           "type": "text",
@@ -1715,7 +1706,6 @@
       "image2": "/images/ChatGPT Image Jul 31, 2026, 03_02_07 PM (4).png",
       "image3": "/images/ChatGPT Image Jul 31, 2026, 03_02_10 PM (8).png",
       "image4": "/images/ChatGPT Image Jul 31, 2026, 03_02_11 PM (10).png",
-      "video": "https://www.youtube.com/embed/9bZkp7q19f0",
       "detailedContent": [
         {
           "type": "text",
@@ -1803,8 +1793,7 @@
       "secImage": "/images/saleverse secondry saleapp.png",
       "image2": "/images/saleverse secondry saleapp.png",
       "image3": "/images/saleverse secondry saleapp.png",
-      "image4": "/images/Sales-Verse-Bnr.jpg.jpeg",
-      "video": "https://www.youtube.com/embed/L_LUpnjgPso"
+      "image4": "/images/Sales-Verse-Bnr.jpg.jpeg"
     },
     "enterprise-crm-system": {
       "title": "Enterprise CRM System",
@@ -1847,7 +1836,6 @@
       "image2": "/images/Sales-Verse-Bnr.jpg.jpeg",
       "image3": "/images/saleverse secondry saleapp.png",
       "image4": "/images/Sales-Verse-Bnr.jpg.jpeg",
-      "video": "https://www.youtube.com/embed/tgbNymZ7vqY",
       "detailedContent": [
         {
           "type": "text",
