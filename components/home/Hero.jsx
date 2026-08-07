@@ -75,16 +75,7 @@ export default function Hero({ config }) {
             </div>
           </AnimatedReveal>
 
-          {/* Tech Stack Badges */}
-          <AnimatedReveal delay={400}>
-            <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3 mt-10 sm:mt-12 text-[11px] sm:text-xs font-mono text-slate-300">
-              {['Next.js 16', 'React 19', 'Python AI', 'PostgreSQL', 'Cloud K8s', 'SAP Integration'].map((tech, i) => (
-                <span key={i} className="px-3 py-1.5 rounded-lg bg-slate-900/90 border border-slate-800 shadow-sm backdrop-blur-md">
-                  {tech}
-                </span>
-              ))}
-            </div>
-          </AnimatedReveal>
+
         </div>
 
         {/* Dashboard Video Mockup - Optimized for Mobile */}
