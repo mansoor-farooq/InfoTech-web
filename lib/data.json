@@ -1839,8 +1839,8 @@
         {
           "type": "grid",
           "sectionTitle": "Real-Time FBR Integration",
-          "content": "Instantly transmit invoices and transaction data to FBR endpoints. Our system automatically fetches fiscal receipt numbers (FBR Invoice Numbers) and embeds QR codes directly onto your customer receipts.",
-          "features": [
+          "content": "Instantly transmit invoices and transaction data to FBR endpoints. Our system automatically fetches fiscal receipt numbers and embeds QR codes.",
+          "items": [
             {
               "title": "Live Sync",
               "desc": "Sub-second transmission times."
@@ -1848,10 +1848,6 @@
             {
               "title": "QR Code Generation",
               "desc": "Automated receipt QR printing."
-            },
-            {
-              "title": "Status Tracking",
-              "desc": "Monitor FBR acknowledgement."
             },
             {
               "title": "Offline Fallback",
@@ -1884,68 +1880,13 @@
           "type": "list-text",
           "sectionTitle": "End-to-End Invoice Lifecycle",
           "content": "Manage the entire lifecycle of a transaction from creation to final tax settlement.",
-          "items": [
+          "points": [
             "Invoice Generation: Create compliant electronic invoices.",
             "Validation: Pre-flight checks against FBR rules.",
             "Transmission: Secure API payload delivery.",
             "Archiving: Encrypted long-term storage of all fiscal documents."
           ],
           "image": "/images/FBR E-Invoicing & Compliance/FBR E INVIOCIA (4).png"
-        },
-        {
-          "type": "grid",
-          "sectionTitle": "Secure Data Transmission",
-          "content": "Built on bank-grade security protocols ensuring that your sensitive financial data remains encrypted both in transit and at rest.",
-          "features": [
-            {
-              "title": "TLS 1.3",
-              "desc": "End-to-end encryption."
-            },
-            {
-              "title": "Key Management",
-              "desc": "Automated rotation & storage."
-            },
-            {
-              "title": "Audit Trails",
-              "desc": "Immutable action logging."
-            },
-            {
-              "title": "Role-Based Access",
-              "desc": "Granular user permissions."
-            }
-          ],
-          "image": "/images/FBR E-Invoicing & Compliance/FBR E INVOICE (1).png"
-        },
-        {
-          "type": "text",
-          "sectionTitle": "POS & ERP Synchronization",
-          "content": "Whether you run a single retail outlet using our POS, or a massive manufacturing plant using SAP/Oracle, our middleware connects your existing billing engines to the compliance network without disrupting your workflows.",
-          "image": "/images/FBR E-Invoicing & Compliance/FBR E INVOICE (2).png"
-        },
-        {
-          "type": "tags",
-          "sectionTitle": "Advanced Audit & Reporting Tools",
-          "content": "Empower your finance and audit teams with powerful dashboards to instantly reconcile sales data against submitted tax records.",
-          "tags": [
-            "Reconciliation Engine",
-            "Variance Analysis",
-            "Custom Dashboards",
-            "Export to Excel/PDF",
-            "Audit Readiness"
-          ],
-          "image": "/images/FBR E-Invoicing & Compliance/FBR E INVOICE (3).png"
-        },
-        {
-          "type": "list-text",
-          "sectionTitle": "Scalable Deployment Architecture",
-          "content": "Designed for high availability and massive transaction volumes. Our microservices architecture scales horizontally to meet the demands of enterprise retail chains during peak holiday seasons.",
-          "items": [
-            "Cloud-Native: Hosted on AWS/Azure/GCP.",
-            "On-Premise Ready: For highly regulated environments.",
-            "Load Balancing: Distributed request handling.",
-            "Disaster Recovery: Multi-region failover."
-          ],
-          "image": "/images/FBR E-Invoicing & Compliance/FBR E INVOICE (4).png"
         }
       ]
     }
