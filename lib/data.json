@@ -136,8 +136,8 @@
           "desc": "Custom RESTful and GraphQL APIs to connect your web apps."
         }
       ],
-      "heroImage": "/images/web-development/Web development (1).png",
-      "cardImage": "/images/web-development/Web development (1).png",
+      "heroImage": "/images/webdevelopment.png",
+      "cardImage": "/images/webdevelopment.png",
       "architectureImage": "/images/web-development/Web development (2).png",
       "dashboardImage": null,
       "image2": "/images/web-development/Web development (2).png",
@@ -152,22 +152,71 @@
       ],
       "detailedContent": [
         {
-          "type": "text",
-          "sectionTitle": "Frontend Development",
-          "content": "Dynamic, fast, and responsive user interfaces using React and Next.js.",
+          "type": "list-text",
+          "sectionTitle": "Frontend Modernization & UI/UX",
+          "content": "We craft highly interactive, blazing-fast, and accessible user interfaces that engage customers and streamline complex workflows. Our frontend architectures are built on modern frameworks to ensure future-proof scalability.",
+          "points": [
+            "Component-Driven Architecture: Reusable React/Next.js components for UI consistency.",
+            "Core Web Vitals Optimization: Sub-second load times and flawless interactive performance.",
+            "Responsive Design: Fluid layouts that look native on desktop, tablet, and mobile browsers.",
+            "State Management: Robust client-side data handling for complex dashboards."
+          ],
           "image": "/images/web-development/Web development (1).png"
         },
         {
-          "type": "text",
-          "sectionTitle": "Backend Architecture",
-          "content": "Secure and scalable server-side systems using Node.js or .NET.",
+          "type": "grid",
+          "sectionTitle": "Enterprise Backend Systems",
+          "content": "The powerhouse of your digital operations. We engineer secure, highly-available backend systems capable of processing massive transaction volumes while maintaining absolute data integrity.",
+          "items": [
+            {
+              "title": "Microservices",
+              "desc": "Decoupled services for independent scaling and deployment."
+            },
+            {
+              "title": "Database Architecture",
+              "desc": "Optimized SQL/NoSQL schemas for high-speed queries."
+            },
+            {
+              "title": "API Gateways",
+              "desc": "Secure endpoints with rate limiting and JWT authentication."
+            }
+          ],
           "image": "/images/web-development/Web development (2).png"
         },
         {
           "type": "text",
-          "sectionTitle": "API Development",
-          "content": "Custom RESTful and GraphQL APIs to connect your web apps.",
+          "sectionTitle": "Cloud-Native Deployment & DevOps",
+          "content": "Deploy with confidence. Our web applications are designed to thrive in modern cloud environments like AWS, Azure, and GCP. We implement complete CI/CD pipelines, containerization with Docker, and orchestration with Kubernetes to ensure zero-downtime releases and infinite scalability.",
           "image": "/images/web-development/Web development (3).png"
+        },
+        {
+          "type": "tags",
+          "sectionTitle": "Comprehensive Tech Stack",
+          "content": "We utilize the most advanced and stable technologies available to build web solutions that stand the test of time.",
+          "tagsGroups": [
+            {
+              "group": "Frontend Ecosystem",
+              "tags": [
+                "React",
+                "Next.js",
+                "Tailwind CSS",
+                "Framer Motion",
+                "TypeScript"
+              ]
+            },
+            {
+              "group": "Backend & Infrastructure",
+              "tags": [
+                "Node.js",
+                ".NET",
+                "PostgreSQL",
+                "Redis",
+                "Docker",
+                "AWS"
+              ]
+            }
+          ],
+          "image": "/images/web-development/Web development (4).png"
         }
       ]
     },
