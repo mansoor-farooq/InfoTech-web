@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { ArrowRight, ShieldCheck, Play } from 'lucide-react';
 import { motion } from 'framer-motion';
-import ScrambleText from '@/components/ScrambleText';
+
 import CinematicWrapper from '@/components/three/CinematicWrapper';
 import AnimatedReveal from '@/components/AnimatedReveal';
 
@@ -43,9 +43,9 @@ export default function Hero({ config }) {
 
           <AnimatedReveal delay={100}>
             <h1 className="text-[2.25rem] sm:text-[4rem] lg:text-[5.5rem] font-extrabold tracking-tight leading-[1.1] mb-6">
-              <ScrambleText text={config.heroTitle || 'Enterprise Software'} delay={600} duration={1200} /> <br className="hidden sm:block" />
+              {config.heroTitle || 'Enterprise Software'} <br className="hidden sm:block" />
               <span className="text-blue-500 inline-block mt-1 sm:mt-0">
-                <ScrambleText text={config.heroSubtitle || 'Engineering Company'} delay={800} duration={1200} />
+                {config.heroSubtitle || 'Engineering Company'}
               </span>
             </h1>
           </AnimatedReveal>
