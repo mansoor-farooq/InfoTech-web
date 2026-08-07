@@ -1866,15 +1866,25 @@
           "type": "tags",
           "sectionTitle": "Enterprise Compliance Modules",
           "content": "A comprehensive suite of tools designed to handle complex tax scenarios, multi-branch operations, and dynamic tax tiering with absolute precision.",
-          "tags": [
-            "Sales Tax Engine",
-            "Withholding Tax",
-            "Multi-Tier Rates",
-            "POS Integration",
-            "B2B/B2C Routing",
-            "Digital Signatures"
-          ],
-          "image": "/images/FBR E-Invoicing & Compliance/FBR E INVIOCIA (3).png"
+          "image": "/images/FBR E-Invoicing & Compliance/FBR E INVIOCIA (3).png",
+          "tagsGroups": [
+            {
+              "group": "Tax Engine",
+              "tags": [
+                "Sales Tax",
+                "Withholding Tax",
+                "Multi-Tier Rates"
+              ]
+            },
+            {
+              "group": "Integrations",
+              "tags": [
+                "POS Integration",
+                "B2B/B2C Routing",
+                "Digital Signatures"
+              ]
+            }
+          ]
         },
         {
           "type": "list-text",
