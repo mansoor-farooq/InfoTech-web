@@ -704,8 +704,8 @@
           "desc": "Built-in reconciliation checks to ensure zero mismatched tax figures."
         }
       ],
-      "heroImage": "/images/FBR E-Invoicing & Compliance/FBR E INVOICE (1).png",
-      "cardImage": "/images/FBR E-Invoicing & Compliance/FBR E INVOICE (1).png",
+      "heroImage": "/images/Digital e-invociamain.png",
+      "cardImage": "/images/Digital e-invociamain.png",
       "architectureImage": "/images/FBR E-Invoicing & Compliance/FBR E INVOICE (2).png",
       "dashboardImage": "/images/FBR E-Invoicing & Compliance/FBR E INVOICE (3).png",
       "image2": "/images/FBR E-Invoicing & Compliance/FBR E INVOICE (2).png",
@@ -723,19 +723,19 @@
           "type": "text",
           "sectionTitle": "FBR Real-Time POS Sync",
           "content": "Direct POS connection to FBR tax servers for digital invoice registration.",
-          "image": "/images/FBR E-Invoicing & Compliance/FBR E INVOICE (1).png"
+          "image": "/images/digitaleinvociasecondry.png"
         },
         {
           "type": "text",
           "sectionTitle": "Automated Tax Return Reports",
           "content": "Export sales and purchase tax data formatted for monthly return filing.",
-          "image": "/images/FBR E-Invoicing & Compliance/FBR E INVOICE (2).png"
+          "image": "/images/digitaleinvoiciaoptional.png"
         },
         {
           "type": "text",
           "sectionTitle": "Compliance Auditing Tools",
           "content": "Built-in reconciliation checks to ensure zero mismatched tax figures.",
-          "image": "/images/FBR E-Invoicing & Compliance/FBR E INVOICE (3).png"
+          "image": "/images/Digital-E-Invoic.jpg"
         }
       ]
     }
