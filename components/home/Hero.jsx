@@ -11,12 +11,13 @@ export default function Hero({ config }) {
   if (!config) return null;
 
   const videos = [
-    { id: 1, title: 'Enterprise Overview', url: 'https://www.youtube.com/embed/jX4dLxiso6A' },
-    { id: 2, title: 'Platform Architecture', url: 'https://www.youtube.com/embed/NPpeX_Suhpg' },
-    { id: 3, title: 'Real-Time Performance', url: 'https://www.youtube.com/embed/J41q6Zljjn8' },
+    { id: 1, title: 'Enterprise Overview', url: '' },
+    { id: 2, title: 'Platform Architecture', url: '' },
+    { id: 3, title: 'Real-Time Performance', url: '' },
   ];
 
-  const [activeVideo, setActiveVideo] = useState(videos[0].url);
+  const [activeVideoId, setActiveVideoId] = useState(videos[0].id);
+  const activeVideo = videos.find(v => v.id === activeVideoId);
 
   return (
     <section className="bg-transparent text-white pt-24 sm:pt-32 pb-0 relative overflow-hidden">
@@ -107,23 +108,37 @@ export default function Hero({ config }) {
               {/* Dashboard Content Mockup */}
               <div className="relative bg-slate-950 flex flex-col">
                 {/* Inline Video Player */}
-                <div className="w-full aspect-video relative bg-black">
-                  <iframe 
-                    src={activeVideo} 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                    className="absolute inset-0 w-full h-full border-0"
-                  />
+                <div className="w-full aspect-video relative bg-slate-900 overflow-hidden group">
+                  {activeVideo?.url ? (
+                    <iframe 
+                      src={activeVideo.url} 
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                      className="absolute inset-0 w-full h-full border-0"
+                    />
+                  ) : (
+                    <>
+                      <div className="absolute inset-0 bg-slate-800 flex items-center justify-center opacity-90 group-hover:opacity-100 transition-opacity">
+                        <span className="text-slate-500 font-bold uppercase tracking-widest text-xs sm:text-sm">{activeVideo?.title} Preview</span>
+                      </div>
+                      
+                      <div className="absolute inset-0 flex items-center justify-center">
+                        <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-white/10 backdrop-blur-md flex items-center justify-center border border-white/20 group-hover:scale-110 group-hover:bg-white/30 transition-all duration-300">
+                          <Play className="w-6 h-6 sm:w-8 sm:h-8 text-white ml-1.5 sm:ml-2" />
+                        </div>
+                      </div>
+                    </>
+                  )}
                 </div>
 
                 {/* Video Triggers - Responsive Stack on Mobile */}
                 <div className="p-3 sm:p-4 grid grid-cols-1 sm:grid-cols-3 gap-2.5 sm:gap-4 w-full bg-slate-950/90 border-t border-slate-800/80">
                   {videos.map((video) => {
-                    const isActive = activeVideo?.includes(video.url);
+                    const isActive = activeVideoId === video.id;
                     return (
                       <button 
                         key={video.id}
-                        onClick={() => setActiveVideo(video.url + '?autoplay=1')}
+                        onClick={() => setActiveVideoId(video.id)}
                         className={`relative min-h-[56px] sm:h-20 border rounded-xl p-3 flex items-center sm:flex-col sm:justify-between sm:items-start gap-3 sm:gap-0 transition-all overflow-hidden cursor-pointer text-left ${
                           isActive 
                             ? 'bg-blue-950/70 border-blue-500/80 shadow-lg shadow-blue-500/10' 
