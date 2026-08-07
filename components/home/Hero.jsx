@@ -6,6 +6,7 @@ import { motion } from 'framer-motion';
 
 import CinematicWrapper from '@/components/three/CinematicWrapper';
 import AnimatedReveal from '@/components/AnimatedReveal';
+import SplitText from '@/components/SplitText';
 
 export default function Hero({ config }) {
   if (!config) return null;
@@ -41,14 +42,14 @@ export default function Hero({ config }) {
             </div>
           </AnimatedReveal>
 
-          <AnimatedReveal delay={100}>
-            <h1 className="text-[2.25rem] sm:text-[4rem] lg:text-[5.5rem] font-extrabold tracking-tight leading-[1.1] mb-6">
-              {config.heroTitle || 'Enterprise Software'} <br className="hidden sm:block" />
+          <div className="mb-6">
+            <h1 className="text-[2.25rem] sm:text-[4rem] lg:text-[5.5rem] font-extrabold tracking-tight leading-[1.1]">
+              <SplitText text={config.heroTitle || 'Enterprise Software'} delay={200} duration={0.7} stagger={0.1} /> <br className="hidden sm:block" />
               <span className="text-blue-500 inline-block mt-1 sm:mt-0">
-                {config.heroSubtitle || 'Engineering Company'}
+                <SplitText text={config.heroSubtitle || 'Engineering Company'} delay={600} duration={0.7} stagger={0.1} />
               </span>
             </h1>
-          </AnimatedReveal>
+          </div>
           
           <AnimatedReveal delay={200}>
             <p className="text-base sm:text-2xl text-slate-300 font-medium mb-10 max-w-3xl mx-auto leading-relaxed px-2 sm:px-0">
