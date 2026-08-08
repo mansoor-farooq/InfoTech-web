@@ -1,11 +1,11 @@
 {
   "COMPANY_INFO": {
     "name": "InfoTech Solutions",
-    "tagline": "Building Smarter Businesses with AI and Modern Technology",
-    "email": "info@infotechsolutions.com.pk",
+    "tagline": "AI, Software & Digital Transformation Solutions for Modern Businesses",
+    "email": "[info@infotechsolutions.com.pk](mailto:info@infotechsolutions.com.pk)",
     "phone": "+92 370 2874490",
     "address": "Suit #412, City Center, Plot No. ST-1, A-2, Shahra-e-Faisal Near Awami Markaz, Karachi, Pakistan",
-    "mapsLink": "https://maps.app.goo.gl/ojbtQQ8VndfWKDyy6",
+    "mapsLink": "[https://maps.app.goo.gl/ojbtQQ8VndfWKDyy6](https://maps.app.goo.gl/ojbtQQ8VndfWKDyy6)",
     "established": 2020,
     "years": "5+"
   },
@@ -15,28 +15,28 @@
       "category": "Our Services",
       "accent": "#2563eb",
       "items": [
-        "BI Reports",
+        "BI Reporting & Dashboards",
         "Web Development",
-        "Mobile Application",
-        "Infrastructure Management",
-        "Maintenance & Enhancements",
-        "Migration And Modernization",
-        "Custom ERP Development",
-        "AI & Machine Learning",
-        "Cloud & DevOps Solutions",
+        "Mobile App Development",
+        "IT Infrastructure Management",
+        "Software Maintenance & Enhancements",
+        "Application Migration & Modernization",
+        "Custom ERP Software Development",
+        "AI & Machine Learning Solutions",
+        "Cloud & DevOps Services",
         "FBR E-Invoicing & Compliance"
       ]
     }
   ],
   "SERVICES_FULL": {
     "bi-reports": {
-      "title": "BI Reports",
-      "subtitle": "Data-driven insights for enterprise decision making.",
+      "title": "Business Intelligence (BI) Reporting & Dashboards",
+      "subtitle": "Turn business data into clear, actionable insights for faster decision-making.",
       "accent": "#2563eb",
       "accentLight": "#eff6ff",
       "accentBorder": "#bfdbfe",
       "accentDark": "#1d4ed8",
-      "description": "Transform raw enterprise data into actionable intelligence. Our BI reporting solutions help you visualize KPIs, monitor supply chain health, and make informed strategic decisions in real-time.",
+      "description": "Transform complex business data into actionable intelligence with custom BI reporting and interactive dashboards. We help organizations monitor KPIs, sales, inventory, supply chain performance, and operational trends through secure, real-time analytics and decision-ready reports.",
       "imagePlaceholder": true,
       "heroStat1": {
         "value": "Real-Time",
@@ -54,15 +54,15 @@
       "services": [
         {
           "name": "Custom Dashboards",
-          "desc": "Interactive PowerBI and custom dashboards tailored to your KPIs."
+          "desc": "Build interactive Power BI and custom BI dashboards tailored to your KPIs, departments, and reporting requirements."
         },
         {
           "name": "Data Warehousing",
-          "desc": "Centralized data repositories connecting multiple ERP systems."
+          "desc": "Create centralized data warehouses that consolidate information from ERP, CRM, sales, finance, and operational systems for consistent reporting."
         },
         {
           "name": "Predictive Analytics",
-          "desc": "Machine learning models to forecast trends and inventory needs."
+          "desc": "Use predictive analytics and machine learning models to identify trends, forecast demand, and support inventory and planning decisions."
         }
       ],
       "heroImage": "/images/Powerbi/powerbi_1first.png",
@@ -72,7 +72,7 @@
       "image2": "/images/Powerbi/powerbi.jpg",
       "image3": "/images/Powerbi/powebidash.png",
       "image4": "/images/Powerbi/bireporting.png",
-      "video": "https://www.youtube.com/embed/2e9w4Z-Qh-I",
+      "video": "[https://www.youtube.com/embed/2e9w4Z-Qh-I](https://www.youtube.com/embed/2e9w4Z-Qh-I)",
       "gallery": [
         "/images/Powerbi/powerbi_1first.png",
         "/images/Powerbi/powerbi.jpg",
@@ -83,31 +83,31 @@
         {
           "type": "text",
           "sectionTitle": "Custom Dashboards",
-          "content": "Interactive PowerBI and custom dashboards tailored to your KPIs.",
+          "content": "Build interactive Power BI and custom BI dashboards tailored to your KPIs, departments, and reporting requirements.",
           "image": "/images/Powerbi/powerbi_1first.png"
         },
         {
           "type": "text",
           "sectionTitle": "Data Warehousing",
-          "content": "Centralized data repositories connecting multiple ERP systems.",
+          "content": "Create centralized data warehouses that consolidate information from ERP, CRM, sales, finance, and operational systems for consistent reporting.",
           "image": "/images/Powerbi/powerbi.jpg"
         },
         {
           "type": "text",
           "sectionTitle": "Predictive Analytics",
-          "content": "Machine learning models to forecast trends and inventory needs.",
+          "content": "Use predictive analytics and machine learning models to identify trends, forecast demand, and support inventory and planning decisions.",
           "image": "/images/Powerbi/powebidash.png"
         }
       ]
     },
     "web-development": {
-      "title": "Web Development",
-      "subtitle": "Enterprise-grade web applications and platforms.",
+      "title": "Custom Web Development",
+      "subtitle": "Scalable, secure, and high-performance web applications built for business growth.",
       "accent": "#7c3aed",
       "accentLight": "#f5f3ff",
       "accentBorder": "#ddd6fe",
       "accentDark": "#6d28d9",
-      "description": "Unlock your digital potential with our Custom Web Development services. We architect scalable, secure, and blazing-fast web applications designed specifically for complex enterprise requirements.",
+      "description": "Build scalable, secure, and high-performance web applications tailored to your business requirements. Our custom web development services cover modern frontend development, backend architecture, API integration, responsive UX, and cloud-ready deployment for enterprise portals, dashboards, e-commerce platforms, and business applications.",
       "imagePlaceholder": true,
       "heroStat1": {
         "value": "100%",
@@ -125,25 +125,25 @@
       "services": [
         {
           "name": "Frontend Development",
-          "desc": "Dynamic, fast, and responsive user interfaces using React and Next.js."
+          "desc": "Develop fast, responsive, and accessible web interfaces using React, Next.js, TypeScript, and modern frontend architecture."
         },
         {
           "name": "Backend Architecture",
-          "desc": "Secure and scalable server-side systems using Node.js or .NET."
+          "desc": "Engineer secure, scalable backend systems and business logic using Node.js, .NET, databases, authentication, and cloud-ready architecture."
         },
         {
           "name": "API Development",
-          "desc": "Custom RESTful and GraphQL APIs to connect your web apps."
+          "desc": "Develop secure RESTful and GraphQL APIs that connect web applications with databases, ERPs, CRMs, payment systems, and third-party platforms."
         }
       ],
       "heroImage": "/images/webdevelopment.png",
       "cardImage": "/images/webdevelopment.png",
-      "architectureImage": "/images/web-development/Web development (2).png",
+      "architectureImage": "/images/Custom Web Application Development.png",
       "dashboardImage": null,
       "image2": "/images/web-development/Web development (2).png",
       "image3": "/images/web-development/Web development (3).png",
       "image4": "/images/web-development/Web development (4).png",
-      "video": "https://www.youtube.com/embed/5qap5aO4i9A",
+      "video": "[https://www.youtube.com/embed/5qap5aO4i9A](https://www.youtube.com/embed/5qap5aO4i9A)",
       "gallery": [
         "/images/web-development/Web development (1).png",
         "/images/web-development/Web development (2).png",
@@ -154,19 +154,19 @@
         {
           "type": "list-text",
           "sectionTitle": "Frontend Modernization & UI/UX",
-          "content": "We craft highly interactive, blazing-fast, and accessible user interfaces that engage customers and streamline complex workflows. Our frontend architectures are built on modern frameworks to ensure future-proof scalability.",
+          "content": "We craft highly interactive, high-performance, and accessible user interfaces that engage customers and streamline complex workflows. Our frontend architectures are built on modern frameworks to ensure future-proof scalability.",
           "points": [
             "Component-Driven Architecture: Reusable React/Next.js components for UI consistency.",
             "Core Web Vitals Optimization: Sub-second load times and flawless interactive performance.",
             "Responsive Design: Fluid layouts that look native on desktop, tablet, and mobile browsers.",
             "State Management: Robust client-side data handling for complex dashboards."
           ],
-          "image": "/images/web-development/Web development (1).png"
+          "image": "/images/Custom Web Application Development.png"
         },
         {
           "type": "grid",
           "sectionTitle": "Enterprise Backend Systems",
-          "content": "The powerhouse of your digital operations. We engineer secure, highly-available backend systems capable of processing massive transaction volumes while maintaining absolute data integrity.",
+          "content": "The powerhouse of your digital operations. We engineer secure, highly-available backend systems capable of processing massive transaction volumes while maintaining strong data integrity.",
           "items": [
             {
               "title": "Microservices",
@@ -186,7 +186,7 @@
         {
           "type": "text",
           "sectionTitle": "Cloud-Native Deployment & DevOps",
-          "content": "Deploy with confidence. Our web applications are designed to thrive in modern cloud environments like AWS, Azure, and GCP. We implement complete CI/CD pipelines, containerization with Docker, and orchestration with Kubernetes to ensure zero-downtime releases and infinite scalability.",
+          "content": "Deploy with confidence. Our web applications are designed to thrive in modern cloud environments like AWS, Azure, and GCP. We implement complete CI/CD pipelines, containerization with Docker, and orchestration with Kubernetes to ensure zero-downtime releases and scalable growth.",
           "image": "/images/web-development/Web development (3).png"
         },
         {
@@ -221,13 +221,13 @@
       ]
     },
     "mobile-application": {
-      "title": "Mobile Application",
-      "subtitle": "Seamless mobility and enhanced productivity.",
+      "title": "Mobile App Development",
+      "subtitle": "Business-focused iOS, Android, and cross-platform mobile applications.",
       "accent": "#0891b2",
       "accentLight": "#ecfeff",
       "accentBorder": "#a5f3fc",
       "accentDark": "#0e7490",
-      "description": "Experience the power of our Corporate Mobile Application Services, tailored to empower businesses with seamless mobility, B2B order taking, and real-time field tracking.",
+      "description": "Extend your business operations to mobile with secure, user-friendly iOS, Android, and cross-platform applications. We develop mobile solutions for B2B order booking, field sales, workforce productivity, inventory visibility, customer engagement, and real-time enterprise system integration.",
       "imagePlaceholder": true,
       "heroStat1": {
         "value": "99%",
@@ -245,15 +245,15 @@
       "services": [
         {
           "name": "iOS & Android Apps",
-          "desc": "Native applications designed for enterprise users and field force."
+          "desc": "Develop iOS and Android applications for enterprise users, sales teams, field operations, and customer-facing workflows."
         },
         {
           "name": "Cross-Platform Apps",
-          "desc": "React Native and Flutter apps for fast time-to-market."
+          "desc": "Build cross-platform mobile applications with React Native or Flutter to streamline delivery across iOS and Android."
         },
         {
           "name": "Enterprise Integration",
-          "desc": "Direct connection to ERPs for live inventory and pricing."
+          "desc": "Integrate mobile apps with ERP and business systems for live inventory, customer data, pricing, orders, and operational updates."
         }
       ],
       "heroImage": "/images/Mobile Application/Mobile Apps (1).png",
@@ -263,7 +263,7 @@
       "image2": "/images/Mobile Application/Mobile Apps (2).png",
       "image3": "/images/Mobile Application/Mobile Apps (3).png",
       "image4": "/images/Mobile Application/Mobile Apps (4).png",
-      "video": "https://www.youtube.com/embed/L_LUpnjgPso",
+      "video": "[https://www.youtube.com/embed/L_LUpnjgPso](https://www.youtube.com/embed/L_LUpnjgPso)",
       "gallery": [
         "/images/Mobile Application/Mobile Apps (1).png",
         "/images/Mobile Application/Mobile Apps (2).png",
@@ -274,31 +274,31 @@
         {
           "type": "text",
           "sectionTitle": "iOS & Android Apps",
-          "content": "Native applications designed for enterprise users and field force.",
+          "content": "Develop iOS and Android applications for enterprise users, sales teams, field operations, and customer-facing workflows.",
           "image": "/images/Mobile Application/Mobile Apps (1).png"
         },
         {
           "type": "text",
           "sectionTitle": "Cross-Platform Apps",
-          "content": "React Native and Flutter apps for fast time-to-market.",
+          "content": "Build cross-platform mobile applications with React Native or Flutter to streamline delivery across iOS and Android.",
           "image": "/images/Mobile Application/Mobile Apps (2).png"
         },
         {
           "type": "text",
           "sectionTitle": "Enterprise Integration",
-          "content": "Direct connection to ERPs for live inventory and pricing.",
+          "content": "Integrate mobile apps with ERP and business systems for live inventory, customer data, pricing, orders, and operational updates.",
           "image": "/images/Mobile Application/Mobile Apps (3).png"
         }
       ]
     },
     "infrastructure-management": {
-      "title": "Infrastructure Management",
-      "subtitle": "Optimize IT efficiency and reduce costs.",
+      "title": "IT Infrastructure Management",
+      "subtitle": "Reliable infrastructure management for secure, efficient, and scalable IT operations.",
       "accent": "#be123c",
       "accentLight": "#fff1f2",
       "accentBorder": "#fecdd3",
       "accentDark": "#9f1239",
-      "description": "We optimize IT infrastructure and operational efficiency through expert management of networks, servers, cloud environments, and enterprise databases.",
+      "description": "Improve the reliability, security, and performance of your IT environment with professional infrastructure management services. We manage cloud platforms, servers, networks, databases, monitoring, backups, access controls, and operational support to help businesses reduce downtime and scale with confidence.",
       "imagePlaceholder": true,
       "heroStat1": {
         "value": "24/7",
@@ -316,15 +316,15 @@
       "services": [
         {
           "name": "Cloud Server Management",
-          "desc": "Deployment and maintenance of AWS, Azure, and Google Cloud environments."
+          "desc": "Deploy, configure, monitor, and maintain scalable cloud environments across AWS, Microsoft Azure, and Google Cloud."
         },
         {
           "name": "Database Administration",
-          "desc": "Optimization, backup strategies, and scaling for enterprise databases."
+          "desc": "Improve enterprise database performance with monitoring, query optimization, backup and recovery planning, security, and scalable administration."
         },
         {
           "name": "Network Security",
-          "desc": "Firewall configuration, vulnerability assessments, and access control."
+          "desc": "Strengthen infrastructure security with firewall configuration, access controls, vulnerability assessment, monitoring, and secure network practices."
         }
       ],
       "heroImage": "/images/Infrastructure Management/Infrastruture Managment (1).png",
@@ -334,7 +334,7 @@
       "image2": "/images/Infrastructure Management/Infrastruture Managment (2).png",
       "image3": "/images/Infrastructure Management/Infrastruture Managment (3).png",
       "image4": "/images/Infrastructure Management/Infrastruture Managment (4).png",
-      "video": "https://www.youtube.com/embed/ScMzIvxBSi4",
+      "video": "[https://www.youtube.com/embed/ScMzIvxBSi4](https://www.youtube.com/embed/ScMzIvxBSi4)",
       "gallery": [
         "/images/Infrastructure Management/Infrastruture Managment (1).png",
         "/images/Infrastructure Management/Infrastruture Managment (2).png",
@@ -345,31 +345,31 @@
         {
           "type": "text",
           "sectionTitle": "Cloud Server Management",
-          "content": "Deployment and maintenance of AWS, Azure, and Google Cloud environments.",
+          "content": "Deploy, configure, monitor, and maintain scalable cloud environments across AWS, Microsoft Azure, and Google Cloud.",
           "image": "/images/Infrastructure Management/Infrastruture Managment (1).png"
         },
         {
           "type": "text",
           "sectionTitle": "Database Administration",
-          "content": "Optimization, backup strategies, and scaling for enterprise databases.",
+          "content": "Improve enterprise database performance with monitoring, query optimization, backup and recovery planning, security, and scalable administration.",
           "image": "/images/Infrastructure Management/Infrastruture Managment (2).png"
         },
         {
           "type": "text",
           "sectionTitle": "Network Security",
-          "content": "Firewall configuration, vulnerability assessments, and access control.",
+          "content": "Strengthen infrastructure security with firewall configuration, access controls, vulnerability assessment, monitoring, and secure network practices.",
           "image": "/images/Infrastructure Management/Infrastruture Managment (3).png"
         }
       ]
     },
     "maintenance-enhancements": {
-      "title": "Maintenance & Enhancements",
-      "subtitle": "Stay up-to-date and ahead of the competition.",
+      "title": "Software Maintenance & Enhancements",
+      "subtitle": "Keep business applications secure, stable, fast, and ready for growth.",
       "accent": "#047857",
       "accentLight": "#ecfdf5",
       "accentBorder": "#a7f3d0",
       "accentDark": "#065f46",
-      "description": "Ensure that your business software applications are secure, compliant, and performing at their absolute best. We provide continuous maintenance and feature enhancements.",
+      "description": "Keep your business software secure, stable, and aligned with changing requirements. Our software maintenance and enhancement services include performance optimization, security updates, bug fixing, dependency upgrades, feature development, database tuning, and ongoing application support.",
       "imagePlaceholder": true,
       "heroStat1": {
         "value": "Proactive",
@@ -387,15 +387,15 @@
       "services": [
         {
           "name": "Performance Optimization",
-          "desc": "Code refactoring, database tuning, and caching strategies."
+          "desc": "Improve application speed and stability through code refactoring, database tuning, caching, query optimization, and performance monitoring."
         },
         {
           "name": "Security Patching",
-          "desc": "Regular updates to dependencies and vulnerability remediation."
+          "desc": "Reduce software risk with dependency updates, security patching, vulnerability remediation, and controlled release management."
         },
         {
           "name": "Feature Upgrades",
-          "desc": "Continuous development of new modules and capabilities."
+          "desc": "Extend existing software with new modules, integrations, workflow improvements, user experience enhancements, and business capabilities."
         }
       ],
       "heroImage": "/images/Maintenance & Enhancements/Maintenance & Enhancements (1).png",
@@ -405,7 +405,7 @@
       "image2": "/images/Maintenance & Enhancements/Maintenance & Enhancements (2).png",
       "image3": "/images/Maintenance & Enhancements/Maintenance & Enhancements (3).png",
       "image4": "/images/Maintenance & Enhancements/Maintenance & Enhancements (4).png",
-      "video": "https://www.youtube.com/embed/9bZkp7q19f0",
+      "video": "[https://www.youtube.com/embed/9bZkp7q19f0](https://www.youtube.com/embed/9bZkp7q19f0)",
       "gallery": [
         "/images/Maintenance & Enhancements/Maintenance & Enhancements (1).png",
         "/images/Maintenance & Enhancements/Maintenance & Enhancements (2).png",
@@ -416,31 +416,31 @@
         {
           "type": "text",
           "sectionTitle": "Performance Optimization",
-          "content": "Code refactoring, database tuning, and caching strategies.",
+          "content": "Improve application speed and stability through code refactoring, database tuning, caching, query optimization, and performance monitoring.",
           "image": "/images/Maintenance & Enhancements/Maintenance & Enhancements (1).png"
         },
         {
           "type": "text",
           "sectionTitle": "Security Patching",
-          "content": "Regular updates to dependencies and vulnerability remediation.",
+          "content": "Reduce software risk with dependency updates, security patching, vulnerability remediation, and controlled release management.",
           "image": "/images/Maintenance & Enhancements/Maintenance & Enhancements (2).png"
         },
         {
           "type": "text",
           "sectionTitle": "Feature Upgrades",
-          "content": "Continuous development of new modules and capabilities.",
+          "content": "Extend existing software with new modules, integrations, workflow improvements, user experience enhancements, and business capabilities.",
           "image": "/images/Maintenance & Enhancements/Maintenance & Enhancements (3).png"
         }
       ]
     },
     "migration-and-modernization": {
-      "title": "Migration And Modernization",
-      "subtitle": "Upgrade legacy systems to modern cloud architectures.",
+      "title": "Application Migration & Modernization",
+      "subtitle": "Modernize legacy applications, infrastructure, and architecture with a controlled migration approach.",
       "accent": "#d97706",
       "accentLight": "#fffbeb",
       "accentBorder": "#fde68a",
       "accentDark": "#b45309",
-      "description": "Modernize your aging IT infrastructure. We seamlessly migrate legacy on-premise applications to scalable, cloud-native architectures without disrupting your daily operations.",
+      "description": "Modernize legacy applications and infrastructure with a structured migration strategy designed to reduce operational risk. We help businesses move on-premise systems to cloud environments, upgrade outdated technology stacks, redesign application architecture, and improve scalability, maintainability, security, and performance.",
       "imagePlaceholder": true,
       "heroStat1": {
         "value": "Zero",
@@ -458,15 +458,15 @@
       "services": [
         {
           "name": "Legacy App Modernization",
-          "desc": "Rewriting outdated applications using modern frameworks like Next.js and Node."
+          "desc": "Modernize legacy applications with maintainable frameworks such as Next.js, React, Node.js, and cloud-ready architectures."
         },
         {
           "name": "Cloud Migration",
-          "desc": "Moving on-premise databases and servers to AWS or Azure."
+          "desc": "Plan and execute controlled migrations of on-premise applications, databases, and servers to AWS or Microsoft Azure."
         },
         {
           "name": "Architecture Redesign",
-          "desc": "Transitioning from monolithic structures to microservices."
+          "desc": "Redesign tightly coupled legacy systems into modular architectures, including microservices where they deliver clear operational value."
         }
       ],
       "heroImage": "/images/Migration And Modernization/Migration and modernization (1).png",
@@ -476,7 +476,7 @@
       "image2": "/images/Migration And Modernization/Migration and modernization (2).png",
       "image3": "/images/Migration And Modernization/Migration and modernization (3).png",
       "image4": "/images/Migration And Modernization/Migration and modernization (4).png",
-      "video": "https://www.youtube.com/embed/tgbNymZ7vqY",
+      "video": "[https://www.youtube.com/embed/tgbNymZ7vqY](https://www.youtube.com/embed/tgbNymZ7vqY)",
       "gallery": [
         "/images/Migration And Modernization/Migration and modernization (1).png",
         "/images/Migration And Modernization/Migration and modernization (2).png",
@@ -487,31 +487,31 @@
         {
           "type": "text",
           "sectionTitle": "Legacy App Modernization",
-          "content": "Rewriting outdated applications using modern frameworks like Next.js and Node.",
+          "content": "Modernize legacy applications with maintainable frameworks such as Next.js, React, Node.js, and cloud-ready architectures.",
           "image": "/images/Migration And Modernization/Migration and modernization (1).png"
         },
         {
           "type": "text",
           "sectionTitle": "Cloud Migration",
-          "content": "Moving on-premise databases and servers to AWS or Azure.",
+          "content": "Plan and execute controlled migrations of on-premise applications, databases, and servers to AWS or Microsoft Azure.",
           "image": "/images/Migration And Modernization/Migration and modernization (2).png"
         },
         {
           "type": "text",
           "sectionTitle": "Architecture Redesign",
-          "content": "Transitioning from monolithic structures to microservices.",
+          "content": "Redesign tightly coupled legacy systems into modular architectures, including microservices where they deliver clear operational value.",
           "image": "/images/Migration And Modernization/Migration and modernization (3).png"
         }
       ]
     },
     "custom-erp-development": {
-      "title": "Custom ERP Development",
-      "subtitle": "Tailored enterprise resource planning systems.",
+      "title": "Custom ERP Software Development",
+      "subtitle": "Custom ERP solutions designed around your finance, inventory, supply chain, HR, and operational workflows.",
       "accent": "#0284c7",
       "accentLight": "#f0f9ff",
       "accentBorder": "#bae6fd",
       "accentDark": "#0369a1",
-      "description": "Architect and implement custom ERP software tailored to your supply chain, inventory, human resources, and accounting workflows.",
+      "description": "Design and implement custom ERP software tailored to the way your organization operates. We build modular enterprise resource planning solutions for finance, accounting, inventory, warehouse operations, procurement, supply chain, HR, payroll, reporting, and workflow automation with integration to existing business systems.",
       "imagePlaceholder": true,
       "heroStat1": {
         "value": "100%",
@@ -529,15 +529,15 @@
       "services": [
         {
           "name": "Financial & Accounting Module",
-          "desc": "Ledgers, trial balances, automated invoicing, and bank reconciliation."
+          "desc": "Automate core accounting workflows including ledgers, trial balances, invoicing, payment records, reconciliation, and financial reporting."
         },
         {
           "name": "Supply Chain & Warehouse ERP",
-          "desc": "Multi-location inventory tracking, purchase orders, and stock reordering."
+          "desc": "Manage multi-location inventory, purchase orders, warehouse stock, transfers, replenishment, and supply chain visibility in one ERP environment."
         },
         {
           "name": "HR & Payroll Integration",
-          "desc": "Employee attendance, biometric integration, and tax calculations."
+          "desc": "Connect HR and payroll workflows with employee records, attendance, biometric devices, payroll calculations, and tax-related processing."
         }
       ],
       "heroImage": "/images/Custom ERP Development/Custom Erp  (1).png",
@@ -547,7 +547,7 @@
       "image2": "/images/Custom ERP Development/Custom Erp  (2).png",
       "image3": "/images/Custom ERP Development/Custom Erp  (3).png",
       "image4": "/images/Custom ERP Development/Custom Erp  (4).png",
-      "video": "https://www.youtube.com/embed/2e9w4Z-Qh-I",
+      "video": "[https://www.youtube.com/embed/2e9w4Z-Qh-I](https://www.youtube.com/embed/2e9w4Z-Qh-I)",
       "gallery": [
         "/images/Custom ERP Development/Custom Erp  (1).png",
         "/images/Custom ERP Development/Custom Erp  (2).png",
@@ -558,31 +558,31 @@
         {
           "type": "text",
           "sectionTitle": "Financial & Accounting Module",
-          "content": "Ledgers, trial balances, automated invoicing, and bank reconciliation.",
+          "content": "Automate core accounting workflows including ledgers, trial balances, invoicing, payment records, reconciliation, and financial reporting.",
           "image": "/images/Custom ERP Development/Custom Erp  (1).png"
         },
         {
           "type": "text",
           "sectionTitle": "Supply Chain & Warehouse ERP",
-          "content": "Multi-location inventory tracking, purchase orders, and stock reordering.",
+          "content": "Manage multi-location inventory, purchase orders, warehouse stock, transfers, replenishment, and supply chain visibility in one ERP environment.",
           "image": "/images/Custom ERP Development/Custom Erp  (2).png"
         },
         {
           "type": "text",
           "sectionTitle": "HR & Payroll Integration",
-          "content": "Employee attendance, biometric integration, and tax calculations.",
+          "content": "Connect HR and payroll workflows with employee records, attendance, biometric devices, payroll calculations, and tax-related processing.",
           "image": "/images/Custom ERP Development/Custom Erp  (3).png"
         }
       ]
     },
     "ai-and-machine-learning": {
-      "title": "AI & Machine Learning",
-      "subtitle": "Intelligent automation and predictive algorithms.",
+      "title": "AI & Machine Learning Solutions",
+      "subtitle": "Practical AI solutions for automation, forecasting, document processing, and business intelligence.",
       "accent": "#9333ea",
       "accentLight": "#faf5ff",
       "accentBorder": "#e9d5ff",
       "accentDark": "#7e22ce",
-      "description": "Empower your business with AI agents, predictive demand forecasting, automated OCR document processing, and natural language interfaces.",
+      "description": "Apply artificial intelligence and machine learning to practical business challenges. Our AI solutions include predictive demand forecasting, intelligent automation, OCR-based document and invoice processing, conversational AI, enterprise knowledge assistants, and data-driven models that support faster and more informed decisions.",
       "imagePlaceholder": true,
       "heroStat1": {
         "value": "AI Powered",
@@ -600,15 +600,15 @@
       "services": [
         {
           "name": "Predictive Demand Forecasting",
-          "desc": "ML models to predict customer purchasing behavior and inventory needs."
+          "desc": "Use machine learning models to forecast customer demand, purchasing trends, inventory requirements, and planning scenarios."
         },
         {
           "name": "AI Document & Invoice OCR",
-          "desc": "Automated text extraction from physical paper bills and receipts."
+          "desc": "Automate data capture from invoices, bills, receipts, and scanned documents using OCR and intelligent document-processing workflows."
         },
         {
           "name": "Custom AI Conversational Agents",
-          "desc": "AI customer support and internal enterprise knowledge base bots."
+          "desc": "Build conversational AI assistants for customer support, employee self-service, and secure access to enterprise knowledge."
         }
       ],
       "heroImage": "/images/AI & Machine Learning/Shelf Analysis (1).png",
@@ -618,7 +618,7 @@
       "image2": "/images/AI & Machine Learning/Shelf Analysis (2).png",
       "image3": "/images/AI & Machine Learning/Shelf Analysis (3).png",
       "image4": "/images/AI & Machine Learning/Shelf Analysis (4).png",
-      "video": "https://www.youtube.com/embed/kXYiU_JCYtU",
+      "video": "[https://www.youtube.com/embed/kXYiU_JCYtU](https://www.youtube.com/embed/kXYiU_JCYtU)",
       "gallery": [
         "/images/AI & Machine Learning/Shelf Analysis (1).png",
         "/images/AI & Machine Learning/Shelf Analysis (2).png",
@@ -629,31 +629,31 @@
         {
           "type": "text",
           "sectionTitle": "Predictive Demand Forecasting",
-          "content": "ML models to predict customer purchasing behavior and inventory needs.",
+          "content": "Use machine learning models to forecast customer demand, purchasing trends, inventory requirements, and planning scenarios.",
           "image": "/images/AI & Machine Learning/Shelf Analysis (1).png"
         },
         {
           "type": "text",
           "sectionTitle": "AI Document & Invoice OCR",
-          "content": "Automated text extraction from physical paper bills and receipts.",
+          "content": "Automate data capture from invoices, bills, receipts, and scanned documents using OCR and intelligent document-processing workflows.",
           "image": "/images/AI & Machine Learning/Shelf Analysis (2).png"
         },
         {
           "type": "text",
           "sectionTitle": "Custom AI Conversational Agents",
-          "content": "AI customer support and internal enterprise knowledge base bots.",
+          "content": "Build conversational AI assistants for customer support, employee self-service, and secure access to enterprise knowledge.",
           "image": "/images/AI & Machine Learning/Shelf Analysis (3).png"
         }
       ]
     },
     "cloud-devops": {
-      "title": "Cloud & DevOps Solutions",
-      "subtitle": "Automated deployment pipelines and cloud orchestration.",
+      "title": "Cloud & DevOps Services",
+      "subtitle": "Cloud infrastructure, CI/CD automation, containers, monitoring, and scalable DevOps operations.",
       "accent": "#059669",
       "accentLight": "#ecfdf5",
       "accentBorder": "#a7f3d0",
       "accentDark": "#047857",
-      "description": "Streamline code deployments with CI/CD automation, Kubernetes container orchestration, and high-availability cloud setups.",
+      "description": "Improve software delivery with cloud and DevOps services focused on automation, reliability, and scalability. We implement CI/CD pipelines, Docker containerization, Kubernetes orchestration, cloud infrastructure, monitoring, alerting, and deployment workflows across platforms such as AWS and Azure.",
       "imagePlaceholder": true,
       "heroStat1": {
         "value": "Zero Downtime",
@@ -671,15 +671,15 @@
       "services": [
         {
           "name": "CI/CD Pipeline Setup",
-          "desc": "Automated build, testing, and deployment scripts via GitHub Actions or Docker."
+          "desc": "Automate build, test, and deployment workflows using CI/CD pipelines, GitHub Actions, Docker, and environment-specific release processes."
         },
         {
           "name": "Kubernetes & Containerization",
-          "desc": "Containerized microservices running on EKS/AKS for high elasticity."
+          "desc": "Deploy containerized applications and microservices on Kubernetes platforms such as Amazon EKS and Azure AKS for scalable operations."
         },
         {
           "name": "24/7 Cloud Monitoring & Alerts",
-          "desc": "Prometheus, Grafana, and CloudWatch metrics with instant SLA alerts."
+          "desc": "Monitor infrastructure and applications with Prometheus, Grafana, CloudWatch, centralized metrics, dashboards, and configurable alerts."
         }
       ],
       "heroImage": "/images/Cloud and deveops/Cloud and deveops (1).png",
@@ -689,7 +689,7 @@
       "image2": "/images/Cloud and deveops/Cloud and deveops (2).png",
       "image3": "/images/Cloud and deveops/Cloud and deveops (3).png",
       "image4": "/images/Cloud and deveops/Cloud and deveops (4).png",
-      "video": "https://www.youtube.com/embed/ScMzIvxBSi4",
+      "video": "[https://www.youtube.com/embed/ScMzIvxBSi4](https://www.youtube.com/embed/ScMzIvxBSi4)",
       "gallery": [
         "/images/Cloud and deveops/Cloud and deveops (1).png",
         "/images/Cloud and deveops/Cloud and deveops (2).png",
@@ -700,31 +700,31 @@
         {
           "type": "text",
           "sectionTitle": "CI/CD Pipeline Setup",
-          "content": "Automated build, testing, and deployment scripts via GitHub Actions or Docker.",
+          "content": "Automate build, test, and deployment workflows using CI/CD pipelines, GitHub Actions, Docker, and environment-specific release processes.",
           "image": "/images/Cloud and deveops/Cloud and deveops (1).png"
         },
         {
           "type": "text",
           "sectionTitle": "Kubernetes & Containerization",
-          "content": "Containerized microservices running on EKS/AKS for high elasticity.",
+          "content": "Deploy containerized applications and microservices on Kubernetes platforms such as Amazon EKS and Azure AKS for scalable operations.",
           "image": "/images/Cloud and deveops/Cloud and deveops (2).png"
         },
         {
           "type": "text",
           "sectionTitle": "24/7 Cloud Monitoring & Alerts",
-          "content": "Prometheus, Grafana, and CloudWatch metrics with instant SLA alerts.",
+          "content": "Monitor infrastructure and applications with Prometheus, Grafana, CloudWatch, centralized metrics, dashboards, and configurable alerts.",
           "image": "/images/Cloud and deveops/Cloud and deveops (3).png"
         }
       ]
     },
     "fbr-e-invoicing-compliance": {
       "title": "FBR E-Invoicing & Compliance",
-      "subtitle": "Native integration with FBR Digital Tax systems.",
+      "subtitle": "FBR digital invoicing integration for automated tax reporting and compliant business workflows.",
       "accent": "#ea580c",
       "accentLight": "#fff7ed",
       "accentBorder": "#ffedd5",
       "accentDark": "#c2410c",
-      "description": "Ensure your sales and point-of-sale systems comply with FBR (Federal Board of Revenue) digital invoicing, QR code printing, and real-time API reporting.",
+      "description": "Connect your ERP, POS, e-commerce, or sales system with FBR digital invoicing workflows. Our FBR e-invoicing integration supports invoice submission, validation, QR-code generation, transaction reporting, reconciliation, and compliance-focused automation for businesses operating in Pakistan.",
       "imagePlaceholder": true,
       "heroStat1": {
         "value": "FBR Certified",
@@ -750,7 +750,7 @@
         },
         {
           "name": "Compliance Auditing Tools",
-          "desc": "Built-in reconciliation checks to ensure zero mismatched tax figures."
+          "desc": "Built-in reconciliation checks to ensure fewer mismatched tax figures."
         }
       ],
       "heroImage": "/images/Digital e-invociamain.png",
@@ -783,7 +783,7 @@
         {
           "type": "text",
           "sectionTitle": "Compliance Auditing Tools",
-          "content": "Built-in reconciliation checks to ensure zero mismatched tax figures.",
+          "content": "Built-in reconciliation checks to ensure fewer mismatched tax figures.",
           "image": "/images/Digital-E-Invoic.jpg"
         }
       ]
@@ -799,10 +799,10 @@
         "HRMS & Payroll Management System",
         "FBR E-Invoicing & Compliance",
         "E-Commerce Solutions",
-        "Merchandizing Application",
-        "Order Booking",
-        "Secondary Sales",
-        "Procurement Application",
+        "Merchandising Application",
+        "Order Booking & Sales Automation",
+        "Secondary Sales Management System",
+        "Procurement Management Software",
         "LMS",
         "Warehouse Management System (WMS)",
         "Field Force & Sales Automation (SFA)",
@@ -813,13 +813,13 @@
   "PRODUCTS_FULL": {
     "cartivo": {
       "title": "Cartivo",
-      "subtitle": "Enterprise Commerce Platform",
+      "subtitle": "Enterprise B2B & B2C Commerce Platform",
       "logo": "/images/cartiovo.png",
       "accent": "#2563eb",
       "accentLight": "#eff6ff",
       "accentBorder": "#bfdbfe",
       "accentDark": "#1d4ed8",
-      "description": "Cartivo is a complete Enterprise Commerce Platform built for modern businesses that require scalability, automation, and seamless operations across the entire supply chain. It connects customers, distributors, warehouses, delivery riders, and enterprise systems into one intelligent ecosystem.",
+      "description": "Cartivo is a complete Enterprise B2B & B2C Commerce Platform built for modern businesses that require scalability, automation, and seamless operations across the entire supply chain. It connects customers, distributors, warehouses, delivery riders, and enterprise systems into one intelligent ecosystem.",
       "imagePlaceholder": true,
       "heroStat1": {
         "value": "Real-Time",
@@ -842,25 +842,25 @@
       "detailedContent": [
         {
           "sectionTitle": "Complete Enterprise Commerce Solution",
-          "content": "Cartivo connects customers, distributors, warehouses, delivery riders, and enterprise systems into one intelligent ecosystem. It is designed for retailers, wholesalers, distributors, pharmaceutical companies, manufacturers, healthcare organizations, and businesses operating across multiple locations.",
+          "content": "Cartivo connects customers, distributors, warehouses, field sales teams, delivery riders, and enterprise systems through a unified commerce platform. It supports retailers, wholesalers, distributors, FMCG companies, pharmaceutical businesses, manufacturers, healthcare organizations, and multi-location businesses that need more control over ordering, inventory, fulfillment, and distribution workflows.",
           "type": "text",
           "image": "/images/cartivo/Cartivo (1).png"
         },
         {
           "sectionTitle": "Omnichannel B2B & B2C Ordering",
-          "content": "Empower your clients and field sales teams with multi-tier pricing, location-based product availability, automated order routing, and real-time inventory synchronization.",
+          "content": "Enable customers, distributors, and field sales teams to place orders through connected B2B and B2C channels with customer-specific pricing, location-based product availability, automated order routing, and real-time inventory synchronization.",
           "type": "text",
           "image": "/images/cartivo/Cartivo (2).png"
         },
         {
           "sectionTitle": "Secondary Sales & Distribution Tracking",
-          "content": "Gain 100% visibility into downstream channel performance, stock movement across regional warehouses, sell-out data, and distributor performance metrics.",
+          "content": "Improve visibility into secondary sales, downstream channel performance, stock movement, sell-out data, and distributor activity across locations through centralized reporting and analytics.",
           "type": "text",
           "image": "/images/cartivo/Cartivo (3).png"
         },
         {
           "sectionTitle": "Field Force & Mobile Order Booking",
-          "content": "Equip sales representatives with intuitive mobile applications for offline order booking, digital catalog browsing, store visit logs, and instant order dispatching.",
+          "content": "Equip field sales representatives with mobile order booking, offline order capture, digital catalogs, customer and store visit logs, pricing visibility, and order synchronization for faster field execution.",
           "type": "text",
           "image": "/images/cartivo/Cartivo (4).png"
         },
@@ -914,7 +914,7 @@
           ]
         }
       ],
-      "heroImage": "/images/cartivo/Cartivo (4).png",
+      "heroImage": "/images/cartiovo.png",
       "cardImage": "/images/cartivo/Cartivo (4).png",
       "gallery": [
         "/images/cartivo/Cartivo (1).png",
@@ -925,12 +925,12 @@
     },
     "hrms-&-payroll-management-system": {
       "title": "HRMS & Payroll Management",
-      "subtitle": "Streamline your human resources and payroll.",
+      "subtitle": "Automate HR, attendance, payroll, employee records, and workforce workflows from one system.",
       "accent": "#3b82f6",
       "accentLight": "#eff6ff",
       "accentBorder": "#bfdbfe",
       "accentDark": "#1d4ed8",
-      "description": "A comprehensive Human Resource Management System with integrated payroll, attendance tracking, and employee self-service portals tailored for enterprise compliance and efficiency.",
+      "description": "Manage HR operations from one centralized HRMS and payroll platform. The system combines employee records, attendance tracking, payroll processing, tax-related calculations, performance management, and employee self-service workflows to improve accuracy, visibility, and administrative efficiency.",
       "imagePlaceholder": true,
       "heroStat1": {
         "value": "100%",
@@ -954,34 +954,34 @@
         {
           "type": "text",
           "sectionTitle": "Attendance Tracking",
-          "content": "Biometric and app-based attendance.",
+          "content": "Track employee attendance through biometric devices and app-based workflows with centralized records for HR and payroll processing.",
           "image": "/images/Hrms&payrollsysteam.png"
         },
         {
           "type": "text",
           "sectionTitle": "Payroll Automation",
-          "content": "Tax compliant, one-click salary processing.",
+          "content": "Streamline salary processing with configurable payroll rules, tax-related calculations, deductions, allowances, and employee payslip generation.",
           "image": "/images/Hrms&payrollsysteam.png"
         },
         {
           "type": "text",
           "sectionTitle": "Performance Appraisals",
-          "content": "KPI tracking and evaluation modules.",
+          "content": "Manage employee performance with KPI tracking, appraisal workflows, evaluation records, and structured performance reviews.",
           "image": "/images/hrms.png"
         }
       ],
       "services": [
         {
           "name": "Attendance Tracking",
-          "desc": "Biometric and app-based attendance."
+          "desc": "Track employee attendance through biometric devices and app-based workflows with centralized records for HR and payroll processing."
         },
         {
           "name": "Payroll Automation",
-          "desc": "Tax compliant, one-click salary processing."
+          "desc": "Streamline salary processing with configurable payroll rules, tax-related calculations, deductions, allowances, and employee payslip generation."
         },
         {
           "name": "Performance Appraisals",
-          "desc": "KPI tracking and evaluation modules."
+          "desc": "Manage employee performance with KPI tracking, appraisal workflows, evaluation records, and structured performance reviews."
         }
       ],
       "heroImage": "/images/Hrms&payrollsysteam.png",
@@ -994,12 +994,12 @@
     },
     "e-commerce-solutions": {
       "title": "E-Commerce Solutions",
-      "subtitle": "Next-Generation Enterprise Digital Commerce",
+      "subtitle": "Scalable B2B & B2C E-Commerce Solutions",
       "accent": "#f59e0b",
       "accentLight": "#fffbeb",
       "accentBorder": "#fde68a",
       "accentDark": "#b45309",
-      "description": "Transform your retail operations with our end-to-end e-commerce platform. Designed for high-volume transactions, our solution seamlessly integrates inventory management, intelligent order routing, and secure payment gateways to deliver a flawless customer experience across B2B and B2C channels.",
+      "description": "Build a scalable e-commerce experience for B2B and B2C customers with connected inventory, order management, pricing, payments, fulfillment, analytics, and customer self-service. Our enterprise e-commerce solutions are designed to support growing product catalogs, multi-channel sales, wholesale workflows, and integration with business systems.",
       "imagePlaceholder": true,
       "heroStat1": {
         "value": "Omnichannel",
@@ -1017,11 +1017,11 @@
       "services": [
         {
           "name": "Custom Storefronts",
-          "desc": "Tailored UI/UX for your brand."
+          "desc": "Create branded, responsive online storefronts designed around your products, customers, and conversion journey."
         },
         {
           "name": "Inventory Sync",
-          "desc": "Real-time stock updates."
+          "desc": "Synchronize inventory across e-commerce channels, warehouses, stores, and connected business systems."
         }
       ],
       "heroImage": "/images/E-Commerce Solutions/E commerce Solution (3).png",
@@ -1049,7 +1049,7 @@
         {
           "type": "list-text",
           "sectionTitle": "Smart Shopping Journey & Personalization",
-          "content": "Deliver a seamless, intuitive shopping experience that guides customers from discovery to delivery. Our E-Commerce Solutions utilize AI to analyze browsing habits, ensuring every user sees highly relevant product recommendations, which dramatically increases average order value (AOV) and conversion rates.",
+          "content": "Deliver a seamless, intuitive shopping experience that guides customers from discovery to delivery. Our E-Commerce Solutions utilize AI to analyze browsing habits, ensuring every user sees highly relevant product recommendations, which can support stronger product discovery, average order value (AOV), and conversion performance.",
           "points": [
             "AI-driven product recommendations and dynamic category sorting.",
             "Frictionless, one-click checkout with multiple payment gateways.",
@@ -1059,11 +1059,11 @@
         },
         {
           "type": "list-text",
-          "sectionTitle": "Lightning-Fast Customer Experience",
-          "content": "Empower your customers with a responsive, lightning-fast storefront that works beautifully across all devices. We focus heavily on core web vitals and accessibility, ensuring your digital presence is robust enough to handle massive traffic spikes during Black Friday and flash sales.",
+          "sectionTitle": "Fast, Mobile-First Customer Experience",
+          "content": "Empower your customers with a responsive, fast, responsive storefront that works beautifully across all devices. We focus heavily on core web vitals and accessibility, ensuring your digital presence is robust enough to handle high traffic periods during Black Friday and flash sales.",
           "points": [
-            "Mobile-first, responsive design for flawless smartphone browsing.",
-            "High-performance architecture ensuring sub-second page load times.",
+            "Mobile-first, responsive design for smooth smartphone browsing.",
+            "High-performance architecture ensuring fast-loading pages and optimized Core Web Vitals.",
             "Interactive product catalogs with 360-degree views and zoom."
           ],
           "image": "/images/E-Commerce Solutions/E commerce Solution (2).png"
@@ -1096,7 +1096,7 @@
           "content": "Scale your wholesale operations alongside your B2C store. Our platform allows you to create secure, dedicated B2B portals where corporate clients can view customized pricing, place bulk orders, and manage their invoices independently.",
           "points": [
             "Customer-specific pricing tiers and volume discount rules.",
-            "Quick-order forms and CSV upload for massive wholesale orders.",
+            "Quick-order forms and CSV upload for large wholesale orders.",
             "Approval workflows for corporate purchasing departments."
           ],
           "image": "/images/E-Commerce Solutions/E commerce Solution (5).png"
@@ -1246,13 +1246,13 @@
       ]
     },
     "merchandizing-application": {
-      "title": "Merchandizing Application",
-      "subtitle": "Optimize shelf space and retail execution.",
+      "title": "Merchandising Application",
+      "subtitle": "Improve retail execution with field merchandising, shelf visibility, audits, and real-time store insights.",
       "accent": "#10b981",
       "accentLight": "#ecfdf5",
       "accentBorder": "#a7f3d0",
       "accentDark": "#047857",
-      "description": "Empower your field merchandisers with a mobile application to track shelf share, competitor pricing, out-of-stock scenarios, and promotional compliance.",
+      "description": "Improve retail execution with a field merchandising application built for store visits, shelf audits, share-of-shelf tracking, competitor pricing, out-of-stock reporting, promotional compliance, photo evidence, GPS tagging, and real-time field analytics.",
       "imagePlaceholder": true,
       "heroStat1": {
         "value": "Offline",
@@ -1270,11 +1270,11 @@
       "services": [
         {
           "name": "Shelf Share Analysis",
-          "desc": "Calculate brand visibility automatically."
+          "desc": "Track share of shelf and brand visibility across stores using structured field audit data and photo-based evidence."
         },
         {
           "name": "Competitor Tracking",
-          "desc": "Monitor competitor pricing and promotions."
+          "desc": "Capture competitor pricing, promotions, product launches, and in-store activity to support faster commercial decisions."
         }
       ],
       "heroImage": "/images/marchandizingapp.png",
@@ -1358,13 +1358,13 @@
       ]
     },
     "order-booking": {
-      "title": "Order Booking",
-      "subtitle": "Streamline B2B order acquisition.",
+      "title": "Order Booking & Sales Automation",
+      "subtitle": "Digitize field sales and B2B order booking with live pricing, inventory visibility, and route-based execution.",
       "accent": "#0ea5e9",
       "accentLight": "#f0f9ff",
       "accentBorder": "#bae6fd",
       "accentDark": "#0369a1",
-      "description": "A robust mobile and web solution for sales representatives to book orders in the field, check live inventory, and apply dynamic pricing/discounts.",
+      "description": "Digitize field sales with a mobile and web order booking system that helps sales representatives capture customer orders, check inventory, view pricing and discounts, follow planned routes, and synchronize order data with connected business systems.",
       "imagePlaceholder": true,
       "heroStat1": {
         "value": "Instant",
@@ -1382,11 +1382,11 @@
       "services": [
         {
           "name": "Field Sales App",
-          "desc": "Mobile app for reps on the go."
+          "desc": "Give field sales representatives a mobile order booking app for customer visits, product selection, pricing, order capture, and synchronized sales activity."
         },
         {
           "name": "Route Planning",
-          "desc": "Optimized visit schedules."
+          "desc": "Plan sales routes and outlet visits more efficiently with territory-based schedules, beat plans, and field activity visibility."
         }
       ],
       "heroImage": "/images/orderbookingnew.png",
@@ -1400,25 +1400,25 @@
         {
           "type": "text",
           "sectionTitle": "Field Sales App",
-          "content": "Mobile app for reps on the go.",
+          "content": "Give field sales representatives a mobile order booking app for customer visits, product selection, pricing, order capture, and synchronized sales activity.",
           "image": "/images/orderbookingnew.png"
         },
         {
           "type": "text",
           "sectionTitle": "Route Planning",
-          "content": "Optimized visit schedules.",
+          "content": "Plan sales routes and outlet visits more efficiently with territory-based schedules, beat plans, and field activity visibility.",
           "image": "/images/orderbookingnew.png"
         }
       ]
     },
     "secondary-sales": {
-      "title": "Secondary Sales",
-      "subtitle": "Visibility into downstream distribution.",
+      "title": "Secondary Sales Management System",
+      "subtitle": "Gain clearer visibility into distributor inventory, retailer sales, stock movement, and secondary sales performance.",
       "accent": "#f43f5e",
       "accentLight": "#fff1f2",
       "accentBorder": "#fecdd3",
       "accentDark": "#be123c",
-      "description": "Gain complete visibility into your secondary sales network. Track inventory at distributor level and monitor sell-out data to retailers.",
+      "description": "Centralize secondary sales data to monitor distributor inventory, stock movement, retailer sell-out, replenishment needs, schemes, and channel performance. The platform helps manufacturers and distribution businesses improve downstream visibility and make faster sales and inventory decisions.",
       "imagePlaceholder": true,
       "heroStat1": {
         "value": "End-to-End",
@@ -1436,11 +1436,11 @@
       "services": [
         {
           "name": "Distributor Portal",
-          "desc": "Manage inward and outward stock."
+          "desc": "Manage distributor receipts, stock movement, outward sales, inventory balances, and operational records through a centralized distributor portal."
         },
         {
           "name": "Retailer Connect",
-          "desc": "Direct engagement with the last mile."
+          "desc": "Connect retailers and last-mile sales activity with ordering, product availability, promotions, and downstream sales visibility."
         }
       ],
       "heroImage": "/images/saleverse secondry saleapp.png",
@@ -1454,25 +1454,25 @@
         {
           "type": "text",
           "sectionTitle": "Distributor Portal",
-          "content": "Manage inward and outward stock.",
+          "content": "Manage distributor receipts, stock movement, outward sales, inventory balances, and operational records through a centralized distributor portal.",
           "image": "/images/saleverse secondry saleapp.png"
         },
         {
           "type": "text",
           "sectionTitle": "Retailer Connect",
-          "content": "Direct engagement with the last mile.",
+          "content": "Connect retailers and last-mile sales activity with ordering, product availability, promotions, and downstream sales visibility.",
           "image": "/images/saleverse secondry saleapp.png"
         }
       ]
     },
     "procurement-application": {
-      "title": "Procurement Application",
-      "subtitle": "Strategic Enterprise Sourcing & Spend Management",
+      "title": "Procurement Management Software",
+      "subtitle": "Digital Procurement, Vendor Management & Procure-to-Pay Automation",
       "accent": "#64748b",
       "accentLight": "#f8fafc",
       "accentBorder": "#e2e8f0",
       "accentDark": "#334155",
-      "description": "Elevate your procurement operations from tactical purchasing to strategic spend management. Our robust Procurement Application digitizes the entire procure-to-pay (P2P) lifecycle, ensuring compliance, reducing rogue spending, and fostering seamless vendor collaboration.",
+      "description": "Digitize procurement from requisition to payment with a centralized procure-to-pay platform. Manage purchase requests, approval workflows, vendors, RFQs, purchase orders, contracts, invoices, three-way matching, spend visibility, and ERP integration while improving purchasing control and supplier collaboration.",
       "imagePlaceholder": true,
       "heroStat1": {
         "value": "Transparent",
@@ -1490,11 +1490,11 @@
       "services": [
         {
           "name": "Requisition Workflows",
-          "desc": "Custom approval hierarchies."
+          "desc": "Configure multi-level requisition and purchase approval workflows based on department, role, cost center, or spending threshold."
         },
         {
           "name": "Vendor Bidding",
-          "desc": "Digital RFQ and bidding system."
+          "desc": "Manage digital RFQs, vendor bids, supplier comparisons, and sourcing decisions through a structured procurement workflow."
         }
       ],
       "heroImage": "/images/Procurement Application/ChatGPT Image Aug 6, 2026, 03_58_22 PM (3).png",
@@ -1516,7 +1516,7 @@
         {
           "type": "list-text",
           "sectionTitle": "Intelligent Requisition & Catalog Management",
-          "content": "Simplify the purchasing process for your employees while maintaining strict budgetary controls. Our intuitive catalog-based requisition system guides users to approved vendors and negotiated contracts, dramatically reducing rogue spending.",
+          "content": "Simplify the purchasing process for your employees while maintaining strict budgetary controls. Our intuitive catalog-based requisition system guides users to approved vendors and negotiated contracts, reducing off-contract and uncontrolled spending.",
           "points": [
             "Consumer-like shopping experience for internal requisitions.",
             "Real-time budget checking before requisition submission.",
@@ -1568,7 +1568,7 @@
         {
           "type": "list-text",
           "sectionTitle": "Collaborative Vendor Portal",
-          "content": "Transform supplier relationships with a dedicated, secure portal. Vendors can independently manage their profiles, submit compliance documents, acknowledge Purchase Orders, and upload digital invoices—drastically reducing manual data entry for your AP team.",
+          "content": "Transform supplier relationships with a dedicated, secure portal. Vendors can independently manage their profiles, submit compliance documents, acknowledge Purchase Orders, and upload digital invoices—reducing manual data entry for your AP team.",
           "points": [
             "Automated vendor onboarding and risk assessment scoring.",
             "Secure document exchange for NDAs, insurance, and tax forms.",
@@ -1590,7 +1590,7 @@
         {
           "type": "list-text",
           "sectionTitle": "Actionable Spend Analytics",
-          "content": "Gain unprecedented visibility into corporate spending patterns. With real-time dashboards and predictive analytics, procurement leaders can identify consolidation opportunities, track diversity spend, and negotiate better terms with high-volume suppliers.",
+          "content": "Gain clearer visibility into corporate spending patterns. With real-time dashboards and predictive analytics, procurement leaders can identify consolidation opportunities, track diversity spend, and negotiate better terms with high-volume suppliers.",
           "points": [
             "Categorized spend analysis (direct vs. indirect materials).",
             "Supplier performance scorecards (OTIF - On Time In Full).",
@@ -1650,12 +1650,12 @@
     },
     "lms": {
       "title": "Learning Management System (LMS)",
-      "subtitle": "Corporate training and educational platforms.",
+      "subtitle": "Centralize employee training, onboarding, assessments, certifications, and learning analytics.",
       "accent": "#14b8a6",
       "accentLight": "#f0fdfa",
       "accentBorder": "#ccfbf1",
       "accentDark": "#0f766e",
-      "description": "An engaging, scalable LMS for corporate training, onboarding, and skills development. Features progress tracking, assessments, and multimedia course delivery.",
+      "description": "Deliver employee training, onboarding, compliance learning, and skills development through a centralized Learning Management System. The LMS supports multimedia courses, assessments, progress tracking, certifications, learner records, and reporting across desktop and mobile devices.",
       "imagePlaceholder": true,
       "heroStat1": {
         "value": "Interactive",
@@ -1673,11 +1673,11 @@
       "services": [
         {
           "name": "Employee Onboarding",
-          "desc": "Structured induction programs."
+          "desc": "Create structured employee onboarding and induction programs with assigned courses, learning paths, progress tracking, and completion records."
         },
         {
           "name": "Assessment Engine",
-          "desc": "Quizzes and certification."
+          "desc": "Build quizzes, assessments, scoring rules, completion criteria, and certification workflows for measurable learning outcomes."
         }
       ],
       "heroImage": "/images/Learning-Managment-System.jpg.jpeg",
@@ -1689,25 +1689,25 @@
         {
           "type": "text",
           "sectionTitle": "Employee Onboarding",
-          "content": "Structured induction programs.",
+          "content": "Create structured employee onboarding and induction programs with assigned courses, learning paths, progress tracking, and completion records.",
           "image": "/images/Learning-Managment-System.jpg.jpeg"
         },
         {
           "type": "text",
           "sectionTitle": "Assessment Engine",
-          "content": "Quizzes and certification.",
+          "content": "Build quizzes, assessments, scoring rules, completion criteria, and certification workflows for measurable learning outcomes.",
           "image": "/images/Learning-Managment-System.jpg.jpeg"
         }
       ]
     },
     "warehouse-management-system-wms": {
       "title": "Warehouse Management System (WMS)",
-      "subtitle": "Intelligent inventory and warehouse automation.",
+      "subtitle": "Improve inventory accuracy and warehouse operations with barcode, RFID, bin management, picking, and real-time stock control.",
       "accent": "#8b5cf6",
       "accentLight": "#f5f3ff",
       "accentBorder": "#ddd6fe",
       "accentDark": "#6d28d9",
-      "description": "Enterprise WMS solution featuring barcode/RFID scanning, bin-location management, picking route optimization, and real-time stock reconciliation.",
+      "description": "Manage warehouse operations with a centralized WMS covering barcode and RFID scanning, bin and aisle locations, receiving, stock movement, picking, packing, dispatch, transfers, and real-time inventory reconciliation across warehouse locations.",
       "imagePlaceholder": true,
       "heroStat1": {
         "value": "99.9%",
@@ -1725,15 +1725,15 @@
       "services": [
         {
           "name": "Bin & Aisle Mapping",
-          "desc": "Optimize warehouse space utilization and stock placement."
+          "desc": "Map bins, aisles, zones, and storage locations to improve stock placement, picking efficiency, and warehouse space utilization."
         },
         {
           "name": "Handheld Barcode Scanning",
-          "desc": "Android PDA app for fast picking, packing, and dispatch."
+          "desc": "Use Android handheld and PDA barcode scanning for faster receiving, picking, packing, stock transfers, and dispatch workflows."
         },
         {
           "name": "Stock Reconciliation Audit",
-          "desc": "Live physical vs system inventory audit logs."
+          "desc": "Compare physical and system inventory through live reconciliation workflows, audit logs, variance tracking, and stock adjustment controls."
         }
       ],
       "heroImage": "/images/ChatGPT Image Jul 31, 2026, 03_02_07 PM (1).png",
@@ -1745,31 +1745,31 @@
         {
           "type": "text",
           "sectionTitle": "Bin & Aisle Mapping",
-          "content": "Optimize warehouse space utilization and stock placement.",
+          "content": "Map bins, aisles, zones, and storage locations to improve stock placement, picking efficiency, and warehouse space utilization.",
           "image": "/images/ChatGPT Image Jul 31, 2026, 03_02_07 PM (1).png"
         },
         {
           "type": "text",
           "sectionTitle": "Handheld Barcode Scanning",
-          "content": "Android PDA app for fast picking, packing, and dispatch.",
+          "content": "Use Android handheld and PDA barcode scanning for faster receiving, picking, packing, stock transfers, and dispatch workflows.",
           "image": "/images/ChatGPT Image Jul 31, 2026, 03_02_07 PM (4).png"
         },
         {
           "type": "text",
           "sectionTitle": "Stock Reconciliation Audit",
-          "content": "Live physical vs system inventory audit logs.",
+          "content": "Compare physical and system inventory through live reconciliation workflows, audit logs, variance tracking, and stock adjustment controls.",
           "image": "/images/ChatGPT Image Jul 31, 2026, 03_02_10 PM (8).png"
         }
       ]
     },
     "field-force-&-sales-automation-sfa": {
       "title": "Field Force & Sales Automation (SFA)",
-      "subtitle": "Empower field teams and track operational sales.",
+      "subtitle": "Automate field sales, route planning, order capture, attendance, and performance tracking.",
       "accent": "#0284c7",
       "accentLight": "#f0f9ff",
       "accentBorder": "#bae6fd",
       "accentDark": "#0369a1",
-      "description": "Comprehensive SFA platform enabling sales reps to take instant orders, plan daily beats, record attendance, and optimize delivery routes in offline mode.",
+      "description": "Improve field sales execution with a Sales Force Automation platform for order booking, beat and route planning, attendance, outlet visits, offline data capture, target tracking, and synchronized sales activity across field teams and managers.",
       "imagePlaceholder": true,
       "heroStat1": {
         "value": "GPS",
@@ -1793,34 +1793,34 @@
         {
           "type": "text",
           "sectionTitle": "GPS Route & Beat Planning",
-          "content": "Intelligent territory maps and rep visit schedules.",
+          "content": "Plan territories, beats, and sales representative visit schedules with route visibility and structured outlet coverage.",
           "image": "/images/Sales-Verse-Bnr.jpg.jpeg"
         },
         {
           "type": "text",
           "sectionTitle": "Offline Order Capture",
-          "content": "Instant order taking with automatic sync when connection resumes.",
+          "content": "Capture orders offline during field visits and automatically synchronize sales data when network connectivity becomes available.",
           "image": "/images/saleverse secondry saleapp.png"
         },
         {
           "type": "text",
           "sectionTitle": "Target vs Achievement Dashboards",
-          "content": "Real-time KPI performance tracking for sales managers.",
+          "content": "Track targets, achievements, orders, visits, and field-team KPIs through real-time sales management dashboards.",
           "image": "/images/saleverse secondry saleapp.png"
         }
       ],
       "services": [
         {
           "name": "GPS Route & Beat Planning",
-          "desc": "Intelligent territory maps and rep visit schedules."
+          "desc": "Plan territories, beats, and sales representative visit schedules with route visibility and structured outlet coverage."
         },
         {
           "name": "Offline Order Capture",
-          "desc": "Instant order taking with automatic sync when connection resumes."
+          "desc": "Capture orders offline during field visits and automatically synchronize sales data when network connectivity becomes available."
         },
         {
           "name": "Target vs Achievement Dashboards",
-          "desc": "Real-time KPI performance tracking for sales managers."
+          "desc": "Track targets, achievements, orders, visits, and field-team KPIs through real-time sales management dashboards."
         }
       ],
       "heroImage": "/images/Sales-Verse-Bnr.jpg.jpeg",
@@ -1832,12 +1832,12 @@
     },
     "enterprise-crm-system": {
       "title": "Enterprise CRM System",
-      "subtitle": "Complete customer lifecycle and pipeline management.",
+      "subtitle": "Manage leads, opportunities, customers, quotations, support, and follow-ups from one CRM platform.",
       "accent": "#059669",
       "accentLight": "#ecfdf5",
       "accentBorder": "#a7f3d0",
       "accentDark": "#047857",
-      "description": "Unified CRM system for managing leads, customer contracts, support tickets, quotation approvals, and automated email/SMS follow-ups.",
+      "description": "Centralize customer relationship management with an enterprise CRM for leads, opportunities, sales pipelines, customer records, quotations, approvals, contracts, support tickets, and automated follow-ups. Give sales and service teams a connected view of customer activity across the lifecycle.",
       "imagePlaceholder": true,
       "heroStat1": {
         "value": "360°",
@@ -1855,15 +1855,15 @@
       "services": [
         {
           "name": "Lead & Pipeline Management",
-          "desc": "Visual Kanban sales pipeline with deal stage tracking."
+          "desc": "Manage leads and opportunities through visual sales pipelines, configurable deal stages, ownership, activity tracking, and follow-up workflows."
         },
         {
           "name": "Customer Support Ticketing",
-          "desc": "Omnichannel ticket management with SLA escalation rules."
+          "desc": "Manage customer support tickets from multiple channels with assignment rules, status tracking, service-level workflows, and escalation management."
         },
         {
           "name": "Automated Quotations",
-          "desc": "Generate and email PDF quotes with multi-tier manager approval."
+          "desc": "Create professional quotations, route them through configurable approval workflows, and send approved PDF quotes to customers from the CRM."
         }
       ],
       "heroImage": "/images/Sales-Verse-Bnr.jpg.jpeg",
@@ -1875,31 +1875,31 @@
         {
           "type": "text",
           "sectionTitle": "Lead & Pipeline Management",
-          "content": "Visual Kanban sales pipeline with deal stage tracking.",
+          "content": "Manage leads and opportunities through visual sales pipelines, configurable deal stages, ownership, activity tracking, and follow-up workflows.",
           "image": "/images/Sales-Verse-Bnr.jpg.jpeg"
         },
         {
           "type": "text",
           "sectionTitle": "Customer Support Ticketing",
-          "content": "Omnichannel ticket management with SLA escalation rules.",
+          "content": "Manage customer support tickets from multiple channels with assignment rules, status tracking, service-level workflows, and escalation management.",
           "image": "/images/Sales-Verse-Bnr.jpg.jpeg"
         },
         {
           "type": "text",
           "sectionTitle": "Automated Quotations",
-          "content": "Generate and email PDF quotes with multi-tier manager approval.",
+          "content": "Create professional quotations, route them through configurable approval workflows, and send approved PDF quotes to customers from the CRM.",
           "image": "/images/saleverse secondry saleapp.png"
         }
       ]
     },
     "fbr-e-invoicing-compliance": {
       "title": "FBR E-Invoicing & Compliance",
-      "subtitle": "FBR/Tax compliant electronic invoicing & automated reporting.",
+      "subtitle": "FBR e-invoicing integration for automated invoice submission, validation, reporting, and reconciliation.",
       "accent": "#10b981",
       "accentLight": "#ecfdf5",
       "accentBorder": "#a7f3d0",
       "accentDark": "#047857",
-      "description": "Seamless integration with Pakistan Federal Board of Revenue (FBR) and global tax authorities to automate invoice generation, submission, validation, and comprehensive tax reporting in real-time.",
+      "description": "Integrate your ERP, POS, e-commerce, or sales application with Pakistan's Federal Board of Revenue (FBR) e-invoicing workflows. Automate electronic invoice generation, submission, validation, QR-code handling, transaction reporting, reconciliation, and secure archival through connected digital tax processes.",
       "heroStat1": {
         "value": "Real-Time",
         "label": "Validation"
@@ -1915,14 +1915,14 @@
       "services": [
         {
           "name": "ERP Integration",
-          "desc": "Direct connection from SAP, Dynamics, or Custom ERP."
+          "desc": "Connect SAP, Microsoft Dynamics, custom ERP, POS, e-commerce, and sales systems with FBR e-invoicing workflows through API integration."
         },
         {
           "name": "Automated Annexures",
-          "desc": "Auto-generation of Sales Tax Annexure-C."
+          "desc": "Automate compilation of sales tax data and reporting outputs, including Annexure-C workflows where applicable to the business process."
         }
       ],
-      "heroImage": "/images/FBR E-Invoicing & Compliance/FBR E INVIOCIA (1).png",
+      "heroImage": "/images/Digital-E-Invoic.jpg",
       "cardImage": "/images/FBR E-Invoicing & Compliance/FBR E INVIOCIA (1).png",
       "detailedContent": [
         {
@@ -1943,7 +1943,7 @@
               "desc": "Queued sync during internet drops."
             }
           ],
-          "image": "/images/FBR E-Invoicing & Compliance/Digital e-invociasecond.png"
+          "image": "/images/FBR E-Invoicing & Compliance/FBR E INVIOCIA (1).png"
         },
         {
           "type": "text",
@@ -1954,7 +1954,7 @@
         {
           "type": "tags",
           "sectionTitle": "Enterprise Compliance Modules",
-          "content": "A comprehensive suite of tools designed to handle complex tax scenarios, multi-branch operations, and dynamic tax tiering with absolute precision.",
+          "content": "A comprehensive suite of tools designed to handle complex tax scenarios, multi-branch operations, and dynamic tax tiering with consistent controls.",
           "image": "/images/FBR E-Invoicing & Compliance/FBR E INVIOCIA (3).png",
           "tagsGroups": [
             {

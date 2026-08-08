@@ -1,4 +1,5 @@
-import React, { useMemo, useRef } from 'react'
+
+import React, { useState, useMemo, useRef } from 'react'
 import { Canvas, useFrame } from '@react-three/fiber'
 import * as THREE from 'three'
 
@@ -98,7 +99,7 @@ function Globe() {
 }
 
 function Stars() {
-  const geometry = useMemo(() => {
+  const [geometry] = useState(() => {
     const points = new Float32Array(900 * 3)
     for (let index = 0; index < 900; index += 1) {
       const radius = 5 + Math.random() * 6

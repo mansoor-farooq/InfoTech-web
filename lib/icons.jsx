@@ -31,15 +31,7 @@ import {
   Warehouse, 
   Navigation, 
   Building2,
-  Box,
-  Globe,
-  Cpu,
-  Lock,
-  Truck,
-  Heart,
-  DollarSign,
-  Layers,
-  Settings
+  Box
 } from 'lucide-react';
 
 export function getServiceIcon(slug, className = "w-6 h-6") {

@@ -8,7 +8,7 @@ import Footer from '@/components/Footer';
 import Image from 'next/image';
 import ImagePlaceholder from '@/components/ImagePlaceholder';
 import Link from 'next/link';
-import { ArrowLeft, Play, CheckCircle2, ChevronRight, Tags, Users, Smartphone, Building, Truck, LayoutGrid } from 'lucide-react';
+import { ArrowLeft, Play, CheckCircle2, ChevronRight, Tags } from 'lucide-react';
 import { notFound } from 'next/navigation';
 
 export async function generateMetadata({ params }) {
@@ -63,7 +63,7 @@ export default async function ProductDetailPage({ params }) {
                     <Image 
                       src={product.logo} 
                       alt={`${product.title} Logo`} 
-                      fill 
+                      fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" 
                       className="object-contain p-2" 
                     />
                   </div>
@@ -90,7 +90,7 @@ export default async function ProductDetailPage({ params }) {
                 {product.heroImage ? (
                   <div className="relative aspect-video w-full rounded-3xl flex items-center justify-center bg-gradient-to-tr from-slate-50 to-blue-50/30 overflow-hidden group border border-white shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.07)] transition-shadow duration-700">
                     <div className="absolute inset-0 bg-blue-400/5 blur-3xl rounded-full scale-110 group-hover:scale-125 transition-transform duration-700" />
-                    <Image src={product.heroImage} alt={product.title} fill className="object-contain drop-shadow-2xl group-hover:scale-105 group-hover:-translate-y-2 transition-all duration-700 ease-out z-10 p-4" priority />
+                    <Image src={product.heroImage} alt={product.title} fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="object-contain drop-shadow-2xl group-hover:scale-105 group-hover:-translate-y-2 transition-all duration-700 ease-out z-10 p-4" priority />
                   </div>
                 ) : (
                   <ImagePlaceholder 
@@ -120,12 +120,12 @@ export default async function ProductDetailPage({ params }) {
                   if (section.type === 'text' || section.type === 'list-text') {
                      const isEven = index % 2 === 0;
                      return (
-                        <div key={index} className="grid md:grid-cols-2 gap-12 items-center animate-fade-up">
-                          <div className={`order-2 ${isEven ? 'md:order-1' : 'md:order-2'} hover-lift`}>
+                        <div key={index} className="grid md:grid-cols-2 gap-8 md:gap-12 items-center animate-fade-up">
+                          <div className={`order-1 ${isEven ? 'md:order-1' : 'md:order-2'} hover-lift`}>
                             {section.image ? (
                               <div className="relative aspect-square md:aspect-[4/3] w-full rounded-3xl flex items-center justify-center bg-gradient-to-tr from-slate-50 to-blue-50/30 overflow-hidden group border border-white shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.07)] transition-shadow duration-700">
                                 <div className="absolute inset-0 bg-blue-400/5 blur-3xl rounded-full scale-110 group-hover:scale-125 transition-transform duration-700" />
-                                <Image src={section.image} alt={section.sectionTitle} fill className="object-contain drop-shadow-2xl group-hover:scale-105 group-hover:-translate-y-2 transition-all duration-700 ease-out z-10 p-6" />
+                                <Image src={section.image} alt={section.sectionTitle} fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="object-contain drop-shadow-2xl group-hover:scale-105 group-hover:-translate-y-2 transition-all duration-700 ease-out z-10 p-4 sm:p-6" />
                               </div>
                             ) : (
                               <ImagePlaceholder 
@@ -136,8 +136,8 @@ export default async function ProductDetailPage({ params }) {
                             )}
                           </div>
 
-                          <div className={`order-1 ${isEven ? 'md:order-2' : 'md:order-1'}`}>
-                            <h2 className="heading-2 mb-6 text-slate-900">{section.sectionTitle}</h2>
+                          <div className={`order-2 ${isEven ? 'md:order-2' : 'md:order-1'}`}>
+                            <h2 className="heading-2 mb-4 md:mb-6 text-slate-900">{section.sectionTitle}</h2>
                             <div className="text-lg text-slate-600 leading-relaxed mb-6 whitespace-pre-wrap">
                               {section.content}
                             </div>

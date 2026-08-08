@@ -1,8 +1,9 @@
+
 import ServerNavbar from '@/components/ServerNavbar';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
 import Image from 'next/image';
-import { ArrowRight, Sparkles, Layers } from 'lucide-react';
+import { ArrowRight, Layers } from 'lucide-react';
 import { PRODUCTS_FULL } from '@/lib/data';
 import { getProductIcon } from '@/lib/icons';
 
@@ -111,3 +112,4 @@ export default function ProductsPage() {
     </>
   );
 }
+

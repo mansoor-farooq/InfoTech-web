@@ -1,5 +1,6 @@
 'use client'
-import React, { useMemo, useRef } from 'react'
+
+import React, { useState, useRef } from 'react'
 import { Canvas, useFrame } from '@react-three/fiber'
 import * as THREE from 'three'
 
@@ -29,7 +30,7 @@ function Cube({ data, index }) {
 }
 
 function FloatingCubes() {
-  const cubes = useMemo(() => {
+  const [cubes] = useState(() => {
     const colors = ['#0d54ff', '#5732d9', '#0fb8ff', '#10275f']
     return Array.from({ length: 36 }, (_, index) => ({
       position: [

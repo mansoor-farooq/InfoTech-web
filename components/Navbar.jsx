@@ -1,3 +1,4 @@
+
 'use client';
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
@@ -17,11 +18,16 @@ export default function Navbar({ services = [], products = [] }) {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
-  // Lock background scrolling completely when mobile drawer is active
+  // Lock background scrolling and handle Escape key
   useEffect(() => {
+    const handleEscape = (e) => {
+      if (e.key === 'Escape') setMobileOpen(false);
+    };
+
     if (mobileOpen) {
       document.documentElement.style.overflow = 'hidden';
       document.body.style.overflow = 'hidden';
+      window.addEventListener('keydown', handleEscape);
     } else {
       document.documentElement.style.overflow = 'unset';
       document.body.style.overflow = 'unset';
@@ -29,6 +35,7 @@ export default function Navbar({ services = [], products = [] }) {
     return () => {
       document.documentElement.style.overflow = 'unset';
       document.body.style.overflow = 'unset';
+      window.removeEventListener('keydown', handleEscape);
     };
   }, [mobileOpen]);
 
@@ -51,7 +58,7 @@ export default function Navbar({ services = [], products = [] }) {
               <Image
                 src="/images/Website-Logo.png"
                 alt="InfoTech Solutions"
-                fill
+                fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 className="object-contain object-left filter brightness-125"
                 priority
               />
@@ -114,7 +121,7 @@ export default function Navbar({ services = [], products = [] }) {
                       <Link href="/products/cartivo" className="flex items-center justify-between p-4.5 bg-gradient-to-r from-blue-50/80 via-indigo-50/50 to-slate-50 border border-blue-100 hover:border-blue-300 rounded-2xl transition-all duration-300 group/featured shadow-xs">
                         <div className="flex items-center gap-4">
                           <div className="relative h-14 w-48 flex-shrink-0 flex items-center">
-                            <Image src="/images/cartiovo.png" alt="Cartivo Enterprise" fill className="object-contain object-left scale-[2.5] origin-left" />
+                            <Image src="/images/cartiovo.png" alt="Cartivo Enterprise" fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="object-contain object-left scale-[2.5] origin-left" />
                           </div>
                           <div>
                             <div className="text-base font-extrabold text-slate-900 group-hover/featured:text-blue-600 transition-colors mb-0.5 flex items-center gap-2">
@@ -172,15 +179,17 @@ export default function Navbar({ services = [], products = [] }) {
             {/* Desktop CTA */}
             <div className="hidden lg:flex items-center">
               <Link href="/contact" className="bg-gradient-to-r from-blue-600 via-indigo-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white px-6 py-2.5 rounded-full text-[15px] font-extrabold shadow-lg shadow-blue-500/25 border border-cyan-400/30 transition-all duration-300 hover:scale-105">
-                Let's Talk
+                Let&apos;s Talk
               </Link>
             </div>
 
             {/* Mobile Hamburger Button */}
             <button
-              className="lg:hidden p-2.5 rounded-xl bg-slate-900 border border-slate-700/80 text-slate-200 hover:text-white hover:border-cyan-400/50 transition-all shadow-lg active:scale-95 flex items-center justify-center"
+              className="lg:hidden p-3 rounded-xl bg-slate-900 border border-slate-700/80 text-slate-200 hover:text-white hover:border-cyan-400/50 focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:outline-none transition-all shadow-lg active:scale-95 flex items-center justify-center min-w-[44px] min-h-[44px]"
               onClick={() => setMobileOpen(true)}
               aria-label="Open Mobile Menu"
+              aria-expanded={mobileOpen}
+              aria-controls="mobile-menu"
             >
               <Menu className="w-6 h-6 text-cyan-400" />
             </button>
@@ -190,7 +199,7 @@ export default function Navbar({ services = [], products = [] }) {
 
       {/* FULLSCREEN ULTRA-PREMIUM MOBILE MENU OVERLAY (Z-INDEX 100) */}
       {mobileOpen && (
-        <div className="lg:hidden fixed inset-0 z-[100] bg-[#070913] backdrop-blur-3xl overflow-y-auto flex flex-col justify-between p-6 transition-all duration-300">
+        <div id="mobile-menu" role="dialog" aria-modal="true" className="lg:hidden fixed inset-0 z-[100] bg-[#070913] backdrop-blur-3xl overflow-y-auto flex flex-col justify-between p-6 transition-all duration-300">
           
           {/* Header Bar inside Fullscreen Drawer */}
           <div>
@@ -199,14 +208,14 @@ export default function Navbar({ services = [], products = [] }) {
                 <Image
                   src="/images/Website-Logo.png"
                   alt="InfoTech Solutions"
-                  fill
+                  fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   className="object-contain object-left filter brightness-125"
                   priority
                 />
               </Link>
               <button
                 onClick={() => setMobileOpen(false)}
-                className="w-10 h-10 rounded-2xl bg-slate-900/90 border border-slate-700/80 text-cyan-400 flex items-center justify-center shadow-lg active:scale-90 transition-transform"
+                className="w-11 h-11 rounded-2xl bg-slate-900/90 border border-slate-700/80 text-cyan-400 flex items-center justify-center shadow-lg focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:outline-none active:scale-90 transition-transform min-w-[44px] min-h-[44px]"
                 aria-label="Close Navigation Menu"
               >
                 <X className="w-6 h-6" />
@@ -221,11 +230,14 @@ export default function Navbar({ services = [], products = [] }) {
             >
               <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/10 rounded-full blur-2xl pointer-events-none" />
               <div className="flex items-center justify-between mb-2">
-                <div className="flex items-center gap-2.5">
-                  <div className="relative w-24 h-12 overflow-visible">
-                    <Image src="/images/cartiovo.png" alt="Cartivo" fill className="object-contain object-left scale-[2.5] origin-left" />
-                  </div>
-                  <span className="text-base font-extrabold text-white">Cartivo Platform</span>
+                <div className="relative w-32 h-10 overflow-visible flex items-center">
+                  <Image 
+                    src="/images/cartiovo.png" 
+                    alt="Cartivo" 
+                    fill 
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" 
+                    className="object-contain object-left scale-[2.2] origin-left" 
+                  />
                 </div>
                 <span className="px-2.5 py-0.5 rounded-full text-[10px] font-extrabold uppercase tracking-wider bg-blue-600 text-white shadow-xs">
                   Flagship
@@ -382,7 +394,7 @@ export default function Navbar({ services = [], products = [] }) {
               onClick={() => setMobileOpen(false)} 
               className="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-blue-600 via-indigo-600 to-cyan-500 text-white py-4 rounded-2xl text-lg font-black shadow-xl shadow-blue-500/30 border border-cyan-400/40 active:scale-95 transition-all"
             >
-              <PhoneCall className="w-5 h-5" /> Let's Talk
+              <PhoneCall className="w-5 h-5" /> Let&apos;s Talk
             </Link>
 
             <div className="flex items-center justify-center gap-6 text-xs text-slate-400 font-medium">
@@ -406,3 +418,4 @@ export default function Navbar({ services = [], products = [] }) {
     </>
   );
 }
+

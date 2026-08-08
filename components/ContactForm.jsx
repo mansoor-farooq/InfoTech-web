@@ -11,8 +11,9 @@ export default function ContactForm() {
     <form className="space-y-6" onSubmit={handleSubmit}>
       <div className="grid md:grid-cols-2 gap-6">
         <div>
-          <label className="block text-sm font-bold text-slate-700 mb-2">Full Name</label>
+          <label htmlFor="fullName" className="block text-sm font-bold text-slate-700 mb-2">Full Name</label>
           <input 
+            id="fullName"
             type="text" 
             placeholder="John Doe"
             required
@@ -20,8 +21,9 @@ export default function ContactForm() {
           />
         </div>
         <div>
-          <label className="block text-sm font-bold text-slate-700 mb-2">Email Address</label>
+          <label htmlFor="emailAddress" className="block text-sm font-bold text-slate-700 mb-2">Email Address</label>
           <input 
+            id="emailAddress"
             type="email" 
             placeholder="john@company.com"
             required
@@ -32,16 +34,17 @@ export default function ContactForm() {
 
       <div className="grid md:grid-cols-2 gap-6">
         <div>
-          <label className="block text-sm font-bold text-slate-700 mb-2">Phone Number</label>
+          <label htmlFor="phoneNumber" className="block text-sm font-bold text-slate-700 mb-2">Phone Number</label>
           <input 
+            id="phoneNumber"
             type="text" 
             placeholder="+92 300 1234567"
             className="w-full px-5 py-3.5 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-600 text-slate-900" 
           />
         </div>
         <div>
-          <label className="block text-sm font-bold text-slate-700 mb-2">Service Required</label>
-          <select className="w-full px-5 py-3.5 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-600 text-slate-900 bg-white">
+          <label htmlFor="serviceRequired" className="block text-sm font-bold text-slate-700 mb-2">Service Required</label>
+          <select id="serviceRequired" className="w-full px-5 py-3.5 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-600 text-slate-900 bg-white">
             <option value="">Select Service or Platform</option>
             <option>Web Development</option>
             <option>Mobile Application</option>
@@ -63,8 +66,9 @@ export default function ContactForm() {
       </div>
 
       <div>
-        <label className="block text-sm font-bold text-slate-700 mb-2">Project Details</label>
+        <label htmlFor="projectDetails" className="block text-sm font-bold text-slate-700 mb-2">Project Details</label>
         <textarea 
+          id="projectDetails"
           rows={5}
           placeholder="Tell us about your project requirements, scope, or timeline..."
           required

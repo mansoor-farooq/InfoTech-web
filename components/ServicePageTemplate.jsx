@@ -3,7 +3,7 @@ import Footer from '@/components/Footer';
 import Link from 'next/link';
 import Image from 'next/image';
 import ImagePlaceholder from '@/components/ImagePlaceholder';
-import { ArrowRight, CheckCircle2, ShieldCheck, Zap, Layers, Cpu, Code2, Server } from 'lucide-react';
+import { ArrowRight, CheckCircle2, ShieldCheck, Zap } from 'lucide-react';
 
 export default function ServicePageTemplate({ data }) {
   const slug = data.title.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-');
@@ -56,7 +56,7 @@ export default function ServicePageTemplate({ data }) {
                 <div className="relative z-10 hover-lift">
                   {data.heroImage ? (
                     <div className="relative aspect-[4/3] w-full rounded-3xl flex items-center justify-center">
-                      <Image src={data.heroImage} alt={data.title} fill className="object-contain drop-shadow-2xl" priority />
+                      <Image src={data.heroImage} alt={data.title} fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="object-contain drop-shadow-2xl" priority />
                     </div>
                   ) : (
                     <ImagePlaceholder 
@@ -122,18 +122,18 @@ export default function ServicePageTemplate({ data }) {
                 {data.detailedContent.map((section, index) => {
                   const isEven = index % 2 === 0;
                   return (
-                    <div key={index} className="grid md:grid-cols-2 gap-12 items-center animate-fade-up">
-                      <div className={`order-2 ${isEven ? 'md:order-1' : 'md:order-2'} hover-lift`}>
+                    <div key={index} className="grid md:grid-cols-2 gap-8 md:gap-12 items-center animate-fade-up">
+                      <div className={`order-1 ${isEven ? 'md:order-1' : 'md:order-2'} hover-lift`}>
                         {section.image ? (
                           <div className="relative aspect-square md:aspect-[4/3] w-full rounded-3xl flex items-center justify-center bg-gradient-to-tr from-slate-50 to-blue-50/30 overflow-hidden group border border-white shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.07)] transition-shadow duration-700">
                             <div className="absolute inset-0 bg-blue-400/5 blur-3xl rounded-full scale-110 group-hover:scale-125 transition-transform duration-700" />
-                            <Image src={section.image} alt={section.sectionTitle} fill className="object-contain drop-shadow-2xl group-hover:scale-105 group-hover:-translate-y-2 transition-all duration-700 ease-out z-10 p-6" />
+                            <Image src={section.image} alt={section.sectionTitle} fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="object-contain drop-shadow-2xl group-hover:scale-105 group-hover:-translate-y-2 transition-all duration-700 ease-out z-10 p-4 sm:p-6" />
                           </div>
                         ) : null}
                       </div>
 
-                      <div className={`order-1 ${isEven ? 'md:order-2' : 'md:order-1'}`}>
-                        <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-6 tracking-tight">{section.sectionTitle}</h2>
+                      <div className={`order-2 ${isEven ? 'md:order-2' : 'md:order-1'}`}>
+                        <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-4 md:mb-6 tracking-tight">{section.sectionTitle}</h2>
                         <div className="text-lg text-slate-600 leading-relaxed mb-6 whitespace-pre-wrap">
                           {section.content}
                         </div>
@@ -148,7 +148,7 @@ export default function ServicePageTemplate({ data }) {
                 <div className="hover-lift animate-fade-up">
                   {(data.image2 || data.architectureImage) ? (
                     <div className="relative aspect-video w-full rounded-3xl flex items-center justify-center">
-                      <Image src={data.image2 || data.architectureImage} alt={`${data.title} Architecture`} fill className="object-contain drop-shadow-xl" />
+                      <Image src={data.image2 || data.architectureImage} alt={`${data.title} Architecture`} fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="object-contain drop-shadow-xl" />
                     </div>
                   ) : (
                     <ImagePlaceholder 
@@ -163,7 +163,7 @@ export default function ServicePageTemplate({ data }) {
                 <div className="hover-lift animate-fade-up">
                   {(data.image3 || data.dashboardImage) ? (
                     <div className="relative aspect-video w-full rounded-3xl flex items-center justify-center">
-                      <Image src={data.image3 || data.dashboardImage} alt={`${data.title} Dashboard`} fill className="object-contain drop-shadow-xl" />
+                      <Image src={data.image3 || data.dashboardImage} alt={`${data.title} Dashboard`} fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="object-contain drop-shadow-xl" />
                     </div>
                   ) : (
                     <ImagePlaceholder 
@@ -178,7 +178,7 @@ export default function ServicePageTemplate({ data }) {
                 <div className="hover-lift animate-fade-up lg:col-span-2">
                   {(data.image4 || data.featureImage) ? (
                     <div className="relative aspect-[21/9] w-full rounded-3xl flex items-center justify-center">
-                      <Image src={data.image4 || data.featureImage} alt={`${data.title} Detailed Feature Module`} fill className="object-contain drop-shadow-2xl" />
+                      <Image src={data.image4 || data.featureImage} alt={`${data.title} Detailed Feature Module`} fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="object-contain drop-shadow-2xl" />
                     </div>
                   ) : (
                     <ImagePlaceholder 
@@ -280,35 +280,15 @@ export default function ServicePageTemplate({ data }) {
             </div>
 
             <div className="max-w-4xl mx-auto rounded-3xl overflow-hidden shadow-2xl border border-slate-800 bg-slate-950 aspect-video flex items-center justify-center relative hover-lift">
-              {data.video ? (
-                data.video.includes('youtube.com') || data.video.includes('youtu.be') ? (
-                  <iframe 
-                    src={data.video} 
-                    title={`${data.title} YouTube Demo`} 
-                    className="w-full h-full border-0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowFullScreen 
-                  />
-                ) : (
-                  <video 
-                    suppressHydrationWarning
-                    controls 
-                    playsInline
-                    className="w-full h-full object-cover" 
-                    src={data.video} 
-                  />
-                )
-              ) : (
-                <div className="text-center p-8">
-                  <div className="w-16 h-16 rounded-full bg-blue-600/20 border border-blue-500/30 flex items-center justify-center text-blue-400 mx-auto mb-4 animate-pulse">
-                    <Zap className="w-8 h-8" />
-                  </div>
-                  <h3 className="text-xl font-bold text-white mb-2">{data.title} Demo Video</h3>
-                  <p className="text-slate-400 text-sm max-w-md mx-auto">
-                    Video walkthrough ready.
-                  </p>
+              <div className="text-center p-8">
+                <div className="w-16 h-16 rounded-full bg-blue-600/20 border border-blue-500/30 flex items-center justify-center text-blue-400 mx-auto mb-4 animate-pulse">
+                  <Zap className="w-8 h-8" />
                 </div>
-              )}
+                <h3 className="text-xl font-bold text-white mb-2">{data.title} Demo Video</h3>
+                <p className="text-slate-400 text-sm max-w-md mx-auto">
+                  Video walkthrough ready.
+                </p>
+              </div>
             </div>
           </div>
         </section>

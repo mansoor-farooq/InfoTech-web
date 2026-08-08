@@ -37,7 +37,7 @@ export default function Testimonials({ testimonials }) {
                 </div>
 
                 <p className="text-base md:text-lg font-medium text-slate-200 leading-relaxed mb-8 relative z-10">
-                  "{t.quote}"
+                  &quot;{t.quote}&quot;
                 </p>
                 
                 <div className="flex items-center gap-4 mt-auto relative z-10 pt-4 border-t border-slate-800/80">

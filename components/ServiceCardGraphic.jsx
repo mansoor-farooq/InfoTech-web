@@ -1,21 +1,11 @@
 import { 
   BarChart3, 
-  Code, 
   Smartphone, 
   Server, 
-  Wrench, 
-  CloudUpload, 
-  Database, 
   Sparkles, 
-  Cloud, 
-  FileCheck, 
-  ShieldCheck, 
-  Layout,
   Terminal,
   Cpu,
-  TrendingUp,
-  CheckCircle,
-  Activity
+  CheckCircle
 } from 'lucide-react';
 
 export default function ServiceCardGraphic({ slug, accent = '#2563eb' }) {
@@ -72,10 +62,10 @@ export default function ServiceCardGraphic({ slug, accent = '#2563eb' }) {
 
           {/* Code Snippet */}
           <div className="space-y-1 text-[10px] leading-relaxed text-slate-400 flex-1">
-            <div><span className="text-purple-400">import</span> React <span className="text-purple-400">from</span> <span className="text-emerald-300">'react'</span>;</div>
+            <div><span className="text-purple-400">import</span> React <span className="text-purple-400">from</span> <span className="text-emerald-300">&apos;react&apos;</span>;</div>
             <div><span className="text-blue-400">const</span> <span className="text-yellow-300">WebApp</span> = () =&#123;</div>
             <div className="pl-3"><span className="text-purple-400">return</span> (</div>
-            <div className="pl-6 text-emerald-400">&lt;<span className="text-blue-300">Header</span> <span className="text-purple-300">title</span>=<span className="text-amber-300">"Next.js App"</span> /&gt;</div>
+            <div className="pl-6 text-emerald-400">&lt;<span className="text-blue-300">Header</span> <span className="text-purple-300">title</span>=<span className="text-amber-300">&quot;Next.js App&quot;</span> /&gt;</div>
             <div className="pl-3">);</div>
             <div>&#125;;</div>
           </div>
@@ -222,3 +212,5 @@ export default function ServiceCardGraphic({ slug, accent = '#2563eb' }) {
       );
   }
 }
+
+

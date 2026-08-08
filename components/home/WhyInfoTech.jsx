@@ -1,7 +1,5 @@
 import { CheckCircle2, Sparkles, Shield, Cpu, Zap } from 'lucide-react';
 import AnimatedReveal from '@/components/AnimatedReveal';
-import Image from 'next/image';
-
 const REASONS = [
   {
     title: 'Enterprise-Grade Architecture',
@@ -39,7 +37,7 @@ export default function WhyInfoTech({ config, reasons }) {
               </div>
 
               <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-slate-900 tracking-tight mb-8 leading-[1.1]">
-                We don't just write code. <br />
+                We don&apos;t just write code. <br className="hidden lg:block" />
                 <span className="bg-gradient-to-r from-blue-600 via-indigo-600 to-blue-800 bg-clip-text text-transparent">
                   We engineer enterprise systems.
                 </span>

@@ -1,3 +1,4 @@
+
 import Link from 'next/link';
 import Image from 'next/image';
 import { Mail, Phone, MapPin, ExternalLink } from 'lucide-react';
@@ -20,7 +21,7 @@ export default function Footer() {
           {/* Brand & Info */}
           <div className="lg:col-span-4">
             <Link href="/" className="relative block h-12 mb-8 transition-opacity w-52 hover:opacity-90">
-              <Image src="/images/Website-Logo.png" alt="InfoTech Solutions" fill className="object-contain object-left" priority />
+              <Image src="/images/Website-Logo.png" alt="InfoTech Solutions" fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="object-contain object-left" priority />
             </Link>
             <p className="max-w-sm mb-10 font-medium leading-relaxed text-slate-400">
               We design, build, and scale enterprise software systems for organizations that demand performance, reliability, and security.
@@ -57,7 +58,7 @@ export default function Footer() {
             <div className="mb-8">
               <Link href="/products/cartivo" className="inline-flex items-center gap-3 transition-all group hover:opacity-90">
                 <div className="relative w-36 h-10">
-                  <Image src="/images/cartiovo.png" alt="Cartivo Platform" fill className="object-contain object-left scale-[3] origin-left" priority />
+                  <Image src="/images/cartiovo.png" alt="Cartivo Platform" fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="object-contain object-left scale-[3] origin-left" priority />
                 </div>
                 <span className="text-sm font-bold text-blue-400 group-hover:translate-x-1.5 transition-transform ml-8">
                   &rarr;
@@ -80,13 +81,13 @@ export default function Footer() {
         </div>
 
         {/* Big CTA */}
-        <div className="relative flex flex-col items-center justify-between gap-8 p-10 mb-16 overflow-hidden bg-blue-600 rounded-2xl lg:p-16 md:flex-row">
+        <div className="relative flex flex-col items-center text-center md:text-left justify-between gap-8 p-8 sm:p-10 mb-16 overflow-hidden bg-blue-600 rounded-2xl lg:p-16 md:flex-row">
           <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-blue-500 rounded-full blur-3xl opacity-50 -translate-y-1/2 translate-x-1/3 pointer-events-none" />
           <div className="relative z-10">
-            <h3 className="mb-4 text-3xl font-extrabold tracking-tight text-white md:text-4xl">Ready to transform your business?</h3>
-            <p className="text-xl font-medium text-blue-100">Let's discuss your enterprise requirements.</p>
+            <h3 className="mb-4 text-2xl sm:text-3xl font-extrabold tracking-tight text-white md:text-4xl">Ready to transform your business?</h3>
+            <p className="text-lg sm:text-xl font-medium text-blue-100">Let&apos;s discuss your enterprise requirements.</p>
           </div>
-          <Link href="/contact" className="relative z-10 text-lg text-blue-600 bg-white border-none btn-secondary hover:bg-slate-50">
+          <Link href="/contact" className="relative z-10 text-base sm:text-lg text-blue-600 bg-white border-none btn-secondary hover:bg-slate-50 min-h-[44px] min-w-[44px]">
             Consult Our Experts
           </Link>
         </div>
@@ -96,10 +97,10 @@ export default function Footer() {
           <p className="text-sm font-medium text-slate-500">
             &copy; {new Date().getFullYear()} InfoTech Solutions. All rights reserved.
           </p>
-          <div className="flex items-center gap-8">
-            <Link href="#" className="text-sm font-medium transition-colors text-slate-500 hover:text-white">Privacy Policy</Link>
-            <Link href="#" className="text-sm font-medium transition-colors text-slate-500 hover:text-white">Terms of Service</Link>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="flex items-center gap-1 text-sm font-medium transition-colors text-slate-500 hover:text-white">
+          <div className="flex flex-wrap justify-center items-center gap-6 sm:gap-8">
+            <Link href="#" className="text-sm font-medium transition-colors text-slate-500 hover:text-white p-2 -m-2">Privacy Policy</Link>
+            <Link href="#" className="text-sm font-medium transition-colors text-slate-500 hover:text-white p-2 -m-2">Terms of Service</Link>
+            <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="flex items-center gap-1 text-sm font-medium transition-colors text-slate-500 hover:text-white p-2 -m-2">
               LinkedIn <ExternalLink className="w-3 h-3" />
             </a>
           </div>
@@ -108,3 +109,4 @@ export default function Footer() {
     </footer>
   );
 }
+

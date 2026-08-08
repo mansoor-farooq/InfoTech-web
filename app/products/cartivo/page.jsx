@@ -1,7 +1,8 @@
+
 import ServerNavbar from '@/components/ServerNavbar';
 import Footer from '@/components/Footer';
 import Image from 'next/image';
-import { CheckCircle2, LayoutDashboard, Truck, Warehouse, Smartphone, ShieldCheck, Zap } from 'lucide-react';
+import { LayoutDashboard, Truck, Warehouse, Smartphone, ShieldCheck, Zap } from 'lucide-react';
 import Link from 'next/link';
 
 export const metadata = {
@@ -26,7 +27,7 @@ export default function CartivoPage() {
                   <Image 
                     src="/images/cartiovo.png" 
                     alt="Cartivo Logo" 
-                    fill 
+                    fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" 
                     className="object-contain object-left scale-[1.5] md:scale-[2] origin-left" 
                     priority 
                   />
@@ -255,3 +256,4 @@ export default function CartivoPage() {
     </>
   );
 }
+

@@ -2,23 +2,21 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { ArrowRight, ShieldCheck, Play } from 'lucide-react';
-import { motion } from 'framer-motion';
 
 import CinematicWrapper from '@/components/three/CinematicWrapper';
 import AnimatedReveal from '@/components/AnimatedReveal';
 import SplitText from '@/components/SplitText';
 
 export default function Hero({ config }) {
-  if (!config) return null;
-
   const videos = [
     { id: 1, title: 'Enterprise Overview', url: '' },
     { id: 2, title: 'Platform Architecture', url: '' },
     { id: 3, title: 'Real-Time Performance', url: '' },
   ];
-
   const [activeVideoId, setActiveVideoId] = useState(videos[0].id);
   const activeVideo = videos.find(v => v.id === activeVideoId);
+
+  if (!config) return null;
 
   return (
     <section className="bg-transparent text-white pt-24 sm:pt-32 pb-0 relative overflow-hidden">

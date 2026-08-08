@@ -1,10 +1,11 @@
-import React, { useMemo, useRef } from 'react'
+
+import React, { useState, useRef } from 'react'
 import { Canvas, useFrame } from '@react-three/fiber'
 import * as THREE from 'three'
 
 function Wave() {
   const pointsRef = useRef(null)
-  const { geometry, basePositions } = useMemo(() => {
+  const [{ geometry, basePositions }] = useState(() => {
     const width = 82
     const height = 48
     const count = width * height
@@ -37,10 +38,11 @@ function Wave() {
     result.setAttribute('position', new THREE.BufferAttribute(positions, 3))
     result.setAttribute('color', new THREE.BufferAttribute(colors, 3))
     return { geometry: result, basePositions: base }
-  }, [])
+  })
 
   useFrame((state) => {
-    const positionAttribute = geometry.attributes.position
+    if (!pointsRef.current) return
+    const positionAttribute = pointsRef.current.geometry.attributes.position
     const time = state.clock.elapsedTime
     const mouseX = state.pointer.x * 4.5
     const mouseY = state.pointer.y * 2.8

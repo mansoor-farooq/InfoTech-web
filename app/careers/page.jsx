@@ -1,3 +1,4 @@
+
 import ServerNavbar from '@/components/ServerNavbar';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
@@ -48,7 +49,7 @@ export default function CareersPage() {
             </span>
 
             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[1.1] mb-8">
-              Build the Future of <br />
+              Build the Future of <br className="hidden sm:block" />
               <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-indigo-400 bg-clip-text text-transparent">
                 Enterprise Software
               </span>
@@ -119,7 +120,7 @@ export default function CareersPage() {
               </h3>
               
               <p className="text-slate-300 text-lg leading-relaxed mb-8 max-w-xl mx-auto font-medium">
-                We currently don't have any specific open job positions available. However, we are always interested in connecting with talented software engineers, architects, and designers for future projects.
+                We currently don&apos;t have any specific open job positions available. However, we are always interested in connecting with talented software engineers, architects, and designers for future projects.
               </p>
 
               <Link
@@ -150,3 +151,4 @@ export default function CareersPage() {
     </>
   );
 }
+

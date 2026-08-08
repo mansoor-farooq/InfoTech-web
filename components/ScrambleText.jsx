@@ -1,3 +1,4 @@
+
 'use client';
 import { useState, useEffect } from 'react';
 
@@ -8,12 +9,7 @@ export default function ScrambleText({ text, duration = 1200, delay = 0, classNa
   const [started, setStarted] = useState(false);
 
   useEffect(() => {
-    let timeout;
-    if (delay > 0) {
-      timeout = setTimeout(() => setStarted(true), delay);
-    } else {
-      setStarted(true);
-    }
+    const timeout = setTimeout(() => setStarted(true), delay || 0);
     return () => clearTimeout(timeout);
   }, [delay]);
 
@@ -54,3 +50,4 @@ export default function ScrambleText({ text, duration = 1200, delay = 0, classNa
 
   return <span className={className}>{displayText || '\u00A0'}</span>;
 }
+
