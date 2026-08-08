@@ -42,7 +42,7 @@ export default function GlobeBackground() {
     <div className="fixed inset-0 z-[-10] w-full h-full overflow-hidden bg-slate-950 flex items-center justify-center">
       {/* Radial gradient to fade out the edges */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_30%,#020617_80%)] pointer-events-none z-10" />
-      <div className="w-[1000px] h-[1000px] max-w-[100vw] aspect-square flex-shrink-0 opacity-40">
+      <div className="w-full max-w-[1000px] h-[1000px] max-h-[100vw] aspect-square flex-shrink-0 opacity-40">
         <canvas
           ref={canvasRef}
           style={{

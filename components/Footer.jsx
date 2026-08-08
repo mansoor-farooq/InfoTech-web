@@ -86,7 +86,7 @@ export default function Footer() {
 
         {/* Big CTA */}
         <div className="relative flex flex-col items-center text-center md:text-left justify-between gap-8 p-8 sm:p-10 mb-16 overflow-hidden bg-blue-600 rounded-2xl lg:p-16 md:flex-row">
-          <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-blue-500 rounded-full blur-3xl opacity-50 -translate-y-1/2 translate-x-1/3 pointer-events-none" />
+          <div className="absolute top-0 right-0 w-full max-w-[500px] h-[500px] bg-blue-500 rounded-full blur-3xl opacity-50 -translate-y-1/2 translate-x-1/3 pointer-events-none" />
           <div className="relative z-10">
             <h3 className="mb-4 text-2xl sm:text-3xl font-extrabold tracking-tight text-white md:text-4xl">Ready to transform your business?</h3>
             <p className="text-lg sm:text-xl font-medium text-blue-100">Let&apos;s discuss your enterprise requirements.</p>

@@ -51,36 +51,36 @@ export default function CaseStudiesPage() {
     <>
       <ServerNavbar />
       <main className="min-h-screen bg-slate-50">
-        <section className="pt-32 pb-20 bg-[#020617] text-white relative overflow-hidden">
-          <div className="absolute right-0 top-0 w-2/3 h-full bg-gradient-to-l from-blue-600/20 to-transparent pointer-events-none" />
-          <div className="container-xl relative z-10 text-center max-w-4xl mx-auto">
-            <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-6">
+        <section className="pt-32 pb-20 bg-[#020617] text-white relative overflow-hidden flex flex-col items-center">
+          <div className="absolute right-0 top-0 w-full md:w-2/3 h-full bg-gradient-to-l from-blue-600/20 to-transparent pointer-events-none" />
+          <div className="container-xl relative z-10 text-center max-w-full md:max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 min-w-0 w-full">
+            <h1 className="text-4xl sm:text-5xl lg:text-7xl font-extrabold tracking-tight mb-6 break-words w-full min-w-0">
               Case <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-400">Studies</span>
             </h1>
-            <p className="text-xl md:text-2xl text-slate-300 font-medium leading-relaxed">
+            <p className="text-lg sm:text-xl lg:text-2xl text-slate-300 font-medium leading-relaxed w-full min-w-0">
               Real enterprise challenges solved with scalable software engineering.
             </p>
           </div>
         </section>
 
-        <section className="py-20">
-          <div className="container-xl">
-            <div className="space-y-12 max-w-5xl mx-auto">
+        <section className="py-20 flex flex-col items-center w-full min-w-0">
+          <div className="container-xl px-4 sm:px-6 lg:px-8 min-w-0 w-full">
+            <div className="space-y-12 max-w-full md:max-w-5xl mx-auto min-w-0 w-full">
               {CASE_STUDIES.map((study, idx) => (
-                <div key={idx} className="bg-white rounded-3xl p-8 md:p-12 border border-slate-200 shadow-sm grid lg:grid-cols-3 gap-8 items-center">
-                  <div className="lg:col-span-2">
-                    <div className="flex items-center gap-3 mb-4">
+                <div key={idx} className="bg-white rounded-3xl p-6 sm:p-8 md:p-12 border border-slate-200 shadow-sm grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8 items-center min-w-0 w-full max-w-full">
+                  <div className="lg:col-span-2 min-w-0 w-full">
+                    <div className="flex flex-wrap items-center gap-3 mb-4">
                       <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-xs font-extrabold uppercase tracking-wider">
                         {study.category}
                       </span>
                       <span className="text-xs font-bold text-slate-400">Client: {study.client}</span>
                     </div>
 
-                    <h2 className="text-2xl md:text-3xl font-extrabold text-slate-900 mb-4 leading-snug">
+                    <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mb-4 leading-snug break-words">
                       {study.title}
                     </h2>
 
-                    <p className="text-slate-600 font-medium leading-relaxed mb-6">
+                    <p className="text-sm sm:text-base text-slate-600 font-medium leading-relaxed mb-6">
                       {study.description}
                     </p>
 
@@ -94,10 +94,10 @@ export default function CaseStudiesPage() {
                     </div>
                   </div>
 
-                  <div className="bg-slate-900 text-white p-8 rounded-2xl flex flex-col justify-between h-full">
+                  <div className="bg-slate-900 text-white p-6 sm:p-8 rounded-2xl flex flex-col justify-between h-full">
                     <div>
                       <div className="text-xs font-bold text-blue-400 uppercase tracking-widest mb-2">Key Result</div>
-                      <div className="text-2xl md:text-3xl font-extrabold leading-tight">{study.impact}</div>
+                      <div className="text-2xl md:text-3xl font-extrabold leading-tight break-words">{study.impact}</div>
                     </div>
                     
                     <button className="mt-8 inline-flex items-center text-sm font-bold text-blue-400 hover:text-blue-300">

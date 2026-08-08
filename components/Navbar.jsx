@@ -54,7 +54,7 @@ export default function Navbar({ services = [], products = [] }) {
         <div className="container-xl">
           <div className="flex items-center justify-between">
             {/* Logo */}
-            <Link href="/" className="relative h-10 w-44 sm:w-48 flex-shrink-0">
+            <Link href="/" className="relative h-10 w-44 max-w-[50vw] sm:w-48 flex-shrink-0">
               <Image
                 src="/images/Website-Logo.png"
                 alt="InfoTech Solutions"
@@ -77,7 +77,7 @@ export default function Navbar({ services = [], products = [] }) {
                 </Link>
 
                 {/* Services Dropdown Menu */}
-                <div className="absolute top-full -left-20 pt-6 w-[600px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                <div className="absolute top-full -left-20 pt-6 w-[600px] max-w-[90vw] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
                   <div className="bg-white rounded-3xl shadow-[0_20px_40px_-15px_rgba(0,0,0,0.1)] border border-gray-100 overflow-hidden p-4">
                     <div className="grid grid-cols-2 gap-2">
                       {services.map((service) => (
@@ -114,7 +114,7 @@ export default function Navbar({ services = [], products = [] }) {
                 </Link>
 
                 {/* Products Dropdown Menu */}
-                <div className="absolute top-full -left-[300px] pt-6 w-[800px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                <div className="absolute top-full -left-[300px] pt-6 w-[800px] max-w-[95vw] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
                   <div className="bg-white rounded-3xl shadow-[0_20px_40px_-15px_rgba(0,0,0,0.1)] border border-gray-100 overflow-hidden p-4">
                     
                     <div className="mb-4 pb-4 border-b border-gray-100">

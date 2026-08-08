@@ -19,7 +19,7 @@ export default function Hero({ config }) {
   if (!config) return null;
 
   return (
-    <section className="bg-transparent text-white pt-24 sm:pt-32 pb-0 relative overflow-hidden">
+    <section className="bg-transparent text-white pt-24 sm:pt-32 pb-0 relative overflow-hidden flex flex-col items-center w-full min-w-0">
       {/* Cinematic 3D Background */}
       <div className="absolute inset-0 z-0 pointer-events-none opacity-80 mix-blend-screen">
         <CinematicWrapper height="100%" />
@@ -29,10 +29,10 @@ export default function Hero({ config }) {
       {/* Mont-Fort Style Ambient Glowing Mesh Grids */}
       <div className="absolute inset-0 bg-[radial-gradient(#1e293b_1px,transparent_1px)] [background-size:32px_32px] opacity-10 pointer-events-none z-0" />
 
-      <div className="container-xl relative z-10 px-4 sm:px-6">
+      <div className="container-xl relative z-10 px-4 sm:px-6 w-full min-w-0">
         
         {/* Hero Main Heading & Description */}
-        <div className="max-w-5xl mx-auto text-center mb-12 sm:mb-16 relative z-20">
+        <div className="max-w-full md:max-w-5xl mx-auto text-center mb-12 sm:mb-16 relative z-20 w-full min-w-0">
           <AnimatedReveal delay={0}>
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-900/90 border border-slate-800 text-xs sm:text-sm font-medium text-slate-300 mb-6 shadow-md backdrop-blur-md">
               <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
@@ -40,24 +40,24 @@ export default function Hero({ config }) {
             </div>
           </AnimatedReveal>
 
-          <div className="mb-6">
-            <h1 className="text-[2.25rem] sm:text-[4rem] lg:text-[5.5rem] font-extrabold tracking-tight leading-[1.1]">
-              <SplitText text={config.heroTitle || 'Enterprise Software'} delay={200} duration={0.7} stagger={0.1} /> <br className="hidden sm:block" />
-              <span className="text-blue-500 inline-block mt-1 sm:mt-0">
+          <div className="mb-6 w-full min-w-0 flex flex-col items-center">
+            <h1 className="text-4xl sm:text-6xl lg:text-[5.5rem] font-extrabold tracking-tight leading-[1.1] w-full min-w-0 flex flex-col items-center flex-wrap">
+              <span className="w-full text-center inline-block min-w-0 break-words max-w-full"><SplitText text={config.heroTitle || 'Enterprise Software'} delay={200} duration={0.7} stagger={0.1} /></span>
+              <span className="text-blue-500 w-full text-center inline-block mt-2 sm:mt-0 min-w-0 break-words max-w-full">
                 <SplitText text={config.heroSubtitle || 'Engineering Company'} delay={600} duration={0.7} stagger={0.1} />
               </span>
             </h1>
           </div>
           
           <AnimatedReveal delay={200}>
-            <p className="text-base sm:text-2xl text-slate-300 font-medium mb-10 max-w-3xl mx-auto leading-relaxed px-2 sm:px-0">
+            <p className="text-base sm:text-2xl text-slate-300 font-medium mb-10 max-w-full md:max-w-3xl mx-auto leading-relaxed px-2 sm:px-0 w-full min-w-0">
               {config.heroDescription || 'Engineering mission-critical enterprise platforms, ERP systems, AI automation, and custom software.'}
             </p>
           </AnimatedReveal>
 
           {/* Action CTAs - Responsive Mobile Flex */}
           <AnimatedReveal delay={300}>
-            <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3.5 sm:gap-4 max-w-md sm:max-w-none mx-auto">
+            <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3.5 sm:gap-4 max-w-full sm:max-w-none mx-auto w-full">
               <Link 
                 href={config.heroPrimaryLink || '/services'} 
                 className="btn-primary anim-btn text-base sm:text-lg px-8 sm:px-10 py-4 shadow-[0_0_40px_rgba(37,99,235,0.4)] text-center justify-center"
@@ -79,8 +79,8 @@ export default function Hero({ config }) {
 
         {/* Dashboard Video Mockup - Optimized for Mobile */}
         <AnimatedReveal delay={500} animation="fade-up">
-          <div className="max-w-5xl mx-auto relative z-10 pb-16 sm:pb-20">
-            <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden border border-slate-800/80 shadow-[0_0_80px_rgba(37,99,235,0.2)] bg-slate-900/60 backdrop-blur-md">
+          <div className="max-w-full md:max-w-5xl mx-auto relative z-10 pb-16 sm:pb-20 w-full min-w-0">
+            <div className="relative w-full min-w-0 rounded-2xl sm:rounded-3xl overflow-hidden border border-slate-800/80 shadow-[0_0_80px_rgba(37,99,235,0.2)] bg-slate-900/60 backdrop-blur-md">
               {/* Fake Browser Chrome */}
               <div className="bg-slate-950/90 px-3.5 py-2.5 sm:px-4 sm:py-3 border-b border-slate-800/80 flex items-center justify-between gap-2 backdrop-blur-md">
                 <div className="flex gap-1.5">
@@ -96,7 +96,7 @@ export default function Hero({ config }) {
               </div>
 
               {/* Dashboard Content Mockup */}
-              <div className="relative bg-slate-950 flex flex-col">
+              <div className="relative bg-slate-950 flex flex-col w-full min-w-0">
                 {/* Inline Video Player */}
                 <div className="w-full aspect-video relative bg-slate-900 overflow-hidden group">
                   {activeVideo?.url ? (
