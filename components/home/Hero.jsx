@@ -9,9 +9,8 @@ import SplitText from '@/components/SplitText';
 
 export default function Hero({ config }) {
   const videos = [
-    { id: 1, title: 'Enterprise Overview', url: '' },
-    { id: 2, title: 'Platform Architecture', url: '' },
-    { id: 3, title: 'Real-Time Performance', url: '' },
+    { id: 1, title: 'FBR E-Invoicing Software Demo Pakistan | Invoice Validation & Reports', url: 'https://www.youtube-nocookie.com/embed/M2uCkT7fIgc' },
+    { id: 2, title: 'Cartivo FMCG eCommerce Platform Demo | Storefront, Orders & Delivery', url: 'https://www.youtube-nocookie.com/embed/yu2CoKzvSYQ' },
   ];
   const [activeVideoId, setActiveVideoId] = useState(videos[0].id);
   const activeVideo = videos.find(v => v.id === activeVideoId);
