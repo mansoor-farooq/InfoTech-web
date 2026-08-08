@@ -83,7 +83,7 @@ export default function WhyInfoTech({ config, reasons }) {
                 
                 {/* Card 01 */}
                 <div className="relative z-10 bg-slate-900/90 border border-blue-500/30 shadow-2xl rounded-2xl p-6 transform hover:-translate-y-1 hover:border-blue-500/60 transition-all duration-300 backdrop-blur-xl group">
-                  <div className="flex items-center justify-between mb-3">
+                  <div className="flex flex-col items-start gap-2 sm:flex-row sm:items-center sm:justify-between mb-3">
                     <div className="flex items-center gap-3">
                       <div className="w-10 h-10 bg-blue-600/20 border border-blue-500/30 rounded-xl flex items-center justify-center text-blue-400 font-extrabold text-sm">
                         <Cpu className="w-5 h-5" />
@@ -103,7 +103,7 @@ export default function WhyInfoTech({ config, reasons }) {
 
                 {/* Card 02 */}
                 <div className="relative z-10 bg-slate-900/90 border border-purple-500/30 shadow-2xl rounded-2xl p-6 transform hover:-translate-y-1 hover:border-purple-500/60 transition-all duration-300 backdrop-blur-xl group">
-                  <div className="flex items-center justify-between mb-3">
+                  <div className="flex flex-col items-start gap-2 sm:flex-row sm:items-center sm:justify-between mb-3">
                     <div className="flex items-center gap-3">
                       <div className="w-10 h-10 bg-purple-600/20 border border-purple-500/30 rounded-xl flex items-center justify-center text-purple-400 font-extrabold text-sm">
                         <Zap className="w-5 h-5" />
@@ -123,7 +123,7 @@ export default function WhyInfoTech({ config, reasons }) {
 
                 {/* Card 03 */}
                 <div className="relative z-10 bg-slate-900/90 border border-emerald-500/30 shadow-2xl rounded-2xl p-6 transform hover:-translate-y-1 hover:border-emerald-500/60 transition-all duration-300 backdrop-blur-xl group">
-                  <div className="flex items-center justify-between mb-3">
+                  <div className="flex flex-col items-start gap-2 sm:flex-row sm:items-center sm:justify-between mb-3">
                     <div className="flex items-center gap-3">
                       <div className="w-10 h-10 bg-emerald-600/20 border border-emerald-500/30 rounded-xl flex items-center justify-center text-emerald-400 font-extrabold text-sm">
                         <Shield className="w-5 h-5" />

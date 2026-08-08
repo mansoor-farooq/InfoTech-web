@@ -35,16 +35,16 @@ export default function ServicePageTemplate({ data }) {
                   {data.subtitle}
                 </p>
 
-                <div className="flex flex-wrap gap-4 items-center">
+                <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
                   <Link 
                     href="/contact" 
-                    className="btn-primary py-4 px-8 text-base bg-blue-600 hover:bg-blue-700 shadow-xl shadow-blue-600/30 hover-lift"
+                    className="btn-primary py-4 px-8 text-base bg-blue-600 hover:bg-blue-700 shadow-xl shadow-blue-600/30 hover-lift w-full sm:w-auto text-center justify-center"
                   >
                     Start Technical Audit <ArrowRight className="w-5 h-5 ml-2" />
                   </Link>
                   <a 
                     href="#architecture" 
-                    className="btn-secondary py-4 px-8 text-base border-slate-700 text-slate-200 hover:bg-slate-800/60"
+                    className="btn-secondary py-4 px-8 text-base border-slate-700 text-slate-200 hover:bg-slate-800/60 w-full sm:w-auto text-center justify-center"
                   >
                     View Architecture
                   </a>
@@ -86,7 +86,7 @@ export default function ServicePageTemplate({ data }) {
         {/* Floating KPI Stats Bar */}
         <section className="py-12 bg-slate-950 border-b border-slate-800/80">
           <div className="container-xl">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
               {[
                 data.heroStat1 || { value: '99.9%', label: 'Uptime SLA' },
                 data.heroStat2 || { value: '24/7', label: 'Monitoring' },
@@ -252,7 +252,7 @@ export default function ServicePageTemplate({ data }) {
               <h2 className="text-4xl md:text-5xl font-extrabold tracking-tight">Our Delivery Methodology</h2>
             </div>
 
-            <div className="grid md:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {[
                 { step: '01', title: 'Discovery & Audit', desc: 'Requirements analysis and legacy codebase evaluation.' },
                 { step: '02', title: 'Architecture & Design', desc: 'Scalable cloud blueprints and API contract definitions.' },

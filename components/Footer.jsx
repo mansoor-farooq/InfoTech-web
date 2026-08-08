@@ -60,11 +60,11 @@ export default function Footer() {
           <div className="lg:col-span-3">
             <h4 className="text-xs font-bold tracking-[0.2em] uppercase text-slate-500 mb-8">Products & Company</h4>
             <div className="mb-8">
-              <Link href="/products/cartivo" className="inline-flex items-center gap-3 transition-all group hover:opacity-90">
-                <div className="relative w-36 h-10">
-                  <Image src="/images/cartiovo.png" alt="Cartivo Platform" fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="object-contain object-left scale-[3] origin-left" priority />
+              <Link href="/products/cartivo" className="inline-flex items-center gap-2 transition-all group hover:opacity-90">
+                <div className="relative w-40 h-12 -ml-2">
+                  <Image src="/images/cartiovo.png" alt="Cartivo Platform" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover object-left" priority />
                 </div>
-                <span className="text-sm font-bold text-blue-400 group-hover:translate-x-1.5 transition-transform ml-8">
+                <span className="text-sm font-bold text-blue-400 group-hover:translate-x-1.5 transition-transform">
                   &rarr;
                 </span>
               </Link>

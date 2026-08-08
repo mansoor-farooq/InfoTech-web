@@ -121,7 +121,7 @@ export default function Navbar({ services = [], products = [] }) {
                       <Link href="/products/cartivo" className="flex items-center justify-between p-4.5 bg-gradient-to-r from-blue-50/80 via-indigo-50/50 to-slate-50 border border-blue-100 hover:border-blue-300 rounded-2xl transition-all duration-300 group/featured shadow-xs">
                         <div className="flex items-center gap-4">
                           <div className="relative h-14 w-48 flex-shrink-0 flex items-center">
-                            <Image src="/images/cartiovo.png" alt="Cartivo Enterprise" fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="object-contain object-left scale-[2.5] origin-left" />
+                            <Image src="/images/cartiovo.png" alt="Cartivo Enterprise" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover object-left" />
                           </div>
                           <div>
                             <div className="text-base font-extrabold text-slate-900 group-hover/featured:text-blue-600 transition-colors mb-0.5 flex items-center gap-2">
@@ -230,13 +230,13 @@ export default function Navbar({ services = [], products = [] }) {
             >
               <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/10 rounded-full blur-2xl pointer-events-none" />
               <div className="flex items-center justify-between mb-2">
-                <div className="relative w-32 h-10 overflow-visible flex items-center">
+                <div className="relative w-40 h-12 flex items-center -ml-2">
                   <Image 
                     src="/images/cartiovo.png" 
                     alt="Cartivo" 
                     fill 
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" 
-                    className="object-contain object-left scale-[2.2] origin-left" 
+                    sizes="(max-width: 768px) 100vw, 33vw" 
+                    className="object-cover object-left" 
                   />
                 </div>
                 <span className="px-2.5 py-0.5 rounded-full text-[10px] font-extrabold uppercase tracking-wider bg-blue-600 text-white shadow-xs">

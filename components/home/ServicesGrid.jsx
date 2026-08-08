@@ -89,11 +89,11 @@ export default function ServicesGrid() {
                       </p>
                       
                       {/* Footer CTA */}
-                      <div className="flex items-center justify-between mt-auto pt-3.5 border-t border-slate-100">
-                        <span className="text-[11px] sm:text-xs font-bold uppercase tracking-wider text-slate-500 group-hover:text-blue-600 transition-colors">
+                      <div className="flex items-center justify-between mt-auto pt-3.5 border-t border-slate-100 min-w-0">
+                        <span className="text-[11px] sm:text-xs font-bold uppercase tracking-wider text-slate-500 group-hover:text-blue-600 transition-colors truncate min-w-0">
                           Explore Service
                         </span>
-                        <div className="w-8 h-8 rounded-full bg-slate-100 group-hover:bg-blue-600 text-slate-500 group-hover:text-white flex items-center justify-center transition-all duration-300 group-hover:translate-x-1">
+                        <div className="w-8 h-8 rounded-full bg-slate-100 group-hover:bg-blue-600 text-slate-500 group-hover:text-white flex items-center justify-center transition-all duration-300 group-hover:translate-x-1 flex-shrink-0">
                           <ArrowRight className="w-4 h-4" />
                         </div>
                       </div>
