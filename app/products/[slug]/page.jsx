@@ -270,7 +270,7 @@ export default async function ProductDetailPage({ params }) {
                   {product.video ? (
                     product.video.includes('youtube.com') || product.video.includes('youtu.be') ? (
                       <iframe 
-                        src={product.video} 
+                        src={`${product.video}?rel=0&modestbranding=1`} 
                         title={`${product.title} YouTube Demo`} 
                         className="w-full h-full border-0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 

@@ -100,7 +100,7 @@ export default function Hero({ config }) {
                 <div className="w-full aspect-video relative bg-slate-900 overflow-hidden group">
                   {activeVideo?.url ? (
                     <iframe 
-                      src={activeVideo.url} 
+                      src={`${activeVideo.url}?rel=0&modestbranding=1`} 
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
                       className="absolute inset-0 w-full h-full border-0"
