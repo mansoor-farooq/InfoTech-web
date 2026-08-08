@@ -2,10 +2,10 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { Mail, Phone, MapPin, ExternalLink } from 'lucide-react';
-import { NAV_SERVICES, COMPANY_INFO, slugify } from '@/lib/data';
+import { SERVICES_FULL, COMPANY_INFO } from '@/lib/data';
 
 export default function Footer() {
-  const services = NAV_SERVICES.flatMap(cat => cat.items).map(name => ({ title: name, slug: slugify(name) }));
+  const services = Object.entries(SERVICES_FULL || {}).map(([slug, s]) => ({ title: s.title, slug }));
   
   const companyInfo = {
     email: COMPANY_INFO.email,
@@ -67,7 +67,7 @@ export default function Footer() {
             </div>
             <ul className="space-y-4">
               {['About Us', 'Case Studies', 'Careers', 'Contact'].map(link => {
-                const href = link === 'Contact' ? '/contact' : `/${link.toLowerCase().replace(/ /g, '-')}`;
+                const href = link === 'About Us' ? '/about' : link === 'Contact' ? '/contact' : `/${link.toLowerCase().replace(/ /g, '-')}`;
                 return (
                   <li key={link}>
                     <Link href={href} className="font-semibold transition-colors text-slate-300 hover:text-white">
