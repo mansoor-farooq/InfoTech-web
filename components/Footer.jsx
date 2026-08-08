@@ -28,7 +28,7 @@ export default function Footer() {
               We design, build, and scale enterprise software systems for organizations that demand performance, reliability, and security.
             </p>
             <div className="space-y-6">
-              <a href={`mailto:${companyInfo.email}`} className="flex items-center gap-4 font-medium transition-colors text-slate-300 hover:text-white">
+              <a href={`https://mail.google.com/mail/?view=cm&fs=1&to=${companyInfo.email}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 font-medium transition-colors text-slate-300 hover:text-white">
                 <Mail className="w-5 h-5 flex-shrink-0 text-slate-500" /> 
                 <span>{companyInfo.email}</span>
               </a>
