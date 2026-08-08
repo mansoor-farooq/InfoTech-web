@@ -10,7 +10,8 @@ export default function Footer() {
   const companyInfo = {
     email: COMPANY_INFO.email,
     phone: COMPANY_INFO.phone,
-    address: COMPANY_INFO.address
+    address: COMPANY_INFO.address,
+    mapsLink: COMPANY_INFO.mapsLink
   };
 
   return (
@@ -28,14 +29,17 @@ export default function Footer() {
             </p>
             <div className="space-y-6">
               <a href={`mailto:${companyInfo.email}`} className="flex items-center gap-4 font-medium transition-colors text-slate-300 hover:text-white">
-                <Mail className="w-5 h-5 text-slate-500" /> {companyInfo.email}
+                <Mail className="w-5 h-5 flex-shrink-0 text-slate-500" /> 
+                <span>{companyInfo.email}</span>
               </a>
-              <a href={`tel:${companyInfo.phone}`} className="flex items-center gap-4 font-medium transition-colors text-slate-300 hover:text-white">
-                <Phone className="w-5 h-5 text-slate-500" /> {companyInfo.phone}
+              <a href={`https://wa.me/${companyInfo.phone.replace(/[^0-9]/g, '')}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 font-medium transition-colors text-slate-300 hover:text-white">
+                <Phone className="w-5 h-5 flex-shrink-0 text-slate-500" /> 
+                <span>{companyInfo.phone}</span>
               </a>
-              <div className="flex items-center gap-4 font-medium text-slate-300">
-                <MapPin className="w-5 h-5 text-slate-500" /> {companyInfo.address}
-              </div>
+              <a href={companyInfo.mapsLink} target="_blank" rel="noopener noreferrer" className="flex items-start gap-4 font-medium transition-colors text-slate-300 hover:text-white">
+                <MapPin className="w-5 h-5 flex-shrink-0 mt-0.5 text-slate-500" /> 
+                <span className="leading-relaxed">{companyInfo.address}</span>
+              </a>
             </div>
           </div>
 
